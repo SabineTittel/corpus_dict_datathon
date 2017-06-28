@@ -12,9 +12,10 @@ perl -pe '					# one paragraph per line
 perl -pe '
 	s/\\beginnumbering//g;
 	s/\\endnumbering//g;
-	s/ueber//g;
-	s/\\pstart//g;
-	s/\\pend//g;
+	s/\\pstartueber/<p type="ueber">/g;
+	s/\\pendueber/<\/p>/g;
+	s/\\pstart/<p>/g;
+	s/\\pend/<\/p>/g;
 	s/\\endinput//g;
 	s/\{\\pfeilr\}/→/g;
 	s/\\kr/◦/g;
