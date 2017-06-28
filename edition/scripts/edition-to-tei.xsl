@@ -14,6 +14,7 @@
     
     <xsl:output method="xml" indent="yes"/>
     <xsl:template match="/">
+        <xsl:result-document href="../tei-edition.xml">
         <TEI xmlns="http://www.tei-c.org/ns/1.0">
             <teiHeader>
                 <fileDesc>
@@ -34,6 +35,18 @@
                 </body>
             </text>
         </TEI>
+        </xsl:result-document>
+    </xsl:template>
+    <xsl:template match="p">
+        <xsl:element name="p">
+            <xsl:if test="current()/@type">
+                <xsl:attribute name="type">ueber</xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="pb">
+        <pb n="{@n}"/>
     </xsl:template>
     <xsl:template match="wdx">
         <xsl:element name="entryFree">
