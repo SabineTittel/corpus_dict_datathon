@@ -14,8 +14,7 @@
 	ontolex:language "fro" ;
 	ontolex:entry :fiel .
 
-:fiel a ontolex:LexicalEntry ,
-				ontolex:Word ;
+:fiel a ontolex:Word ;
 				ontolex:canonicalForm :form_fiel ;
 				ontolex:otherForm :fiel_form_fel ;
 				ontolex:otherForm :form_feel ;
@@ -56,13 +55,12 @@
 			ontolex:sense :fiel_sense1c ;
 			ontolex:sense :fiel_sense1d ;
 			ontolex:sense :fiel_sense1e ;
-			ontolex:sense :fiel_sense1f ;
 			ontolex:sense :fiel_sense1g ;
 			ontolex:sense :fiel_sense1h ;
 			ontolex:sense :fiel_sense2 ;
 			ontolex:sense :fiel_sense2a ;
 			ontolex:sense :fiel_sense3 ;
-			ontolex:sense :fiel_sense3a.
+			ontolex:sense :fiel_sense3a .
 
 :fiel_sense1 a ontolex:LexicalSense;
 			  dct:subject dbpedia:Medicine> ;
@@ -85,6 +83,23 @@
 			  rdfs:comment "DEAF article /fiel/ main sense no2" .
 
 deaf:techreg a olia:TechnicalRegister .
+
+#	⁠1f fiel noir t. de méd. “dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire”
+
+:lex_fiel_noir a ontolex:MultiwordExpression  ;
+  	decomp:subterm :lex_fiel ;
+		rdfs:label "fiel noir"@fro ;
+		ontolex:sense :fiel_sense1f .
+
+:fiel_sense1f a ontolex:LexicalSense;
+			  dct:subject dbpedia:Medicine> ;
+				olia:hasRegister deaf:techreg ;
+			  [ ontolex:reference dbpedia:Bile ;
+			  	ontolex:definition [
+					ontolex:value "dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire"@fr
+			  ]
+			  ] ;
+			  rdfs:comment "DEAF article /fiel/ main sense no1" .
 
 # all senses
 #	1 ⁠t. de méd. “liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile”⁠
