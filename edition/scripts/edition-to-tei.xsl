@@ -61,9 +61,9 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="gloss">
-        <xsl:analyze-string select="." regex="^(\w+\.)(\w+\.)*\s+">
+        <xsl:analyze-string select="." regex="^(.*)\s+`">
             <xsl:matching-substring>
-                <pos><xsl:value-of select="concat(regex-group(1), regex-group(2))"/></pos>
+                <pos><xsl:value-of select="regex-group(1)"/></pos>
             </xsl:matching-substring>
         </xsl:analyze-string>
         <xsl:analyze-string select="." regex="`(.*?)'">
