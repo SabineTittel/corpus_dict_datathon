@@ -10,6 +10,10 @@
 @prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>.
 @prefix olia: <http://purl.org/olia/olia.owl#>.
 
+#annotation
+dc:ceator  "Sabine Tittel" ;
+dc:date         "2017-06-28"^^xsd:date .
+
 # :lemondeaf a ontolex:Lexicon ;
 	ontolex:language "fro" ;
 	ontolex:entry :fiel .
@@ -23,12 +27,10 @@
 				ontolex:otherForm :form_fieil ;
 				ontolex:otherForm :form_fius ;
 				rdfs:label "fiel"@fro ;
-				dc:contributor  "Sabine Tittel" ;
-				dc:date         "2017-06-28"^^xsd:date .
+
 :form_fiel a ontolex:Form ;
-					[ ontolex:writtenRep "fiel"@fro ;
+					ontolex:writtenRep "fiel"@fro .
 					#isocat:DC-1298 isocat:DC-1387 ]. # number=singular
-					lexinfo:partOfSpeech lexinfo:noun ].
 :form_fel a ontolex:Form ;
 					[ ontolex:writtenRep "fel"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
@@ -50,6 +52,7 @@
 
 :lex_fiel a ontolex:LexicalEntry ;
 			ontolex:sense :fiel_sense1 ;
+			ontolex:evokes fiel_sense1_lexConcept;
 			ontolex:sense :fiel_sense1a ;
 			ontolex:sense :fiel_sense1b ;
 			ontolex:sense :fiel_sense1c ;
@@ -58,22 +61,24 @@
 			ontolex:sense :fiel_sense1g ;
 			ontolex:sense :fiel_sense1h ;
 			ontolex:sense :fiel_sense2 ;
+			ontolex:evokes fiel_sense2_lexConcept;
 			ontolex:sense :fiel_sense2a ;
 			ontolex:sense :fiel_sense3 ;
+			lexinfo:partOfSpeech lexinfo:noun ;
 			ontolex:sense :fiel_sense3a .
 
 :fiel_sense1 a ontolex:LexicalSense;
-			  dct:subject dbpedia:Medicine> ;
+			  dct:subject dbpedia:Medicine ;
 				olia:hasRegister deaf:techreg ;
-			  [ ontolex:reference dbpedia:Bile ;
-			  ontolex:definition [
-				ontolex:value "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr
-			  ]
-			  ] ;
+			  ontolex:reference dbpedia:Bile ;
 			  rdfs:comment "DEAF article /fiel/ main sense no1" .
 
+:fiel_sense1_lexConcept a ontolex:LexicalConcept;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr;
+				ontolex:lexicalizedSense :fiel_sense1.
+
 :fiel_sense2 a ontolex:LexicalSense;
-				dct:subject dbpedia:Anatomy> ;
+				dct:subject dbpedia:Anatomy ;
 				olia:hasRegister deaf:techreg ;
 				[ ontolex:reference dbpedia:Gall_Bladder ;
 				ontolex:definition [
@@ -82,20 +87,26 @@
 				];
 			  rdfs:comment "DEAF article /fiel/ main sense no2" .
 
+:fiel_sense1_lexConcept a ontolex:LexicalConcept;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr;
+				ontolex:lexicalizedSense :fiel_sense1.
+
 deaf:techreg a olia:TechnicalRegister .
 
 #	⁠1f fiel noir t. de méd. “dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire”
 
 :lex_fiel_noir a ontolex:MultiwordExpression  ;
   	decomp:subterm :lex_fiel ;
-		rdfs:label "fiel noir"@fro ;
+		ontolex:canonicalForm :form_fiel_noir ;
 		ontolex:sense :fiel_sense1f .
 
+:form_fiel_noir a ontolex:Form ;
+		ontolex:writtenRep "fiel noir"@fro.
+
 :fiel_sense1f a ontolex:LexicalSense;
-			  dct:subject dbpedia:Medicine> ;
-				ontolex:usage "t. de méd." ;
+			  dct:subject dbpedia:Medicine ;
 				ontolex:reference :fiel_sense1f_concept;
-				olia:hasRegister deaf:techreg ;			  
+				olia:hasRegister deaf:techreg ;
 			  rdfs:comment "DEAF article /fiel/ main sense no1" .
 
 :fiel_sense1f_concept a skos:Concept;
