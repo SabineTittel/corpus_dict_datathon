@@ -93,13 +93,13 @@ deaf:techreg a olia:TechnicalRegister .
 
 :fiel_sense1f a ontolex:LexicalSense;
 			  dct:subject dbpedia:Medicine> ;
-				olia:hasRegister deaf:techreg ;
-			  [ ontolex:reference dbpedia:Bile ;
-			  	ontolex:definition [
-					ontolex:value "dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire"@fr
-			  ]
-			  ] ;
+				ontolex:usage "t. de méd." ;
+				ontolex:reference :fiel_sense1f_concept;
+				olia:hasRegister deaf:techreg ;			  
 			  rdfs:comment "DEAF article /fiel/ main sense no1" .
+
+:fiel_sense1f_concept a skos:Concept;
+skos:definition "dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire"@fr
 
 # all senses
 #	1 ⁠t. de méd. “liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile”⁠
