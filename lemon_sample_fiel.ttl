@@ -1,5 +1,6 @@
 
 @base            <http://deaf-server.adw.uni-heidelberg.de/lemme/>
+@prefix deaf:    <http://deaf-server.adw.uni-heidelberg.de#> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix dbpedia: <http://www.dbpedia.org/resource/> .
 @prefix isocat:  <http://www.isocat.org/datcat/> .
@@ -7,6 +8,7 @@
 @prefix dct:     <http://purl.org/dc/terms/>.
 @prefix rdfs:    <http://www.w3.org/2001/02/rdf-schema#>.
 @prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>.
+@prefix olia: <http://purl.org/olia/olia.owl#>.
 
 # :lemondeaf a ontolex:Lexicon ;
 	ontolex:language "fro" ;
@@ -15,7 +17,7 @@
 :fiel a ontolex:LexicalEntry ,
 				ontolex:Word ;
 				ontolex:canonicalForm :form_fiel ;
-				ontolex:otherForm :form_fel ;
+				ontolex:otherForm :fiel_form_fel ;
 				ontolex:otherForm :form_feel ;
 				ontolex:otherForm :form_fele ;
 				ontolex:otherForm :form_feil ;
@@ -64,8 +66,8 @@
 
 :fiel_sense1 a ontolex:LexicalSense;
 			  dct:subject dbpedia:Medicine> ;
-				ontolex:context isocat:technicalRegister ;
-			  [ ontolex:reference dbpedia:Bile> ;
+				olia:hasRegister deaf:techreg ;
+			  [ ontolex:reference dbpedia:Bile ;
 			  ontolex:definition [
 				ontolex:value "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr
 			  ]
@@ -74,13 +76,15 @@
 
 :fiel_sense2 a ontolex:LexicalSense;
 				dct:subject dbpedia:Anatomy> ;
-				ontolex:context isocat:technicalRegister ;
+				olia:hasRegister deaf:techreg ;
 				[ ontolex:reference dbpedia:Gall_Bladder ;
 				ontolex:definition [
 				ontolex:value "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr
 				]
 				];
 			  rdfs:comment "DEAF article /fiel/ main sense no2" .
+
+deaf:techreg a olia:TechnicalRegister .
 
 # all senses
 #	1 ⁠t. de méd. “liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile”⁠
