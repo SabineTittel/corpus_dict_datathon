@@ -11,42 +11,41 @@
 @prefix olia: <http://purl.org/olia/olia.owl#>.
 
 #annotation
-dc:ceator  "Sabine Tittel" ;
+dc:creator  "Sabine Tittel" ;
 dc:date         "2017-06-28"^^xsd:date .
 
-# :lemondeaf a ontolex:Lexicon ;
-	ontolex:language "fro" ;
-	ontolex:entry :fiel .
+#name to be defined
+deaf:techreg a olia:TechnicalRegister .
 
 :fiel a ontolex:Word ;
-				ontolex:canonicalForm :form_fiel ;
+				ontolex:canonicalForm :fiel_form_fiel ;
 				ontolex:otherForm :fiel_form_fel ;
-				ontolex:otherForm :form_feel ;
-				ontolex:otherForm :form_fele ;
-				ontolex:otherForm :form_feil ;
-				ontolex:otherForm :form_fieil ;
-				ontolex:otherForm :form_fius ;
+				ontolex:otherForm :fiel_form_feel ;
+				ontolex:otherForm :fiel_form_fele ;
+				ontolex:otherForm :fiel_form_feil ;
+				ontolex:otherForm :fiel_form_fieil ;
+				ontolex:otherForm :fiel_form_fius ;
 				rdfs:label "fiel"@fro ;
 
-:form_fiel a ontolex:Form ;
+:fiel_form_fiel a ontolex:Form ;
 					ontolex:writtenRep "fiel"@fro .
 					#isocat:DC-1298 isocat:DC-1387 ]. # number=singular
-:form_fel a ontolex:Form ;
+:fiel_form_fel a ontolex:Form ;
 					[ ontolex:writtenRep "fel"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
-:form_feel a ontolex:Form ;
+:fiel_form_feel a ontolex:Form ;
 					[ ontolex:writtenRep "feel"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
-:form_fele a ontolex:Form ;
+:fiel_form_fele a ontolex:Form ;
 					[ ontolex:writtenRep "fele"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
-:form_feil a ontolex:Form ;
+:fiel_form_feil a ontolex:Form ;
 					[ ontolex:writtenRep "feil"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
-:form_fieil a ontolex:Form ;
+:fiel_form_fieil a ontolex:Form ;
 					[ ontolex:writtenRep "fieil"@fro ;
  					 lexinfo:partOfSpeech lexinfo:noun ].
-:form_fius a ontolex:Form ;
+:fiel_form_fius a ontolex:Form ;
 					[ ontolex:writtenRep "fius"@fro ;
  					 lexinfo:partOfSpeech lexinfo:noun ].
 
@@ -73,25 +72,25 @@ dc:date         "2017-06-28"^^xsd:date .
 			  ontolex:reference dbpedia:Bile ;
 			  rdfs:comment "DEAF article /fiel/ main sense no1" .
 
-:fiel_sense1_lexConcept a ontolex:LexicalConcept;
-				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr;
+:fiel_sense1_lexConcept a ontolex:LexicalConcept ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
 				ontolex:lexicalizedSense :fiel_sense1.
 
-:fiel_sense2 a ontolex:LexicalSense;
+:fiel_sense2 a ontolex:LexicalSense ;
 				dct:subject dbpedia:Anatomy ;
 				olia:hasRegister deaf:techreg ;
 				[ ontolex:reference dbpedia:Gall_Bladder ;
 				ontolex:definition [
-				ontolex:value "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr
+				ontolex:value "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr;
 				]
 				];
 			  rdfs:comment "DEAF article /fiel/ main sense no2" .
 
-:fiel_sense1_lexConcept a ontolex:LexicalConcept;
+:fiel_sense1_lexConcept a ontolex:LexicalConcept ;
 				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr;
-				ontolex:lexicalizedSense :fiel_sense1.
+				ontolex:lexicalizedSense :fiel_sense1 .
 
-deaf:techreg a olia:TechnicalRegister .
+
 
 #	⁠1f fiel noir t. de méd. “dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire”
 
@@ -103,9 +102,9 @@ deaf:techreg a olia:TechnicalRegister .
 :form_fiel_noir a ontolex:Form ;
 		ontolex:writtenRep "fiel noir"@fro.
 
-:fiel_sense1f a ontolex:LexicalSense;
+:fiel_sense1f a ontolex:LexicalSense ;
 			  dct:subject dbpedia:Medicine ;
-				ontolex:reference :fiel_sense1f_concept;
+				ontolex:reference :fiel_sense1f_concept ;
 				olia:hasRegister deaf:techreg ;
 			  rdfs:comment "DEAF article /fiel/ main sense no1" .
 
