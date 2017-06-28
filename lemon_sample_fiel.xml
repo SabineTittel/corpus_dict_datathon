@@ -29,23 +29,23 @@
 					#isocat:DC-1298 isocat:DC-1387 ]. # number=singular
 					lexinfo:partOfSpeech lexinfo:noun ].
 :form_fel a ontolex:Form ;
-					ontolex:writtenRep "fel"@fro ;
+					[ ontolex:writtenRep "fel"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
 :form_feel a ontolex:Form ;
-					ontolex:writtenRep "feel"@fro ;
+					[ ontolex:writtenRep "feel"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
 :form_fele a ontolex:Form ;
-					ontolex:writtenRep "fele"@fro ;
+					[ ontolex:writtenRep "fele"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
 :form_feil a ontolex:Form ;
-					ontolex:writtenRep "feil"@fro ;
+					[ ontolex:writtenRep "feil"@fro ;
 					lexinfo:partOfSpeech lexinfo:noun ].
 :form_fieil a ontolex:Form ;
-					 ontolex:writtenRep "fieil"@fro ;
- 					lexinfo:partOfSpeech lexinfo:noun ].
+					[ ontolex:writtenRep "fieil"@fro ;
+ 					 lexinfo:partOfSpeech lexinfo:noun ].
 :form_fius a ontolex:Form ;
-					 ontolex:writtenRep "fius"@fro ;
- 					lexinfo:partOfSpeech lexinfo:noun ].
+					[ ontolex:writtenRep "fius"@fro ;
+ 					 lexinfo:partOfSpeech lexinfo:noun ].
 
 :lex_fiel a ontolex:LexicalEntry ;
 			ontolex:sense :fiel_sense1 ;
@@ -96,4 +96,4 @@
 #	2 ⁠t. d’anat. “réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire”⁠
 #	2a “id., des animaux”⁠
 #	3 ⁠par métaph. “sentiment de tristesse accompagné de mauvaise humeur et qui est lié à une humiliation, une déception, une injustice ou sim., amertume”⁠
-#	3b ⁠“id.”, avec la colombe comme référence
+#	3a ⁠“id.”, avec la colombe comme référence
