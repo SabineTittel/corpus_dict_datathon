@@ -1,72 +1,75 @@
 
 @base            <http://deaf-server.adw.uni-heidelberg.de/lemme/>
-@prefix lemon:   <http://www.monnet-project.eu/lemon#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix dbpedia: <http://www.dbpedia.org/resource/> .
 @prefix isocat:  <http://www.isocat.org/datcat/> .
 @prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dct:     <http://purl.org/dc/terms/>.
 @prefix rdfs:    <http://www.w3.org/2001/02/rdf-schema#>.
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>.
 
-:lemondeaf a lemon:Lexicon ;
-	lemon:language "fro" ;
-	lemon:entry :fiel .
+# :lemondeaf a ontolex:Lexicon ;
+	ontolex:language "fro" ;
+	ontolex:entry :fiel .
 
-:fiel a lemon:LexicalEntry ;
-      lemon:canonicalForm [ lemon:writtenRep "fiel"@fro ;
-		                    isocat:DC-1298 isocat:DC-1387 ] ; # number=singular
-		                    <!-- oder:
-		                    lemon:property isocat=singular ]. ??, s. Cookbook S.10-->
+:fiel a ontolex:LexicalEntry ,
+				ontolex:Word ;
+				ontolex:canonicalForm :form_fiel ;
+				ontolex:otherForm :form_fel ;
+				ontolex:otherForm :form_feel ;
+				ontolex:otherForm :form_fele ;
+				ontolex:otherForm :form_feil ;
+				ontolex:otherForm :form_fieil ;
+				ontolex:otherForm :form_fius ;
+				rdfs:label "fiel"@fro ;
+				dc:contributor  "Sabine Tittel" ;
+				dc:date         "2017-06-28"^^xsd:date .
+:form_fiel a ontolex:Form ;
+					[ ontolex:writtenRep "fiel"@fro ;
+					#isocat:DC-1298 isocat:DC-1387 ]. # number=singular
+					lexinfo:partOfSpeech lexinfo:noun ].
+:form_fel a ontolex:Form ;
+					ontolex:writtenRep "fel"@fro ;
+					lexinfo:partOfSpeech lexinfo:noun ].
+:form_feel a ontolex:Form ;
+					ontolex:writtenRep "feel"@fro ;
+					lexinfo:partOfSpeech lexinfo:noun ].
+:form_fele a ontolex:Form ;
+					ontolex:writtenRep "fele"@fro ;
+					lexinfo:partOfSpeech lexinfo:noun ].
+:form_feil a ontolex:Form ;
+					ontolex:writtenRep "feil"@fro ;
+					lexinfo:partOfSpeech lexinfo:noun ].
+:form_fieil a ontolex:Form ;
+					 ontolex:writtenRep "fieil"@fro ;
+ 					lexinfo:partOfSpeech lexinfo:noun ].
+:form_fius a ontolex:Form ;
+					 ontolex:writtenRep "fius"@fro ;
+ 					lexinfo:partOfSpeech lexinfo:noun ].
 
-      lemon:otherForm [ lemon:writtenRep ‘‘fel’’@fro ;
-	                    isocat:DC-1298 isocat:DC-1387 ] ;
-      lemon:otherForm [ lemon:writtenRep "feel"@fro ;
-                        isocat:DC-1298 isocat:DC-1387 ] ;
-      lemon:otherForm [ lemon:writtenRep "fele"@fro ;
-		                isocat:DC-1298 isocat:DC-1387 ] ;
-      lemon:otherForm [ lemon:writtenRep "feil"@fro ;
-		                isocat:DC-1298 isocat:DC-1387 ] ;
-      lemon:otherForm [ lemon:writtenRep "fieil"@fro ;
-		                isocat:DC-1298 isocat:DC-1387 ] ;
-      lemon:otherForm [ lemon:writtenRep "fius"@fro ;
-		                isocat:DC-1298 isocat:DC-1387 ] ;
-      lemon:sense     [ lemon:ref dbpedia:Bile ] ;
-      <!-- oder noch mit definition:
-      lemon:sense     [ lemon:ref dbpedia:Bile ;
-                        lemon:definition [
-                        lemon:value "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr
-                        ]
-                      ] ;
-      -->
-      <!-- und mit topic, so ok in der base?? Oder Verweis auf eine Ontologie?
-      zu :fiel => lemon:topic :medicine ;
-      eher: mit context!:
-      :fiel lemon:sense [ lemon:context isocat:technicalRegister ] .
-      noch weiter präzisieren? -->
-      isocat:DC-1345  isocat:DC-1333 ; # partOfSpeech=noun
-      isocat:DC-1297  isocat:DC-1883 ; # gender=masculin
-      dc:contributor  "Sabine Tittel" ;
-      dc:date         "2017-05-19"^^xsd:date ;
-      rdfs:comment    "DEAF article /fiel/ main sense no1" .
+:lex_fiel a ontolex:LexicalEntry ;
+			ontolex:sense :fiel_sense1 ;
+			ontolex:sense :fiel_sense1a ;
+			ontolex:sense :fiel_sense1b ;
+			ontolex:sense :fiel_sense2 ;
+			ontolex:sense :fiel_sense2a .
 
-isocat:DC-1298 rdfs:subPropertyOf lemon:property .
-isocat:DC-1345 rdfs:subPropertyOf lemon:property .
-isocat:DC-1297 rdfs:subPropertyOf lemon:property .
+:fiel_sense1 a ontolex:LexicalSense;
+			  dct:subject dbpedia:Medicine> ;
+				ontolex:context isocat:technicalRegister ;
+			  [ ontolex:reference dbpedia:Bile> ;
+			  ontolex:definition [
+				ontolex:value "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr
+			  ]
+			  ] ;
+			  rdfs:comment "DEAF article /fiel/ main sense no1" .
 
-
-<!-- zweite Hauptbedeutung -->
-      lemon:sense [ lemon:ref dbpedia:Gall_Bladder ] ;
-<!-- oder noch mit definition:
-      lemon:sense     [ lemon:ref dbpedia:Gall_Bladder ;
-                        lemon:definition [
-                        lemon:value "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr
-                        ]
-                      ] ;
-      -->
-dc:contributor "Sabine Tittel" ;
-dc:date "2017-05-19"^^xsd:date ;
-rdfs:comment "DEAF article /fiel/ main sense no2" .
-
-
-
-lemon:sense [ lemon:ref dbpedia:Bile, dbpedia:Gall_Bladder ] ;
-
-
+:fiel_sense2 a ontolex:LexicalSense;
+				dct:subject dbpedia:Anatomy> ;
+				ontolex:context isocat:technicalRegister ;
+				[ ontolex:reference dbpedia:Gall_Bladder ;
+				ontolex:definition [
+				ontolex:value "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr
+				]
+				];
+			  rdfs:comment "DEAF article /fiel/ main sense no2" .
