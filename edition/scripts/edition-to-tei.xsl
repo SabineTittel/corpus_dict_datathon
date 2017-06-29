@@ -72,7 +72,7 @@
     <xsl:template match="wdx">
         <seg>
             <xsl:element name="w">
-                <xsl:variable name="lemma" select="functx:substring-after-last(lemma, '\s+')">
+                <xsl:variable name="lemma" select="functx:substring-after-last(replace(lemma, '\*', ''), '\s+')">
                     
                 </xsl:variable>
             <xsl:attribute name="lemmaRef">
