@@ -9,6 +9,7 @@
         omit-xml-declaration="yes"/>
     
     <xsl:template match="/">
+        <xsl:result-document href="../edition.html">
         <html>
             <head>
                 <title>Anathomie</title>
@@ -19,9 +20,18 @@
                     <h2>First treatise of the <em>Grande Chirurgie</em> by Gui de Chauliac</h2>
                 </header>
                 <div>
-                    <xsl:a
+                    <xsl:apply-templates select="//p"/>
                 </div>
             </body>
         </html>
+        </xsl:result-document>
+    </xsl:template>
+    <xsl:template match="p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="seg">
+        <a href="{w/@lemmaRef}"><xsl:value-of select="w"/></a>
     </xsl:template>
 </xsl:stylesheet>

@@ -70,14 +70,11 @@
         <pb n="{@n}"/>
     </xsl:template>
     <xsl:template match="wdx">
-        <seg  corresp="http://deaf-server.adw.uni-heidelberg.de/corpus#{count(preceding::wdx) +1}">
-            <xsl:element name="w">
-                <xsl:variable name="lemma" select="functx:substring-after-last(replace(lemma, '\*', ''), '\s+')">
-                    
-                </xsl:variable>
-            <xsl:attribute name="lemmaRef">
-                <xsl:value-of select="concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemma)"/>
-            </xsl:attribute>                          
+        <xsl:variable name="lemma" select="functx:substring-after-last(replace(lemma, '\*', ''), '\s+')">                    
+        </xsl:variable>
+        <seg  resource="http://deaf-server.adw.uni-heidelberg.de/corpus#{count(preceding::wdx) +1}">
+             <span property="rdfs:seeAlso"><xsl:value-of select="concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemma)"/></span>
+            <xsl:element name="w">  
             <xsl:attribute name="lemma"><xsl:value-of select="lemma"/></xsl:attribute>
                 <xsl:analyze-string select="gloss" regex="^(.*)\s+`">
                     <xsl:matching-substring>
@@ -88,6 +85,7 @@
                 </xsl:analyze-string>               
                  <xsl:apply-templates select="orth"/>                
             </xsl:element>
+           
             <xsl:element name="gloss">
                 <xsl:variable name="apos">&apos;</xsl:variable>
                 <xsl:value-of select="replace(substring-after(gloss, '`'), '$apos', '')"/>
