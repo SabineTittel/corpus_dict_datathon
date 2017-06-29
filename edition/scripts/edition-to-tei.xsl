@@ -61,11 +61,12 @@
                 <xsl:value-of select="."/>
             </lem>
             <note>
-                <xsl:apply-templates select="following-sibling::edmacfn[1]"/>
+                <xsl:value-of select="following-sibling::edmacfn[1]"/>
             </note>
         </app>
     </xsl:template>
     <xsl:template match="edmacentry"/>
+    <xsl:template match="edmacfn"/>
     <xsl:template match="pb">
         <pb n="{@n}"/>
     </xsl:template>
