@@ -13,6 +13,8 @@
         <html>
             <head>
                 <title>Anathomie</title>
+                <meta charset="utf-8" lang="fr"/>
+                <link href="edition.css" rel="stylesheet" type="text/css"/>
             </head>
             <body>
                 <header>
@@ -20,7 +22,7 @@
                     <h2>First treatise of the <em>Grande Chirurgie</em> by Gui de Chauliac</h2>
                 </header>
                 <div>
-                    <xsl:apply-templates select="//p"/>
+                    <xsl:apply-templates select="//body/p"/>
                 </div>
             </body>
         </html>
@@ -32,6 +34,8 @@
         </p>
     </xsl:template>
     <xsl:template match="seg">
-        <a href="{w/@lemmaRef}"><xsl:value-of select="w"/></a>
+        <a href="{span[@property]/@resource}" target="_blank" property="rdfs:label"><xsl:value-of select="w"/></a>
+        <xsl:copy-of select="span[@property]" exclude-result-prefixes="#all"/>
+        <span class="gloss"><xsl:value-of select="gloss"/></span>
     </xsl:template>
 </xsl:stylesheet>
