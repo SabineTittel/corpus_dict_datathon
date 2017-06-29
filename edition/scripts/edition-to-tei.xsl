@@ -70,7 +70,7 @@
         <pb n="{@n}"/>
     </xsl:template>
     <xsl:template match="wdx">
-        <seg>
+        <seg xml:id="n_{count(preceding::wdx) +1}">
             <xsl:element name="w">
                 <xsl:variable name="lemma" select="functx:substring-after-last(replace(lemma, '\*', ''), '\s+')">
                     
