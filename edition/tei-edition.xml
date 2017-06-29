@@ -658,7 +658,7 @@
             </seg> ja
   soit ce <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#85">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit ce que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit ce que" type="loc.conj.">que</w>
                <gloss>bien que
     assurément</gloss>
@@ -706,7 +706,7 @@
     évidente</gloss>
             </seg>, <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#91">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes&#xA;    voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes&#xA;    voies" type="loc.adv.">toutesvoies</w>
                <gloss>en considérant toutes les raisons, toutes les circonstances qui
     pourraient s’y opposer, et malgré elles; toutefois</gloss>
@@ -1791,7 +1791,7 @@
             </seg> la anathomie. Et
   ja ssoit ce <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#235">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit ce que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit ce que" type="loc.conj.">que</w>
                <gloss>bien que
     assurément</gloss>
@@ -2079,7 +2079,7 @@
             </seg>.
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#272">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes voies" type="loc.adv.">Toutesvoies</w>
                <gloss>en considérant toutes
     les raisons, toutes les circonstances qui pourraient s’y opposer, et malgré elles;
@@ -2367,7 +2367,7 @@
    lus</gloss>
             </seg>, et ja soit ce <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#310">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit ce&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit ce&#xA;    que" type="loc.conj.">que</w>
                <gloss>bien que assurément</gloss>
             </seg> ceste
@@ -2387,7 +2387,7 @@
     profitable</gloss>
             </seg>, <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#313">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes&#xA;    voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes&#xA;    voies" type="loc.adv.">toutesvoies</w>
                <gloss>en considérant toutes les raisons, toutes les circonstances qui
     pourraient s’y opposer, et malgré elles; toutefois</gloss>
@@ -3863,7 +3863,7 @@
                <note>ungle</note>
             </seg>, lesqueulx, ja soit ce <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#494">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit&#xA;    ce que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit&#xA;    ce que" type="loc.conj.">qu</w>
                <gloss>bien que assurément</gloss>
             </seg>'ilz ne soient pas
@@ -3897,7 +3897,7 @@
                <interp>terme de méd. </interp>
             </seg>, <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#498">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes&#xA;    voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes&#xA;    voies" type="loc.adv.">toutevoies</w>
                <gloss>en considérant toutes les raisons, toutes les circonstances qui
     pourraient s’y opposer, et malgré elles; toutefois</gloss>
@@ -5029,7 +5029,7 @@
     nasales; nez</gloss>
             </seg>, la mein <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#634">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite&#xA;    main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite_main"/>
                <w property="rdfs:label" lemma="petite&#xA;    main">petite</w>
                <gloss>membre situé à l’extrémité du bras; main</gloss>
                <note>mein
@@ -5102,7 +5102,7 @@
     chirurgie</gloss>
             </seg>. Et ja soit ce <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#643">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit&#xA;    ce que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit&#xA;    ce que" type="loc.conj.">que</w>
                <gloss>bien que assurément</gloss>
             </seg> les dis membres
@@ -5191,7 +5191,7 @@
     forme</gloss>
             </seg>, <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#655">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes&#xA;    voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes&#xA;    voies" type="loc.adv.">toutesvoies</w>
                <gloss>en considérant toutes les raisons, toutes les circonstances qui
     pourraient s’y opposer, et malgré elles; toutefois</gloss>
@@ -5247,7 +5247,7 @@
     utilité</gloss>
             </seg>, et les autres sont afin <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#662">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin&#xA;    que"
                   type="loc.conj.quimarquel’intention,lebut">que</w>
@@ -5831,7 +5831,7 @@
             </seg>, ja soit ce
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#732">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit ce que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit ce que" type="loc.conj.">que</w>
                <gloss>bien que
    assurément</gloss>
@@ -5855,7 +5855,7 @@
             </seg>,
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#735">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes voies" type="loc.adv.">toutesvoies</w>
                <gloss>en considérant toutes
     les raisons, toutes les circonstances qui pourraient s’y opposer, et malgré elles;
@@ -5977,7 +5977,7 @@
             </seg>, ja soit ce
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#749">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit ce que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit ce que" type="loc.conj.">que</w>
                <gloss>bien que
    assurément</gloss>
@@ -6857,7 +6857,7 @@
             </seg> ou chief du
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#858">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/chief du vit"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/chief_du_vit"/>
                <w property="rdfs:label" lemma="chief du vit" type="m.">vit</w>
                <gloss>renflement antérieur de la verge;
     gland</gloss>
@@ -7042,7 +7042,7 @@
             </seg>, si comme il est dit ou livre ‘De utilitate
    particularum’. Et ja soit ce <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#882">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit ce&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit ce&#xA;    que" type="loc.conj.">que</w>
                <gloss>bien que assurément</gloss>
             </seg> les
@@ -7074,7 +7074,7 @@
                <interp>terme d’anat. </interp>
             </seg>, <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#886">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes&#xA;    voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes&#xA;    voies" type="loc.adv.">toutesvoies</w>
                <gloss>en considérant toutes les raisons, toutes les circonstances qui
     pourraient s’y opposer, et malgré elles; toutefois</gloss>
@@ -7465,7 +7465,7 @@
             </seg> tout
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#933">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/au tor"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/au_tor"/>
                <w property="rdfs:label" lemma="*au tor" type="loc.adv.">autour</w>
                <gloss>(dans l’espace) en environnant
     (qch.)</gloss>
@@ -7621,7 +7621,7 @@
                </note>
             </seg> tout <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#953">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/au&#xA;    tor"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/au_tor"/>
                <w property="rdfs:label" lemma="*au&#xA;    tor" type="loc.adv.">autour</w>
                <gloss>(dans l’espace) en environnant
    (qch.)</gloss>
@@ -7671,7 +7671,7 @@
    façon</gloss>
             </seg>, jusques a tant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#960">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a tant&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a_tant_que"/>
                <w property="rdfs:label" lemma="jusques a tant&#xA;    que">qu’il</w>
                <gloss/>
             </seg>
@@ -8057,7 +8057,7 @@
             </seg> le petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1012">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_bras"/>
                <w property="rdfs:label" lemma="petit bras">bras</w>
                <gloss>segment du membre
     supérieur de l’homme compris entre le coude et la main; avant-bras</gloss>
@@ -8135,7 +8135,7 @@
             </seg> du dit petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1023">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_bras"/>
                <w property="rdfs:label" lemma="petit bras">bras</w>
                <gloss>segment du membre
     supérieur de l’homme compris entre le coude et la main; avant-bras</gloss>
@@ -8174,7 +8174,7 @@
             </seg> pres de la main
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1028">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite_main"/>
                <w property="rdfs:label" lemma="petite main">petite</w>
                <gloss>membre situé à
     l’extrémité du bras; main</gloss>
@@ -8193,7 +8193,7 @@
             </seg> toute la joincture de la
   petite <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1030">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite_main"/>
                <w property="rdfs:label" lemma="petite main">main</w>
                <gloss>membre situé à
     l’extrémité du bras; main</gloss>
@@ -9337,7 +9337,7 @@
             </seg> des
   nerfz. <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1165">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes voies" type="loc.adv.">Toutesvoies</w>
                <gloss>en considérant
     toutes les raisons, toutes les circonstances qui pourraient s’y opposer, et malgré elles;
@@ -9465,7 +9465,7 @@
                </note>
             </seg> tout <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1180">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/au&#xA;    tor"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/au_tor"/>
                <w property="rdfs:label" lemma="*au&#xA;    tor" type="loc.adv.">outour</w>
                <gloss>(dans l’espace) en environnant
    (qch.)</gloss>
@@ -9607,7 +9607,7 @@
     chose)</gloss>
             </seg> des muscules, <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1197">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes&#xA;    voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes&#xA;    voies" type="loc.adv.">toutesvoies</w>
                <gloss>en considérant toutes les raisons, toutes les circonstances qui
     pourraient s’y opposer, et malgré elles; toutefois</gloss>
@@ -9638,7 +9638,7 @@
                <note>assis </note>
             </seg> tout <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1201">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/au&#xA;    tor"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/au_tor"/>
                <w property="rdfs:label" lemma="*au&#xA;    tor" type="loc.adv.">autour</w>
                <gloss>(dans l’espace) en environnant
    (qch.)</gloss>
@@ -9766,7 +9766,7 @@
             </seg>. </p>
          <p> JA SOIT CE <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1216">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit ce que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit ce que" type="loc.conj.">que</w>
                <gloss>bien que
     assurément</gloss>
@@ -10149,7 +10149,7 @@
             </seg> ainsi,
   jusques a tant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1261">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a tant que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a_tant_que"/>
                <w property="rdfs:label" lemma="jusques a tant que">que</w>
                <gloss/>
             </seg> elles viennent aux
@@ -10387,7 +10387,7 @@
             </app>Voranstehendes
     los gestrichen. de la <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1288">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os de la&#xA;    lande"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_de_la_lande"/>
                <w property="rdfs:label" lemma="os de la&#xA;    lande" type="f.">lande</w>
                <gloss>os médian impair, en forme de fer de cheval, situé à la partie
     antérieure du cou au niveau de l’angle que forme celui-ci avec le plancher de la bouche; os
@@ -10855,7 +10855,7 @@
    <pb n="20r°b"/> afin que
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1344">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin que"
                   type="loc.conj.quimarquel’intention,lebut"/>
@@ -10906,7 +10906,7 @@
             </seg> d’iceulx, afin
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1351">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin que"
                   type="loc.conj.quimarquel’intention,lebut">que</w>
@@ -11690,7 +11690,7 @@
             </seg> et
    viennent <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1451">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">jusques</w>
                <gloss/>
             </seg> a lla
@@ -11824,7 +11824,7 @@
             </seg> d’une partie et d’aultre,
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1469">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/autel comme"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/autel_comme"/>
                <w property="rdfs:label" lemma="*autel comme" type="adj.">auteille</w>
                <gloss>qui est pareil
     à</gloss>
@@ -12055,7 +12055,7 @@
             </seg> et aprés le gros
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1495">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/gros pannicle"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/gros_pannicle"/>
                <w property="rdfs:label" lemma="*gros pannicle" type="m.">panicle</w>
                <gloss>membrane qui tapisse la boîte
     osseuse renfermant l’encéphale</gloss>
@@ -12084,14 +12084,14 @@
     l’intérieur</gloss>
             </seg> la dure <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1499">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure_mere"/>
                <w property="rdfs:label" lemma="dure mere">mere</w>
                <gloss>la plus superficielle et la plus résistante des trois méninges; dure
     mère</gloss>
                <interp>terme d’anat. </interp>
             </seg> et la pie <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1500">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie_mere"/>
                <w property="rdfs:label" lemma="pie mere">mere</w>
                <gloss>la plus profonde des méninges, mince et transparente qui enveloppe directement le
     cerveau et la moelle épinière; pie-mère</gloss>
@@ -12131,7 +12131,7 @@
    der Zeile nachgetragen.
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1504">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie_mere"/>
                <w property="rdfs:label" lemma="pie mere"/>
                <gloss>la plus profonde des méninges, mince
     et transparente qui enveloppe directement le cerveau et la moelle épinière;
@@ -12139,7 +12139,7 @@
                <interp>terme d’anat. </interp>
             </seg> encores et la dure <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1505">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure&#xA;    mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure_mere"/>
                <w property="rdfs:label" lemma="dure&#xA;    mere">maire</w>
                <gloss>la plus superficielle et la plus résistante des trois
     méninges; dure mère</gloss>
@@ -12167,7 +12167,7 @@
     Roich ou rechine.
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1508">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/roit merveilleuse"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/roit_merveilleuse"/>
                <w property="rdfs:label" lemma="*roit merveilleuse"/>
                <gloss>lacis rétiforme situé dans
     la tête, formé par les arteres du cerveau</gloss>
@@ -12260,7 +12260,7 @@
    assez</gloss>
             </seg> si devant. Mais du gros <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1519">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/gros&#xA;    pannicle"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/gros_pannicle"/>
                <w property="rdfs:label" lemma="*gros&#xA;    pannicle" type="m.">panicle</w>
                <gloss>membrane qui tapisse la boîte osseuse renfermant
     l’encéphale</gloss>
@@ -12332,14 +12332,14 @@
                <interp>terme d’anat. </interp>
             </seg> de la dure <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1527">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure_mere"/>
                <w property="rdfs:label" lemma="dure mere">mere</w>
                <gloss>la plus superficielle et la plus résistante des trois méninges; dure
     mère</gloss>
                <interp>terme d’anat. </interp>
             </seg>. Et est loiés a la dure <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1528">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure&#xA;    mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure_mere"/>
                <w property="rdfs:label" lemma="dure&#xA;    mere">maire</w>
                <gloss>la plus superficielle et la plus résistante des trois
     méninges; dure mère</gloss>
@@ -12432,7 +12432,7 @@
             </seg> ainsi, afin
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1540">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin que"
                   type="loc.conj.quimarquel’intention,lebut">que</w>
@@ -12478,7 +12478,7 @@
                <note>sarratilles </note>
             </seg>, afin <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1546">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin&#xA;    que"
                   type="loc.conj.quimarquel’intention,lebut">que</w>
@@ -12536,7 +12536,7 @@
             </seg> ou du visage jusques
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1553">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">a</w>
                <gloss/>
             </seg> la com
@@ -12676,7 +12676,7 @@
             </seg>.
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1571">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes voies"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/totes_voies"/>
                <w property="rdfs:label" lemma="*totes voies" type="loc.adv.">Toutesvoies</w>
                <gloss>en considérant toutes
     les raisons, toutes les circonstances qui pourraient s’y opposer, et malgré elles;
@@ -12699,7 +12699,7 @@
     fois</gloss>
             </seg> l’os <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1574">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os&#xA;    coronal"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_coronal"/>
                <w property="rdfs:label" lemma="os&#xA;    coronal">coronal</w>
                <gloss>os qui forme la partie antérieure du crâne; os
     frontal</gloss>
@@ -12903,7 +12903,7 @@
             </seg>
             <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1598">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">jusques</w>
                <gloss/>
             </seg> a lla fin du
@@ -12926,7 +12926,7 @@
             </seg> et les appellent
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1601">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os parietal"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_parietal"/>
                <w property="rdfs:label" lemma="*os parietal">perietalz</w>
                <gloss>chacun des deux
     os plats constituant la partie moyenne et supérieure de la voûte du crâne; os
@@ -12972,7 +12972,7 @@
             </seg> devant dictes, et vont jusques
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1606">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">aux</w>
                <gloss/>
             </seg> os des
@@ -12993,7 +12993,7 @@
             </seg>. Le quint et le .vj.ᵉ sont
   appellés <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1609">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os petros"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_petros"/>
                <w property="rdfs:label" lemma="*os petros">petrous</w>
                <gloss>partie massive
     du temporal en forme de pyramide quadrangulaire; rocher</gloss>
@@ -13050,7 +13050,7 @@
             </seg> avec les os per
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1616">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os parietal"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_parietal"/>
                <w property="rdfs:label" lemma="*os parietal">ietalz</w>
                <gloss>chacun des deux os
     plats constituant la partie moyenne et supérieure de la voûte du crâne; os
@@ -13101,7 +13101,7 @@
             </seg> des ditz per
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1622">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os parietal"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_parietal"/>
                <w property="rdfs:label" lemma="*os parietal">ietalz</w>
                <gloss>chacun des deux os
     plats constituant la partie moyenne et supérieure de la voûte du crâne; os
@@ -13134,7 +13134,7 @@
     correspondant à l; lambda</gloss>
             </seg> jusques <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1626">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques&#xA;    a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques&#xA;    a">au</w>
                <gloss/>
             </seg>
@@ -13436,7 +13436,7 @@
             </seg> l’os de la
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1661">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os de la lande"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_de_la_lande"/>
                <w property="rdfs:label" lemma="os de la lande" type="f.">lande</w>
                <gloss>os médian impair, en forme de fer
     de cheval, situé à la partie antérieure du cou au niveau de l’angle que forme celui-ci avec le
@@ -13452,7 +13452,7 @@
             </seg>. Et
   dient encores que les os <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1663">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os petros"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_petros"/>
                <w property="rdfs:label" lemma="*os petros">petrous</w>
                <gloss>partie massive du temporal en forme de pyramide quadrangulaire; rocher</gloss>
                <note>os
@@ -13476,7 +13476,7 @@
             </seg> les os
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1666">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os parietal"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_parietal"/>
                <w property="rdfs:label" lemma="*os parietal">paritales</w>
                <gloss>chacun des deux
     os plats constituant la partie moyenne et supérieure de la voûte du crâne; os
@@ -13562,7 +13562,7 @@
             </seg>, si comme l’os de la
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1675">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os de la creste"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_de_la_creste"/>
                <w property="rdfs:label" lemma="os de la creste" type="f.">creste</w>
                <gloss>pièce rigide qui forme le
     squelette du nez; os propre du nez</gloss>
@@ -13609,7 +13609,7 @@
             </seg>
   l’os <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1681">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os coronal"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_coronal"/>
                <w property="rdfs:label" lemma="os coronal">coronal</w>
                <gloss>os qui forme la
     partie antérieure du crâne; os frontal</gloss>
@@ -13767,7 +13767,7 @@
             </seg>, il n’en y eust deux aultres qui
   avoient commissures <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1700">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/comissure scameuse"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/comissure_scameuse"/>
                <w property="rdfs:label" lemma="*comissure scameuse" type="m.">scamouzes</w>
                <gloss>suture entre l'écaille de l’os temporal et l’os pariétal; suture
     squameuse</gloss>
@@ -13908,7 +13908,7 @@
             </seg>, c’est la
   dure <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1716">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure_mere"/>
                <w property="rdfs:label" lemma="dure mere">maire</w>
                <gloss>la plus superficielle
     et la plus résistante des trois méninges; dure mère</gloss>
@@ -13917,7 +13917,7 @@
             </seg> et la
   pie <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1717">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie_mere"/>
                <w property="rdfs:label" lemma="pie mere">maire</w>
                <gloss>la plus profonde des
     méninges, mince et transparente qui enveloppe directement le cerveau et la moelle épinière;
@@ -13970,7 +13970,7 @@
             </seg> du cervel. Item, de la dure
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1723">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure_mere"/>
                <w property="rdfs:label" lemma="dure mere">maire</w>
                <gloss>la plus superficielle et
     la plus résistante des trois méninges; dure mère</gloss>
@@ -13999,7 +13999,7 @@
             </seg>. Et de la pie
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1726">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie_mere"/>
                <w property="rdfs:label" lemma="pie mere">maire</w>
                <gloss>la plus profonde des
     méninges, mince et transparente qui enveloppe directement le cerveau et la moelle épinière;
@@ -14192,7 +14192,7 @@
             </seg>, afin
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1752">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin que"
                   type="loc.conj.quimarquel’intention,lebut">que</w>
@@ -14674,7 +14674,7 @@
             </app>Ms. Royt.
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1812">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/roit merveilleuse"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/roit_merveilleuse"/>
                <w property="rdfs:label" lemma="*roit merveilleuse">merveilleuse</w>
                <gloss>lacis
     rétiforme situé dans la tête, formé par les arteres du cerveau</gloss>
@@ -14714,7 +14714,7 @@
     passer</gloss>
             </seg> l’esperit <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1816">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/esperit&#xA;    vital"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/esperit_vital"/>
                <w property="rdfs:label" lemma="esperit&#xA;    vital">vital</w>
                <gloss>ensemble de corpuscules subtils qui assurent le maintien
     de la chaleur des organes et des membres du corps, considéré comme fonction essentielle de
@@ -14746,7 +14746,7 @@
             </seg> ou la medulle du
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1820">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/medulle du dos"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/medulle_du_dos"/>
                <w property="rdfs:label" lemma="medulle du dos">dos</w>
                <gloss>substance moelleuse
     de l’intérieur de l'épine dorsale; moelle épinière</gloss>
@@ -14788,7 +14788,7 @@
             </seg>
   jusques <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1825">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">a</w>
                <gloss/>
             </seg> la fin du
@@ -15040,7 +15040,7 @@
    pericrane.
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1854">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure_mere"/>
                <w property="rdfs:label" lemma="dure mere"/>
                <gloss>la plus superficielle et la plus
     résistante des trois méninges; dure mère</gloss>
@@ -15489,7 +15489,7 @@
             </persName> que les nerfz
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1912">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/nerf obtique"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/nerf_obtique"/>
                <w property="rdfs:label" lemma="nerf obtique">obtiques</w>
                <gloss>structure
     conjonctive qui relie le cervel à l'œil</gloss>
@@ -15503,7 +15503,7 @@
     trous; perforé</gloss>
             </seg>, afin <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1914">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin&#xA;    que"
                   type="loc.conj.quimarquel’intention,lebut">que</w>
@@ -15805,7 +15805,7 @@
             </seg>
   naist de la dure <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1954">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/dure_mere"/>
                <w property="rdfs:label" lemma="dure mere">maire</w>
                <gloss>la plus
     superficielle et la plus résistante des trois méninges; dure mère</gloss>
@@ -15879,7 +15879,7 @@
             </seg> de la pie
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1962">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie_mere"/>
                <w property="rdfs:label" lemma="pie mere">mere</w>
                <gloss>la plus profonde des
     méninges, mince et transparente qui enveloppe directement le cerveau et la moelle épinière;
@@ -15959,7 +15959,7 @@
                <interp>terme d’anat. </interp>
             </seg> du nerf <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1971">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/nerf obtique"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/nerf_obtique"/>
                <w property="rdfs:label" lemma="nerf obtique">optic</w>
                <gloss>structure conjonctive qui relie le cervel à l'œil</gloss>
                <note>nerf
@@ -16002,7 +16002,7 @@
             </seg> qui est sur l’umeur
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1975">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur cristalline"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur_cristalline"/>
                <w property="rdfs:label" lemma="humeur cristalline">cristalline</w>
                <gloss>humeur
     transparente de l'œil située au milieu de l'œil entre l'‘humeur albuginee’ et le corps vitré;
@@ -16065,7 +16065,7 @@
             </seg>, la
   premiere, c’est la <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1983">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur cristalline"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur_cristalline"/>
                <w property="rdfs:label" lemma="humeur cristalline">cristalline</w>
                <gloss>humeur transparente de l'œil située au milieu de l'œil entre l'‘humeur albuginee’ et le
     corps vitré; cristallin</gloss>
@@ -16143,7 +16143,7 @@
             </seg>.
   Et aprés, vers le cervel, vient l’umeur <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1993">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur&#xA;    vitree"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur_vitree"/>
                <w property="rdfs:label" lemma="*humeur&#xA;    vitree">vitree</w>
                <gloss>humeur de l'œil transparente comme du verre, située en
     arrière du cristallin; corps vitré</gloss>
@@ -16181,7 +16181,7 @@
    umeu.
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#1997">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur cristalline"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur_cristalline"/>
                <w property="rdfs:label" lemma="humeur cristalline">cristalline</w>
                <gloss>humeur
     transparente de l'œil située au milieu de l'œil entre l'`humeur albuginee' et le corps vitré;
@@ -16209,7 +16209,7 @@
     exister; produire</gloss>
             </seg> du nerf <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2000">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/nerf&#xA;    obtique"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/nerf_obtique"/>
                <w property="rdfs:label" lemma="nerf&#xA;    obtique">obtique</w>
                <gloss>structure conjonctive qui relie le cervel à
     l'œil</gloss>
@@ -16229,7 +16229,7 @@
             </seg>, est l’umeur
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2002">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur albuginee"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/humeur_albuginee"/>
                <w property="rdfs:label" lemma="*humeur albuginee">albuginee</w>
                <gloss>humeur de
     l'œil qui est d’une couleur blanche; humeur aqueuse</gloss>
@@ -16264,7 +16264,7 @@
             </seg> qui est nee de la pie
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2006">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie mere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pie_mere"/>
                <w property="rdfs:label" lemma="pie mere">maire</w>
                <gloss>la plus profonde des
     méninges, mince et transparente qui enveloppe directement le cerveau et la moelle épinière;
@@ -16781,7 +16781,7 @@
             </seg> jusques
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2071">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">aux</w>
                <gloss/>
             </seg> os du
@@ -16839,7 +16839,7 @@
    nt.
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2078">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">au</w>
                <gloss/>
             </seg>
@@ -16971,7 +16971,7 @@
                <note>assis </note>
             </seg> sur l’os <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2095">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os&#xA;    petros"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_petros"/>
                <w property="rdfs:label" lemma="*os&#xA;    petros">petroux</w>
                <gloss>partie massive du temporal en forme de pyramide
     quadrangulaire; rocher</gloss>
@@ -17098,7 +17098,7 @@
             </seg> une partie de matere sper
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2111">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/matiere spermatique"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/matiere_spermatique"/>
                <w property="rdfs:label" lemma="matiere spermatique">matique</w>
                <gloss>semence,
     cellule ou groupe de cellules dont se forme un organisme</gloss>
@@ -17514,7 +17514,7 @@
             </seg>, et yceulx viennent des pom
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2160">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pome des maxilles"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pome_des_maxilles"/>
                <w property="rdfs:label" lemma="*pome des maxilles">mes</w>
                <gloss>partie plus ou
     moins saillante de la joue</gloss>
@@ -17582,7 +17582,7 @@
                <note>joue</note>
             </seg>, ja soit ce <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2169">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja soit ce&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/ja_soit_ce_que"/>
                <w property="rdfs:label" lemma="ja soit ce&#xA;    que" type="loc.conj.">qu</w>
                <gloss>bien que assurément</gloss>
             </seg>'il n’en <pb n="24r°b"/>
@@ -17664,7 +17664,7 @@
             </seg> de la pomme de la
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2178">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pome de la joë"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pome_de_la_joë"/>
                <w property="rdfs:label" lemma="*pome de la joë">joue</w>
                <gloss>partie plus ou
     moins saillante de la joue</gloss>
@@ -17687,7 +17687,7 @@
             </seg> de l’os
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2181">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os petros"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_petros"/>
                <w property="rdfs:label" lemma="*os petros">petroux</w>
                <gloss>partie massive du
     temporal en forme de pyramide quadrangulaire; rocher</gloss>
@@ -18708,7 +18708,7 @@
             </seg> ou de la medule
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2306">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/medulle dorsal"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/medulle_dorsal"/>
                <w property="rdfs:label" lemma="*medulle dorsal">dorssal</w>
                <gloss>substance
     moelleuse de l’intérieur de l'épine dorsale; moelle épinière</gloss>
@@ -18788,7 +18788,7 @@
     face</gloss>
             </seg>, la trachee <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2315">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/trachee&#xA;    artere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/trachee_artere"/>
                <w property="rdfs:label" lemma="trachee&#xA;    artere">artere</w>
                <gloss>portion du conduit aérifère comprise entre l’extrémité
     inférieure du larynx et l’origine des bronches; trachée</gloss>
@@ -19039,7 +19039,7 @@
                <interp>terme d’anat. </interp>
             </seg>, et vient jusques <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2345">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques&#xA;    a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques&#xA;    a">ou</w>
                <gloss/>
                <note>jusques ou </note>
@@ -19053,7 +19053,7 @@
             </seg> ou
   jusques <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2347">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">a</w>
                <gloss/>
             </seg>
@@ -19645,7 +19645,7 @@
             </seg> et qui descendent et qui font l’espine du
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2421">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/espine du dos"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/espine_du_dos"/>
                <w property="rdfs:label" lemma="espine du dos">dos</w>
                <gloss>colonne
     vertébrale</gloss>
@@ -19692,7 +19692,7 @@
    <pb n="25v°a"/> 
             <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2426">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">au</w>
                <gloss/>
             </seg>
@@ -19788,7 +19788,7 @@
    sacrum
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2438">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os sacrum"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_sacrum"/>
                <w property="rdfs:label" lemma="os sacrum">os</w>
                <gloss>os formé par la réunion des
     cinq vertèbres sacrées, a la partie inférieure de la colonne vertébrale;
@@ -19798,7 +19798,7 @@
             </seg> et aucuns le appelles l’os
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2439">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os ample"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_ample"/>
                <w property="rdfs:label" lemma="os ample">ample</w>
                <gloss>os formé par la réunion
     des cinq vertèbres sacrées, à la partie inférieure de la colonne vertébrale;
@@ -19837,7 +19837,7 @@
             </seg>. Et selon l’os sacrum
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2444">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os sacrum"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_sacrum"/>
                <w property="rdfs:label" lemma="os sacrum"/>
                <gloss>os formé par la réunion des cinq
     vertèbres sacrées, a la partie inférieure de la colonne vertébrale; sacrum</gloss>
@@ -19845,7 +19845,7 @@
             </seg>
   il en y a quatre, et trois selon l’os de la <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2445">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os de la&#xA;    queue"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_de_la_queue"/>
                <w property="rdfs:label" lemma="os de la&#xA;    queue" type="m.">queue</w>
                <gloss>extrémité inférieure de la colonne vertébrale, articulée avec le sacrum
     et formé de trois petit os; coccyx</gloss>
@@ -21324,7 +21324,7 @@
     de dents; bec</gloss>
             </seg>, afin <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2622">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin&#xA;    que"
                   type="loc.conj.quimarquel’intention,lebut">que</w>
@@ -21570,7 +21570,7 @@
             </seg> que on appelle la grant
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2649">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_main"/>
                <w property="rdfs:label" lemma="grant main">mein</w>
                <gloss>membre supérieur de
     l’homme qui s’attache au tronc, compris entre l'épaule et les doigts; bras</gloss>
@@ -21609,7 +21609,7 @@
             </seg>, la seconde le petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2653">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_bras"/>
                <w property="rdfs:label" lemma="petit bras">bras</w>
                <gloss>segment du membre
     supérieur de l’homme compris entre le coude et la main; avant-bras</gloss>
@@ -21617,7 +21617,7 @@
             </seg> et la
   tierce la petite <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2654">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite_main"/>
                <w property="rdfs:label" lemma="petite main">main</w>
                <gloss>membre
     situé à l’extrémité du bras; main</gloss>
@@ -21783,14 +21783,14 @@
                <note>en</note>
             </seg> la <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2673">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fune du&#xA;    bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fune_du_bras"/>
                <w property="rdfs:label" lemma="fune du&#xA;    bras">fune</w>
                <gloss>vaisseau sanguin principal de la partie supérieure du
     bras</gloss>
                <interp>terme d’anat. </interp>
             </seg> ou la corde du <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2674">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/corde du&#xA;    bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/corde_du_bras"/>
                <w property="rdfs:label" lemma="corde du&#xA;    bras">bras</w>
                <gloss>vaisseau sanguin principal de la partie supérieure du
     bras</gloss>
@@ -21910,7 +21910,7 @@
                <note>en</note>
             </seg> cephalica <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2690">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/cephalica&#xA;    occullaire"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/cephalica_occullaire"/>
                <w property="rdfs:label" lemma="cephalica&#xA;    occullaire">occullaire</w>
                <gloss>suite de la veine céphalique sur le dos de la main
     qui est visible entre le pouce et le second doigt</gloss>
@@ -21982,7 +21982,7 @@
             </seg>
             <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2699">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine basilique"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_basilique"/>
                <w property="rdfs:label" lemma="*veine basilique">bazilique</w>
                <gloss>veine
     superficielle du bras qui est située à sa face interne</gloss>
@@ -22004,7 +22004,7 @@
    visible</gloss>
             </seg> entre le petit <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2702">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit&#xA;    doi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_doi"/>
                <w property="rdfs:label" lemma="petit&#xA;    doi">doy</w>
                <gloss>le plus petit des prolongements qui terminent
     la main</gloss>
@@ -22018,7 +22018,7 @@
     l’espace)</gloss>
             </seg>, et la appell’en <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2704">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine&#xA;    salvatelle"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_salvatelle"/>
                <w property="rdfs:label" lemma="*veine&#xA;    salvatelle">salvatelle</w>
                <gloss>vaisseau sanguin superficiel du bras descendant à la
     main et qui se manifeste entre le quatrième et le petit doigt</gloss>
@@ -22057,7 +22057,7 @@
             </seg> qui appert entre elles deux, que on appelle
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2709">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine mediane"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_mediane"/>
                <w property="rdfs:label" lemma="*veine mediane">medienne</w>
                <gloss>vaisseau sanguin
     du bras qui est située au pli du coude entre la veine céphalique et la veine
@@ -22065,7 +22065,7 @@
                <interp>terme d’anat. </interp>
             </seg> ou <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2710">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine&#xA;    corporale"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_corporale"/>
                <w property="rdfs:label" lemma="*veine&#xA;    corporale">corporalle</w>
                <gloss>veine du bras qui est située au pli du coude entre la
     veine céphalique et la veine basilique</gloss>
@@ -22215,7 +22215,7 @@
             </seg> et grans qui mouvent le petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2730">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_bras"/>
                <w property="rdfs:label" lemma="petit bras">bras</w>
                <gloss>segment du membre
     supérieur de l’homme compris entre le coude et la main; avant-bras</gloss>
@@ -22223,7 +22223,7 @@
             </seg>, et
   quatre au petit <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2731">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_bras"/>
                <w property="rdfs:label" lemma="petit bras">bras</w>
                <gloss>segment du
     membre supérieur de l’homme compris entre le coude et la main; avant-bras</gloss>
@@ -22231,7 +22231,7 @@
             </seg>
   qui mouvent la main <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2732">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite_main"/>
                <w property="rdfs:label" lemma="petite main">petite</w>
                <gloss>membre situé à l’extrémité du bras; main</gloss>
                <note>main petite</note>
@@ -22240,7 +22240,7 @@
             </seg>, et .v. en la
   petite <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2733">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite_main"/>
                <w property="rdfs:label" lemma="petite main">main</w>
                <gloss>membre situé à
     l’extrémité du bras; main</gloss>
@@ -22380,7 +22380,7 @@
             </seg> de la grant
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2752">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_main"/>
                <w property="rdfs:label" lemma="grant main">mein</w>
                <gloss>membre supérieur de
     l’homme qui s’attache au tronc, compris entre l'épaule et les doigts; bras</gloss>
@@ -22395,7 +22395,7 @@
             </app>Ms. gras bras.
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2753">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_bras"/>
                <w property="rdfs:label" lemma="grant bras"/>
                <gloss>membre supérieur de l’homme qui
     s’attache au tronc, compris entre l'épaule et les doigts; bras</gloss>
@@ -22659,7 +22659,7 @@
    bec</gloss>
             </seg> du grant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2786">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant focile"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_focile"/>
                <w property="rdfs:label" lemma="grant focile">focille</w>
                <gloss>le plus gros des deux os de l’avant-bras ou de la jambe; cubitus,
     tibia</gloss>
@@ -22776,7 +22776,7 @@
             </seg> le petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2800">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit bras"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_bras"/>
                <w property="rdfs:label" lemma="petit bras">bras</w>
                <gloss>segment du membre
     supérieur de l’homme compris entre le coude et la main; avant-bras</gloss>
@@ -22793,7 +22793,7 @@
             </seg>,
   c’est assavoir le grant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2802">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant focile"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_focile"/>
                <w property="rdfs:label" lemma="grant focile">focille</w>
                <gloss>le plus gros des deux os de l’avant-bras ou de la jambe; cubitus,
     tibia</gloss>
@@ -22818,7 +22818,7 @@
             </seg> devant dicte --, et s’en va vers le petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2805">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit doi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_doi"/>
                <w property="rdfs:label" lemma="petit doi">doy</w>
                <gloss>le plus
     petit des prolongements qui terminent la main</gloss>
@@ -22878,7 +22878,7 @@
             </seg> jusques
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2813">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques a"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/jusques_a"/>
                <w property="rdfs:label" lemma="jusques a">a</w>
                <gloss/>
             </seg> la mein vers le
@@ -23019,7 +23019,7 @@
     éloigné</gloss>
             </seg>, afin <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2831">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin&#xA;    que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin&#xA;    que"
                   type="loc.conj.quimarquel’intention,lebut">qu’ilz</w>
@@ -23659,7 +23659,7 @@
             </seg> et au
   cervel et aux membres <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2909">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/membres&#xA;    generatis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/membres_generatis"/>
                <w property="rdfs:label" lemma="membres&#xA;    generatis" type="m.pl.">generatifz</w>
                <gloss>organes servant à la reproduction</gloss>
                <note>membres
@@ -23803,7 +23803,7 @@
             </seg> du pié de la
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2925">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pié de la fourchete"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pié_de_la_fourchete"/>
                <w property="rdfs:label" lemma="pié de la fourchete">fourchete</w>
                <gloss>segment
     supérieur du sternum qui s’articule avec les deux clavicules et la première paire des côtes;
@@ -24178,7 +24178,7 @@
                </note>
             </seg> pomme de <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#2970">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pome de&#xA;    pin"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/pome_de_pin"/>
                <w property="rdfs:label" lemma="*pome de&#xA;    pin" type="f.">pin</w>
                <gloss>fruit produit par le pin</gloss>
                <note>pomme de pin</note>
@@ -24538,7 +24538,7 @@
             </seg>; et de lui ist hors une partie que on appelle
   la vaine <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3014">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine arteriale"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_arteriale"/>
                <w property="rdfs:label" lemma="*veine arteriale">arterial</w>
                <gloss>vaisseau sanguin qui s'étend du ventricule droit du cœur au poumon</gloss>
                <note>vaine
@@ -25056,7 +25056,7 @@
                <interp>terme d’anat. </interp>
             </seg> de la vaine <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3076">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine&#xA;    arteriale"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_arteriale"/>
                <w property="rdfs:label" lemma="*veine&#xA;    arteriale">arteriale</w>
                <gloss>vaisseau sanguin qui s'étend du ventricule droit du
     cœur au poumon</gloss>
@@ -25092,7 +25092,7 @@
             </seg> de la vaine
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3080">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine arteriale"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_arteriale"/>
                <w property="rdfs:label" lemma="*veine arteriale">arteriale</w>
                <gloss>vaisseau
     sanguin qui s'étend du ventricule droit du cœur au poumon</gloss>
@@ -25122,7 +25122,7 @@
                <interp>terme d’anat. </interp>
             </seg> de l’artere <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3083">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/trachee&#xA;    artere"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/trachee_artere"/>
                <w property="rdfs:label" lemma="trachee&#xA;    artere">trachee</w>
                <gloss>portion du conduit aérifère comprise entre l’extrémité
     inférieure du larynx et l’origine des bronches; trachée</gloss>
@@ -25208,7 +25208,7 @@
             </seg>, desqueulx dit est si devant, et passe par la la
   vaine <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3094">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine concave"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_concave"/>
                <w property="rdfs:label" lemma="*veine concave">concave</w>
                <gloss>vaisseau
     sanguin qui ramène le sang nutritif du foie à tout le corps</gloss>
@@ -25234,7 +25234,7 @@
             </seg>. Et aussi y passe par la la vaine
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3097">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine aborthi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_aborthi"/>
                <w property="rdfs:label" lemma="*veine aborthi">aborchi</w>
                <gloss>vaisseau sanguin
     qui naisse au cœur</gloss>
@@ -26387,7 +26387,7 @@
             </app>i über der Zeile nachgetragen.
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3232">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/angle droit"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/angle_droit"/>
                <w property="rdfs:label" lemma="angle droit" type="m."/>
                <gloss>saillant ou rentrant formé par deux lignes ou
     deux surfaces qui se rencontrent et dont l’un est perpendiculaire à l’autre</gloss>
@@ -26657,7 +26657,7 @@
             </seg> a la nature des autres membres, et affin
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3264">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin que"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/afin_que"/>
                <w property="rdfs:label"
                   lemma="afin que"
                   type="loc.conj.quimarquel’intention,lebut">qu</w>
@@ -27274,7 +27274,7 @@
             </seg> des vaines
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3333">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine mesaraïque"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_mesaraïque"/>
                <w property="rdfs:label" lemma="*veine mesaraïque">miseraques</w>
                <gloss>vaisseau
     sanguin qui est un prolongement ramifié de la ‘porte’ et qui transporte des sucs de l’intestin
@@ -27314,7 +27314,7 @@
             </seg>. Donc ilz sont
   .vj. intestins, trois <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3338">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin graisle"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin_graisle"/>
                <w property="rdfs:label" lemma="*intestin graisle">grailles</w>
                <gloss>partie du tube digestif entre l’estomac et le cæcum, comprenant le duodénum, le jéjunum
     et l’iléon, aussi chacune de ses parties</gloss>
@@ -27324,7 +27324,7 @@
             </seg> et trois
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3339">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin gros"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin_gros"/>
                <w property="rdfs:label" lemma="intestin gros">gros</w>
                <gloss>partie du tube
     digestif entre l’iléon et l’anus, comprenant le cæcum, le côlon et le rectum, aussi chacune de
@@ -27662,7 +27662,7 @@
             </seg> qui est
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3379">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin gros"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin_gros"/>
                <w property="rdfs:label" lemma="intestin gros">gros</w>
                <gloss>partie du tube
     digestif entre l’iléon et l’anus, comprenant le cæcum, le côlon et le rectum, aussi chacune de
@@ -28048,7 +28048,7 @@
    </note>
             </seg> et <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3428">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin graisle"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin_graisle"/>
                <w property="rdfs:label" lemma="*intestin graisle">graille</w>
                <gloss>partie du tube digestif entre l’estomac et le cæcum, comprenant le duodénum, le
     jéjunum et l’iléon, aussi chacune de ses parties</gloss>
@@ -28139,7 +28139,7 @@
     multitude</gloss>
             </seg> de voines <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3439">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine&#xA;    mesaraïque"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_mesaraïque"/>
                <w property="rdfs:label" lemma="*veine&#xA;    mesaraïque">miseraques</w>
                <gloss>vaisseau sanguin qui est un prolongement ramifié de
     la ‘porte’ et qui transporte des sucs de l’intestin au foie</gloss>
@@ -28372,7 +28372,7 @@
             </seg> des grailles
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3468">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestines graisles"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestines_graisles"/>
                <w property="rdfs:label" lemma="*intestines graisles">intestines</w>
                <gloss>partie du tube digestif entre l’estomac et le cæcum, comprenant le duodénum, le jéjunum et
     l’iléon, aussi chacune de ses parties</gloss>
@@ -28391,7 +28391,7 @@
             </seg> de panicles. Mais les gros
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3470">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin gros"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin_gros"/>
                <w property="rdfs:label" lemma="intestin gros">intestins</w>
                <gloss>partie du tube
     digestif entre l’iléon et l’anus, comprenant le cæcum, le côlon et le rectum, aussi chacune de
@@ -28505,7 +28505,7 @@
    miser
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3482">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine mesaraïque"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_mesaraïque"/>
                <w property="rdfs:label" lemma="*veine mesaraïque">aques</w>
                <gloss>vaisseau sanguin
     qui est un prolongement ramifié de la ‘porte’ et qui transporte des sucs de l’intestin au
@@ -28649,7 +28649,7 @@
             </seg>. Car, ainsi que les miser
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3499">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine mesaraïque"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_mesaraïque"/>
                <w property="rdfs:label" lemma="*veine mesaraïque">aques</w>
                <gloss>vaisseau sanguin
     qui est un prolongement ramifié de la ‘porte’ et qui transporte des sucs de l’intestin au
@@ -28753,7 +28753,7 @@
             </seg> a lui, et les intestins aussi avec les miser
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3511">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine mesaraïque"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_mesaraïque"/>
                <w property="rdfs:label" lemma="*veine mesaraïque">aques</w>
                <gloss>vaisseau sanguin
     qui est un prolongement ramifié de la ‘porte’ et qui transporte des sucs de l’intestin au
@@ -28979,7 +28979,7 @@
     charnu</gloss>
             </seg> de son <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3538">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fonz (de&#xA;    l’estomac)"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fonz_(de_l’estomac)"/>
                <w property="rdfs:label" lemma="*fonz (de&#xA;    l’estomac)" type="m.">fons</w>
                <gloss>partie de l’estomac opposée à l’entrée de
     l'œsophage</gloss>
@@ -29122,7 +29122,7 @@
             </seg>. Et par dessus est le cervel pour sentir. Et a la partie du dos sont
   les voines <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3554">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine kilis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_kilis"/>
                <w property="rdfs:label" lemma="*veine kilis">kily</w>
                <gloss>vaisseau
     sanguin qui ramène le sang nutritif du foie à tout le corps</gloss>
@@ -29131,7 +29131,7 @@
             </seg>
   et <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3555">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine aborthi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_aborthi"/>
                <w property="rdfs:label" lemma="*veine aborthi">aborchy</w>
                <gloss>vaisseau sanguin
     qui naisse au cœur</gloss>
@@ -29787,7 +29787,7 @@
             </seg>. Et le appell’en massa san
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3634">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/massa sanguinaria"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/massa_sanguinaria"/>
                <w property="rdfs:label" lemma="massa sanguinaria">guinaria</w>
                <gloss>substance qui
     est produite dans le foie et qui contient les substances alimentaires (dans
@@ -30236,7 +30236,7 @@
             </seg> de vaines miser
   <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3689">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine mesaraïque"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_mesaraïque"/>
                <w property="rdfs:label" lemma="*veine mesaraïque">aques</w>
                <gloss>vaisseau sanguin
     qui est un prolongement ramifié de la ‘porte’ et qui transporte des sucs de l’intestin au
@@ -30342,7 +30342,7 @@
             </seg> du foie ist une voine que on appelle
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3701">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine concave"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_concave"/>
                <w property="rdfs:label" lemma="*veine concave">concave</w>
                <gloss>vaisseau sanguin
     qui ramène le sang nutritif du foie à tout le corps</gloss>
@@ -30351,7 +30351,7 @@
             </seg> ou
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3702">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine kilis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_kilis"/>
                <w property="rdfs:label" lemma="*veine kilis">kylis</w>
                <gloss>vaisseau sanguin qui
     ramène le sang nutritif du foie à tout le corps</gloss>
@@ -30401,7 +30401,7 @@
     produire</gloss>
             </seg>. Et celle vaine <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3709">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine&#xA;    kilis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_kilis"/>
                <w property="rdfs:label" lemma="*veine&#xA;    kilis">kilis</w>
                <gloss>vaisseau sanguin qui ramène le sang nutritif du foie à
     tout le corps</gloss>
@@ -30727,13 +30727,13 @@
             </seg> au foye, si comme dit
   est. Et premier du cistis <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3749">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/cistis fellis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/cistis_fellis"/>
                <w property="rdfs:label" lemma="cistis fellis" type="lt.">fellis</w>
                <gloss>vésicule
     bilaire</gloss>
             </seg>. Cistis <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3750">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/cistis&#xA;    fellis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/cistis_fellis"/>
                <w property="rdfs:label" lemma="cistis&#xA;    fellis" type="lt.">fellis</w>
                <gloss>vésicule bilaire</gloss>
             </seg>, c’est une
@@ -30916,7 +30916,7 @@
             </seg> la cole. L’autre va au fons de
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3773">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fonz (de l’estomac)"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fonz_(de_l’estomac)"/>
                <w property="rdfs:label" lemma="*fonz (de l’estomac)" type="m.">l’estomac</w>
                <gloss>partie de l’estomac
     opposée à l’entrée de l'œsophage</gloss>
@@ -31408,7 +31408,7 @@
    comme il est escript es livres devant dis. Item, les solucions de
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3836">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/solucion de continuité"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/solucion_de_continuité"/>
                <w property="rdfs:label" lemma="solucion de continuité">continuité</w>
                <gloss>séparation des tissus qui sont normalement continus' (p.ex. plaie,
    fracture)</gloss>
@@ -31654,7 +31654,7 @@
             </seg> de la
   vaine <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3864">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine kilis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_kilis"/>
                <w property="rdfs:label" lemma="*veine kilis">kily</w>
                <gloss>vaisseau sanguin
     qui ramène le sang nutritif du foie à tout le corps</gloss>
@@ -31750,7 +31750,7 @@
             </seg>, pres les spondilles, passent la vaine
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3874">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine kilis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_kilis"/>
                <w property="rdfs:label" lemma="*veine kilis">kilis</w>
                <gloss>vaisseau sanguin qui
     ramène le sang nutritif du foie à tout le corps</gloss>
@@ -31759,7 +31759,7 @@
             </seg> et la vaine
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3875">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine aborthi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_aborthi"/>
                <w property="rdfs:label" lemma="*veine aborthi">aborchi</w>
                <gloss>vaisseau sanguin
     qui naisse au cœur</gloss>
@@ -31961,7 +31961,7 @@
             </seg> et des grans
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3898">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant pié"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_pié"/>
                <w property="rdfs:label" lemma="grant pié">piés</w>
                <gloss>membre inférieur en
     entier de l’homme y compris le pied</gloss>
@@ -32112,7 +32112,7 @@
                <interp>terme d’anat. </interp>
             </seg> ou le droit <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3918">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin&#xA;    droit"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin_droit"/>
                <w property="rdfs:label" lemma="intestin&#xA;    droit">intestin</w>
                <gloss>partie terminale du gros intestin entre le côlon et
     l’anus; rectum</gloss>
@@ -32222,7 +32222,7 @@
             </seg> d’os: premier, vers la partie
   du dos, en ha trois ou quatre spondilles de l’os <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3931">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os&#xA;    sacré"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_sacré"/>
                <w property="rdfs:label" lemma="os&#xA;    sacré">sacré</w>
                <gloss>os formé par la réunion des cinq vertèbres sacrées, a la
     partie inférieure de la colonne vertébrale; sacrum</gloss>
@@ -32230,14 +32230,14 @@
             </seg> et deux ou trois
   cartillagineux qui <pb n="33v°b"/> sont de l’os de la <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3932">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os de la&#xA;    queue"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_de_la_queue"/>
                <w property="rdfs:label" lemma="os de la&#xA;    queue" type="m.">queue</w>
                <gloss>extrémité inférieure de la colonne vertébrale, articulée avec le sacrum
     et formé de trois petit os; coccyx</gloss>
             </seg>. Desqueulx, le premier de l’os
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3933">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os sacré"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_sacré"/>
                <w property="rdfs:label" lemma="os sacré">sacré</w>
                <gloss>os formé par la réunion
     des cinq vertèbres sacrées, a la partie inférieure de la colonne vertébrale;
@@ -32302,7 +32302,7 @@
             </seg> spondille de l’os
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3941">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os sacré"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_sacré"/>
                <w property="rdfs:label" lemma="os sacré">sacré</w>
                <gloss>os formé par la réunion
     des cinq vertèbres sacrées, a la partie inférieure de la colonne vertébrale;
@@ -32713,7 +32713,7 @@
     l’urine</gloss>
             </seg>, que on appelle porry <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#3991">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/porri&#xA;    uritides"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/porri_uritides"/>
                <w property="rdfs:label" lemma="*porri&#xA;    uritides">uritides</w>
                <gloss>les deux canaux qui conduisent l’urine des reins à
     la vessie; les uretères</gloss>
@@ -33038,7 +33038,7 @@
             </app>Zeichnung am Foliorand, cf. supra. la vaine
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4029">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine kilis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_kilis"/>
                <w property="rdfs:label" lemma="*veine kilis">kily</w>
                <gloss>vaisseau sanguin qui
     ramène le sang nutritif du foie à tout le corps</gloss>
@@ -33047,7 +33047,7 @@
             </seg> et
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4030">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine aborthi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_aborthi"/>
                <w property="rdfs:label" lemma="*veine aborthi">aborthi</w>
                <gloss>vaisseau sanguin
     qui naisse au cœur</gloss>
@@ -33870,7 +33870,7 @@
             </seg> ou le
   droit <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4133">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin droit"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/intestin_droit"/>
                <w property="rdfs:label" lemma="intestin droit">intestin</w>
                <gloss>partie
     terminale du gros intestin entre le côlon et l’anus; rectum</gloss>
@@ -33930,7 +33930,7 @@
     droite</gloss>
             </seg> sur les os de la <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4140">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os de&#xA;    la queue"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_de_la_queue"/>
                <w property="rdfs:label" lemma="os de&#xA;    la queue" type="m.">keue</w>
                <gloss>extrémité inférieure de la colonne vertébrale, articulée avec le
     sacrum et formé de trois petit os; coccyx</gloss>
@@ -34378,7 +34378,7 @@
             </seg>,
   ce sont les vaines et les arteres qui naissent de la vaine <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4189">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine&#xA;    kilis"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_kilis"/>
                <w property="rdfs:label" lemma="*veine&#xA;    kilis">kily</w>
                <gloss>vaisseau sanguin qui ramène le sang nutritif du foie à
     tout le corps</gloss>
@@ -34386,7 +34386,7 @@
                <interp>terme d’anat. </interp>
             </seg> et de <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4190">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine&#xA;    aborthi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_aborthi"/>
                <w property="rdfs:label" lemma="*veine&#xA;    aborthi">aborchi</w>
                <gloss>vaisseau sanguin qui naisse au
     cœur</gloss>
@@ -34728,7 +34728,7 @@
             </seg>; les liguemans viennent de l’os
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4230">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os sacré"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_sacré"/>
                <w property="rdfs:label" lemma="os sacré">sacré</w>
                <gloss>os formé par la réunion
     des cinq vertèbres sacrées, a la partie inférieure de la colonne vertébrale;
@@ -35016,7 +35016,7 @@
             </seg> et la grant
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4266">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant jambe"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_jambe"/>
                <w property="rdfs:label" lemma="grant jambe">jambe</w>
                <gloss>membre inférieur en
     entier de l’homme y compris le pied</gloss>
@@ -35048,7 +35048,7 @@
             </seg> ou le grant
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4270">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant pié"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_pié"/>
                <w property="rdfs:label" lemma="grant pié">pié</w>
                <gloss>membre inférieur en entier
     de l’homme y compris le pied</gloss>
@@ -35120,7 +35120,7 @@
             </seg> en pluseurs choses avec les
   parties de la grant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4280">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_main"/>
                <w property="rdfs:label" lemma="grant main">main</w>
                <gloss>membre
     supérieur de l’homme qui s’attache au tronc, compris entre l'épaule et les doigts;
@@ -35148,7 +35148,7 @@
             </seg> ou ce pié
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4283">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant pié"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_pié"/>
                <w property="rdfs:label" lemma="grant pié">grant</w>
                <gloss>membre inférieur en
     entier de l’homme y compris le pied</gloss>
@@ -35157,7 +35157,7 @@
             </seg> est divisee en trois
   parties, ainsi que est la grant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4284">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_main"/>
                <w property="rdfs:label" lemma="grant main">mein</w>
                <gloss>membre supérieur de l’homme qui s’attache au tronc, compris entre l'épaule et les
     doigts; bras</gloss>
@@ -35173,7 +35173,7 @@
             </seg>, l’autre la petite
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4286">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite jambe"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petite_jambe"/>
                <w property="rdfs:label" lemma="petite jambe">jambe</w>
                <gloss>segment du membre
     inférieur de l’homme compris entre le genou et l’articulation du pied</gloss>
@@ -35210,7 +35210,7 @@
             </seg>. Le grant
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4291">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant pié"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_pié"/>
                <w property="rdfs:label" lemma="grant pié">pié</w>
                <gloss>membre inférieur en entier
     de l’homme y compris le pied</gloss>
@@ -35226,7 +35226,7 @@
             </seg> partie que est la grant
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4293">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant main"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_main"/>
                <w property="rdfs:label" lemma="grant main">main</w>
                <gloss>membre supérieur de
     l’homme qui s’attache au tronc, compris entre l'épaule et les doigts; bras</gloss>
@@ -35382,7 +35382,7 @@
             </seg>, et la
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4311">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine sciatique"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_sciatique"/>
                <w property="rdfs:label" lemma="*veine sciatique">sciatique</w>
                <gloss>vaisseau
     sanguin de la jambe dont l’origine est le sacrum et qui se manifeste dessous la cheville à la
@@ -35399,7 +35399,7 @@
             </seg> par dehors, et la
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4313">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine poplitique"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_poplitique"/>
                <w property="rdfs:label" lemma="*veine poplitique">poplitique</w>
                <gloss>vaisseau
     sanguin de la jambe qui se manifeste au jarret</gloss>
@@ -35414,7 +35414,7 @@
             </seg>, et la vaine
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4315">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine renale"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/veine_renale"/>
                <w property="rdfs:label" lemma="*veine renale">renale</w>
                <gloss>vaisseau sanguin de
     la jambe dont l’origine est le sacrum et qui se manifeste entre le quatrième et le cinquième
@@ -35424,7 +35424,7 @@
             </seg> que est entre le petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4316">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit doi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_doi"/>
                <w property="rdfs:label" lemma="petit doi">doy</w>
                <gloss>le plus
     petit des orteils</gloss>
@@ -35567,7 +35567,7 @@
             </seg>
             <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4333">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os sacré"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_sacré"/>
                <w property="rdfs:label" lemma="os sacré"/>
                <gloss>os formé par la réunion des cinq
     vertèbres sacrées, a la partie inférieure de la colonne vertébrale; sacrum</gloss>
@@ -35799,7 +35799,7 @@
             </seg> du pié ou de la grant
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4362">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant jambe"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_jambe"/>
                <w property="rdfs:label" lemma="grant jambe">jambe</w>
                <gloss>membre inférieur en
     entier de l’homme y compris le pied</gloss>
@@ -35936,7 +35936,7 @@
             </seg> de
   la grant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4379">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant jambe"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_jambe"/>
                <w property="rdfs:label" lemma="grant jambe">jambe</w>
                <gloss>membre
     inférieur en entier de l’homme y compris le pied</gloss>
@@ -35944,7 +35944,7 @@
             </seg>; et par dessus est ung os
   tout rond que on appelle le <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4380">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/patine du&#xA;    genoil"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/patine_du_genoil"/>
                <w property="rdfs:label" lemma="patine du&#xA;    genoil">patine</w>
                <gloss>os plat triangulaire, légèrement bombé, qui est situé à
     la face antérieure du genou; rotule</gloss>
@@ -35952,7 +35952,7 @@
             </seg> ou la pallete du
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4381">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/palette du genoil"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/palette_du_genoil"/>
                <w property="rdfs:label" lemma="*palette du genoil">genoil</w>
                <gloss>os plat
     triangulaire, légèrement bombé, qui est situé à la face antérieure du genou;
@@ -36059,7 +36059,7 @@
             </seg> avec le
    grant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4394">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant focile"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_focile"/>
                <w property="rdfs:label" lemma="grant focile">focile</w>
                <gloss>le plus
     gros des deux os de l’avant-bras ou de la jambe; cubitus, tibia</gloss>
@@ -36258,7 +36258,7 @@
             </seg>. Le premier est appellé
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4418">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os cahab"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_cahab"/>
                <w property="rdfs:label" lemma="os cahab">cahab</w>
                <gloss>os du pied qui forme,
     avec le calcanéum, la rangée postérieure du tarse; astragale</gloss>
@@ -36286,7 +36286,7 @@
             </seg>, et est
   ainsi que une noix de <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4422">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/noix de&#xA;    arbalestre"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/noix_de_arbalestre"/>
                <w property="rdfs:label" lemma="noix de&#xA;    arbalestre" type="f.">arbalestre</w>
                <gloss>pièce de l’arme de trait qui consiste d’un arc d’acier monté sur un
     fût, et qui est retenue par le ressort et retient dans une de ses encoches la corde de l’arc
@@ -36339,14 +36339,14 @@
    qch.)</gloss>
             </seg> la concavité de l’os <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4429">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os&#xA;    naviculaire"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_naviculaire"/>
                <w property="rdfs:label" lemma="os&#xA;    naviculaire">naviculaire</w>
                <gloss>os de la rangée antérieure du tarse articulé avec
     l’astragale; os naviculaire</gloss>
                <interp>terme d’anat. </interp>
             </seg>. Aprés l’os <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4430">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os&#xA;    cahab"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_cahab"/>
                <w property="rdfs:label" lemma="os&#xA;    cahab">cahab</w>
                <gloss>os du pied qui forme, avec le calcanéum, la rangée
     postérieure du tarse; astragale</gloss>
@@ -36354,7 +36354,7 @@
             </seg>, vers le pié, vient l’os
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4431">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os naviculaire"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_naviculaire"/>
                <w property="rdfs:label" lemma="os naviculaire">naviculaire</w>
                <gloss>os de la
     rangée antérieure du tarse articulé avec l’astragale; os naviculaire</gloss>
@@ -36391,7 +36391,7 @@
                <note>rondesse</note>
             </seg> de l’os <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4436">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os&#xA;    cahab"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_cahab"/>
                <w property="rdfs:label" lemma="os&#xA;    cahab">cahab</w>
                <gloss>os du pied qui forme, avec le calcanéum, la rangée
     postérieure du tarse; astragale</gloss>
@@ -36453,7 +36453,7 @@
             </seg> pour les liguemans que sont plantés dedens lui. Item,
    aprés le <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4444">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os naviculaire"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_naviculaire"/>
                <w property="rdfs:label" lemma="os naviculaire">naviculaire</w>
                <gloss>os de la rangée antérieure du tarse articulé avec l’astragale; os
     naviculaire</gloss>
@@ -36500,7 +36500,7 @@
             </seg> et est par dehors vers le petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4450">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit doi"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_doi"/>
                <w property="rdfs:label" lemma="petit doi">doy</w>
                <gloss>le plus
     petit des orteils</gloss>
@@ -36516,7 +36516,7 @@
             </seg> vers le
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4452">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os naviculaire"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/os_naviculaire"/>
                <w property="rdfs:label" lemma="os naviculaire">naviculaire</w>
                <gloss>os de la
     rangée antérieure du tarse articulé avec l’astragale; os naviculaire</gloss>
@@ -36626,7 +36626,7 @@
             </seg>, tout ainsi que la
   mein. Donc ou petit <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4465">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit pié"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_pié"/>
                <w property="rdfs:label" lemma="petit pié">pié</w>
                <gloss>partie
     inférieure articulée à l’extrémité de la jambe; pied</gloss>
@@ -36634,7 +36634,7 @@
             </seg> sont .xxvj. os et en
   tout le grant <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4466">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant pié"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/grant_pié"/>
                <w property="rdfs:label" lemma="grant pié">pié</w>
                <gloss>membre
     inférieur en entier de l’homme y compris le pied</gloss>
@@ -36762,7 +36762,7 @@
             </seg> a son lieu. Car la joincture du petit
     <seg resource="http://deaf-server.adw.uni-heidelberg.de/corpus#4483">
                <span property="rdfs:seeAlso"
-                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit pié"/>
+                     resource="http://deaf-server.adw.uni-heidelberg.de/lemme/petit_pié"/>
                <w property="rdfs:label" lemma="petit pié">pié</w>
                <gloss>partie inférieure
     articulée à l’extrémité de la jambe; pied</gloss>

@@ -70,10 +70,10 @@
         <pb n="{@n}"/>
     </xsl:template>
     <xsl:template match="wdx">
-        <xsl:variable name="lemma" select="functx:substring-after-last(replace(lemma, '\*', ''), '\s+')">                    
-        </xsl:variable>
+        <xsl:variable name="lemma" select="functx:substring-after-last(lemma, '\s')"/>
+        <xsl:variable name="lemmaFixed" select="replace($lemma, '\s+', '_')"/>
         <seg  resource="http://deaf-server.adw.uni-heidelberg.de/corpus#{count(preceding::wdx) +1}">
-             <span property="rdfs:seeAlso" resource="{concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemma)}"/>
+             <span property="rdfs:seeAlso" resource="{concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', replace($lemmaFixed, '\*', ''))}"/>
             <xsl:element name="w"> 
                 <xsl:attribute name="property">rdfs:label</xsl:attribute>
             <xsl:attribute name="lemma"><xsl:value-of select="lemma"/></xsl:attribute>
