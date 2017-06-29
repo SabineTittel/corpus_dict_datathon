@@ -77,8 +77,7 @@
                 </xsl:variable>
             <xsl:attribute name="lemmaRef">
                 <xsl:value-of select="concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemma)"/>
-            </xsl:attribute>          
-                
+            </xsl:attribute>                          
             <xsl:attribute name="lemma"><xsl:value-of select="lemma"/></xsl:attribute>
                 <xsl:analyze-string select="gloss" regex="^(.*)\s+`">
                     <xsl:matching-substring>
@@ -86,16 +85,14 @@
                         <xsl:attribute name="type"><xsl:value-of select="replace(regex-group(1), '\s', '')"/></xsl:attribute>
                             </xsl:if>
                     </xsl:matching-substring>
-                </xsl:analyze-string>
-               
-                 <xsl:apply-templates select="orth"/>
-                
+                </xsl:analyze-string>               
+                 <xsl:apply-templates select="orth"/>                
             </xsl:element>
-            <xsl:analyze-string select="gloss" regex="`(.*?)'">
-            <xsl:matching-substring>
-                <gloss><xsl:value-of select="regex-group(1)"/></gloss>
-            </xsl:matching-substring>
-        </xsl:analyze-string>
+            <xsl:element name="gloss">
+                <xsl:variable name="apos">&apos;</xsl:variable>
+                <xsl:value-of select="replace(substring-after(gloss, '`'), '$apos', '')"/>
+            </xsl:element>
+            
             <xsl:choose>
                 <xsl:when test="var/node()">
                     <xsl:if test="var eq orth"/>
