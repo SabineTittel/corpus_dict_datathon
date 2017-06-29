@@ -1,77 +1,67 @@
 <?xml version="1.0"?>
-<deaf xmlns:m="http://www.deaf-page.de/ns/markup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="article.xsd">
-<article type="longarticle" articleType="normal" author="Sabine Tittel">
-<part type="mainpart">
+<article author="Sabine Tittel">
 <title><lemma developed="false" language="afr.">fiel</lemma><pos>m.</pos></title>
 
 
-<variants>
-<variant type="standard"><description><m:cited-word index="f" language="afr.">fiel</m:cited-word></description>
-</variant>
+<variant type="standard">fiel</variant>
 
-<variant><description><m:cited-word index="f" language="afr.">fel</m:cited-word></description>
-</variant>
+<variant>fel</variant>
 
-<variant><description><m:cited-word index="f" language="afr.">feel</m:cited-word></description>
-</variant>
+<variant>feel</variant>
 
-<variant><description><m:cited-word index="f" language="afr.">fele</m:cited-word></description>
-</variant>
+<variant>fele</variant>
 
-<variant><description><m:cited-word index="f" language="afr.">feil</m:cited-word></description>
-</variant>
+<variant>feil</variant>
 
-<variant><description><m:cited-word index="f" language="afr.">fieil</m:cited-word></description>
-</variant>
+<variant>fieil</variant>
 
-<variant><description><m:cited-word index="f" language="afr.">fius</m:cited-word></description>
-</variant>
-</variants>
-
+<variant>fius</variant>
 
 
 <senses>
+
+<!-- main sens 1 -->
 <sense><description><m:terminology type="medecine">t. de m&#xE9;d.</m:terminology> <m:definition>liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition></description>
 
 
-<sense><description><m:idem><m:definition visible="false">liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>&#x201C;id., des animaux&#x201D;</m:idem></description>
+<sense><description><m:idem><m:definition>liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>des animaux</m:idem></description>
 </sense>
 
-<sense><description><m:idem><m:definition visible="false">liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>&#x201C;id., des animaux de boucherie, de la volaille, de la p&#xEA;che&#x201D;</m:idem></description>
+<sense><description></m:idem><m:definition>liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>des animaux de boucherie, de la volaille, de la p&#xEA;che</m:idem></description>
 </sense>
 
-<sense><description><m:collocation>fiel de tor</m:collocation>++/++<m:collocation>fiel de torel</m:collocation> <m:idem><m:definition visible="false">liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>&#x201C;id., du taureau&#x201D;</m:idem> (dans des recettes m&#xE9;dicales) [v. la <m:remark-reference n="1">rem. no1</m:remark-reference> ci-dessus]</description>
+<sense><description><m:idem><m:collocation>fiel de tor</m:collocation>++/++<m:collocation>fiel de torel</m:collocation> <m:definition>liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>du taureau (dans des recettes m&#xE9;dicales)</m:idem></description>
 </sense>
 
-<sense><description><m:definition>liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>, comme <m:usage type="metaphor">m&#xE9;taph.</m:usage> pour d&#xE9;signer une substance am&#xE8;re, un venin</description>
+<sense><description><m:idem><m:definition>liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>comme <m:usage type="metaphor">m&#xE9;taph.</m:usage> pour d&#xE9;signer une substance am&#xE8;re, un venin</m:idem></description>
 </sense>
 
-<sense><description><m:idem><m:definition visible="false">liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>&#x201C;id.&#x201D;, dans une expression figur&#xE9;e de l&#x2019;Ancien Testament <m:collocation>doner en ma viande fiel</m:collocation>++/++<m:collocation>doner a boire aigue de fiel</m:collocation> et sim. et dans des expressions analogues du Nouveau Testament <m:collocation>de fiel abevrer</m:collocation> et sim. qui signifient <m:definition>infliger une humiliation</m:definition></m:idem><m:footnote>Cp. <m:siglum>Tr&#xE9;nel</m:siglum> 393.</m:footnote></description>
+<sense><description><m:idem><m:definition>liquide verd&#xE2;tre et amer qui est contenu dans la v&#xE9;sicule biliaire, bile</m:definition>dans une expression figur&#xE9;e de l&#x2019;Ancien Testament <m:collocation>doner en ma viande fiel</m:collocation>++/++<m:collocation>doner a boire aigue de fiel</m:collocation> et sim. et dans des expressions analogues du Nouveau Testament <m:collocation>de fiel abevrer</m:collocation> et sim. qui signifient <m:definition>infliger une humiliation</m:definition></m:idem></description>
 </sense>
 
-<sense><description><m:collocation>fiel noir</m:collocation> <m:terminology type="medecine">t. de m&#xE9;d.</m:terminology> <m:definition>dans l&#x2019;humorisme, celle des quatre humeurs cardinales qui est s&#xE9;cr&#xE9;t&#xE9;e par la rate, qui a les qualit&#xE9;s &#x2018;froid&#x2019; et &#x2018;sec&#x2019; et qui gouverne la m&#xE9;lancolie dans le corps, bile noire</m:definition><m:footnote>V. &#x2192; <m:link><m:cited-word>froit<m:sup>1</m:sup></m:cited-word></m:link> et <m:link><m:cited-word>sec</m:cited-word></m:link> DEAFpr&#xE9;.</m:footnote></description>
+<sense><description><m:collocation>fiel noir</m:collocation> <m:terminology type="medecine">t. de m&#xE9;d.</m:terminology> <m:definition>dans l&#x2019;humorisme, celle des quatre humeurs cardinales qui est s&#xE9;cr&#xE9;t&#xE9;e par la rate, qui a les qualit&#xE9;s &#x2018;froid&#x2019; et &#x2018;sec&#x2019; et qui gouverne la m&#xE9;lancolie dans le corps, bile noire</m:definition></description>
 </sense>
 
-<sense><description>dans des collocations <m:collocation>huche de fiel</m:collocation>++/++<m:collocation>bourse du fiel</m:collocation> et sim. <m:terminology type="medecine">t. d&#x2019;anat.</m:terminology> <m:definition>r&#xE9;servoir musculo-membraneux, situ&#xE9; &#xE0; la face ant&#xE9;rieure du foie et qui emmagasine la bile, v&#xE9;sicule biliaire</m:definition> [v. la <m:remark-reference n="2">rem. no2</m:remark-reference> ci-dessus]</description>
+<sense><description>dans des collocations <m:collocation>huche de fiel</m:collocation>++/++<m:collocation>bourse du fiel</m:collocation> et sim. <m:terminology type="medecine">t. d&#x2019;anat.</m:terminology> <m:definition>r&#xE9;servoir musculo-membraneux, situ&#xE9; &#xE0; la face ant&#xE9;rieure du foie et qui emmagasine la bile, v&#xE9;sicule biliaire</m:definition></description>
 </sense>
 
-<sense><description><m:usage type="metonymy">par m&#xE9;ton.</m:usage> <m:collocation>fiel de (la) terre</m:collocation> t. de <m:terminology type="botany">botan.</m:terminology> <m:definition>plante herbac&#xE9;e annuelle ou bisannuelle de la famille des Gentianac&#xE9;es aux fleurs roses, mesurant jusqu&#x2019;&#xE0; 50 cm de grandeur, qui pousse dans les p&#xE2;turages humides, dont la tige, les fleurs et les feuilles s&#xE9;ch&#xE9;es contiennent des substances am&#xE8;res, petite centaur&#xE9;e (Centaurium erythraea)</m:definition> [cf. la <m:remark-reference n="4">rem. 4</m:remark-reference> ci-dessus]</description>
+<sense><description><m:usage type="metonymy">par m&#xE9;ton.</m:usage> <m:collocation>fiel de (la) terre</m:collocation> t. de <m:terminology type="botany">botan.</m:terminology> <m:definition>plante herbac&#xE9;e annuelle ou bisannuelle de la famille des Gentianac&#xE9;es aux fleurs roses, mesurant jusqu&#x2019;&#xE0; 50 cm de grandeur, qui pousse dans les p&#xE2;turages humides, dont la tige, les fleurs et les feuilles s&#xE9;ch&#xE9;es contiennent des substances am&#xE8;res, petite centaur&#xE9;e (Centaurium erythraea)</m:definition></description>
 </sense>
 </sense>
 
+<!-- main sense 2 -->
 <sense><description><m:terminology type="medecine">t. d&#x2019;anat.</m:terminology> <m:definition>r&#xE9;servoir musculo-membraneux, situ&#xE9; &#xE0; la face ant&#xE9;rieure du foie et qui emmagasine la bile, v&#xE9;sicule biliaire</m:definition></description>
 
-<sense><description><m:idem><m:definition visible="false">r&#xE9;servoir musculo-membraneux, situ&#xE9; &#xE0; la face ant&#xE9;rieure du foie et qui emmagasine la bile, v&#xE9;sicule biliaire</m:definition>&#x201C;id., des animaux&#x201D;</m:idem></description>
+<sense><description><m:idem><m:definition>r&#xE9;servoir musculo-membraneux, situ&#xE9; &#xE0; la face ant&#xE9;rieure du foie et qui emmagasine la bile, v&#xE9;sicule biliaire</m:definition>des animaux</m:idem></description>
 </sense>
 </sense>
 
+<!-- main sense 3 -->
 <sense><description><m:usage type="metaphor">par m&#xE9;taph.</m:usage> <m:definition>sentiment de tristesse accompagn&#xE9; de mauvaise humeur et qui est li&#xE9; &#xE0; une humiliation, une d&#xE9;ception, une injustice ou sim., amertume</m:definition></description>
 
-<sense><description><m:definition visible="false">sentiment de tristesse accompagn&#xE9; de mauvaise humeur et qui est li&#xE9; &#xE0; une humiliation, une d&#xE9;ception, une injustice ou sim., amertume</m:definition>&#x201C;id.&#x201D;, avec la colombe comme r&#xE9;f&#xE9;rence [cf. la <m:remark-reference n="3">rem. no3</m:remark-reference> ci-dessus]</description>
+<sense><description><m:idem><m:definition>sentiment de tristesse accompagn&#xE9; de mauvaise humeur et qui est li&#xE9; &#xE0; une humiliation, une d&#xE9;ception, une injustice ou sim., amertume</m:definition>avec la colombe comme r&#xE9;f&#xE9;rence</m:idem></description>
 </sense>
 </sense>
 
 </senses>
-</part>
 </article>
-</deaf>

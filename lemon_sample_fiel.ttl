@@ -24,34 +24,16 @@ _:sabine_tittel foaf:familyName "Tittel" ;
 # language register
 deaf:techreg a olia:TechnicalRegister .
 
-# forms
-:fiel a ontolex:Word ;
+#  forms and senses
+:fiel a ontolex:LexicalEntry, ontolex:Word ;
 				  ontolex:canonicalForm :fiel_form_fiel ;
 					ontolex:otherForm :fiel_form_fel ;
 					ontolex:otherForm :fiel_form_feel ;
 					ontolex:otherForm :fiel_form_fele ;
 					ontolex:otherForm :fiel_form_feil ;
 					ontolex:otherForm :fiel_form_fieil ;
-					ontolex:otherForm :fiel_form_fius .
-
-:fiel_form_fiel a ontolex:Form ;
-					ontolex:writtenRep "fiel"@fro .
-:fiel_form_fel a ontolex:Form ;
-					ontolex:writtenRep "fel"@fro .
-:fiel_form_feel a ontolex:Form ;
-					ontolex:writtenRep "feel"@fro .
-:fiel_form_fele a ontolex:Form ;
-					ontolex:writtenRep "fele"@fro .
-:fiel_form_feil a ontolex:Form ;
-					ontolex:writtenRep "feil"@fro .
-:fiel_form_fieil a ontolex:Form ;
-					 ontolex:writtenRep "fieil"@fro .
-:fiel_form_fius a ontolex:Form ;
-					 ontolex:writtenRep "fius"@fro .
-
-# senses
-:lex_fiel a ontolex:LexicalEntry ;
-			    ontolex:sense :fiel_sense1 ;
+					ontolex:otherForm :fiel_form_fius ;
+					ontolex:sense :fiel_sense1 ;
 					ontolex:evokes :fiel_sense1_lexConcept ;
 					ontolex:sense :fiel_sense1a ;
 					ontolex:evokes :fiel_sense1a_lexConcept ;
@@ -71,6 +53,23 @@ deaf:techreg a olia:TechnicalRegister .
 					ontolex:evokes :fiel_sense3a_lexConcept ;
 					lexinfo:partOfSpeech lexinfo:noun .
 
+# forms
+:fiel_form_fiel a ontolex:Form ;
+					ontolex:writtenRep "fiel"@fro .
+:fiel_form_fel a ontolex:Form ;
+					ontolex:writtenRep "fel"@fro .
+:fiel_form_feel a ontolex:Form ;
+					ontolex:writtenRep "feel"@fro .
+:fiel_form_fele a ontolex:Form ;
+					ontolex:writtenRep "fele"@fro .
+:fiel_form_feil a ontolex:Form ;
+					ontolex:writtenRep "feil"@fro .
+:fiel_form_fieil a ontolex:Form ;
+					 ontolex:writtenRep "fieil"@fro .
+:fiel_form_fius a ontolex:Form ;
+					 ontolex:writtenRep "fius"@fro .
+
+# senses
 # sense 1
 :fiel_sense1 a ontolex:LexicalSense ;
 			  dct:subject dbpedia:Medicine ;
@@ -87,22 +86,24 @@ deaf:techreg a olia:TechnicalRegister .
 :fiel_sense1a a ontolex:LexicalSense ;
 			  dct:subject dbpedia:Medicine ;
 				olia:hasRegister deaf:techreg ;
+				ontolex:usage "des animaux" ;
 				ontolex:reference :fiel_sense1a_lexConcept ;
 			  rdfs:comment "DEAF article /fiel/ subsense no1a" .
 
 :fiel_sense1a_lexConcept a ontolex:LexicalConcept ;
-				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile, des animaux"@fr ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
 				ontolex:lexicalizedSense :fiel_sense1a .
 
 # sense 1b
 :fiel_sense1b a ontolex:LexicalSense ;
 			  dct:subject dbpedia:Medicine ;
 				olia:hasRegister deaf:techreg ;
+				ontolex:usage "des animaux de boucherie, de la volaille, de la pêche" ;
 				ontolex:reference :fiel_sense1b_lexConcept ;
 			  rdfs:comment "DEAF article /fiel/ subsense no1b" .
 
 :fiel_sense1b_lexConcept a ontolex:LexicalConcept ;
-				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile, des animaux de boucherie, de la volaille, de la pêche"@fr ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
 				ontolex:lexicalizedSense :fiel_sense1b .
 
 # sense 1c fiel de tor
@@ -122,11 +123,11 @@ deaf:techreg a olia:TechnicalRegister .
 			  dct:subject dbpedia:Medicine ;
 				olia:hasRegister deaf:techreg ;
 				ontolex:reference :fiel_sense1c_lexConcept ;
-				ontolex:usage "(dans des recettes médicales)" ;
+				ontolex:usage "du taureau (dans des recettes médicales)" ;
 			  rdfs:comment "DEAF article /fiel/ subsense no1c /fiel de tor/ , /fiel de torel/" .
 
 :fiel_sense1c_lexConcept a ontolex:LexicalConcept ;
-				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile, du taureau"@fr ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
 				ontolex:lexicalizedSense :fiel_sense1c .
 
 # sense 1d
@@ -236,11 +237,12 @@ deaf:techreg a olia:TechnicalRegister .
 :fiel_sense2a a ontolex:LexicalSense ;
 				dct:subject dbpedia:Anatomy ;
 				olia:hasRegister deaf:techreg ;
+				ontolex:usage "des animaux" ;
 				ontolex:reference :fiel_sense2a_lexConcept ;
 				rdfs:comment "DEAF article /fiel/ subsense no2a" .
 
 :fiel_sense2a_lexConcept a ontolex:LexicalConcept ;
-				ontolex:definition "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire, des animaux"@fr ;
+				ontolex:definition "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr ;
 				ontolex:lexicalizedSense :fiel_sense2a .
 
 # sense 3
