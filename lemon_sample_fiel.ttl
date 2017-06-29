@@ -84,9 +84,7 @@ deaf:techreg a olia:TechnicalRegister .
 
 # sense 1a
 :fiel_sense1a a ontolex:LexicalSense ;
-			  dct:subject dbpedia:Medicine ;
-				olia:hasRegister deaf:techreg ;
-				ontolex:usage "des animaux" ;
+			  ontolex:usage "des animaux" ;
 				ontolex:reference :fiel_sense1a_lexConcept ;
 			  rdfs:comment "DEAF article /fiel/ subsense no1a" .
 
@@ -96,9 +94,7 @@ deaf:techreg a olia:TechnicalRegister .
 
 # sense 1b
 :fiel_sense1b a ontolex:LexicalSense ;
-			  dct:subject dbpedia:Medicine ;
-				olia:hasRegister deaf:techreg ;
-				ontolex:usage "des animaux de boucherie, de la volaille, de la pêche" ;
+			  ontolex:usage "des animaux de boucherie, de la volaille, de la pêche" ;
 				ontolex:reference :fiel_sense1b_lexConcept ;
 			  rdfs:comment "DEAF article /fiel/ subsense no1b" .
 
@@ -108,7 +104,7 @@ deaf:techreg a olia:TechnicalRegister .
 
 # sense 1c fiel de tor
 :lex_fiel_de_tor a ontolex:MultiwordExpression ;
-  	    decomp:subterm :lex_fiel ;
+  	    decomp:subterm :fiel ;
 		    ontolex:canonicalForm :form_fiel_de_tor ;
 		    ontolex:otherForm :form_fiel_de_torel ;
 		    ontolex:sense :fiel_sense1c .
@@ -120,9 +116,7 @@ deaf:techreg a olia:TechnicalRegister .
 				ontolex:writtenRep "fiel de torel"@fro .
 
 :fiel_sense1c a ontolex:LexicalSense ;
-			  dct:subject dbpedia:Medicine ;
-				olia:hasRegister deaf:techreg ;
-				ontolex:reference :fiel_sense1c_lexConcept ;
+			  ontolex:reference :fiel_sense1c_lexConcept ;
 				ontolex:usage "du taureau (dans des recettes médicales)" ;
 			  rdfs:comment "DEAF article /fiel/ subsense no1c /fiel de tor/ , /fiel de torel/" .
 
@@ -144,9 +138,7 @@ deaf:techreg a olia:TechnicalRegister .
 
 # sense 1e
 :fiel_sense1e a ontolex:LexicalSense ;
-			  dct:subject dbpedia:Medicine ;
-				olia:hasRegister deaf:techreg ;
-				ontolex:usage "dans une expression figurée de l’Ancien Testament doner en ma viande fiel / doner a boire aigue de fiel et sim. et dans des expressions analogues du Nouveau Testament de fiel abevrer et sim. qui signifient -infliger une humiliation-" ;
+			 ontolex:usage "dans une expression figurée de l’Ancien Testament doner en ma viande fiel / doner a boire aigue de fiel et sim. et dans des expressions analogues du Nouveau Testament de fiel abevrer et sim. qui signifient -infliger une humiliation-" ;
         ontolex:reference :fiel_sense1e_lexConcept ;
 			  rdfs:comment "DEAF article /fiel/ subsense no1e" .
 
@@ -156,7 +148,7 @@ deaf:techreg a olia:TechnicalRegister .
 
 # sense	⁠1f fiel noir
 :lex_fiel_noir a ontolex:MultiwordExpression ;
-  	    decomp:subterm :lex_fiel ;
+  	    decomp:subterm :fiel ;
 		    ontolex:canonicalForm :form_fiel_noir ;
 		    ontolex:sense :fiel_sense1f .
 
@@ -175,7 +167,7 @@ deaf:techreg a olia:TechnicalRegister .
 
 # sense 1g huche de fiel, bourse de fiel
 :lex_huche_de_fiel a ontolex:MultiwordExpression ;
-  	    decomp:subterm :lex_fiel ;
+  	    decomp:subterm :fiel ;
 		    ontolex:canonicalForm :form_huche_de_fiel ;
 		    ontolex:otherForm :form_bourse_du_fiel ;
 		    ontolex:sense :fiel_sense1c .
@@ -199,7 +191,7 @@ deaf:techreg a olia:TechnicalRegister .
 
 # sense 1h fiel de (la) terre
 :lex_fiel_de_la_terre a ontolex:MultiwordExpression ;
-  	    decomp:subterm :lex_fiel ;
+  	    decomp:subterm :fiel ;
 		    ontolex:canonicalForm :form_fiel_de_la_terre ;
 		    ontolex:otherForm :form_fiel_de_terre ;
 		    ontolex:sense :fiel_sense1h .
@@ -235,8 +227,6 @@ deaf:techreg a olia:TechnicalRegister .
 
 # sense 2a
 :fiel_sense2a a ontolex:LexicalSense ;
-				dct:subject dbpedia:Anatomy ;
-				olia:hasRegister deaf:techreg ;
 				ontolex:usage "des animaux" ;
 				ontolex:reference :fiel_sense2a_lexConcept ;
 				rdfs:comment "DEAF article /fiel/ subsense no2a" .
