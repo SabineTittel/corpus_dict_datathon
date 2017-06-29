@@ -33,9 +33,15 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="seg">
-        <a href="{span[@property]/@resource}" target="_blank" property="rdfs:label"><xsl:value-of select="w"/></a>
+    <xsl:template match="seg[@resource]">
+        <a href="{span[@property]/@resource}" target="_blank" property="rdfs:label"><xsl:value-of select="w"/><span class="gloss"><xsl:value-of select="gloss[node()]"/></span></a>
         <xsl:copy-of select="span[@property]" exclude-result-prefixes="#all"/>
-        <span class="gloss"><xsl:value-of select="gloss"/></span>
     </xsl:template>
+    <xsl:template match="note[parent::seg]"/>
+    <xsl:template match="name[@type eq 'standard']"/>
+    <xsl:template match="app">
+        <xsl:value-of select="lem"/>
+        <span class="apparatus"><xsl:value-of select="note"/></span>
+    </xsl:template>
+    <xsl:template match="pb"/>
 </xsl:stylesheet>

@@ -27,5 +27,25 @@ h2{
 }
 
 div {
-    margin: 1%;
+    margin: 2%;
 }
+
+span.apparatus{
+    display:none
+}
+
+a span{	
+	display:none;
+	color:#fff;
+	background:rgba(51,51,51,0.75);
+	padding:20px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	width:100px;
+	text-align:center;
+	position: absolute;
+	z-index:10;
+}
+a { display: inline-block;}
+a:hover span{ display:block; }
