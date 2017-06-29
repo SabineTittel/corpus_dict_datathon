@@ -48,9 +48,9 @@
     <xsl:template match="name[@type eq 'standard']"/>
     <xsl:template match="app">
         <xsl:value-of select="lem"/>
-        <span class="apparatus">
+        <a class="apparatus"> &#9632; <span class="apparatus">
             <xsl:value-of select="note"/>
-        </span>
+        </span></a>
     </xsl:template>
     <xsl:template match="pb"/>
 </xsl:stylesheet>
