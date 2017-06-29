@@ -1,0 +1,187 @@
+
+@prefix:           <http://deaf-server.adw.uni-heidelberg.de/lemme/>
+@prefix deaf:    <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dbpedia: <http://www.dbpedia.org/resource/> .
+@prefix isocat:  <http://www.isocat.org/datcat/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dct:     <http://purl.org/dc/terms/>.
+@prefix rdfs:    <http://www.w3.org/2001/02/rdf-schema#>.
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>.
+@prefix olia:    <http://purl.org/olia/olia.owl#>.
+
+#annotation
+dc:creator  "Sabine Tittel" ;
+dc:date         "2017-06-28"^^xsd:date .
+
+#name to be defined
+deaf:techreg a olia:TechnicalRegister .
+
+:fiel a ontolex:Word ;
+				ontolex:canonicalForm :fiel_form_fiel ;
+				ontolex:otherForm :fiel_form_fel ;
+				ontolex:otherForm :fiel_form_feel ;
+				ontolex:otherForm :fiel_form_fele ;
+				ontolex:otherForm :fiel_form_feil ;
+				ontolex:otherForm :fiel_form_fieil ;
+				ontolex:otherForm :fiel_form_fius ;
+				rdfs:label "fiel"@fro ;
+
+:fiel_form_fiel a ontolex:Form ;
+					ontolex:writtenRep "fiel"@fro .
+					#isocat:DC-1298 isocat:DC-1387 ]. # number=singular
+:fiel_form_fel a ontolex:Form ;
+					[ ontolex:writtenRep "fel"@fro ;
+					lexinfo:partOfSpeech lexinfo:noun ].
+:fiel_form_feel a ontolex:Form ;
+					[ ontolex:writtenRep "feel"@fro ;
+					lexinfo:partOfSpeech lexinfo:noun ].
+:fiel_form_fele a ontolex:Form ;
+					[ ontolex:writtenRep "fele"@fro ;
+					lexinfo:partOfSpeech lexinfo:noun ].
+:fiel_form_feil a ontolex:Form ;
+					[ ontolex:writtenRep "feil"@fro ;
+					lexinfo:partOfSpeech lexinfo:noun ].
+:fiel_form_fieil a ontolex:Form ;
+					[ ontolex:writtenRep "fieil"@fro ;
+ 					 lexinfo:partOfSpeech lexinfo:noun ].
+:fiel_form_fius a ontolex:Form ;
+					[ ontolex:writtenRep "fius"@fro ;
+ 					 lexinfo:partOfSpeech lexinfo:noun ].
+
+:lex_fiel a ontolex:LexicalEntry ;
+			ontolex:sense :fiel_sense1 ;
+			ontolex:evokes :fiel_sense1_lexConcept ;
+			ontolex:sense :fiel_sense1a ;
+			ontolex:evokes :fiel_sense1a_lexConcept ;
+			ontolex:sense :fiel_sense1b ;
+			ontolex:evokes :fiel_sense1b_lexConcept ;
+			ontolex:sense :fiel_sense1c ;
+			ontolex:evokes :fiel_sense1c_lexConcept ;
+			ontolex:sense :fiel_sense1d ;
+			ontolex:evokes :fiel_sense1d_lexConcept ;
+			ontolex:sense :fiel_sense1e ;
+			ontolex:evokes :fiel_sense1e_lexConcept ;
+			ontolex:sense :fiel_sense1g ;
+			ontolex:evokes :fiel_sense1g_lexConcept ;
+			ontolex:sense :fiel_sense1h ;
+			ontolex:evokes :fiel_sense1h_lexConcept ;
+			ontolex:sense :fiel_sense2 ;
+			ontolex:evokes :fiel_sense2_lexConcept;
+			ontolex:sense :fiel_sense2a ;
+			ontolex:evokes :fiel_sense2a_lexConcept ;
+			ontolex:sense :fiel_sense3 ;
+			ontolex:evokes :fiel_sense3_lexConcept ;
+			ontolex:sense :fiel_sense3a ;
+			ontolex:evokes :fiel_sense3a_lexConcept ;
+			lexinfo:partOfSpeech lexinfo:noun .
+
+# sense 1
+:fiel_sense1 a ontolex:LexicalSense ;
+			  dct:subject dbpedia:Medicine ;
+				olia:hasRegister deaf:techreg ;
+			  ontolex:reference dbpedia:Bile ;
+			  rdfs:comment "DEAF article /fiel/ main sense no1" .
+
+:fiel_sense1_lexConcept a ontolex:LexicalConcept ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
+				ontolex:lexicalizedSense :fiel_sense1 .
+
+# sense 2
+:fiel_sense2 a ontolex:LexicalSense ;
+				dct:subject dbpedia:Anatomy ;
+				olia:hasRegister deaf:techreg ;
+				ontolex:reference dbpedia:Gall_Bladder ;
+				rdfs:comment "DEAF article /fiel/ main sense no2" .
+
+:fiel_sense1_lexConcept a ontolex:LexicalConcept ;
+				ontolex:definition "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr ;
+				ontolex:lexicalizedSense :fiel_sense2 .
+
+# sense 1a
+:fiel_sense1a a ontolex:LexicalSense ;
+			  dct:subject dbpedia:Medicine ;
+				olia:hasRegister deaf:techreg ;
+#			  ontolex:reference dbpedia:Bile ;
+			  rdfs:comment "DEAF article /fiel/ main sense no1a" .
+
+:fiel_sense1a_lexConcept a ontolex:LexicalConcept ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile, des animaux"@fr ;
+				ontolex:lexicalizedSense :fiel_sense1a .
+
+# sense 1b
+:fiel_sense1b a ontolex:LexicalSense ;
+			  dct:subject dbpedia:Medicine ;
+				olia:hasRegister deaf:techreg ;
+#			  ontolex:reference dbpedia:Bile ;
+			  rdfs:comment "DEAF article /fiel/ main sense no1b" .
+
+:fiel_sense1b_lexConcept a ontolex:LexicalConcept ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile, des animaux de boucherie, de la volaille, de la pêche"@fr ;
+				ontolex:lexicalizedSense :fiel_sense1b .
+
+# sense 1c fiel de tor
+
+# sense 1d
+:fiel_sense1d a ontolex:LexicalSense ;
+#			  dct:subject dbpedia:Medicine ;
+#				olia:hasRegister deaf:techreg ;
+				ontolex:usage "comme métaph. pour désigner une substance amère, un venin" ;
+#			  ontolex:reference dbpedia:Bile ;
+			  rdfs:comment "DEAF article /fiel/ main sense no1d" .
+
+:fiel_sense1d_lexConcept a ontolex:LexicalConcept ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile⁠"@fr ;
+				ontolex:lexicalizedSense :fiel_sense1d .
+
+# sense 1e
+:fiel_sense1e a ontolex:LexicalSense ;
+			  dct:subject dbpedia:Medicine ;
+				olia:hasRegister deaf:techreg ;
+				ontolex:usage "dans une expression figurée de l’Ancien Testament doner en ma viande fiel / doner a boire aigue de fiel et sim.
+			et dans des expressions analogues du Nouveau Testament de fiel abevrer et sim. qui signifient -infliger une humiliation-" ;
+#			  ontolex:reference dbpedia:Bile ;
+			  rdfs:comment "DEAF article /fiel/ main sense no1e" .
+
+:fiel_sense1e_lexConcept a ontolex:LexicalConcept ;
+				ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile⁠"@fr ;
+				ontolex:lexicalizedSense :fiel_sense1e .
+
+# sense	⁠1f fiel noir
+
+:lex_fiel_noir a ontolex:MultiwordExpression ;
+  	decomp:subterm :lex_fiel ;
+		ontolex:canonicalForm :form_fiel_noir ;
+		ontolex:sense :fiel_sense1f .
+
+:form_fiel_noir a ontolex:Form ;
+		ontolex:writtenRep "fiel noir"@fro.
+
+:fiel_sense1f a ontolex:LexicalSense ;
+			  dct:subject dbpedia:Medicine ;
+				ontolex:reference :fiel_sense1f_concept ;
+				olia:hasRegister deaf:techreg ;
+			  rdfs:comment "DEAF article /fiel/ sense no1f fiel noir" .
+
+:fiel_sense1f_concept a skos:Concept ;
+skos:definition "dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire"@fr
+
+#:fiel_sense1f_lexConcept a ontolex:LexicalConcept ;
+#				ontolex:definition "dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire"@fr ;
+#				ontolex:lexicalizedSense :fiel_sense1f .
+
+# all senses
+#	1 ⁠t. de méd. “liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile”⁠
+#	1a “id., des animaux”⁠
+#	1b “id., des animaux de boucherie, de la volaille, de la pêche”⁠
+#	1c fiel de tor / fiel de torel “id., du taureau” (dans des recettes médicales)
+#	1d “liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile”, comme métaph. pour désigner une substance amère, un venin⁠
+#	1e “id.”, dans une expression figurée de l’Ancien Testament doner en ma viande fiel / doner a boire aigue de fiel et sim. et dans des expressions analogues du Nouveau Testament de fiel abevrer et sim. qui signifient “infliger une humiliation”⁠
+#	⁠1f fiel noir t. de méd. “dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire”
+#	⁠1g dans des collocations huche de fiel / bourse du fiel et sim. t. d’anat. “réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire”
+#	⁠1h par méton. fiel de (la) terre t. de botan. “plante herbacée annuelle ou bisannuelle de la famille des Gentianacées aux fleurs roses, mesurant jusqu’à 50 cm de grandeur, qui pousse dans les pâturages humides, dont la tige, les fleurs et les feuilles séchées contiennent des substances amères, petite centaurée (Centaurium erythraea)”
+
+#	2 ⁠t. d’anat. “réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire”⁠
+#	2a “id., des animaux”⁠
+#	3 ⁠par métaph. “sentiment de tristesse accompagné de mauvaise humeur et qui est lié à une humiliation, une déception, une injustice ou sim., amertume”⁠
+#	3a ⁠“id.”, avec la colombe comme référence
