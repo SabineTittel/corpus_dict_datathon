@@ -40,7 +40,7 @@
                 <xsl:value-of select="gloss[node()]"/>
             </span>
         </a>
-        <xsl:copy-of select="span[@property]" exclude-result-prefixes="#all"/>
+        <span property="rdfs:seeAlso" resource="{w/@about}"></span>
     </xsl:template>
     <xsl:template match="gloss"/>
     <xsl:template match="interp"/>

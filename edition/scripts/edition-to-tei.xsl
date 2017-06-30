@@ -74,8 +74,8 @@
         <xsl:variable name="lemma" select="functx:substring-after-last(replace(lemma, '\*', ''), '\s')"/>
         <xsl:variable name="lemmaFixed" select="iri-to-uri($lemma)"/>
         <seg  resource="http://deaf-server.adw.uni-heidelberg.de/corpus#{count(preceding::wdx) +1}">
-             <span property="rdfs:seeAlso" resource="{concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemmaFixed)}"/>
             <xsl:element name="w"> 
+                <xsl:attribute name="about"><xsl:value-of select="concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemmaFixed)"/></xsl:attribute>
                 <xsl:attribute name="property">rdfs:label</xsl:attribute>
             <xsl:attribute name="lemma"><xsl:value-of select="lemma"/></xsl:attribute>
                 <xsl:analyze-string select="gloss" regex="^(.*)\s+`">
