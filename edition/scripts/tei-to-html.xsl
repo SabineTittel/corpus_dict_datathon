@@ -34,7 +34,7 @@
         </p>
     </xsl:template>
     <xsl:template match="seg[@resource]">
-        <a href="{span[@property]/@resource}" target="_blank" property="rdfs:label">
+        <a href="{w/@about}" target="_blank" property="rdfs:label">
             <xsl:value-of select="w"/>
             <span class="gloss">
                 <xsl:value-of select="gloss[node()]"/>
