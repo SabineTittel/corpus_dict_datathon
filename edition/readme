@@ -1,0 +1,14 @@
+problems in conversion edition-to-tei.xsl
+
+
+1) conceptual problem: the closing single quotation mark is not erased
+
+nom\wdx{nom}{m. `mot servant à désigner
+les êtres, les choses qui appartiennent à une même catégorie
+logique'}...
+=> XML
+<wdx><orth>nom</orth><lemma>nom</lemma><gloss>m. `mot servant à désigner les êtres, les choses
+qui appartiennent à une même catégorie logique'</gloss>...
+=> XML/TEI
+...<gloss>mot servant à désigner les êtres, les choses
+qui appartiennent à une même catégorie logique'</gloss>...

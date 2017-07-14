@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ns0="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:ns1="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ns2="http://purl.org/olia/olia.owl#"
+         xmlns:ns3="http://www.w3.org/2001/02/rdf-schema#"
+         xmlns:ns4="http://purl.org/kdict/decomp#">
+
+  <rdf:Description rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/corpus">
+    <dc:creator>
+      <rdf:Description>
+        <foaf:familyName>Tittel</foaf:familyName>
+        <foaf:givenName>Sabine</foaf:givenName>
+        <foaf:homepage>http://www.deaf-page.de/</foaf:homepage>
+      </rdf:Description>
+    </dc:creator>
+
+    <dc:license>https://creativecommons.org/licenses/by-nc/4.0/</dc:license>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-06-29</dc:date>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://deaf-server.adw.uni-heidelberg.de#TechReg">
+    <rdf:type rdf:resource="http://purl.org/olia/olia.owl#TechnicalRegister"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Word"/>
+    <ns0:canonicalForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_form_fiel">
+        <ns0:writtenRep xml:lang="fro">fiel</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:canonicalForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_form_fel">
+        <ns0:writtenRep xml:lang="fro">fel</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_form_feel">
+        <ns0:writtenRep xml:lang="fro">feel</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_form_fele">
+        <ns0:writtenRep xml:lang="fro">fele</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_form_feil">
+        <ns0:writtenRep xml:lang="fro">feil</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_form_fieil">
+        <ns0:writtenRep xml:lang="fro">fieil</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_form_fius">
+        <ns0:writtenRep xml:lang="fro">fius</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1"/>
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1a"/>
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1b"/>
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1d"/>
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1e"/>
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2"/>
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2a"/>
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3"/>
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3a"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1_lexConcept"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1a_lexConcept"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1b_lexConcept"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1d_lexConcept"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1e_lexConcept"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2_lexConcept"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2a_lexConcept"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3_lexConcept"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3a_lexConcept"/>
+    <ns1:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+    <ns1:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+  </rdf:Description>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1">
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1_lexConcept"/>
+    <ns0:reference rdf:resource="http://www.dbpedia.org/resource/Bile"/>
+    <dc:subject rdf:resource="http://www.dbpedia.org/resource/Medicine"/>
+    <ns2:hasRegister rdf:resource="http://deaf-server.adw.uni-heidelberg.de#TechReg"/>
+    <ns3:comment>DEAF article /fiel/ main sense no1</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1_lexConcept">
+    <ns0:isConceptOf rdf:resource="http://www.dbpedia.org/resource/Bile"/>
+    <ns0:definition xml:lang="fr">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1a">
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1a_lexConcept"/>
+    <ns0:usage>des animaux</ns0:usage>
+    <ns3:comment>DEAF article /fiel/ subsense no1a</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1a_lexConcept">
+    <ns0:definition xml:lang="fr">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1a"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1b">
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1b_lexConcept"/>
+    <ns0:usage>des animaux de boucherie, de la volaille, de la pêche</ns0:usage>
+    <ns3:comment>DEAF article /fiel/ subsense no1b</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1b_lexConcept">
+    <ns0:definition xml:lang="fr">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1b"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1d">
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1d_lexConcept"/>
+    <ns0:usage rdf:resource="http://www.dbpedia.org/resource/Metaphor"/>
+    <ns0:usage>comme métaph. pour désigner une substance amère, un venin</ns0:usage>
+    <ns0:reference rdf:resource="http://www.dbpedia.org/resource/Toxin"/>
+    <ns3:comment>DEAF article /fiel/ subsense no1d</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1d_lexConcept">
+    <ns0:isConceptOf rdf:resource="http://www.dbpedia.org/resource/Toxin"/>
+    <ns0:definition xml:lang="fr">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile⁠</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1d"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1e">
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1e_lexConcept"/>
+    <ns0:usage>dans une expression figurée de l’Ancien Testament doner en ma viande fiel / doner a boire aigue de fiel et sim. et dans des expressions analogues du Nouveau Testament de fiel abevrer et sim. qui signifient -infliger une humiliation-</ns0:usage>
+    <ns3:comment>DEAF article /fiel/ subsense no1e</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1e_lexConcept">
+    <ns0:definition xml:lang="fr">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile⁠</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1e"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2">
+    <dc:subject rdf:resource="http://www.dbpedia.org/resource/Anatomy"/>
+    <ns2:hasRegister rdf:resource="http://deaf-server.adw.uni-heidelberg.de#TechReg"/>
+    <ns0:reference rdf:resource="http://www.dbpedia.org/resource/Gall_Bladder"/>
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2_lexConcept"/>
+    <ns3:comment>DEAF article /fiel/ main sense no2</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2_lexConcept">
+    <ns0:isConceptOf rdf:resource="http://www.dbpedia.org/resource/Gall_Bladder"/>
+    <ns0:definition xml:lang="fr">réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2a">
+    <ns0:usage>des animaux</ns0:usage>
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2a_lexConcept"/>
+    <ns3:comment>DEAF article /fiel/ subsense no2a</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2a_lexConcept">
+    <ns0:definition xml:lang="fr">réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense2a"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3">
+    <ns0:usage rdf:resource="http://www.dbpedia.org/resource/Metaphor"/>
+    <ns0:usage>par métaph.</ns0:usage>
+    <ns0:reference rdf:resource="http://www.dbpedia.org/resource/Resentment"/>
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3_lexConcept"/>
+    <ns3:comment>DEAF article /fiel/ main sense no3</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3_lexConcept">
+    <ns0:isConceptOf rdf:resource="http://www.dbpedia.org/resource/Resentment"/>
+    <ns0:definition xml:lang="fr">sentiment de tristesse accompagné de mauvaise humeur et qui est lié à une humiliation, une déception, une injustice ou sim., amertumes</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3a">
+    <ns0:usage rdf:resource="http://www.dbpedia.org/resource/Metaphor"/>
+    <ns0:usage>avec la colombe comme référence</ns0:usage>
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3a_lexConcept"/>
+    <ns3:comment>DEAF article /fiel/ subsense no3a</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3a_lexConcept">
+    <ns0:definition xml:lang="fr">sentiment de tristesse accompagné de mauvaise humeur et qui est lié à une humiliation, une déception, une injustice ou sim., amertumes</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense3a"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalEntry rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_de_tor">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiwordExpression"/>
+    <ns4:subterm rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel"/>
+    <ns0:canonicalForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/form_fiel_de_tor">
+        <ns0:writtenRep xml:lang="fro">fiel de tor</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:canonicalForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/form_fiel_de_torel">
+        <ns0:writtenRep xml:lang="fro">fiel de torel</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1c"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1c_lexConcept"/>
+  </ns0:LexicalEntry>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1c">
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1c_lexConcept"/>
+    <ns0:usage>du taureau (dans des recettes médicales)</ns0:usage>
+    <ns3:comment>DEAF article /fiel/ subsense no1c /fiel de tor/ , /fiel de torel/</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1c_lexConcept">
+    <ns0:definition xml:lang="fr">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1c"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalEntry rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_noir">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiwordExpression"/>
+    <ns4:subterm rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel"/>
+    <ns0:canonicalForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/form_fiel_noir">
+        <ns0:writtenRep xml:lang="fro">fiel noir</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:canonicalForm>
+
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1f"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1f_lexConcept"/>
+  </ns0:LexicalEntry>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1f">
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1f_lexConcept"/>
+    <dc:subject rdf:resource="http://www.dbpedia.org/resource/Medicine"/>
+    <ns2:hasRegister rdf:resource="http://deaf-server.adw.uni-heidelberg.de#TechReg"/>
+    <ns3:comment>DEAF article /fiel/ subsense no1f /fiel noir/</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1f_lexConcept">
+    <ns0:definition xml:lang="fr">dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1f"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalEntry rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/huche_de_fiel">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiwordExpression"/>
+    <ns4:subterm rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel"/>
+    <ns0:canonicalForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/form_huche_de_fiel">
+        <ns0:writtenRep xml:lang="fro">huche de fiel</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:canonicalForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/form_bourse_du_fiel">
+        <ns0:writtenRep xml:lang="fro">bourse du fiel</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1g"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1g_lexConcept"/>
+  </ns0:LexicalEntry>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1g">
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1g_lexConcept"/>
+    <dc:subject rdf:resource="http://www.dbpedia.org/resource/Anatomy"/>
+    <ns2:hasRegister rdf:resource="http://deaf-server.adw.uni-heidelberg.de#TechReg"/>
+    <ns0:reference rdf:resource="http://www.dbpedia.org/resource/Gall_Bladder"/>
+    <ns3:comment>DEAF article /fiel/ subsense no1g /huche de fiel/ /bourse du fiel/</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1g_lexConcept">
+    <ns0:isConceptOf rdf:resource="http://www.dbpedia.org/resource/Gall_Bladder"/>
+    <ns0:definition xml:lang="fr">réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1g"/>
+  </ns0:LexicalConcept>
+
+  <ns0:LexicalEntry rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_de_la_terre">
+    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiwordExpression"/>
+    <ns4:subterm rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel"/>
+    <ns0:canonicalForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/form_fiel_de_la_terre">
+        <ns0:writtenRep xml:lang="fro">fiel de la terre</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:canonicalForm>
+
+    <ns0:otherForm>
+      <ns0:Form rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/form_fiel_de_terre">
+        <ns0:writtenRep xml:lang="fro">fiel de terre</ns0:writtenRep>
+      </ns0:Form>
+    </ns0:otherForm>
+
+    <ns0:sense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1h"/>
+    <ns0:evokes rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1h_lexConcept"/>
+  </ns0:LexicalEntry>
+
+  <ns0:LexicalSense rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1h">
+    <ns0:usage rdf:resource="http://www.dbpedia.org/resource/Metonymy"/>
+    <ns0:usage>par méton.</ns0:usage>
+    <ns0:isLexicalizedSenseOf rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1h_lexConcept"/>
+    <dc:subject rdf:resource="http://www.dbpedia.org/resource/Botany"/>
+    <ns2:hasRegister rdf:resource="http://deaf-server.adw.uni-heidelberg.de#TechReg"/>
+    <ns0:reference rdf:resource="http://www.dbpedia.org/resource/Centaurium_erythraea"/>
+    <ns3:comment>DEAF article /fiel/ subsense no1h /fiel de la terre/, /fiel de terre/</ns3:comment>
+  </ns0:LexicalSense>
+
+  <ns0:LexicalConcept rdf:about="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1h_lexConcept">
+    <ns0:isConceptOf rdf:resource="http://www.dbpedia.org/resource/Centaurium_erythraea"/>
+    <ns0:definition xml:lang="fr">plante herbacée annuelle ou bisannuelle de la famille des Gentianacées aux fleurs roses, mesurant jusqu’à 50 cm de grandeur, qui pousse dans les pâturages humides, dont la tige, les fleurs et les feuilles séchées contiennent des substances amères, petite centaurée (Centaurium erythraea)</ns0:definition>
+    <ns0:lexicalizedSense rdf:resource="http://deaf-server.adw.uni-heidelberg.de/lemme/fiel_sense1h"/>
+  </ns0:LexicalConcept>
+
+</rdf:RDF>
