@@ -1,7 +1,7 @@
-problems in conversion edition-to-tei.xsl
+Todos in conversion edition-to-tei.xsl
 
 
-1) conceptual problem: the closing single quotation mark is not erased
+1) erase closing single quotation mark from tex-file
 
 nom\wdx{nom}{m. `mot servant à désigner
 les êtres, les choses qui appartiennent à une même catégorie
@@ -12,3 +12,11 @@ qui appartiennent à une même catégorie logique'</gloss>...
 => XML/TEI
 ...<gloss>mot servant à désigner les êtres, les choses
 qui appartiennent à une même catégorie logique'</gloss>...
+
+2) add folio information from tex-file
+
+3) fix blancs in front of comma (ex: "le premier ,") and point (ex: "compost .")
+
+4) fix blancs in words (ex.: "les mem bres du corps")
+
+5) change -- in tex-file to - in HTML
