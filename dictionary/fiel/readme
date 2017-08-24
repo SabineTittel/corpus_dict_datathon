@@ -1,0 +1,104 @@
+TODOs in article conversion to lemon_article.tll
+
+- consider scriptae of graphical variant. In fiel there is no example,
+but in its sublemma enfieler: pic. hain. enfieler ca. 1224⁠, ⁠hain. enfieller⁠, ⁠pic. enfilier⁠⁠
+=> @fro for "old french" is not precise enough; need to recommend designations/abbreviations for
+old french scriptae (based on the DEAF list)
+=> <m:cited-word index="f" language="hain.">enfieller</m:cited-word>
+or
+<m:cited-word index="f" language="pic.">enfieler</m:cited-word>
+<m:cited-word index="f" language="hain." visible="false">enfieler</m:cited-word>
+
+- designation parallel to definition
+
+- include in sense: collocation, compound, locution, proverb
+
+- dct:subject "medecine", dbpedia: -?-
+=> automatic filling in of with <m:terminology type="medecine"> possible?
+=> list of dbpedia classes for list of DEAF terminology types?
+medecine	dbpedia:Medicine
+astronomy
+grammar
+histliterature
+geography
+music
+architecture
+heraldry
+marine
+botany
+pharmacy
+theology
+falconry
+equitation
+agriculture
+law
+mathematics
+cooking
+liturgy
+philosophy
+onomastics
+veterinary
+war
+feudalism
+venery
+game
+craft
+history
+alchemy
+rhetoric
+logic
+
+- ontolex:usage dbpedia: -?-
+=> automatic filling in of with <m:usage type="metaphore"> possible?
+=> list of dbpedia classes for list of DEAF usage types?
+(@prefix gold: <http://linguistics-ontology.org/gold/2010>, da z.B. PejorativeEvaluative)
+image
+metaphor	 dbpedia:Metaphor
+metonymy
+allegory
+comparison
+irony
+euphemism
+extension
+malediction
+salutation
+toponym
+antroponym
+minimal-value
+collective
+insult
+pejorative gold:PejorativeEvaluative
+analogy
+personification
+
+- concerns metadata annotation:
+so sollte es mal sein: mit gesplitteten Vor- und Nachnamen
+# metadata annotation
+:corpus dct:creator _:sabine_tittel ;
+	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+    dct:date "<xsl:value-of  select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>"^^xsd:date .
+
+_:sabine_tittel foaf:familyName "Tittel" ;
+				foaf:givenName "Sabine" ;
+				foaf:homepage "http://www.deaf-page.de/" .
+
+    <xsl:apply-templates select="part"/>
+</xsl:template>
+
+für Elementinhalte geht das irgendwie mit
+<xsl:template match="test">
+<xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+</xsl:template>
+    <xsl:template match="test" name="tokenize">
+        <xsl:param name="separator" select="' '"/>
+        <xsl:for-each select="tokenize(.,$separator)">
+                <item> blöd
+                    <xsl:value-of select="normalize-space(.)"/>
+                </item>
+        </xsl:for-each>
+    </xsl:template>
+
+, s. https://stackoverflow.com/questions/3336424/does-xslt-have-split-function
+aber mit Attributinhalten???
