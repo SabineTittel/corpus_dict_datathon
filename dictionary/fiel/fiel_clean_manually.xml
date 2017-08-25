@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
+<xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:m="http://www.deaf-page.de/ns/markup"
+    targetNamespace="http://www.deaf-page.de/ns/markup">
+    
 <article author="Sabine Tittel">
 <title><lemma developed="false" language="afr.">fiel</lemma><pos>m.</pos></title>
 
