@@ -1,178 +1,578 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
-    version="2.0"
+    version="3.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:m="http://www.deaf-page.de/ns/markup"
 >
 
-<!-- last change ST 2017-08-22 -->
+<!-- last change: ST 2017-08-31 -->
 
-<xsl:output method="rdf"/>
+<xsl:output method="text"/>
 <xsl:preserve-space elements="*"/>
+<xsl:import href="pos.xsl"/>
+<xsl:import href="terminology.xsl"/>
+<xsl:import href="usage.xsl"/>
+<xsl:import href="locution.xsl"/>
+<xsl:import href="idem.xsl"/>
+<!-- set /old french words/ (<m:cited-word>) as part of definitions in /.../ -->
+<xsl:template match="/m:definition">
+  <xsl:apply-templates select="m:cited-word"/>
+</xsl:template>
+<xsl:template match="m:cited-word" mode="italics">/<xsl:value-of select="."/>/</xsl:template>
+<xsl:template match="m:collocation" mode="italics">/<xsl:value-of select="."/>/</xsl:template>
+<xsl:template match="m:locution" mode="italics">/<xsl:value-of select="."/>/</xsl:template>
+<xsl:template match="m:compound" mode="italics">/<xsl:value-of select="."/>/</xsl:template>
+<!--<xsl:template match="m:definition" mode="italics">“<xsl:value-of select="."/>”</xsl:template>-->
+<xsl:template match="m:footnote"/>
+<!-- delete all sublemmata... for the moment -->
+<xsl:template match="part[@type='subpart']"/>
 
 
-<title>
-<lemma developed="false" language="afr.">fiel</lemma>
-<pos>m.</pos>
-</title>
+<xsl:template match="article">
+<xsl:text disable-output-escaping="yes"><![CDATA[@prefix :        <http://deaf-server.adw.uni-heidelberg.de/lemme/> .
+@prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix dbpedia:  <http://www.dbpedia.org/resource/> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix olia:     <http://purl.org/olia/olia.owl#> .
+@prefix decomp:   <http://purl.org/kdict/decomp#> .]]>
+</xsl:text>
 
+# language register
+deaf:TechReg a olia:TechnicalRegister .
+
+# semantic specification property
+deaf:idem rdf:type rdf:Property .
 
 # metadata annotation
-:corpus dct:creator _:sabine_tittel ;
-        dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
-        dct:date "2017-06-29"^^xsd:date .
+:corpus dct:creator
+  [
+	foaf:name "<xsl:value-of select="@author"/>" ;
+	foaf:homepage "http://www.deaf-page.de/"
+	] ;
+	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+  dct:date "<xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>"^^xsd:date .
 
-_:sabine_tittel foaf:familyName "Tittel" ;
-				foaf:givenName "Sabine" ;
-				foaf:homepage "http://www.deaf-page.de/".
-<article articleType="normal" author="Sabine Tittel" type="longarticle">
-...
-</article>
-<xsl:template match="article">
-  # metadata annotation
-
+<xsl:apply-templates select="part"/>
 </xsl:template>
 
-<xsl:template match="etymologie" />
 
-<variant>
-<description>
-<m:cited-word index="f" language="afr.">fiel</m:cited-word>
-...
-</description>
-...
-</variant>
-
-<xsl:template match="variant">
-	<xsl:apply-templates select="description"/>
-  <xsl:apply-templates select="m:cited-word">
-    mach hier was
-  </xsl:apply-templates>
+<xsl:template match="part[@type='mainpart']">
+	<xsl:apply-templates select="title"/>
+     <xsl:apply-templates select="etymology"/>
+     <xsl:apply-templates select="variants"/>
+     <xsl:apply-templates select="senses"/>
 </xsl:template>
 
-<xsl:template match="description">
-  <xsl:apply-templates/>
-</xsl:template>
+<!-- ..............................................................
+      lexical entry
+................................................................... -->
 
-<!-- sollte alle variant als solche erhalten; die erste Variante braucht noch type="standard"
-hm, geht nicht. Vielleicht so: wenn in title lemma developed="false" dann die Form = Standard, wenn developed="true", dann kein Standard
--->
-<xsl:choose>
-  <xsl:when test="lemma/@developed='false'">mach erste Variante zu canonicalForm
+<xsl:template match="part/title">
+# lexical entry
+:<xsl:value-of select="lemma"/> a ontolex:LexicalEntry ,
+	ontolex:Word ;
+  <xsl:if test="pos">
+  <xsl:call-template name="pos_extern"/>
+  </xsl:if>
+  <xsl:choose><xsl:when test="lemma/@developed='false'"> ;
+  ontolex:canonicalForm :<xsl:value-of select="lemma"/>_form_<xsl:value-of select="lemma"/> .
+:<xsl:value-of select="lemma"/>_form_<xsl:value-of select="lemma"/>	a ontolex:Form ;
+	ontolex:writtenRep "<xsl:value-of select="lemma"/>"@fro .
   </xsl:when>
-  <xsl:otherwise>mach erste Variante nicht zu canonicalForm</xsl:otherwise>
-</xsl:choose>
-<!-- aus language="" noch was machen -->
+  <xsl:otherwise> .</xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
 
 
-<sense>
-<description>
-<m:terminology type="medecine">t. de méd.</m:terminology>
-<m:definition>liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</m:definition>
-</description>
-...
-</sense>
+<xsl:variable name="lemma_name" select="//part[@type='mainpart']/title/lemma" />
 
-<sense>
-<description>
-<m:idem>
-<m:definition visible="false">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</m:definition>
-“id., des animaux”
-</m:idem>
-</description>
-...
-</sense>
+<xsl:template match="part/etymology"/>
 
-<sense>
-<description>
-<m:idem>
-<m:definition visible="false">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</m:definition>
-“id., des animaux de boucherie, de la volaille, de la pêche”
-</m:idem>
-</description>
-...
-</sense>
+<!-- ..............................................................
+      graphical variants
+................................................................... -->
 
-<sense>
-<description>
-<m:definition>liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</m:definition>
-, comme
-<m:usage type="metaphor">métaph.</m:usage>
-pour désigner une substance amère, un venin⁠
-</description>
-...
-</sense>
+<xsl:template match="part/variants">
+# --- graphical variants ----------------
+	<xsl:apply-templates select="variant"/>
+</xsl:template>
 
-<sense>
-<description>
-<m:idem>
-<m:definition visible="false">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</m:definition>
-“id.”, dans une expression figurée de l’Ancien Testament
-<m:collocation>doner en ma viande fiel</m:collocation>
-++/++
-<m:collocation>doner a boire aigue de fiel</m:collocation>
-et sim. et dans des expressions analogues du Nouveau Testament
-<m:collocation>de fiel abevrer</m:collocation>
-et sim. qui signifient
-<m:definition>infliger une humiliation</m:definition>
-</m:idem>
-<m:footnote>
-Cp.
-<m:siglum>Trénel</m:siglum>
-393.
-</m:footnote>
-</description>
-...
-</sense>
+<xsl:template match="part/variants/variant">
+	<xsl:apply-templates select="description"/>
+</xsl:template>
 
+<xsl:template match="part/variants/variant/description">
+<xsl:for-each select="m:cited-word[not(. = $lemma_name)]">
+# graphical variant
+:<xsl:value-of select="$lemma_name"/> ontolex:otherForm :<xsl:value-of select="$lemma_name"/>_form_<xsl:value-of select="."/> .
+:<xsl:value-of select="$lemma_name"/>_form_<xsl:value-of select="."/> a ontolex:Form ;
+	ontolex:writtenRep "<xsl:value-of select="."/>"@fro .
+</xsl:for-each>
+</xsl:template>
+
+<!-- ..............................................................
+      main senses
+................................................................... -->
+
+<xsl:template match="part/senses">
+# --- senses ----------------
+<xsl:apply-templates select="sense"/>
+</xsl:template>
+
+
+<xsl:template match="part/senses/sense">
+# main sense number <xsl:number format="1"/>
+<xsl:choose>
 <!-- collocation -->
-<sense>
-<description>
-<m:collocation>fiel de tor</m:collocation>
-++/++
-<m:collocation>fiel de torel</m:collocation>
-<m:idem>
-<m:definition visible="false">liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile</m:definition>
-“id., du taureau”
-</m:idem>
-(dans des recettes médicales) [v. la
-<m:remark-reference n="1">rem. no1</m:remark-reference>
-ci-dessus]⁠
-</description>
-...
-</sense>
+<xsl:when test="./description/m:collocation">
+# collocation "<xsl:value-of select="./description/m:collocation[1]"/>"
+:<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+ </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:collocation[1]"/>"@fro .
 
-<sense>
-<description>
-<m:collocation>fiel noir</m:collocation>
-<m:terminology type="medecine">t. de méd.</m:terminology>
-<m:definition>dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire</m:definition>
-<m:footnote>
-V. →
-<m:link>
-<m:cited-word>
-froit
-<m:sup>1</m:sup>
-</m:cited-word>
-</m:link>
-et
-<m:link>
-<m:cited-word>sec</m:cited-word>
-</m:link>
-DEAFpré.
-</m:footnote>
-</description>
-...
-</sense>
+:<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ main sense number <xsl:number count="part/senses/sense" format="1"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="m:designation"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> .
+</xsl:when>
+
+<!-- locution -->
+<xsl:when test="./description/m:locution">
+# locution "<xsl:value-of select="./description/m:locution[1]"/>"
+:<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  <xsl:call-template name="locution_extern"/> ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:locution[1]"/>"@fro .
+
+:<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ main sense number <xsl:number count="part/senses/sense" format="1"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="m:designation"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> .
+</xsl:when>
+
+<!-- compound -->
+<xsl:when test="./description/m:compound">
+# compound "<xsl:value-of select="./description/m:compound[1]"/>"
+:<xsl:for-each select="tokenize(./description/m:compound[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  lexinfo:TermType lexinfo:compound ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:compound[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:compound[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:compound[1]"/>"@fro .
+
+:<xsl:for-each select="tokenize(./description/m:compound[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ main sense number <xsl:number count="part/senses/sense" format="1"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="m:designation"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> .
+</xsl:when>
+
+<!-- default: non of the above -->
+<xsl:otherwise>
+:<xsl:value-of select="$lemma_name"/> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept .
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ main sense number <xsl:number count="part/senses/sense" format="1"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:designation"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number count="part/senses/sense" format="1"/> .
+</xsl:otherwise>
+</xsl:choose>
+<xsl:apply-templates select="sense"/>
+</xsl:template>
 
 
 
 
-<!-- löschen -->
+<!-- ..............................................................
+      sub senses
+................................................................... -->
 
-<xsl:template match="m:footnote" />
-<xsl:template match="etymology" />
+<xsl:template match="part/senses/sense/sense">
+# sub sense number <xsl:number level="multiple" format="1.a"/>
+<xsl:choose>
+<!-- collocation -->
+<xsl:when test="./description/m:collocation">
+# collocation "<xsl:value-of select="./description/m:collocation[1]"/>"
+:<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:collocation[1]"/>"@fro .
+
+:<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ sub sense number <xsl:number level="multiple" format="1.a"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:idem/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:designation"/><xsl:apply-templates select="./description/m:idem/m:designation" mode="italics"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> .
+</xsl:when>
+
+<!-- inside idem -->
+<xsl:when test="./description/m:idem/m:collocation">
+# collocation inside idem "<xsl:value-of select="./description/m:idem/m:collocation[1]"/>"
+<!-- alle pfade anpassen -->
+:<xsl:for-each select="tokenize(./description/m:idem/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:collocation[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:idem/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:idem/m:collocation[1]"/>"@fro .
+
+:<xsl:for-each select="tokenize(./description/m:idem/m:collocation[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
+  deaf:idem <xsl:call-template name="idem_extern"/>  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage or ./description/m:idem/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ sub sense number <xsl:number level="multiple" format="1.a"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:idem/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:designation"/><xsl:apply-templates select="./description/m:idem/m:designation" mode="italics"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> .
+</xsl:when>
+<!-- end collocation -->
+
+<!-- locution -->
+<xsl:when test="./description/m:locution">
+# locution "<xsl:value-of select="./description/m:locution[1]"/>"
+:<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  <xsl:call-template name="locution_extern"/> ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:locution[1]"/>"@fro .
+
+:<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ sub sense number <xsl:number level="multiple" format="1.a"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:idem/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:designation"/><xsl:apply-templates select="./description/m:idem/m:designation" mode="italics"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> .
+</xsl:when>
+
+<!-- inside idem -->
+<xsl:when test="./description/m:idem/m:locution">
+# collocation "<xsl:value-of select="./description/m:idem/m:locution[1]"/>"
+:<xsl:for-each select="tokenize(./description/m:idem/m:locution[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:locution[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:idem/m:locution[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:idem/m:locution[1]"/>"@fro .
+
+:<xsl:for-each select="tokenize(./description/m:idem/m:locution[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
+  deaf:idem <xsl:call-template name="idem_extern"/>  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage or ./description/m:idem/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ sub sense number <xsl:number level="multiple" format="1.a"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:idem/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:designation"/><xsl:apply-templates select="./description/m:idem/m:designation" mode="italics"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> .
+</xsl:when>
+<!-- end locution -->
+
+<!-- compound -->
+<xsl:when test="./description/m:compound">
+# compound "<xsl:value-of select="./description/m:compound[1]"/>"
+:<xsl:for-each select="tokenize(./description/m:compound[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  lexinfo:TermType lexinfo:compound ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:compound[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:compound[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:compound[1]"/>"@fro .
+
+:<xsl:for-each select="tokenize(./description/m:compound[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ sub sense number <xsl:number level="multiple" format="1.a"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:idem/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:designation"/><xsl:apply-templates select="./description/m:idem/m:designation" mode="italics"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> .
+</xsl:when>
+
+<!-- inside idem -->
+<xsl:when test="./description/m:idem/m:compound">
+# collocation "<xsl:value-of select="./description/m:idem/m:compound[1]"/>"
+:<xsl:for-each select="tokenize(./description/m:idem/m:compound[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:compound[1],' ')">
+    <xsl:sequence select="."/>
+    <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> .
+:form_<xsl:for-each select="tokenize(./description/m:idem/m:compound[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> a ontolex:Form ;
+  ontolex:writtenRep "<xsl:value-of select="./description/m:idem/m:compound[1]"/>"@fro .
+
+:<xsl:for-each select="tokenize(./description/m:idem/m:compound[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
+  deaf:idem <xsl:call-template name="idem_extern"/>  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage or ./description/m:idem/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ sub sense number <xsl:number level="multiple" format="1.a"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:idem/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:designation"/><xsl:apply-templates select="./description/m:idem/m:designation" mode="italics"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> .
+</xsl:when>
+<!-- end compound -->
+
+<!-- default: non of the above -->
+<xsl:otherwise>
+:<xsl:value-of select="$lemma_name"/> ontolex:sense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> ;
+  ontolex:evokes :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept .
+
+<!-- this part defines m:terminology and m:usage -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
+  <xsl:if test="./description/m:idem">deaf:idem <xsl:call-template name="idem_extern"/></xsl:if>  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
+  <xsl:call-template name="terminology_extern"/></xsl:if>
+  <xsl:if test="./description/m:usage or ./description/m:idem/m:usage">
+  <xsl:call-template name="usage_extern"/></xsl:if>
+  rdfs:comment "DEAF article /<xsl:value-of select="$lemma_name"/>/ sub sense number <xsl:number level="multiple" format="1.a"/>"@eng .
+
+<!-- m:definition -->
+:<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "<xsl:apply-templates select="./description/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:idem/m:definition" mode="italics"/><xsl:apply-templates select="./description/m:designation"/><xsl:apply-templates select="./description/m:idem/m:designation" mode="italics"/>"@fr ;
+  ontolex:lexicalizedSense :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> .
+</xsl:otherwise>
+
+</xsl:choose>
+ <xsl:apply-templates select="part/senses/sense/sense/description"/>
+</xsl:template>
+
+<xsl:template match="part/senses/sense/sense/description">
+ <xsl:apply-templates select="part/senses/sense/sense/description/m:idem"/>
+</xsl:template>
 
 
 </xsl:stylesheet>
