@@ -20,10 +20,6 @@
   <xsl:apply-templates select="m:cited-word"/>
 </xsl:template>
 <xsl:template match="m:cited-word" mode="italics">/<xsl:value-of select="."/>/</xsl:template>
-<xsl:template match="m:collocation" mode="italics">/<xsl:value-of select="."/>/</xsl:template>
-<xsl:template match="m:locution" mode="italics">/<xsl:value-of select="."/>/</xsl:template>
-<xsl:template match="m:compound" mode="italics">/<xsl:value-of select="."/>/</xsl:template>
-<!--<xsl:template match="m:definition" mode="italics">“<xsl:value-of select="."/>”</xsl:template>-->
 <xsl:template match="m:footnote"/>
 <!-- delete all sublemmata... for the moment -->
 <xsl:template match="part[@type='subpart']"/>
@@ -361,7 +357,8 @@ deaf:idem rdf:type rdf:Property .
 <!-- this part defines m:terminology and m:usage -->
 :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
   ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
-  deaf:idem <xsl:call-template name="idem_extern"/>  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
+  deaf:idem "<xsl:call-template name="idem_extern"/>"@fr ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
   <xsl:call-template name="terminology_extern"/></xsl:if>
   <xsl:if test="./description/m:usage or ./description/m:idem/m:usage">
   <xsl:call-template name="usage_extern"/></xsl:if>
@@ -446,7 +443,8 @@ deaf:idem rdf:type rdf:Property .
 <!-- this part defines m:terminology and m:usage -->
 :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
   ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
-  deaf:idem <xsl:call-template name="idem_extern"/>  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
+  deaf:idem "<xsl:call-template name="idem_extern"/>"@fr ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
   <xsl:call-template name="terminology_extern"/></xsl:if>
   <xsl:if test="./description/m:usage or ./description/m:idem/m:usage">
   <xsl:call-template name="usage_extern"/></xsl:if>
@@ -531,7 +529,8 @@ deaf:idem rdf:type rdf:Property .
 <!-- this part defines m:terminology and m:usage -->
 :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
   ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
-  deaf:idem <xsl:call-template name="idem_extern"/>  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
+  deaf:idem "<xsl:call-template name="idem_extern"/>"@fr ;
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
   <xsl:call-template name="terminology_extern"/></xsl:if>
   <xsl:if test="./description/m:usage or ./description/m:idem/m:usage">
   <xsl:call-template name="usage_extern"/></xsl:if>
@@ -553,7 +552,8 @@ deaf:idem rdf:type rdf:Property .
 <!-- this part defines m:terminology and m:usage -->
 :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/> a ontolex:LexicalSense ;
   ontolex:isLexicalizedSenseOf :<xsl:value-of select="$lemma_name"/>_sense<xsl:number level="multiple" format="1.a"/>_lexConcept ;
-  <xsl:if test="./description/m:idem">deaf:idem <xsl:call-template name="idem_extern"/></xsl:if>  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
+  <xsl:if test="./description/m:idem">deaf:idem "<xsl:call-template name="idem_extern"/>"@fr ;</xsl:if>
+  ontolex:reference dbpedia:XXX ;<xsl:if test="./description/m:terminology or ./description/m:idem/m:terminology">
   <xsl:call-template name="terminology_extern"/></xsl:if>
   <xsl:if test="./description/m:usage or ./description/m:idem/m:usage">
   <xsl:call-template name="usage_extern"/></xsl:if>
