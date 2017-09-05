@@ -8,20 +8,5 @@
 
 <!-- last change: ST 2017-08-28 -->
 
-<xsl:template name="idem_extern">
-<xsl:for-each select="./description/m:idem">
-<xsl:choose>
-<xsl:when test="contains(current(), 'id., ')">"<xsl:apply-templates select="substring-after(current(),'id., ')" mode="italics"/>"@fr ;
-</xsl:when>
-<xsl:when test="contains(current(), 'id.”, ')">"<xsl:apply-templates select="substring-after(current(),'id.”, ')" mode="italics"/>"@fr ;
-</xsl:when>
-<xsl:when test="contains(current(), 'id.” ')">"<xsl:apply-templates select="substring-after(current(),'id.” ')" mode="italics"/>"@fr ;
-</xsl:when>
-<xsl:when test="contains(current(), 'id. ')">"<xsl:apply-templates select="substring-after(current(),'id. ')" mode="italics"/>"@fr ;
-</xsl:when>
-<xsl:otherwise>"<xsl:apply-templates select="substring-after(current(),'&lt;/m:definition&gt;')" mode="italics"/>"@fr ;
-</xsl:otherwise>
-</xsl:choose>
-</xsl:for-each>
-</xsl:template>
+<xsl:template name="idem_extern"><xsl:value-of select="./description/m:idem/m:definition/following-sibling::node()" /></xsl:template>
 </xsl:stylesheet>
