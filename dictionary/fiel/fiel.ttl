@@ -127,7 +127,8 @@ deaf:idem rdf:type rdf:Property .
   ontolex:lexicalizedSense :fiel_sense1.b .
 
 # sub sense number 1.c
-# collocation "fiel de tor"
+# collocation inside idem "fiel de tor"
+
 :fiel_de_tor a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :fiel ;
@@ -142,6 +143,7 @@ deaf:idem rdf:type rdf:Property .
 
 :fiel_sense1.c a ontolex:LexicalSense ;
   ontolex:isLexicalizedSenseOf :fiel_sense1.c_lexConcept ;
+  deaf:idem "“id., du taureau”"@fr ;
   ontolex:reference dbpedia:XXX ;
   rdfs:comment "DEAF article /fiel/ sub sense number 1.c"@eng .
 
