@@ -26,12 +26,13 @@
 
 
 <xsl:template match="article">
-<xsl:text disable-output-escaping="yes"><![CDATA[@prefix :        <http://deaf-server.adw.uni-heidelberg.de/lemme/> .
+<xsl:text disable-output-escaping="yes"><![CDATA[@prefix :          <http://deaf-server.adw.uni-heidelberg.de/lemme/> .
 @prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
 @prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
 @prefix dbpedia:  <http://www.dbpedia.org/resource/> .
 @prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
 @prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
