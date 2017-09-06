@@ -1,0 +1,137 @@
+@prefix :         <http://dag.adw.uni-heidelberg.de/lemme/> .
+@prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix hw:       <http://deaf-server.adw.uni-heidelberg.de/hw#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix dbpedia:  <http://www.dbpedia.org/resource/> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix olia:     <http://purl.org/olia/olia.owl#> .
+@prefix decomp:   <http://purl.org/kdict/decomp#> .
+
+
+# language register
+deaf:TechReg a olia:TechnicalRegister .
+
+# semantic and onomasiologic specification properties
+deaf:idem rdf:type rdf:Property .
+deaf:onomCat rdf:type rdf:Property .
+hw:onomCat rdf:type rdf:Property .
+hw:name rdf:type rdf:Property .
+
+# metadata annotation
+:corpus dct:creator
+  [
+	foaf:name "Martin Glessgen" ;
+	foaf:homepage "http://www.deaf-page.de/"
+	] ;
+	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+  dct:date "2017-09-06"^^xsd:date .
+
+
+# lexical entry
+:austor a ontolex:LexicalEntry ,
+	ontolex:Word ;
+  lexinfo:PartOfSpeech "m." ,
+  lexinfo:Noun ;
+  lexinfo:Gender lexinfo:masculine ;
+  ontolex:canonicalForm :austor_form_austor .
+:austor_form_austor	a ontolex:Form ;
+	ontolex:writtenRep "austor"@pro .
+  
+# --- graphical variants ----------------
+	
+# graphical variant
+:austor ontolex:otherForm :austor_form_asturio .
+:austor_form_asturio a ontolex:Form ;
+	ontolex:writtenRep "asturio"@pro .
+
+# graphical variant
+:austor ontolex:otherForm :austor_form_austorem .
+:austor_form_austorem a ontolex:Form ;
+	ontolex:writtenRep "austorem"@pro .
+
+# graphical variant
+:austor ontolex:otherForm :austor_form_austorio .
+:austor_form_austorio a ontolex:Form ;
+	ontolex:writtenRep "austorio"@pro .
+
+# graphical variant
+:austor ontolex:otherForm :austor_form_austuro .
+:austor_form_austuro a ontolex:Form ;
+	ontolex:writtenRep "austuro"@pro .
+
+# graphical variant
+:austor ontolex:otherForm :austor_form_austurre .
+:austor_form_austurre a ontolex:Form ;
+	ontolex:writtenRep "austurre"@pro .
+
+# graphical variant
+:austor ontolex:otherForm :austor_form_osterio .
+:austor_form_osterio a ontolex:Form ;
+	ontolex:writtenRep "osterio"@pro .
+
+# graphical variant
+:austor ontolex:otherForm :austor_form_austur .
+:austor_form_austur a ontolex:Form ;
+	ontolex:writtenRep "austur"@pro .
+
+# graphical variant
+:austor ontolex:otherForm :austor_form_astou(r) .
+:austor_form_astou(r) a ontolex:Form ;
+	ontolex:writtenRep "astou(r)"@pro .
+
+# --- senses ----------------
+
+# main sense number 1
+:austor ontolex:sense :austor_sense1 ;
+  ontolex:evokes :austor_sense1_lexConcept .
+
+:austor_sense1 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :austor_sense1_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /austor/ main sense number 1"@eng .
+
+
+:austor_sense1_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "oiseau de chasse, autour (accipiter gentilis)"@fr ;
+  deaf:onomCat
+  [
+  hw:conceptCat "A IV b 3" ;
+  hw:conceptName "Les oiseaux de proie"@fr
+  ] ;
+  ontolex:lexicalizedSense :austor_sense1 .
+
+# sub sense number 1.a
+# collocation "austor sauro"
+:austor_sauro a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :austor ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_austor_sauro .
+:form_austor_sauro a ontolex:Form ;
+  ontolex:writtenRep "austor sauro"@pro .
+
+:austor_sauro ontolex:sense :austor_sense1.a ;
+  ontolex:evokes :austor_sense1.a_lexConcept .
+
+
+:austor_sense1.a a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :austor_sense1.a_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /austor/ sub sense number 1.a"@eng .
+
+
+:austor_sense1.a_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "jeune autour avant la première mue"@fr ;
+  deaf:onomCat
+  [
+  hw:conceptCat "A IV b 3" ;
+  hw:conceptName "Les oiseaux de proie"@fr
+  ] ;
+  ontolex:lexicalizedSense :austor_sense1.a .

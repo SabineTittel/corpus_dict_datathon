@@ -1,0 +1,134 @@
+@prefix :         <http://dag.adw.uni-heidelberg.de/lemme/> .
+@prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix hw:       <http://deaf-server.adw.uni-heidelberg.de/hw#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix dbpedia:  <http://www.dbpedia.org/resource/> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix olia:     <http://purl.org/olia/olia.owl#> .
+@prefix decomp:   <http://purl.org/kdict/decomp#> .
+
+
+# language register
+deaf:TechReg a olia:TechnicalRegister .
+
+# semantic and onomasiologic specification properties
+deaf:idem rdf:type rdf:Property .
+deaf:onomCat rdf:type rdf:Property .
+hw:onomCat rdf:type rdf:Property .
+hw:name rdf:type rdf:Property .
+
+# metadata annotation
+:corpus dct:creator
+  [
+	foaf:name "Petra Burckhardt" ;
+	foaf:homepage "http://www.deaf-page.de/"
+	] ;
+	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+  dct:date "2017-09-06"^^xsd:date .
+
+
+# lexical entry
+:accident a ontolex:LexicalEntry ,
+	ontolex:Word ;
+  lexinfo:PartOfSpeech "m." ,
+  lexinfo:Noun ;
+  lexinfo:Gender lexinfo:masculine ;
+  ontolex:canonicalForm :accident_form_accident .
+:accident_form_accident	a ontolex:Form ;
+	ontolex:writtenRep "accident"@pro .
+  
+# --- graphical variants ----------------
+	
+# graphical variant
+:accident ontolex:otherForm :accident_form_acciden .
+:accident_form_acciden a ontolex:Form ;
+	ontolex:writtenRep "acciden"@pro .
+
+# --- senses ----------------
+
+# main sense number 1
+:accident ontolex:sense :accident_sense1 ;
+  ontolex:evokes :accident_sense1_lexConcept .
+
+:accident_sense1 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :accident_sense1_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /accident/ main sense number 1"@eng .
+
+
+:accident_sense1_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "événement PUPS malheureux qui arrive fortuitement"@fr ;
+  deaf:onomCat
+  [
+  hw:conceptCat "B II g 2 bb" ;
+  hw:conceptName "Bonheur - malheur"@fr
+  ] ;
+  ontolex:lexicalizedSense :accident_sense1 .
+
+# main sense number 2
+# locution "per accident"
+:per_accident a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :accident ;
+  lexinfo:TermType lexinfo:phraseologicalUnit ;
+  lexinfo:PartOfSpeech lexinfo:Adverb ,
+  "locution adverbiale"@fr ;
+  ontolex:canonicalForm :form_per_accident .
+:form_per_accident a ontolex:Form ;
+  ontolex:writtenRep "per accident"@pro .
+
+:per_accident ontolex:sense :accident_sense2 ;
+  ontolex:evokes :accident_sense2_lexConcept .
+
+
+:accident_sense2 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :accident_sense2_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /accident/ main sense number 2"@eng .
+
+
+:accident_sense2_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "accessoirement, accidentellement, occasionnellement, par hasard"@fr ;
+  deaf:onomCat
+  [
+  hw:conceptCat "C I a" ;
+  hw:conceptName "L’existence"@fr
+  ] ;
+  ontolex:lexicalizedSense :accident_sense2 .
+
+# main sense number 3
+# collocation "mort per accident"
+:mort_per_accident a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :accident ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_mort_per_accident .
+:form_mort_per_accident a ontolex:Form ;
+  ontolex:writtenRep "mort per accident"@pro .
+
+:mort_per_accident ontolex:sense :accident_sense3 ;
+  ontolex:evokes :accident_sense3_lexConcept .
+
+
+:accident_sense3 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :accident_sense3_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /accident/ main sense number 3"@eng .
+
+
+:accident_sense3_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "mort par un événement malheureux"@fr ;
+  deaf:onomCat
+  [
+  hw:conceptCat "B I j" ;
+  hw:conceptName "La vie humaine en général: la naissance, les âges de la vie, la mort"@fr
+  ] ;
+  ontolex:lexicalizedSense :accident_sense3 .

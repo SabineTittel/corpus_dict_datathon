@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<deaf xmlns:m="http://www.deaf-page.de/ns/markup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="article.xsd">
+  <article type="longarticle" articleType="normal" author="Petra Burckhardt">
+    <part type="mainpart">
+      <title>
+        <lemma developed="false" language="agasc.">accident</lemma>
+        <pos>m.</pos>
+      </title>
+      <etymology>
+        <etymon><m:evidence><m:siglum>FEW</m:siglum><m:text-reference>24,73b</m:text-reference></m:evidence> lt. <m:cited-word index="e" language="lt.">accidens</m:cited-word>: agasc. et aocc. non r&#xE9;pertori&#xE9;s, fr. <m:cited-word language="fr.">accident</m:cited-word> &#x201C;&#xE9;v&#xE9;nement malheureux&#x201D;, <m:cited-word language="fr.">par accident</m:cited-word> &#x201C;par hasard&#x201D;.
+<m:br/><m:siglum>DOM</m:siglum> <m:a href="http://www.dom-en-ligne.de"><m:cited-word index="a">acciden</m:cited-word></m:a>.<m:br/><m:siglum>Rn</m:siglum> 2,347a.</etymon>
+      </etymology>
+      <variants>
+        <variant>
+          <description>&#x2060;agasc. <m:cited-word index="f" language="agasc.">accident</m:cited-word> <m:date numeric="1250">[13es.; cop. de ca. 1400]</m:date>&#x2060;</description>
+          <references type="primary">
+            <reference id="45">
+              <m:date numeric="1250">[13es.; cop. de ca. 1400]</m:date>
+              <m:localization>Bordeaux [Gir.]</m:localization>
+              <m:siglum>ACoutBordB</m:siglum>
+              <m:text-reference>42[35]</m:text-reference>
+            </reference>
+            <reference id="2070">
+              <m:date numeric="1273">[1273]</m:date>
+              <m:localization>Bayonne [BPyr.]</m:localization>
+              <m:siglum>ACoutBay</m:siglum>
+              <m:text-reference>Bal 2,653[24]</m:text-reference>
+            </reference>
+            <reference id="2077">
+              <m:date numeric="1300">[ca. 1300; cop. de 1489]</m:date>
+              <m:localization>Bazas [Gir.]</m:localization>
+              <m:siglum>CoutBazasB</m:siglum>
+              <m:text-reference>ArchGir 15,143[164]</m:text-reference>
+            </reference>
+            <reference id="2075">
+              <m:date numeric="1381">1381</m:date>
+              <m:localization>Bayonne [BPyr.]</m:localization>
+              <m:siglum>EtBay</m:siglum>
+              <m:text-reference>216/17</m:text-reference>
+            </reference>
+            <reference id="2072">
+              <m:date numeric="1415">[1415]</m:date>
+              <m:localization>Bordeaux [Gir.]</m:localization>
+              <m:siglum>JurBord 2</m:siglum>
+              <m:text-reference>115</m:text-reference>
+            </reference>
+          </references>
+        </variant>
+        <variant>
+          <description>&#x2060;<m:cited-word index="f" language="agasc.">acciden</m:cited-word>&#x2060;</description>
+          <references type="primary">
+            <reference id="2073">
+              <m:date numeric="1300">1300</m:date>
+              <m:localization>Gazaupouy [Gers]</m:localization>
+              <m:siglum>ArchGir</m:siglum>
+              <m:text-reference>11,139</m:text-reference>
+            </reference>
+          </references>
+        </variant>
+        <variant>
+          <description>&#x2060;<m:br/>ab&#xE9;arn. <m:cited-word index="f" language="ab&#xE9;arn.">accident</m:cited-word>&#x2060;</description>
+          <references type="primary">
+            <reference id="2067">
+              <m:date numeric="1350">ca. 1400</m:date>
+              <m:localization>B&#xE9;arn</m:localization>
+              <m:siglum>ForsB[MH]</m:siglum>
+              <m:text-reference>67[179]</m:text-reference>
+            </reference>
+            <reference id="2076">
+              <m:date numeric="1406">1406</m:date>
+              <m:localization>Ossenx [BPyr.]</m:localization>
+              <m:siglum>Luc</m:siglum>
+              <m:text-reference>240[13]</m:text-reference>
+            </reference>
+          </references>
+        </variant>
+        <variant>
+          <description>&#x2060;<m:br/>aland. <m:cited-word index="f" language="aland.">accident</m:cited-word>&#x2060;</description>
+          <references type="primary">
+            <reference id="2074">
+              <m:date numeric="1270">1270 [vid. de 1318]</m:date>
+              <m:localization>Mont-de-Marsan [Landes]</m:localization>
+              <m:siglum>ArchGir 45</m:siglum>
+              <m:text-reference>24[61]</m:text-reference>
+            </reference>
+          </references>
+        </variant>
+      </variants>
+      <senses>
+        <sense>
+          <description>&#x2060;<m:definition>&#xE9;v&#xE9;nement malheureux qui arrive fortuitement</m:definition>
+
+<m:cat-onomas cat="B II g 2 bb" concept="Bonheur - malheur">B II g 2 bb&#xA0;/&#xA0;Bonheur - malheur</m:cat-onomas>&#x2060;</description>
+          <datings>
+            <dating type="range">
+              <start>
+                <date numeric="1270">1270 [vid. de 1318]</date>
+              </start>
+              <end>
+                <date numeric="1415">[1415]</date>
+              </end>
+            </dating>
+          </datings>
+          <references type="primary">
+            <reference id="2074">
+              <m:date numeric="1270">1270 [vid. de 1318]</m:date>
+              <m:localization>Mont-de-Marsan [Landes]</m:localization>
+              <m:siglum>ArchGir 45</m:siglum>
+              <m:text-reference>24[61]</m:text-reference>
+              <context>
+                <m:quotation>per los caas e accidents diuers</m:quotation>
+              </context>
+            </reference>
+            <reference id="2070">
+              <m:date numeric="1273">[1273]</m:date>
+              <m:localization>Bayonne [BPyr.]</m:localization>
+              <m:siglum>ACoutBay</m:siglum>
+              <m:text-reference>Bal 2,653[24]</m:text-reference>
+              <context>
+                <m:quotation>et que lo judge daquet loc or laccident interbiencos en judgement passaue le ley</m:quotation>
+              </context>
+            </reference>
+            <reference id="2075">
+              <m:date numeric="1381">1381</m:date>
+              <m:localization>Bayonne [BPyr.]</m:localization>
+              <m:siglum>EtBay</m:siglum>
+              <m:text-reference>216/17</m:text-reference>
+              <context>
+                <m:quotation>tote nau... qui... fera destruccion o dampnadge per quoauque maneire e accident aus... pontz de Baione</m:quotation>
+              </context>
+            </reference>
+            <reference id="2076">
+              <m:date numeric="1406">1406</m:date>
+              <m:localization>Ossenx [BPyr.]</m:localization>
+              <m:siglum>Luc</m:siglum>
+              <m:text-reference>240[13]</m:text-reference>
+              <context>
+                <m:quotation>per malaudie... o per aute accident</m:quotation>
+              </context>
+            </reference>
+            <reference id="2072">
+              <m:date numeric="1415">[1415]</m:date>
+              <m:localization>Bordeaux [Gir.]</m:localization>
+              <m:siglum>JurBord 2</m:siglum>
+              <m:text-reference>115</m:text-reference>
+              <context>
+                <m:quotation>que si accident y abine, que Dius deffenda</m:quotation>
+              </context>
+            </reference>
+          </references>
+        </sense>
+        <sense>
+          <description>&#x2060;<m:locution type="adv">per accident</m:locution> <m:definition>accessoirement, accidentellement, occasionnellement, par hasard</m:definition>
+
+<m:cat-onomas cat="C I a" concept="L&#x2019;existence">C I a&#xA0;/&#xA0;L&#x2019;existence</m:cat-onomas>&#x2060;</description>
+          <datings>
+            <dating type="range">
+              <start>
+                <date numeric="1300">1300</date>
+              </start>
+              <end>
+                <date numeric="1350">ca. 1400</date>
+              </end>
+            </dating>
+          </datings>
+          <references type="primary">
+            <reference id="2073">
+              <m:date numeric="1300">1300</m:date>
+              <m:localization>Gazaupouy [Gers]</m:localization>
+              <m:siglum>ArchGir</m:siglum>
+              <m:text-reference>11,139</m:text-reference>
+              <context>
+                <m:quotation>quan lo signor Marques, per acciden, aura presa moller</m:quotation>
+              </context>
+            </reference>
+            <reference id="2067">
+              <m:date numeric="1350">ca. 1400</m:date>
+              <m:localization>B&#xE9;arn</m:localization>
+              <m:siglum>ForsB[MH]</m:siglum>
+              <m:text-reference>67[179]</m:text-reference>
+              <context>
+                <m:quotation>Si per venture, no de grat ni de maa irade, per accident, ... augun homi de la viela aucide a d'autre de la viela</m:quotation>
+              </context>
+            </reference>
+          </references>
+        </sense>
+        <sense>
+          <description>&#x2060;loc. <m:collocation>mort per accident</m:collocation> <m:definition>mort par un &#xE9;v&#xE9;nement malheureux</m:definition> [cp. aussi <m:siglum>DAG</m:siglum> 1712]
+
+
+<m:cat-onomas cat="B I j" concept="La vie humaine en g&#xE9;n&#xE9;ral: la naissance, les &#xE2;ges de la vie, la mort">B I j&#xA0;/&#xA0;La vie humaine en g&#xE9;n&#xE9;ral: la naissance, les &#xE2;ges de la vie, la mort</m:cat-onomas>&#x2060;</description>
+          <datings>
+            <dating type="range">
+              <start>
+                <date numeric="1250">[13es.; cop. de ca. 1400]</date>
+              </start>
+              <end>
+                <date numeric="1300">[ca. 1300; cop. de 1489]</date>
+              </end>
+            </dating>
+          </datings>
+          <references type="primary">
+            <reference id="45">
+              <m:date numeric="1250">[13es.; cop. de ca. 1400]</m:date>
+              <m:localization>Bordeaux [Gir.]</m:localization>
+              <m:siglum>ACoutBordB</m:siglum>
+              <m:text-reference>42[35]</m:text-reference>
+              <context>
+                <m:quotation>quant un home es mort... outra sa mort naturau o per accident</m:quotation>
+              </context>
+            </reference>
+            <reference id="2077">
+              <m:date numeric="1300">[ca. 1300; cop. de 1489]</m:date>
+              <m:localization>Bazas [Gir.]</m:localization>
+              <m:siglum>CoutBazasB</m:siglum>
+              <m:text-reference>ArchGir 15,143[164]</m:text-reference>
+              <context>
+                <m:quotation>ou negat outro sa mort naturala ou per accident</m:quotation>
+              </context>
+            </reference>
+          </references>
+        </sense>
+      </senses>
+    </part>
+  </article>
+</deaf>
