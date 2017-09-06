@@ -1,0 +1,386 @@
+@prefix :        <http://deaf-server.adw.uni-heidelberg.de/lemme/> .
+@prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix dbpedia:  <http://www.dbpedia.org/resource/> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix olia:     <http://purl.org/olia/olia.owl#> .
+@prefix decomp:   <http://purl.org/kdict/decomp#> .
+
+
+# language register
+deaf:TechReg a olia:TechnicalRegister .
+
+# semantic specification property
+deaf:idem rdf:type rdf:Property .
+
+# metadata annotation
+:corpus dct:creator
+  [
+	foaf:name "Sabine Tittel" ;
+	foaf:homepage "http://www.deaf-page.de/"
+	] ;
+	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+  dct:date "2017-09-01"^^xsd:date .
+
+
+# lexical entry
+:fiel a ontolex:LexicalEntry ,
+	ontolex:Word ;
+  lexinfo:PartOfSpeech "m." ,
+  lexinfo:Noun ;
+  lexinfo:Gender lexinfo:masculine ;
+  ontolex:canonicalForm :fiel_form_fiel .
+:fiel_form_fiel	a ontolex:Form ;
+	ontolex:writtenRep "fiel"@fro .
+  
+# --- graphical variants ----------------
+	
+# graphical variant
+:fiel ontolex:otherForm :fiel_form_fel .
+:fiel_form_fel a ontolex:Form ;
+	ontolex:writtenRep "fel"@fro .
+
+# graphical variant
+:fiel ontolex:otherForm :fiel_form_feel .
+:fiel_form_feel a ontolex:Form ;
+	ontolex:writtenRep "feel"@fro .
+
+# graphical variant
+:fiel ontolex:otherForm :fiel_form_fele .
+:fiel_form_fele a ontolex:Form ;
+	ontolex:writtenRep "fele"@fro .
+
+# graphical variant
+:fiel ontolex:otherForm :fiel_form_feil .
+:fiel_form_feil a ontolex:Form ;
+	ontolex:writtenRep "feil"@fro .
+
+# graphical variant
+:fiel ontolex:otherForm :fiel_form_fieil .
+:fiel_form_fieil a ontolex:Form ;
+	ontolex:writtenRep "fieil"@fro .
+
+# graphical variant
+:fiel ontolex:otherForm :fiel_form_fius .
+:fiel_form_fius a ontolex:Form ;
+	ontolex:writtenRep "fius"@fro .
+
+# --- senses ----------------
+
+# main sense number 1
+# locution "faire fiel"
+:faire_fiel a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :fiel ;
+  lexinfo:TermType lexinfo:phraseologicalUnit ;
+  lexinfo:PartOfSpeech lexinfo:verb ,
+  "locution verbale"@fr ;
+  ontolex:canonicalForm :form_faire_fiel .
+:form_faire_fiel a ontolex:Form ;
+  ontolex:writtenRep "faire fiel"@fro .
+
+:faire_fiel ontolex:sense :fiel_sense1 ;
+  ontolex:evokes :fiel_sense1_lexConcept .
+
+
+:fiel_sense1 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  dct:subject dbpedia:Medicine ,
+  "medicine"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "t. de méd."@fr ;
+  rdfs:comment "DEAF article /fiel/ main sense number 1"@eng .
+
+
+:fiel_sense1_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1 .
+
+# sub sense number 1.a
+:fiel ontolex:sense :fiel_sense1.a ;
+  ontolex:evokes :fiel_sense1.a_lexConcept .
+
+
+:fiel_sense1.a a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1.a_lexConcept ;
+  deaf:idem "“id., des animaux”"@fr ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 1.a"@eng .
+
+
+:fiel_sense1.a_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1.a .
+
+# sub sense number 1.b
+:fiel ontolex:sense :fiel_sense1.b ;
+  ontolex:evokes :fiel_sense1.b_lexConcept .
+
+
+:fiel_sense1.b a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1.b_lexConcept ;
+  deaf:idem "“id., des animaux de boucherie, de la volaille, de la pêche”"@fr ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 1.b"@eng .
+
+
+:fiel_sense1.b_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1.b .
+
+# sub sense number 1.c
+# collocation inside idem "fiel de tor"
+
+:fiel_de_tor a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :fiel ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_fiel_de_tor .
+:form_fiel_de_tor a ontolex:Form ;
+  ontolex:writtenRep "fiel de tor"@fro .
+
+:fiel_de_tor ontolex:sense :fiel_sense1.c ;
+  ontolex:evokes :fiel_sense1.c_lexConcept .
+
+
+:fiel_sense1.c a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1.c_lexConcept ;
+  deaf:idem "“id., du taureau”"@fr ;
+  ontolex:reference dbpedia:XXX ;
+  dct:subject dbpedia:Medicine ,
+  "medicine"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "t. d'anat."@fr ;
+  ontolex:usage dbpedia:Category:Place_names ,
+  "métaphore"@fr ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 1.c"@eng .
+
+
+:fiel_sense1.c_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1.c .
+
+# sub sense number 1.d
+:fiel ontolex:sense :fiel_sense1.d ;
+  ontolex:evokes :fiel_sense1.d_lexConcept .
+
+
+:fiel_sense1.d a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1.d_lexConcept ;
+  
+  ontolex:reference dbpedia:XXX ;
+  ontolex:usage dbpedia:Metaphor ,
+  "métaph."@fr ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 1.d"@eng .
+
+
+:fiel_sense1.d_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1.d .
+
+# sub sense number 1.e
+# collocation inside idem "doner en ma viande fiel"
+
+:doner_en_ma_viande_fiel a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :fiel ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_doner_en_ma_viande_fiel .
+:form_doner_en_ma_viande_fiel a ontolex:Form ;
+  ontolex:writtenRep "doner en ma viande fiel"@fro .
+
+:doner_en_ma_viande_fiel ontolex:sense :fiel_sense1.e ;
+  ontolex:evokes :fiel_sense1.e_lexConcept .
+
+
+:fiel_sense1.e a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1.e_lexConcept ;
+  deaf:idem "“id.”, dans une expression figurée de l’Ancien Testament  doner en ma viande fiel ++/++ doner a boire aigue de fiel  et sim. et dans des expressions analogues du Nouveau Testament  de fiel abevrer  et sim. qui signifient  infliger une humiliation"@fr ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 1.e"@eng .
+
+
+:fiel_sense1.e_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bileinfliger une humiliation"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1.e .
+
+# sub sense number 1.f
+# collocation "fiel noir"
+:fiel_noir a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :fiel ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_fiel_noir .
+:form_fiel_noir a ontolex:Form ;
+  ontolex:writtenRep "fiel noir"@fro .
+
+:fiel_noir ontolex:sense :fiel_sense1.f ;
+  ontolex:evokes :fiel_sense1.f_lexConcept .
+
+
+:fiel_sense1.f a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1.f_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  dct:subject dbpedia:Medicine ,
+  "medicine"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "t. de méd."@fr ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 1.f"@eng .
+
+
+:fiel_sense1.f_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "dans l’humorisme, celle des quatre humeurs cardinales qui est sécrétée par la rate, qui a les qualités ‘froid’ et ‘sec’ et qui gouverne la mélancolie dans le corps, bile noire"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1.f .
+
+# sub sense number 1.g
+# collocation "huche de fiel"
+:huche_de_fiel a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :fiel ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_huche_de_fiel .
+:form_huche_de_fiel a ontolex:Form ;
+  ontolex:writtenRep "huche de fiel"@fro .
+
+:huche_de_fiel ontolex:sense :fiel_sense1.g ;
+  ontolex:evokes :fiel_sense1.g_lexConcept .
+
+
+:fiel_sense1.g a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1.g_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  dct:subject dbpedia:Medicine ,
+  "medicine"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "t. d’anat."@fr ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 1.g"@eng .
+
+
+:fiel_sense1.g_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1.g .
+
+# sub sense number 1.h
+# collocation "fiel de la terre"
+:fiel_de_la_terre a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :fiel ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_fiel_de_la_terre .
+:form_fiel_de_la_terre a ontolex:Form ;
+  ontolex:writtenRep "fiel de la terre"@fro .
+
+:fiel_de_la_terre ontolex:sense :fiel_sense1.h ;
+  ontolex:evokes :fiel_sense1.h_lexConcept .
+
+
+:fiel_sense1.h a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense1.h_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  dct:subject dbpedia:Botany ,
+  "botany"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "botan."@fr ;
+  ontolex:usage dbpedia:Metonymy ,
+  "par méton."@fr ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 1.h"@eng .
+
+
+:fiel_sense1.h_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "plante herbacée annuelle ou bisannuelle de la famille des Gentianacées aux fleurs roses, mesurant jusqu’à 50 cm de grandeur, qui pousse dans les pâturages humides, dont la tige, les fleurs et les feuilles séchées contiennent des substances amères, petite centaurée (Centaurium erythraea)"@fr ;
+  ontolex:lexicalizedSense :fiel_sense1.h .
+
+# main sense number 2
+# compound "fiel de terre"
+:fiel_de_terre a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :fiel ;
+  lexinfo:TermType lexinfo:compound ;
+  ontolex:canonicalForm :form_fiel_de_terre .
+:form_fiel_de_terre a ontolex:Form ;
+  ontolex:writtenRep "fiel de terre"@fro .
+
+:fiel_de_terre ontolex:sense :fiel_sense2 ;
+  ontolex:evokes :fiel_sense2_lexConcept .
+
+
+:fiel_sense2 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense2_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  dct:subject dbpedia:Medicine ,
+  "medicine"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "t. d’anat."@fr ;
+  rdfs:comment "DEAF article /fiel/ main sense number 2"@eng .
+
+
+:fiel_sense2_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr ;
+  ontolex:lexicalizedSense :fiel_sense2 .
+
+# sub sense number 2.a
+:fiel ontolex:sense :fiel_sense2.a ;
+  ontolex:evokes :fiel_sense2.a_lexConcept .
+
+
+:fiel_sense2.a a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense2.a_lexConcept ;
+  deaf:idem "“id.”, des animaux"@fr ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 2.a"@eng .
+
+
+:fiel_sense2.a_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "réservoir musculo-membraneux, situé à la face antérieure du foie et qui emmagasine la bile, vésicule biliaire"@fr ;
+  ontolex:lexicalizedSense :fiel_sense2.a .
+
+# main sense number 3
+:fiel ontolex:sense :fiel_sense3 ;
+  ontolex:evokes :fiel_sense3_lexConcept .
+
+:fiel_sense3 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense3_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  ontolex:usage dbpedia:Metaphor ,
+  "par métaph."@fr ;
+  rdfs:comment "DEAF article /fiel/ main sense number 3"@eng .
+
+
+:fiel_sense3_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "sentiment de tristesse accompagné de mauvaise humeur et qui est lié à une humiliation, une déception, une injustice ou sim., amertume"@fr ;
+  ontolex:lexicalizedSense :fiel_sense3 .
+
+# sub sense number 3.a
+:fiel ontolex:sense :fiel_sense3.a ;
+  ontolex:evokes :fiel_sense3.a_lexConcept .
+
+
+:fiel_sense3.a a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fiel_sense3.a_lexConcept ;
+  
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /fiel/ sub sense number 3.a"@eng .
+
+
+:fiel_sense3.a_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "sentiment de tristesse accompagné de mauvaise humeur et qui est lié à une humiliation, une déception, une injustice ou sim., amertume"@fr ;
+  ontolex:lexicalizedSense :fiel_sense3.a .
