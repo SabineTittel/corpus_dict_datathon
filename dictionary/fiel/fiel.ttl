@@ -194,7 +194,7 @@ deaf:idem rdf:type rdf:Property .
 
 :fiel_sense1.e_lexConcept a ontolex:LexicalConcept ;
   ontolex:isConceptOf dbpedia:XXX ;
-  ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bileinfliger une humiliation"@fr ;
+  ontolex:definition "liquide verdâtre et amer qui est contenu dans la vésicule biliaire, bile"@fr ;
   ontolex:lexicalizedSense :fiel_sense1.e .
 
 # sub sense number 1.f
