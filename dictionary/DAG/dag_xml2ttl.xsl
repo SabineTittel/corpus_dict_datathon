@@ -39,7 +39,7 @@
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 @prefix olia:     <http://purl.org/olia/olia.owl#> .
-@prefix decomp:   <http://purl.org/kdict/decomp#> .]]>
+@prefix decomp:   <http://www.w3.org/ns/lemon/decomp#> .]]>
 </xsl:text>
 
 # language register
@@ -48,8 +48,8 @@ deaf:TechReg a olia:TechnicalRegister .
 # semantic and onomasiologic specification properties
 deaf:idem rdf:type rdf:Property .
 deaf:onomCat rdf:type rdf:Property .
-hw:onomCat rdf:type rdf:Property .
-hw:name rdf:type rdf:Property .
+hw:conceptCat rdf:type rdf:Property .
+hw:conceptName rdf:type rdf:Property .
 
 # metadata annotation
 :corpus dct:creator
