@@ -1,0 +1,188 @@
+@prefix :          <http://deaf-server.adw.uni-heidelberg.de/lemme/> .
+@prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix dbpedia:  <http://www.dbpedia.org/resource/> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix olia:     <http://purl.org/olia/olia.owl#> .
+@prefix decomp:   <http://www.w3.org/ns/lemon/decomp#> .
+
+
+# language register
+deaf:TechReg a olia:TechnicalRegister .
+
+# semantic specification property
+deaf:idem rdf:type rdf:Property .
+
+# metadata annotation
+:corpus dct:creator
+  [
+	foaf:name "Sabine Tittel" ;
+	foaf:homepage "http://www.deaf-page.de/"
+	] ;
+	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+  dct:date "2017-09-06"^^xsd:date .
+
+
+# lexical entry
+:festele a ontolex:LexicalEntry ,
+	ontolex:Word ;
+  lexinfo:PartOfSpeech "f." ,
+  lexinfo:Noun ;
+  lexinfo:Gender lexinfo:feminine ;
+  ontolex:canonicalForm :festele_form_festele .
+:festele_form_festele	a ontolex:Form ;
+	ontolex:writtenRep "festele"@fro .
+
+# --- graphical variants ----------------
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_festelle .
+:festele_form_festelle a ontolex:Form ;
+	ontolex:writtenRep "festelle"@fro .
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_fretele .
+:festele_form_fretele a ontolex:Form ;
+	ontolex:writtenRep "fretele"@fro .
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_fretelle .
+:festele_form_fretelle a ontolex:Form ;
+	ontolex:writtenRep "fretelle"@fro .
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_frestele .
+:festele_form_frestele a ontolex:Form ;
+	ontolex:writtenRep "frestele"@fro .
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_fertele .
+:festele_form_fertele a ontolex:Form ;
+	ontolex:writtenRep "fertele"@fro .
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_frestelle .
+:festele_form_frestelle a ontolex:Form ;
+	ontolex:writtenRep "frestelle"@fro .
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_fretiele .
+:festele_form_fretiele a ontolex:Form ;
+	ontolex:writtenRep "fretiele"@fro .
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_fretielle .
+:festele_form_fretielle a ontolex:Form ;
+	ontolex:writtenRep "fretielle"@fro .
+
+# graphical variant
+:festele ontolex:otherForm :festele_form_fretale .
+:festele_form_fretale a ontolex:Form ;
+	ontolex:writtenRep "fretale"@fro .
+
+# --- senses ----------------
+
+# main sense number 1
+:festele ontolex:sense :festele_sense1 ;
+  ontolex:evokes :festele_sense1_lexConcept .
+
+:festele_sense1 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :festele_sense1_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /festele/ main sense number 1"@eng .
+
+
+:festele_sense1_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "conduit à section plus ou moins arrondie (en matière rigide, flexible ou souple) destiné à faire passer un liquide ou un gaz, tuyau"@fr ;
+  ontolex:lexicalizedSense :festele_sense1 .
+
+# sub sense number 1.a
+:festele ontolex:sense :festele_sense1.a ;
+  ontolex:evokes :festele_sense1.a_lexConcept .
+
+
+:festele_sense1.a a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :festele_sense1.a_lexConcept ;
+  deaf:idem "“id.”, dans une  image"@fr ;
+  ontolex:reference dbpedia:XXX ;
+  ontolex:usage dbpedia:Trope_(literature) ,
+  "image"@fr ;
+  rdfs:comment "DEAF article /festele/ sub sense number 1.a"@eng .
+
+
+:festele_sense1.a_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "conduit à section plus ou moins arrondie (en matière rigide, flexible ou souple) destiné à faire passer un liquide, un gaz, tuyau"@fr ;
+  ontolex:lexicalizedSense :festele_sense1.a .
+
+# main sense number 2
+:festele ontolex:sense :festele_sense2 ;
+  ontolex:evokes :festele_sense2_lexConcept .
+
+:festele_sense2 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :festele_sense2_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  ontolex:usage dbpedia:Metonymy ,
+  "par méton."@fr ;
+  rdfs:comment "DEAF article /festele/ main sense number 2"@eng .
+
+
+:festele_sense2_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "instrument de musique fait d’une tige de roseau dont la moelle a été dégagée et qui a été troué (d’un nombre variable de trous), sorte de flûte ou de pipeau"@fr ;
+  ontolex:lexicalizedSense :festele_sense2 .
+
+# main sense number 3
+:festele ontolex:sense :festele_sense3 ;
+  ontolex:evokes :festele_sense3_lexConcept .
+
+:festele_sense3 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :festele_sense3_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  dct:subject dbpedia:Medicine ,
+  "medicine"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "t. de méd."@fr ;
+  rdfs:comment "DEAF article /festele/ main sense number 3"@eng .
+
+
+:festele_sense3_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "abouchement anormal d'une cavité dans une autre donnant passage de façon continue à un produit physiologique (urine, matière fécale, bile, etc.) ou purulent qui s'écoule à la surface du corps (ayant une forme qui ressemble à un ulcère) ou dans une cavité interne, fistule"@fr ;
+  ontolex:lexicalizedSense :festele_sense3 .
+
+# sub sense number 3.a
+# collocation "gote festele"
+:gote_festele a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :festele ;
+  vartrans:senseRelation lexinfo:collocation ;
+  ontolex:canonicalForm :form_gote_festele .
+:form_gote_festele a ontolex:Form ;
+  ontolex:writtenRep "gote festele"@fro .
+
+:gote_festele ontolex:sense :festele_sense3.a ;
+  ontolex:evokes :festele_sense3.a_lexConcept .
+
+
+:festele_sense3.a a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :festele_sense3.a_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  dct:subject dbpedia:Medicine ,
+  "medicine"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "t. de méd."@fr ;
+  rdfs:comment "DEAF article /festele/ sub sense number 3.a"@eng .
+
+
+:festele_sense3.a_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "maladie (considérée comme causée par des gouttes d'humeur viciée) qui se manifeste comme fistule ou comme ulcère"@fr ;
+  ontolex:lexicalizedSense :festele_sense3.a .

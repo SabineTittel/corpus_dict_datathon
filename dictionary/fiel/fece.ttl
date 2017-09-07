@@ -1,0 +1,57 @@
+@prefix :          <http://deaf-server.adw.uni-heidelberg.de/lemme/> .
+@prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix dbpedia:  <http://www.dbpedia.org/resource/> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix olia:     <http://purl.org/olia/olia.owl#> .
+@prefix decomp:   <http://www.w3.org/ns/lemon/decomp#> .
+
+
+# language register
+deaf:TechReg a olia:TechnicalRegister .
+
+# semantic specification property
+deaf:idem rdf:type rdf:Property .
+
+# metadata annotation
+:corpus dct:creator
+  [
+	foaf:name "Stephen Dörr" ;
+	foaf:homepage "http://www.deaf-page.de/"
+	] ;
+	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+  dct:date "2017-09-06"^^xsd:date .
+
+
+# lexical entry
+:fece a ontolex:LexicalEntry ,
+	ontolex:Word ;
+  lexinfo:PartOfSpeech "f." ,
+  lexinfo:Noun ;
+  lexinfo:Gender lexinfo:feminine ;
+  ontolex:canonicalForm :fece_form_fece .
+:fece_form_fece	a ontolex:Form ;
+	ontolex:writtenRep "fece"@fro .
+
+# --- senses ----------------
+
+# main sense number 1
+:fece ontolex:sense :fece_sense1 ;
+  ontolex:evokes :fece_sense1_lexConcept .
+
+:fece_sense1 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :fece_sense1_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /fece/ main sense number 1"@eng .
+
+
+:fece_sense1_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "matière qui reste après une opération, un procédé physique ou chimique (spéc. la lie)"@fr ;
+  ontolex:lexicalizedSense :fece_sense1 .
