@@ -5,12 +5,13 @@
 @prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
 @prefix dbpedia:  <http://www.dbpedia.org/resource/> .
 @prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
 @prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 @prefix olia:     <http://purl.org/olia/olia.owl#> .
-@prefix decomp:   <http://purl.org/kdict/decomp#> .
+@prefix decomp:   <http://www.w3.org/ns/lemon/decomp#> .
 
 
 # language register
@@ -19,8 +20,8 @@ deaf:TechReg a olia:TechnicalRegister .
 # semantic and onomasiologic specification properties
 deaf:idem rdf:type rdf:Property .
 deaf:onomCat rdf:type rdf:Property .
-hw:onomCat rdf:type rdf:Property .
-hw:name rdf:type rdf:Property .
+hw:conceptCat rdf:type rdf:Property .
+hw:conceptName rdf:type rdf:Property .
 
 # metadata annotation
 :corpus dct:creator
@@ -29,7 +30,7 @@ hw:name rdf:type rdf:Property .
 	foaf:homepage "http://www.deaf-page.de/"
 	] ;
 	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
-  dct:date "2017-09-06"^^xsd:date .
+  dct:date "2017-09-07"^^xsd:date .
 
 
 # lexical entry
@@ -63,7 +64,7 @@ hw:name rdf:type rdf:Property .
 
 :accident_sense1_lexConcept a ontolex:LexicalConcept ;
   ontolex:isConceptOf dbpedia:XXX ;
-  ontolex:definition "événement PUPS malheureux qui arrive fortuitement"@fr ;
+  ontolex:definition "événement malheureux qui arrive fortuitement"@fr ;
   deaf:onomCat
   [
   hw:conceptCat "B II g 2 bb" ;
