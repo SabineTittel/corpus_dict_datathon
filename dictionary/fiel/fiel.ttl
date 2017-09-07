@@ -10,7 +10,7 @@
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 @prefix olia:     <http://purl.org/olia/olia.owl#> .
-@prefix decomp:   <http://purl.org/kdict/decomp#> .
+@prefix decomp:   <http://www.w3.org/ns/lemon/decomp#> .
 
 
 # language register
@@ -38,9 +38,9 @@ deaf:idem rdf:type rdf:Property .
   ontolex:canonicalForm :fiel_form_fiel .
 :fiel_form_fiel	a ontolex:Form ;
 	ontolex:writtenRep "fiel"@fro .
-  
+
 # --- graphical variants ----------------
-	
+
 # graphical variant
 :fiel ontolex:otherForm :fiel_form_fel .
 :fiel_form_fel a ontolex:Form ;
@@ -160,7 +160,7 @@ deaf:idem rdf:type rdf:Property .
 
 :fiel_sense1.d a ontolex:LexicalSense ;
   ontolex:isLexicalizedSenseOf :fiel_sense1.d_lexConcept ;
-  
+
   ontolex:reference dbpedia:XXX ;
   ontolex:usage dbpedia:Metaphor ,
   "métaph."@fr ;
