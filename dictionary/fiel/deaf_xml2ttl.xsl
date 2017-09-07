@@ -38,7 +38,7 @@
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 @prefix olia:     <http://purl.org/olia/olia.owl#> .
-@prefix decomp:   <http://purl.org/kdict/decomp#> .]]>
+@prefix decomp:   <http://www.w3.org/ns/lemon/decomp#> .]]>
 </xsl:text>
 
 # language register
