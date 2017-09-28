@@ -136,7 +136,7 @@ deaf:idem rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
@@ -295,7 +295,7 @@ deaf:idem rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
@@ -338,7 +338,7 @@ deaf:idem rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:collocation[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
@@ -424,7 +424,7 @@ deaf:idem rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:locution[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
@@ -510,7 +510,7 @@ deaf:idem rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:compound[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>

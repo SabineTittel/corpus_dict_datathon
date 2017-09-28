@@ -174,7 +174,7 @@ deaf:TechReg a olia:TechnicalRegister .
 				ontolex:definition "sentiment de tristesse accompagné de mauvaise humeur et qui est lié à une humiliation, une déception, une injustice ou sim., amertumes"@fr ;
 				ontolex:lexicalizedSense :fiel_sense3a .
 
-# MultiwordExpression -----------------------------
+# MultiwordExpressions -----------------------------
 
 # sense 1c fiel de tor
 :fiel_de_tor a ontolex:LexicalEntry , ontolex:MultiwordExpression ;

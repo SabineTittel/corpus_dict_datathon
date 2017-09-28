@@ -1,5 +1,6 @@
 TODOs in article conversion to lemon_article.tll
 
+
 - consider scriptae of graphical variant. In fiel there is no example,
 but in its sublemma enfieler: pic. hain. enfieler ca. 1224⁠, ⁠hain. enfieller⁠, ⁠pic. enfilier⁠⁠
 => @fro for "old french" is not precise enough; need to recommend designations/abbreviations for
@@ -8,67 +9,54 @@ old french scriptae (based on the DEAF list)
 or
 <m:cited-word index="f" language="pic.">enfieler</m:cited-word>
 <m:cited-word index="f" language="hain." visible="false">enfieler</m:cited-word>
+v. https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes
+and https://en.wikipedia.org/wiki/ISO_639_macrolanguage
+=> @fro can be considered a macrolanguage and the old french scriptae varieties
+submitting a formal proposal to SIL (SIL International (originally "Summer Institute of Linguistics")
+(SIL curates ISO 639-3, Library of Congress (USA) curates ISO 639-2)
+http://www-01.sil.org/iso639-3/submit_changes.asp
+
+- same counts for DAG:
+- add scriptae of the gascon region!
+- until then: each graphical variant will appear only once as ontolex:otherForm. It makes no sense to include
+the variant several times because what makes it differ is the differen scripta
+ex.: accident:
+agasc. accident = canonicalForm
+acciden = otherForm
+accident abéarn. = otherForm
+accident aland = otherForm
+
+- DAG: submit a proposal to ISO-639-2: gas = Gascon and gao = old gascon (to 1500) [I used pro = Old Provençal / Old Occitan meanwhile]
+- gao = macrolanguage with
+béarnais,
+landais,
+périgourdin,
+armagnacais,
+bigourdan,
+médoquin,
+agenais,
+commingeois.
 
 
-- include in sense: collocation, compound, locution, proverb
 
-- dct:subject "medecine", dbpedia: -?-
-=> automatic filling in of with <m:terminology type="medecine"> possible?
-=> list of dbpedia classes for list of DEAF terminology types?
-medecine	dbpedia:Medicine
-astronomy
-grammar
-histliterature
-geography
-music
-architecture
-heraldry
-marine
-botany
-pharmacy
-theology
-falconry
-equitation
-agriculture
-law
-mathematics
-cooking
-liturgy
-philosophy
-onomastics
-veterinary
-war
-feudalism
-venery
-game
-craft
-history
-alchemy
-rhetoric
-logic
+- locution / collocation / compound problem: in case of several hits
+in one sense, this <description>-code does work but includes only the first hit [1]
+<xsl:for-each select="tokenize(./description/m:locution[1],' ')">
+  <xsl:sequence select="."/>
+  <xsl:if test="not(position() eq last())">_</xsl:if>
+  </xsl:for-each>
+=> future work: include all hits and double the code for each.
+Problem: in some <descriptions> there are several hits for the right lemma (good),
+but in other <descriptions> there are also hits for other lemmata and doubling
+the code would give incorrect results.
+example: /fiel/
+<sense><description>&#x2060;<m:collocation>gote filere</m:collocation> ...
+[cf. ... <m:collocation>*gote silere</m:collocation>...]
+(this example is in <etymology> so irrelevant, but it could be anywhere)
+=> gote silere is subterm of gote, not of fiel!
+=> possible solution: check all articles and annotate the "non-lemma-collocations" etc.
+with <m:cited-word> instead of <m:collocation> etc.
 
-- ontolex:usage dbpedia: -?-
-=> automatic filling in of with <m:usage type="metaphore"> possible?
-=> list of dbpedia classes for list of DEAF usage types?
-(@prefix gold: <http://linguistics-ontology.org/gold/2010>, da z.B. PejorativeEvaluative)
-image
-metaphor	 dbpedia:Metaphor
-metonymy
-allegory
-comparison
-irony
-euphemism
-extension
-malediction
-salutation
-toponym
-antroponym
-minimal-value
-collective
-insult
-pejorative gold:PejorativeEvaluative
-analogy
-personification
 
 - concerns metadata annotation:
 so sollte es mal sein: mit gesplitteten Vor- und Nachnamen
@@ -101,3 +89,14 @@ für Elementinhalte geht das irgendwie mit
 
 , s. https://stackoverflow.com/questions/3336424/does-xslt-have-split-function
 aber mit Attributinhalten???
+
+
+- für Ableitungen: ontolex:LexicalRelation ( http://www.w3.org/ns/lemon/vartrans#LexicalRelation)
+s. https://www.w3.org/community/ontolex/wiki/Final_Model_Specification#Lexico-Semantic_Relations
+
+-----
+Validierungen:
+Validierung des XSL-Scripts mithilfe http://www.utilities-online.info/xsltransformation/
+Validierung des Turtle-Codes mithilfe http://ttl.summerofcode.be/
+Konvertierung des Turtle-Codes in RDF/XML mithilfe www.easyrdf.org/converter
+Visualisierung in Rhizomik http://rhizomik.net/html/redefer/rdf2svg-form/
