@@ -48,7 +48,8 @@ deaf:TechReg a olia:TechnicalRegister .
 deaf:idem rdf:type rdf:Property .
 
 # metadata annotation
-:corpus dct:creator
+deaf:DEAF a ontolex:Lexicon ;
+  dct:creator
   [
 	foaf:name "<xsl:value-of select="@author"/>" ;
 	foaf:homepage "http://www.deaf-page.de/"

@@ -52,10 +52,11 @@ hw:conceptCat rdf:type rdf:Property .
 hw:conceptName rdf:type rdf:Property .
 
 # metadata annotation
-:corpus dct:creator
+dag:DAG a ontolex:Lexicon ;
+  dct:creator
   [
 	foaf:name "<xsl:value-of select="@author"/>" ;
-	foaf:homepage "http://www.deaf-page.de/"
+	foaf:homepage "https://dag.adw.uni-heidelberg.de/"
 	] ;
 	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
   dct:date "<xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>"^^xsd:date .
@@ -140,7 +141,7 @@ hw:conceptName rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
@@ -319,7 +320,7 @@ hw:conceptName rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:collocation[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
@@ -367,7 +368,7 @@ hw:conceptName rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:collocation[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
@@ -463,7 +464,7 @@ hw:conceptName rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:locution[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
@@ -559,7 +560,7 @@ hw:conceptName rdf:type rdf:Property .
   </xsl:for-each> a ontolex:LexicalEntry ,
   ontolex:MultiwordExpression ;
   decomp:subterm :<xsl:value-of select="$lemma_name"/> ;
-  vartrans:senseRelation lexinfo:collocation ;
+  vartrans:lexicalRel lexinfo:collocation ;
   ontolex:canonicalForm :form_<xsl:for-each select="tokenize(./description/m:idem/m:compound[1],' ')">
     <xsl:sequence select="."/>
     <xsl:if test="not(position() eq last())">_</xsl:if>
