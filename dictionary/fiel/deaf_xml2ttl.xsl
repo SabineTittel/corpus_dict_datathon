@@ -54,6 +54,11 @@ deaf:DEAF a ontolex:Lexicon ;
 	foaf:name "<xsl:value-of select="@author"/>" ;
 	foaf:homepage "http://www.deaf-page.de/"
 	] ;
+  dct:publisher
+  [
+  foaf:name "Sabine Tittel" ;
+  foaf:homepage "http://www.deaf-page.de/"
+  ] ;
 	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
   dct:date "<xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>"^^xsd:date .
 

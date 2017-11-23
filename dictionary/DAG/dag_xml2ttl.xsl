@@ -28,6 +28,7 @@
 <xsl:template match="article">
 <xsl:text disable-output-escaping="yes"><![CDATA[@prefix :         <http://dag.adw.uni-heidelberg.de/lemme/> .
 @prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix dag:      <http://dag.adw.uni-heidelberg.de#> .
 @prefix hw:       <http://deaf-server.adw.uni-heidelberg.de/hw#> .
 @prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
@@ -58,7 +59,12 @@ dag:DAG a ontolex:Lexicon ;
 	foaf:name "<xsl:value-of select="@author"/>" ;
 	foaf:homepage "https://dag.adw.uni-heidelberg.de/"
 	] ;
-	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+  dct:publisher
+  [
+  foaf:name "Sabine Tittel" ;
+  foaf:homepage "http://www.deaf-page.de/"
+  ] ;
+  dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
   dct:date "<xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>"^^xsd:date .
 
 <xsl:apply-templates select="part"/>
