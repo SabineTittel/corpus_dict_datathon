@@ -1,7 +1,8 @@
-Todos in conversion edition-to-tei.xsl
+Todos in conversion
 
 
 1) erase closing single quotation mark from tex-file
+or - better - leave opening quotation marks
 
 nom\wdx{nom}{m. `mot servant à désigner
 les êtres, les choses qui appartiennent à une même catégorie
@@ -13,10 +14,15 @@ qui appartiennent à une même catégorie logique'</gloss>...
 ...<gloss>mot servant à désigner les êtres, les choses
 qui appartiennent à une même catégorie logique'</gloss>...
 
-2) add folio information from tex-file
+2) keep <i/> and <emph/> within <note/>
 
-3) fix blancs in front of comma (ex: "le premier ,") and point (ex: "compost .")
+3) fix blancs in front of comma (ex: "le premier ,") and point (ex: "compost .") => partly fixed but needs to be checked again
 
-4) fix blancs in words (ex.: "les mem bres du corps")
+4) add linking the the dictionary for added <app-item/> please
 
-5) change -- in tex-file to - in HTML
+
+Done:
+- added <edmac-item/> => <app-item/>
+- added folio information from tex-file
+- fixed blancs in words (ex.: "les mem bres du corps")
+- adapted css 

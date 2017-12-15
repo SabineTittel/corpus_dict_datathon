@@ -2,28 +2,38 @@ html{
     background-color:#fff;
     margin:2% 18% 2%;
     font-size:large;
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family:helvetica,verdana, arial, sans-serif;
 }
 
 body{
-    border:5px solid #646060;
+    border:3px solid #26668a;
     padding:0%;
     background-color:#fff;
 }
 
+header{
+	background-color:#fff;
+}
+
 h1{
-    font-weight:bold;
     text-align:center;
-    color:#fff;
-    background-color: #646060;
-    font-stretch:expanded;
+    font-weight:normal;
+    color:#26668a;
+    background-color: #fff;
 }
 
 h2{
     text-align:center;
-    font-weight:bold;
-    color:white;
-    background-color:#428bca;
+    font-weight:normal;
+    color:#646060;
+    background-color:#fff;
+}
+
+h3{
+    text-align:center;
+    font-weight:normal;
+    color:#646060;
+    background-color:#fff;
 }
 
 div{
@@ -39,6 +49,7 @@ span.apparatus{
 a{
     color:#33311B;
     text-decoration:none;
+    display:inline-block;
 }
 
 a span{
@@ -53,9 +64,7 @@ a span{
 	position: absolute;
 	z-index:10;
 }
-a{
-  display:inline-block;
-}
+
 a:hover span{
   display:block;
 }
