@@ -68,3 +68,7 @@ a span{
 a:hover span{
   display:block;
 }
+
+.page {
+    color: #328bbc;
+}
