@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:functx="http://www.functx.com" exclude-result-prefixes="#all" version="2.0">
     <xsl:output method="xml" indent="yes"/>
-    <xsl:function name="functx:escape-for-regex" as="xs:string" xmlns:functx="http://www.functx.com">
+    <xsl:function name="functx:escape-for-regex" as="xs:string">
         <xsl:param name="arg" as="xs:string?"/>
 
         <xsl:sequence
@@ -14,8 +14,7 @@
 
     </xsl:function>
 
-    <xsl:function name="functx:substring-after-last" as="xs:string"
-        xmlns:functx="http://www.functx.com">
+    <xsl:function name="functx:substring-after-last" as="xs:string">
         <xsl:param name="arg" as="xs:string?"/>
         <xsl:param name="delim" as="xs:string"/>
         <xsl:sequence
@@ -25,7 +24,7 @@
         />
     </xsl:function>
 
-    <xsl:variable name="lemmata" select="doc('../lemmata.xml')//main"/>
+    <xsl:variable name="lemmata" select="doc('../ancillary-files/lemmata.xml')//main"/>
     <xsl:template match="/">
         <xsl:result-document href="../tei-edition.xml">
             <TEI>
@@ -61,8 +60,13 @@
                                 replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
                             <prefixDef ident="dc" matchPattern="([A-Za-z]+)"
                                 replacementPattern="http://purl.org/dc/terms/$1"/>
-                            <prefixDef ident="schema" matchPattern="([A-Za-z]+)"
-                                replacementPattern="http://schema.org/$1"/>
+                            <prefixDef ident="rdfs" matchPattern="([A-Za-z]+)"
+                                replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
+                            <prefixDef ident="guichaul" marchpattern="(\d+)"
+                                replacementPattern="http://www.deaf-page.de/guichaul.html/#$1"/>
+                            <prefixDef ident="deaf" matchPattern="(.+)"
+                                replacementPattern="http://deaf-server.adw.uni-heidelberg.de/lemme/$1"
+                            />
                         </listPrefixDef>
                     </encodingDesc>
                 </teiHeader>
@@ -111,12 +115,11 @@
     <xsl:template match="wdx">
         <xsl:variable name="lemma"
             select="functx:substring-after-last(replace(lemma, '\*', ''), '\s')"/>
-        <xsl:variable name="lemmaFixed" select="iri-to-uri($lemma)"/>
-        <seg about="http://www.deaf-page.de/guichaul.html#{count(preceding::wdx) +1}">
+        <seg about="guichaul:{count(preceding::wdx) +1}">
             <xsl:element name="w">
                 <xsl:attribute name="property">rdfs:label</xsl:attribute>
-                <xsl:if test="$lemmaFixed = $lemmata">
-                <xsl:attribute name="resource"><xsl:value-of select="concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemmaFixed)"/></xsl:attribute>
+                <xsl:if test="$lemma = $lemmata">
+                <xsl:attribute name="resource"><xsl:value-of select="concat('deaf:', $lemma)"/></xsl:attribute>
                 </xsl:if>
             <xsl:attribute name="lemma"><xsl:value-of select="lemma"/></xsl:attribute>
                 <xsl:analyze-string select="gloss" regex="^(.*)\s+`">
