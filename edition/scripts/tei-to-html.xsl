@@ -9,7 +9,7 @@
             <html>
                 <head>
                     <title>Anathomie</title>
-                    <meta charset="utf-8" lang="fr"/>
+                    <meta lang="fr"/>
                     <link href="edition.css" rel="stylesheet" type="text/css"/>
                 </head>
                 <body>
@@ -44,12 +44,10 @@
             </xsl:if>
             <xsl:attribute name="property">rdfs:label</xsl:attribute>
             <xsl:value-of select="w"/>
-            <span class="gloss">
-                <xsl:value-of select="gloss[node()]"/>
-            </span>
+            <span class="gloss"><xsl:apply-templates select="gloss"/></span><span class="hide"><xsl:apply-templates select="note"></xsl:apply-templates></span>
         </xsl:element>
         <xsl:if test="w/@resource">
-            <span property="rdfs:seeAlso" resource="{w/replace(@resource, 'deaf:', 'http://deaf-server.adw.uni-heidelberg.de/lemme/')}"/>
+            <span class="hide" property="rdfs:seeAlso" resource="{w/replace(@resource, 'deaf:', 'http://deaf-server.adw.uni-heidelberg.de/lemme/')}"/>
         </xsl:if></span>
     </xsl:template>
     <xsl:template match="app">
@@ -58,10 +56,8 @@
                 <xsl:value-of select="note"/>
             </span></a>
     </xsl:template>
-    <xsl:template match="name[@property]">
-        <span typeOf="{parent::node()/@typeOf}" property="{@property}">
-            <xsl:value-of select="normalize-space(.)"/>
-        <span class="hide" property="rdfs:seeAlso"><xsl:value-of select="following-sibling::name"/></span></span>
+    <xsl:template match="persName">
+        <span typeOf="{@typeOf}" property="{name[@property]/@property}"><xsl:apply-templates select="name[@property]"/></span><span class="hide" property="rdfs:seeAlso"><xsl:apply-templates select="name[@type]"></xsl:apply-templates></span>
     </xsl:template>
     <xsl:template match="pb">
         <span class="page">
@@ -70,7 +66,4 @@
             <xsl:text>]</xsl:text>
         </span>
     </xsl:template>
-    <xsl:template match="gloss"/>
-    <xsl:template match="note[parent::seg]"/>
-    <xsl:template match="name[@type eq 'standard']"/>
 </xsl:stylesheet>

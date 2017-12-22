@@ -49,7 +49,7 @@ span.apparatus{
 a{
     color:#33311B;
     text-decoration:none;
-    display:inline-block;
+    display:inline;
 }
 
 a span{
@@ -75,3 +75,7 @@ a:hover span{
 
 .hide {
 display:none}
+
+p {
+    text-align:justify;
+}

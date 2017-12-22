@@ -62,7 +62,7 @@
                                 replacementPattern="http://purl.org/dc/terms/$1"/>
                             <prefixDef ident="rdfs" matchPattern="([A-Za-z]+)"
                                 replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
-                            <prefixDef ident="guichaul" marchpattern="(\d+)"
+                            <prefixDef ident="guichaul" marchPattern="(\d+)"
                                 replacementPattern="http://www.deaf-page.de/guichaul.html/#$1"/>
                             <prefixDef ident="deaf" matchPattern="(.+)"
                                 replacementPattern="http://deaf-server.adw.uni-heidelberg.de/lemme/$1"
