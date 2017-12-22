@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com"
-    exclude-result-prefixes="#all" version="2.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:functx="http://www.functx.com" exclude-result-prefixes="#all" version="2.0">
     <xsl:output method="xml" indent="yes"/>
-    <xsl:function name="functx:escape-for-regex" as="xs:string"
-        xmlns:functx="http://www.functx.com">
+    <xsl:function name="functx:escape-for-regex" as="xs:string" xmlns:functx="http://www.functx.com">
         <xsl:param name="arg" as="xs:string?"/>
 
-        <xsl:sequence select="
-            replace($arg,
-            '(\.|\[|\]|\\|\||\-|\^|\$|\?|\*|\+|\{|\}|\(|\))','\\$1')
-            "/>
+        <xsl:sequence
+            select="
+                replace($arg,
+                '(\.|\[|\]|\\|\||\-|\^|\$|\?|\*|\+|\{|\}|\(|\))', '\\$1')
+                "/>
 
     </xsl:function>
 
@@ -18,26 +18,53 @@
         xmlns:functx="http://www.functx.com">
         <xsl:param name="arg" as="xs:string?"/>
         <xsl:param name="delim" as="xs:string"/>
-        <xsl:sequence select="
-            replace ($arg,concat('^.*',functx:escape-for-regex($delim)),'')
-            "/>
+        <xsl:sequence
+            select="
+                replace($arg, concat('^.*', functx:escape-for-regex($delim)), '')
+                "
+        />
     </xsl:function>
 
+    <xsl:variable name="lemmata" select="doc('../lemmata.xml')//main"/>
     <xsl:template match="/">
         <xsl:result-document href="../tei-edition.xml">
-            <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI>
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
-                            <title>Title</title>
+                            <title>First treatise of the <title>Grande Chirurgie</title> by Gui de
+                                Chauliac</title>
+                            <principal>Sabine Tittel</principal>
                         </titleStmt>
                         <publicationStmt>
-                            <p>Publication Information</p>
+                            <publisher>Dictionnaire étymologique de l’ancien français</publisher>
+                            <authority>uni heidelberg</authority>
                         </publicationStmt>
                         <sourceDesc>
-                            <p>Information about the source</p>
+                            <bibl><author>Tittel, Sabine</author>. <date>2004</date>. <title
+                                    level="m">Die Anathomie in der Grande Chirurgie des Gui de
+                                    Chauliac: Wort- und sachgeschichtliche Untersuchungen und
+                                    Edition</title>. <pubPlace>Tübingen</pubPlace>:
+                                    <publisher>Niemeyer</publisher>. <note>Critical edition of
+                                    manuscript Montpellier Bibliothèque de la Faculté de Médecine n°
+                                    184 [2nd third 15th c.], by Sabine Tittel</note></bibl>
                         </sourceDesc>
                     </fileDesc>
+                    <profileDesc>
+                        <langUsage>
+                            <language ident="fr" property="dc:language"/>
+                        </langUsage>
+                    </profileDesc>
+                    <encodingDesc>
+                        <listPrefixDef>
+                            <prefixDef ident="foaf" matchPattern="([A-Za-z]+)"
+                                replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
+                            <prefixDef ident="dc" matchPattern="([A-Za-z]+)"
+                                replacementPattern="http://purl.org/dc/terms/$1"/>
+                            <prefixDef ident="schema" matchPattern="([A-Za-z]+)"
+                                replacementPattern="http://schema.org/$1"/>
+                        </listPrefixDef>
+                    </encodingDesc>
                 </teiHeader>
                 <text>
                     <body>
@@ -57,16 +84,14 @@
     </xsl:template>
 
     <xsl:template match="edmac-item">
-      <app-item>
         <app>
-          <lem>
-              <xsl:value-of select="edmactext"/>
-          </lem>
-          <note>
-              <xsl:value-of select="edmacfn"/>
-          </note>
+            <lem>
+                <xsl:value-of select="edmactext"/>
+            </lem>
+            <note>
+                <xsl:value-of select="edmacfn"/>
+            </note>
         </app>
-      </app-item>
     </xsl:template>
     <xsl:template match="edmactext">
         <app>
@@ -84,12 +109,15 @@
         <pb n="{@n}"/>
     </xsl:template>
     <xsl:template match="wdx">
-        <xsl:variable name="lemma" select="functx:substring-after-last(replace(lemma, '\*', ''), '\s')"/>
+        <xsl:variable name="lemma"
+            select="functx:substring-after-last(replace(lemma, '\*', ''), '\s')"/>
         <xsl:variable name="lemmaFixed" select="iri-to-uri($lemma)"/>
-        <seg  resource="http://deaf-server.adw.uni-heidelberg.de/corpus#{count(preceding::wdx) +1}">
+        <seg about="http://www.deaf-page.de/guichaul.html#{count(preceding::wdx) +1}">
             <xsl:element name="w">
-                <xsl:attribute name="about"><xsl:value-of select="concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemmaFixed)"/></xsl:attribute>
                 <xsl:attribute name="property">rdfs:label</xsl:attribute>
+                <xsl:if test="$lemmaFixed = $lemmata">
+                <xsl:attribute name="resource"><xsl:value-of select="concat('http://deaf-server.adw.uni-heidelberg.de/lemme/', $lemmaFixed)"/></xsl:attribute>
+                </xsl:if>
             <xsl:attribute name="lemma"><xsl:value-of select="lemma"/></xsl:attribute>
                 <xsl:analyze-string select="gloss" regex="^(.*)\s+`">
                     <xsl:matching-substring>
@@ -98,12 +126,24 @@
                             </xsl:if>
                     </xsl:matching-substring>
                 </xsl:analyze-string>
+                <xsl:if test="var[count(i) eq 1]">
+                            <xsl:analyze-string select="var/i" regex="^(\w+\.)(\w+\.)*\s+">
+            <xsl:matching-substring>
+                <xsl:if test="not(contains(., 'terme d'))">
+                    <xsl:attribute name="subtype"><xsl:value-of select="concat(regex-group(1), regex-group(2))"/></xsl:attribute>
+                </xsl:if>
+                <xsl:if test="contains(., 'terme d')">
+                    <xsl:attribute name="subtype"><xsl:value-of select="substring-before(concat(regex-group(1), regex-group(2)), 'terme')"/></xsl:attribute>
+                </xsl:if>
+            </xsl:matching-substring>
+        </xsl:analyze-string>
+                </xsl:if>
                  <xsl:apply-templates select="orth"/>
             </xsl:element>
 
             <xsl:element name="gloss">
-                <xsl:variable name="apos">&apos;</xsl:variable>
-                <xsl:value-of select="replace(substring-after(gloss, '`'), '$apos', '')"/>
+                <xsl:variable name="apos">'</xsl:variable>
+                <xsl:value-of select="replace(substring-after(gloss, '`'), $apos, '')"/>
             </xsl:element>
 
             <xsl:choose>
@@ -116,40 +156,23 @@
             </xsl:choose>
             <xsl:apply-templates select="gloss[matches(., '\.\s+terme\s+d')]"/>
             </seg>
-        </xsl:template>
-    <xsl:template match="gloss">
-        <interp>
-            <xsl:value-of
-                select="concat('terme', substring-before(substring-after(., 'terme'), '`'))"/>
-        </interp>
     </xsl:template>
+    <xsl:template match="gloss"> (<xsl:value-of
+            select="concat('terme', substring-before(substring-after(., 'terme'), '`'))"/>) </xsl:template>
     <xsl:template match="var/i">
         <xsl:analyze-string select="." regex="`(.*?)'">
             <xsl:matching-substring>
                 <gloss>
                     <xsl:value-of select="regex-group(1)"/>
+                    <xsl:analyze-string select="." regex="^(\w+\.)(\w+\.)*\s+">
+                        <xsl:matching-substring>
+                            <xsl:if test="contains(., 'terme d')">
+                                <xsl:value-of
+                                    select="concat('terme', substring-after(concat(regex-group(1), regex-group(2)), 'terme'))"
+                                />) </xsl:if>
+                        </xsl:matching-substring>
+                    </xsl:analyze-string>
                 </gloss>
-            </xsl:matching-substring>
-        </xsl:analyze-string>
-        <xsl:analyze-string select="." regex="^(\w+\.)(\w+\.)*\s+">
-            <xsl:matching-substring>
-                <xsl:if test="not(contains(., 'terme d'))">
-                    <span type="POS">
-                        <xsl:value-of select="concat(regex-group(1), regex-group(2))"/>
-                    </span>
-                </xsl:if>
-                <xsl:if test="contains(., 'terme d')">
-                    <span type="POS">
-                        <xsl:value-of
-                            select="substring-before(concat(regex-group(1), regex-group(2)), 'terme')"
-                        />
-                    </span>
-                    <interp>
-                        <xsl:value-of
-                            select="concat('terme', substring-after(concat(regex-group(1), regex-group(2)), 'terme'))"
-                        />
-                    </interp>
-                </xsl:if>
             </xsl:matching-substring>
         </xsl:analyze-string>
     </xsl:template>
@@ -159,8 +182,8 @@
         </span>
     </xsl:template>
     <xsl:template match="adx[person]">
-        <persName>
-            <name>
+        <persName typeOf="foaf:Person">
+            <name property="foaf:name">
                 <xsl:value-of select="orth"/>
             </name>
             <name type="standard">
