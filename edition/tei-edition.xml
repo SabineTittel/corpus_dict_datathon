@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ancillary-files/tei-rdfa.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -39,7 +40,7 @@
                        matchPattern="([A-Za-z]+)"
                        replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
             <prefixDef ident="guichaul"
-                       marchPattern="(\d+)"
+                       matchPattern="(\d+)"
                        replacementPattern="http://www.deaf-page.de/guichaul.html/#$1"/>
             <prefixDef ident="deaf"
                        matchPattern="(.+)"
@@ -313,7 +314,7 @@
             </seg>. </p> 
          <p rendition="ueber"> 
             <pb n="14v°a"/> POUR CE QUE, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName>, 
@@ -505,7 +506,7 @@
                   type="f.1°">anathomie</w>
                <gloss>structure et composition du corps humain et animal, et, en parlant dans un sens abstrait, science de cette structure</gloss>
             </seg>. Et c'est ce que disoit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou 
@@ -1045,7 +1046,7 @@
 <seg about="guichaul:158">
                <w property="rdfs:label" lemma="*liguement">liguemant</w>
                <gloss>faisceau de tissu fibreux blanchâtre, résistant et peu extensible, unissant les éléments dune articulation ou maintenant en place un organe ou une partie dun organe; ligament</gloss> (terme d'anat. ) </seg>. Et c'est ce que Henry de 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Mondeville</name>
                <name type="standard">Henri de Mondeville</name>
             </persName> 
@@ -1428,7 +1429,7 @@
                <gloss>celui qui tue les bœufs, les moutons, etc., et en vend la chair crue; boucher</gloss>
             </seg> 
             <pb n="15v°a"/> - desqueulx parle 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou second de 
@@ -1654,7 +1655,7 @@
                   <gloss>c</gloss>
                </note>
             </seg> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> en .xvij. 
@@ -1686,7 +1687,7 @@
                <w property="rdfs:label" lemma="curacïon" type="f.">curacion</w>
                <gloss>action de soigner</gloss>
             </seg> de anathomie - ce dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Hali</name>
                <name type="standard">Haly Rodoan</name>
             </persName> 
@@ -1706,7 +1707,7 @@
 <seg about="guichaul:265">
                <w property="rdfs:label" lemma="item">Item</w>
                <gloss>et de même, et aussi (introduction dunités traitées lune après lautre dans un traité, une ordonnance, un doc. coutumier, etc.)</gloss> (terme d'admin. ) </seg>, 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Haly</name>
                <name type="standard">Haliabas</name>
             </persName> en parle en la 
@@ -1732,7 +1733,7 @@
                   type="f.">paraule</w>
                <gloss>ensemble de mots qui expriment une idée</gloss>
             </seg>, et 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> 
@@ -2032,7 +2033,7 @@
                   type="m.">chappitre</w>
                <gloss>chacune des parties qui se suivent dans un livre et en articulent la lecture; chapitre</gloss>
             </seg>. Et c'est ce que disoit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Averrois</name>
                <name type="standard">Averrois</name>
             </persName> ou premier de son ‘Colliget’: et nos non abreviamus et cetera. Mais 
@@ -2232,7 +2233,7 @@
                <w property="rdfs:label" resource="deaf:maistre" lemma="*maistre">Mestre</w>
                <gloss/>
             </seg> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Bertuces</name>
                <name type="standard">Mestre Bertuces</name>
             </persName>, par ceste 
@@ -2333,7 +2334,7 @@
                <lem>commenteur</lem>
                <note>Ms. commenseur; cp. l. 347 commenteur und im Mlt. GuiChauljl 20,37 commentatorem; es handelt sich um Alexandrin.</note>
             </app>
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name"/>
                <name type="standard">Alexandrin le commenteur</name>
             </persName> du 
@@ -2623,7 +2624,7 @@
                <w property="rdfs:label" lemma="maniere" type="f.2°">maniere</w>
                <gloss>forme particulière que revêt laccomplissement dune action, le déroulement dun fait, lêtre ou lexistence</gloss>
             </seg> ci, 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> eust la 
@@ -2699,7 +2700,7 @@
                   <gloss>de la même façon que</gloss>
                </note>
             </seg> fit le dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Henri</name>
                <name type="standard">Henri de Mondeville</name>
             </persName>, lequel se 
@@ -2826,7 +2827,7 @@
                <w property="rdfs:label" lemma="partie" type="f.">partie</w>
                <gloss>élément dun tout; partie</gloss>
             </seg>, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou premier 
@@ -2912,7 +2913,7 @@
                   type="f.">especes</w>
                <gloss>classe (de choses) définie par un ensemble particulier de caractères communs</gloss>
             </seg>. Et c'est ce que disoit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> par 
@@ -3433,7 +3434,7 @@
                <lem>corrompent</lem>
                <note>rom über der Zeile nachgetragen.</note>
             </app>, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou premier livre des ‘Com
@@ -3504,7 +3505,7 @@
                   type="f.1°aufig.">voie</w>
                <gloss>conduite, suite dactes orientés vers une fin, considérée comme un chemin que lon peut suivre</gloss>
             </seg>, comme dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Averrois</name>
                <name type="standard">Averrois</name>
             </persName> ou second de son ‘Colliget’. Mais le 
@@ -3776,7 +3777,7 @@
 <seg about="guichaul:614">
                <w property="rdfs:label" resource="deaf:foie" lemma="foie">foye</w>
                <gloss>organe situé dans la partie supérieure droite de labdomen et qui sécrète la bile; foie</gloss> (terme d'anat. ) </seg>. Et pour ce dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou 
@@ -4629,7 +4630,7 @@
                <gloss>rendre chaud</gloss>
                <note>chauffer</note>
             </seg>, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou livre 
@@ -4690,7 +4691,7 @@
                <gloss>faire aller qn ou qch. (quelque part) (le sujet nétant pas personnel)</gloss>
                <note>envoie </note>
             </seg>, si comme G
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">alien</name>
                <name type="standard">Galien</name>
             </persName> le dit ou livre ‘De utilitate particularum’. Et, par 
@@ -5427,7 +5428,7 @@
                   type="adv.">ainsi</w>
                <gloss>de cette façon</gloss>
             </seg> le veult 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> ou premier livre de son ‘Canon’. 
@@ -5589,7 +5590,7 @@
                   type="f.1°">entencion</w>
                <gloss>manière de penser; opinion</gloss>
             </seg> de 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> par tout le livre ‘De utilitate particularum’, que, quant le 
@@ -6314,7 +6315,7 @@
                   type="v.intr.">mort</w>
                <gloss>cesser de vivre; mourir</gloss>
             </seg>, si comme 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> le dit ou tiers livre de ‘Tegny’ et ou quart de 
@@ -6375,7 +6376,7 @@
 <seg about="guichaul:1061">
                <w property="rdfs:label" lemma="naissance">naissance</w>
                <gloss>endroit où commence qch. (en parlant des membres, organes ou structures organiques du corps)</gloss> (terme d'anat. ) </seg> de cordes, si comme le dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Haly</name>
                <name type="standard">Haliabas</name>
             </persName> en la premiere partie, ou tiers ser
@@ -6386,7 +6387,7 @@
                   type="m.">mon</w>
                <gloss>relation orale ou écrite; récit</gloss>
             </seg> du livre ‘De regali disposicione’. Et pour ce dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou .vj.e du livre ‘De utilitate’: il sont .iiij. 
@@ -6429,7 +6430,7 @@
                   type="adj.">tortues</w>
                <gloss>qui présente des courbes irrégulières; tortu</gloss>
             </seg>, et se sont .v.cxxxj. muscule, si comme le dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> ou premier livre de l'anathomie des muscles. </p> 
@@ -6494,7 +6495,7 @@
                <lem>muscules</lem>
                <note>Ms. muscles mit über der Zeile nachgetragenem u.</note>
             </app> et aux aultres parties. Et pour ce 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> disoit ou quart livre de ‘Utilitate particularum’, ou 
@@ -6885,7 +6886,7 @@
                   <gloss>il paraît que</gloss>
                </note>
             </seg> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> dise ou premier livre qui se 
@@ -7032,7 +7033,7 @@
 <seg about="guichaul:1160">
                <w property="rdfs:label" lemma="ossaire">l'ossaire</w>
                <gloss>os formé par la réunion des cinq vertèbres sacrées, a la partie inférieure de la colonne vertébrale; sacrum (?)</gloss> (terme d'anat. ) </seg>, si comme le dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Haliabas</name>
                <name type="standard">Haliabas</name>
             </persName> en la seconde 
@@ -7123,7 +7124,7 @@
                   type="adv.">ainsi</w>
                <gloss>de cette façon</gloss>
             </seg> le disoit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou .xij. livre qui se 
@@ -7374,7 +7375,7 @@
                   type="v.pron.">estendre</w>
                <gloss>augmenter en longueur ou en largeur</gloss>
             </seg>. Ainsi le dit G
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">alien</name>
                <name type="standard">Galien</name>
             </persName> ou .xij.e livre qui se 
@@ -7417,7 +7418,7 @@
                <gloss>manière de penser; opinion</gloss>
                <note>entencion</note>
             </seg> de 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou .xvj.e du livre ‘De utilitate particularum’ - se 
@@ -7563,7 +7564,7 @@
                   type="adv.">ensamble</w>
                <gloss>lun avec lautre</gloss>
             </seg>. Et ainsi fit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou dit livre 
@@ -7812,7 +7813,7 @@
                <w property="rdfs:label" resource="deaf:dos" lemma="dos" type="m.">dos</w>
                <gloss>partie du corps de lhomme qui sétend des épaules jusquaux reins, de chaque côté de la colonne vertebrale; dos</gloss>
             </seg>. Donc selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> il ha en nostre corps .ij.cxlvj. os - s'ilz sont bien 
@@ -8509,7 +8510,7 @@
                <w property="rdfs:label" lemma="racionel" type="adj.">racionelle</w>
                <gloss>qui appartient à la raison</gloss>
             </seg>, si comme 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> le dit <pb n="20v°a"/> ou .ix.e livre et ou quart chappitre du livre qui se intitule ‘Particularum’, et ou premier livre, ou .ix.e 
@@ -8554,7 +8555,7 @@
                <lem>commenteur</lem>
                <note>Ms. commenceur ? (cp. GuiChauljl 26,34 comment.); cp. l. 74.</note>
             </app> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Alexandrin</name>
                <name type="standard">Alexandrin le commenteur</name>
             </persName> ou ‘Livre des 
@@ -8786,7 +8787,7 @@
                <w property="rdfs:label" lemma="col" type="m.1°">col</w>
                <gloss>partie du corps de lhomme et de certains vertébrés qui unit la tête au tronc</gloss>
             </seg>. Pour ce est <pb n="20v°b"/> il escript ou livre de 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Hali</name>
                <name type="standard">Haliabas</name>
             </persName>, en la tierce 
@@ -8991,7 +8992,7 @@
                   type="f.">figure</w>
                <gloss>forme extérieure dun corps</gloss>
             </seg> disoit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou .ix.e du livre qui se intitule ‘De utilitate particularum’, ou 
@@ -9079,7 +9080,7 @@
                   type="m.1°">chief</w>
                <gloss>partie supérieure du corps de lhomme; tête</gloss>
             </seg> - selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> en son ‘Canon’ ou tiers livre et au premier 
@@ -9273,7 +9274,7 @@
                <gloss>membrane qui tapisse la boîte osseuse renfermant lencéphale</gloss>
                <note>gros panicle</note>
             </seg> que 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> 
@@ -10018,7 +10019,7 @@
                   type="v.tr.">nombre</w>
                <gloss>évaluer (qch.) en nombre; nombrer</gloss>
             </seg> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> en le .xj.e livre et ou .xx.e chappitre de ‘Utilitate particularum’. Item, avec ce - oultre les deux os qui sont appellés 
@@ -10072,15 +10073,15 @@
 <seg about="guichaul:1657">
                <w property="rdfs:label" lemma="temple">temples</w>
                <gloss>région latérale de la tête, entre le coin de lœil et le haut de loreille</gloss> (terme d'anat. ) </seg>. Et c'est ce que dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou dit livre, ou il dit: ultra duo et cetera. Et pour ce il appart que 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Guilliaume</name>
                <name type="standard">Guillem de Saliceto</name>
             </persName> et L
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">anfrant</name>
                <name type="standard">Lanfrant</name>
             </persName> et 
@@ -10088,7 +10089,7 @@
                <lem>aussi</lem>
                <note>Voranstehend gestrichenes au.</note>
             </app> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Henri</name>
                <name type="standard">Henri de Mondeville</name>
             </persName> 
@@ -10315,7 +10316,7 @@
                   type="v.tr.">nombre</w>
                <gloss>évaluer (qch.) en nombre; nombrer</gloss>
             </seg> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Haliabas</name>
                <name type="standard">Haliabas</name>
             </persName> en la seconde 
@@ -10329,7 +10330,7 @@
 <seg about="guichaul:1694">
                <w property="rdfs:label" resource="deaf:crane" lemma="crane">cranne</w>
                <gloss>boîte osseuse renfermant lencéphale</gloss> (terme d'anat. ) </seg> sont .xv. Mais 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName>, qui n'en nombra que .v., il 
@@ -11154,7 +11155,7 @@
                   type="m.">sieges</w>
                <gloss>lieu où qch. réside</gloss>
             </seg> du cervel, si comme 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galen</name>
                <name type="standard">Galien</name>
             </persName> le dit ou .xij. de ‘Utilitate particularum’. Et ainsi est 
@@ -11627,7 +11628,7 @@
 <seg about="guichaul:1908">
                <w property="rdfs:label" lemma="temple">temples</w>
                <gloss>région latérale de la tête, entre le coin de lœil et le haut de loreille</gloss> (terme d'anat. ) </seg>. Et raconte 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> leur 
@@ -11648,7 +11649,7 @@
                   type="m.">chapitre</w>
                <gloss>chacune des parties qui se suivent dans un livre et en articulent la lecture; chapitre</gloss>
             </seg> du livre qui se intitule ‘De utilitate particularum’. Et dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> que les nerfz 
@@ -12186,7 +12187,7 @@
                <w property="rdfs:label" lemma="pie mere">maire</w>
                <gloss>la plus profonde des méninges, mince et transparente qui enveloppe directement le cerveau et la moelle épinière; pie-mère</gloss>
                <note>pie maire</note> (terme d'anat. ) </seg>. Item, 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> y 
@@ -12401,7 +12402,7 @@
                <gloss>exprimer en particulier, en détail; spécifier</gloss>
                <note>speciffié </note>
             </seg> es livres de 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Alcoatin</name>
                <name type="standard">Alcoatin</name>
             </persName> et es livres especiaulx des yeulx; toutesvoies, il 
@@ -12813,7 +12814,7 @@
                <w property="rdfs:label" lemma="passer" type="v.tr.indir.">passent</w>
                <gloss>aller dun lieu à un autre; passer</gloss>
             </seg> aucunes vaines, lesquelles, si comme dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Laffrant</name>
                <name type="standard">Lanfrant</name>
             </persName>, 
@@ -12839,7 +12840,7 @@
                   type="v.intr.">engendrer</w>
                <gloss>donner la vie à un enfant</gloss>
             </seg>. Mais 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> 
@@ -12851,7 +12852,7 @@
                <w property="rdfs:label" lemma="contraire" type="m.">contraire</w>
                <gloss>ce qui est opposé logiquement; contraire</gloss>
             </seg>, si comme 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> le 
@@ -12947,7 +12948,7 @@
                <w property="rdfs:label" lemma="*desus" type="adv.">dessus</w>
                <gloss>au côté supérieur</gloss>
             </seg>. Et selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName>, les dis muscules viennent de la 
@@ -12974,7 +12975,7 @@
                <lem>sont</lem>
                <note>Ms. sont sont.</note>
             </app> .xij. aultres, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Haliabas</name>
                <name type="standard">Haliabas</name>
             </persName>, 
@@ -13218,7 +13219,7 @@
                <w property="rdfs:label" resource="deaf:nés" lemma="nés" type="m.">nés</w>
                <gloss>partie saillante du visage, située dans son axe entre le front et la lèvre supérieure, et qui abrite la partie antérieure des fosses nasales; nez</gloss>
             </seg>. Toutesvoies, ilz sont .ix., si comme le dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName>. Item, 
@@ -13321,7 +13322,7 @@
                   <gloss>qui est situé au côté inférieur</gloss>
                </note>
             </seg>, desqueulx dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> en le .xj.e livre, ou 
@@ -13491,7 +13492,7 @@
                <w property="rdfs:label" lemma="*sentement" type="m.">sentemant</w>
                <gloss>faculté déprouver les impressions que font les objets matériels, i.e. goût, odorat, ouïe, toucher, vue</gloss>
             </seg>, si comme on dit selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou .xvj.e livre de ‘Utilitate particularum’; toutesvoies, ilz ont 
@@ -14772,7 +14773,7 @@
 <seg about="guichaul:2433">
                <w property="rdfs:label" resource="deaf:nuche" lemma="nuche">nuque</w>
                <gloss>substance moelleuse de lintérieur de lépine dorsale; moelle épinière</gloss> (terme d'anat. ) </seg>. Item, 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> dit ou .xij. et ou .xiij.e de ‘Utilitate particularum’, que au 
@@ -15138,7 +15139,7 @@
 <seg about="guichaul:2494">
                <w property="rdfs:label" lemma="musculeux">musculeuses</w>
                <gloss>qui est de la nature des muscles</gloss> (terme d'anat. ) </seg>, de quoy sont fais les tenans qui mouvent le chief et le col, et sont .xx., se dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName>. Et se y sont les chars qui 
@@ -15310,7 +15311,7 @@
             <seg about="guichaul:2518">
                <w property="rdfs:label" lemma="*articulation">articulacion</w>
                <gloss>partie du corps formée par la jointure entre deux ou plusieurs os; articulation</gloss> (terme d'anat. ) </seg>, selon G
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">alien</name>
                <name type="standard">Galien</name>
             </persName> ou livre devant dit. Et pour ce 
@@ -15563,11 +15564,11 @@
                   type="f.1°">raison</w>
                <gloss>ce qui permet dagir conformément à des principes</gloss>
             </seg>; et 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> venoit [aprés] 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Aristote</name>
                <name type="standard">Aristote</name>
             </persName> qui avoit nom
@@ -16014,11 +16015,11 @@
                   type="v.tr.">separés</w>
                <gloss>mettre à part les unes des autres des choses, des personnes réunies; séparer</gloss>
             </seg>, si comme le dient 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Lanfrant</name>
                <name type="standard">Lanfrant</name>
             </persName> et 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Henry</name>
                <name type="standard">Henri de Mondeville</name>
             </persName>. Et que ce soit 
@@ -16041,7 +16042,7 @@
                <w property="rdfs:label" lemma="demonstrer" type="v.tr.">demonstre</w>
                <gloss>faire voir, mettre devant les yeux; montrer</gloss>
             </seg>, et aussi le dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou .xiij. livre de ‘Utilitate particularum’, en le .xj.e ou .xij.e chappitre, <pb n="26v°b"/> ou il dit: ipsas homoplatas et cetera. Et avec ce, il ha quatre grans 
@@ -16138,7 +16139,7 @@
                <w property="rdfs:label" lemma="grant main">mein</w>
                <gloss>membre supérieur de lhomme qui sattache au tronc, compris entre lépaule et les doigts; bras</gloss>
                <note>grant mein</note> (terme d'anat. ) </seg>, qui est divisé en trois parties. Et 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> - ou second livre ou second chapitre de ‘Utilitate particularum’ - le 
@@ -17600,7 +17601,7 @@
                <lem>briémant</lem>
                <note>Im Ms. vraiemant korrigiert in briemant.</note>
             </app> selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> -, ou 
@@ -17906,7 +17907,7 @@
                <w property="rdfs:label" lemma="dit" type="m.">dit</w>
                <gloss>expression verbale de la pensée</gloss>
             </seg> de 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou livre ‘De utilitate particularum’ -, ja soit ce que la partie 
@@ -18047,7 +18048,7 @@
 <seg about="guichaul:2982">
                <w property="rdfs:label" resource="deaf:fosse" lemma="fosse">fosse</w>
                <gloss>concavité dassez grandes dimensions, le plus souvent osseuse, mais pouvant se trouver aussi dans dautres structures anatomiques</gloss> (terme d'anat. ) </seg> - se dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> -, esquelx se 
@@ -18440,7 +18441,7 @@
                <gloss>qui résiste; fort (de choses)</gloss>
                <note>forte </note>
             </seg> de panicles que G
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">alien</name>
                <name type="standard">Galien</name>
             </persName> 
@@ -18978,7 +18979,7 @@
                <w property="rdfs:label" resource="deaf:maistre" lemma="*maistre">Mestre</w>
                <gloss/>
             </seg> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Mondin</name>
                <name type="standard">Mestre Mundin</name>
             </persName>. Premier, de sa 
@@ -19427,7 +19428,7 @@
 <seg about="guichaul:3222">
                <w property="rdfs:label" lemma="superfluité">superfluités</w>
                <gloss>sécrétion abondante du corps</gloss> (terme de méd. ) </seg>, et sont .viij. muscules, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou quart livre de ‘Utilitate’ et ou .vj.e de 
@@ -19602,7 +19603,7 @@
             <seg about="guichaul:3248">
                <w property="rdfs:label" resource="deaf:sifac" lemma="sifac">siphac</w>
                <gloss>membrane séreuse qui recouvre les organes contenus dans la cavité abdominale et pelvienne, à lexception de lovaire; péritoine viscéral</gloss> (terme d'anat. ) </seg> que 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> appelle per
@@ -19765,7 +19766,7 @@
                <w property="rdfs:label" lemma="disposicïon" type="f.1°">disposicion</w>
                <gloss>action de mettre dans un certain ordre, le résultat de cette action</gloss>
             </seg> des parties qui sont contenues dedens le ventre. Et pour ce appert ce que 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> disoit ou .vj.e de 
@@ -19858,7 +19859,7 @@
 <seg about="guichaul:3291">
                <w property="rdfs:label" lemma="zirbus">zirbus</w>
                <gloss>repli du péritoine qui relie entre eux les organes abdominaux; épiploon</gloss> (terme d'anat. ) </seg> que 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> appelle 
@@ -20023,7 +20024,7 @@
 <seg about="guichaul:3320">
                <w property="rdfs:label" lemma="*hemorrhagie">emorogie</w>
                <gloss>écoulement de sang hors dun vaisseau</gloss> (terme de méd. ) </seg>, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou lieu devant 
@@ -20174,7 +20175,7 @@
                <w property="rdfs:label" lemma="metre" type="v.tr.2°">mis</w>
                <gloss>présenter ou exposer (un fait, une idée, un ensemble de faits ou didées)</gloss>
             </seg> de 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou quart livre, ou .xxvj.e chappitre du livre qui se intitule ‘De utilitate particularum’. Le premier qui vient aprés le ventre est appellé 
@@ -20575,7 +20576,7 @@
                <w property="rdfs:label" lemma="ossee" type="m.">l'ossee</w>
                <gloss>enveloppe des testicules; scrotum</gloss>
             </seg>, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName>. Et de lui naist 
@@ -21000,7 +21001,7 @@
                   type="f.">bouche</w>
                <gloss>cavité située à la partie inférieure du visage de lhomme, bordée par les lèvres; bouche</gloss>
             </seg> de l'estomac. Et pour ce dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName>: ce que on 
@@ -21115,7 +21116,7 @@
                   type="f.">beste</w>
                <gloss>être vivant non végétal et non humain; animal</gloss>
             </seg>, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> au quart livre et au premier chappitre du livre ‘De utilitate particularum’. Et ja ssoit ce qu'il soit 
@@ -21223,7 +21224,7 @@
                <w property="rdfs:label" lemma="*fonz (de l'estomac)" type="m.">fons</w>
                <gloss>partie de lestomac opposée à lentrée de lœsophage</gloss>
             </seg> - si comme le dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> - et par aultres 
@@ -21718,7 +21719,7 @@
 <seg about="guichaul:3621">
                <w property="rdfs:label" lemma="sanguinacion">sanguinacion</w>
                <gloss>production de sang</gloss> (terme de med. ) </seg> et de vaines. Car ainsi que dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou second livre, ou 
@@ -22359,7 +22360,7 @@
 <seg about="guichaul:3740">
                <w property="rdfs:label" lemma="digestion">digestion</w>
                <gloss>conversion des substances dans le corps en sucs nécessaires pour lassimilation et la désassimilation (des aliments en chyle, le chyle en sang, etc.)</gloss> (terme de méd. ) </seg> du foye, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou second ‘Livre des Vertus’ et ou .vj.e livre qui se intitule ‘De egritudine et sinthomate’. Et appert par ce que dit est que les 
@@ -22535,7 +22536,7 @@
                <w property="rdfs:label" resource="deaf:maistre" lemma="*maistre">Mestre</w>
                <gloss/>
             </seg> M
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">undin</name>
                <name type="standard">Mestre Mundin</name>
             </persName> -, et l'ung s'en va vers le milieu du foie pour 
@@ -22698,7 +22699,7 @@
                   type="v.pron.aufig.">engendre</w>
                <gloss>naître; se produire</gloss>
             </seg> mauvais accidens, selon 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou .vj.e du livre ‘De egritudine et sinthomate’ et ou quint livre de ‘Interioribus’. </p> 
@@ -22982,7 +22983,7 @@
                   type="adj.">senestre</w>
                <gloss>qui est du côté gauche; gauche</gloss>
             </seg>, si comme 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> le dit au .xiij.e de ‘Terapeutique
@@ -23634,7 +23635,7 @@
                   type="adj.1°dansl'ordrephysique,quantifiable">grant</w>
                <gloss>qui est dune extension au-dessus de la moyenne; grand (des choses)</gloss>
             </seg> trou, de quoy dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou .xvj.e livre et ou .ix.e chappitre du livre qui se intitule ‘De utilitate particularum’ ou il dit ainsi: ou milieu du chief de la 
@@ -24502,7 +24503,7 @@
                   type="adj.">manifestes</w>
                <gloss>dont lexistence ou la nature est évidente; manifeste</gloss>
             </seg>, toutesvoies chescune en ha trois et une qui est au milieu. Car, selon M
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">undin</name>
                <name type="standard">Mestre Mundin</name>
             </persName>, on y 
@@ -24553,11 +24554,11 @@
                <lem>l'ung</lem>
                <note>Voranstehend gestrichenes lon.</note>
             </app> a l'autre. Et pour ce dit 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> ou dit livre, que 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Ypocras</name>
                <name type="standard">Ypocras</name>
             </persName> dit, que le 
@@ -25511,7 +25512,7 @@
 <seg about="guichaul:4280">
                <w property="rdfs:label" lemma="grant main">main</w>
                <gloss>membre supérieur de lhomme qui sattache au tronc, compris entre lépaule et les doigts; bras</gloss> (terme d'anat. ) </seg> - si comme 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Galien</name>
                <name type="standard">Galien</name>
             </persName> le 
@@ -25789,7 +25790,7 @@
                <w property="rdfs:label" resource="deaf:pié" lemma="pié" type="m.">pié</w>
                <gloss>partie inférieure articulée à lextrémité de la jambe</gloss>
             </seg>, <pb n="36r°a"/> 
-            <persName typeOf="foaf:Person">
+            <persName typeof="foaf:Person">
                <name property="foaf:name">Avicene</name>
                <name type="standard">Avicene</name>
             </persName> dit que ilz se 
@@ -26192,11 +26193,11 @@
                <gloss>à lextérieur de</gloss>
                <note>dehors</note>
             </seg>. Mais Guillem de 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Saliceto</name>
                <name type="standard">Guillem de Saliceto</name>
             </persName> et 
-<persName typeOf="foaf:Person">
+<persName typeof="foaf:Person">
                <name property="foaf:name">Lanfrant</name>
                <name type="standard">Lanfrant</name>
             </persName>, qui 
