@@ -23,7 +23,7 @@
                             Médecine n<sup>o</sup>184 [2<sup>nd</sup> third 15<sup>th</sup> c.], by
                             Sabine Tittel </h3>
                     </header>
-                    <div prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# foaf: http://xmlns.com/foaf/0.1/ dc: http://purl.org/dc/terms/">
+                    <div prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# foaf: http://xmlns.com/foaf/0.1/">
                         <xsl:apply-templates select="//body/p"/>
                     </div>
                 </body>
@@ -58,7 +58,7 @@
             </span></a>
     </xsl:template>
     <xsl:template match="persName">
-        <span typeOf="{@typeOf}" property="{name[@property]/@property}"><xsl:apply-templates select="name[@property]"/></span><span class="hide" property="rdfs:seeAlso"><xsl:apply-templates select="name[@type]"></xsl:apply-templates></span>
+        <span typeof="{@typeof}" property="{name[@property]/@property}"><xsl:apply-templates select="name[@property]"/></span><span class="hide" property="rdfs:seeAlso"><xsl:apply-templates select="name[@type]"></xsl:apply-templates></span>
     </xsl:template>
     <xsl:template match="pb">
         <span class="page">
