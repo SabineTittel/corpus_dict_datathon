@@ -92,9 +92,9 @@
             <lem>
                 <xsl:value-of select="edmactext"/>
             </lem>
-            <note>
-                <xsl:value-of select="edmacfn"/>
-            </note>
+            <xsl:if test="edmacfn/node()">
+                <note><xsl:apply-templates select="edmacfn"/></note>
+            </xsl:if>
         </app>
     </xsl:template>
     <xsl:template match="edmactext">
@@ -103,12 +103,11 @@
                 <xsl:value-of select="."/>
             </lem>
             <note>
-                <xsl:value-of select="following-sibling::edmacfn[1]"/>
+                <xsl:apply-templates select="following-sibling::edmacfn[1]"/>
             </note>
         </app>
     </xsl:template>
     <xsl:template match="edmacentry"/>
-    <xsl:template match="edmacfn"/>
     <xsl:template match="pb">
         <pb n="{@n}"/>
     </xsl:template>
@@ -153,15 +152,16 @@
                 <xsl:when test="var/node()">
                     <xsl:if test="var eq orth"/>
                     <xsl:if test="var ne orth">
-                        <note><xsl:apply-templates select="var"/></note>
+                        <note><xsl:apply-templates select="var"/>
+            <xsl:apply-templates select="gloss[matches(., '\.\s+terme\s+d')]"/></note>
                     </xsl:if>
                 </xsl:when>
             </xsl:choose>
-            <xsl:apply-templates select="gloss[matches(., '\.\s+terme\s+d')]"/>
             </seg>
     </xsl:template>
-    <xsl:template match="gloss"> (<xsl:value-of
-            select="concat('terme', substring-before(substring-after(., 'terme'), '`'))"/>) </xsl:template>
+    <xsl:template match="gloss">
+        <xsl:value-of
+            select="concat('(terme', substring-before(substring-after(., 'terme'), '`'), ')')"/></xsl:template>
     <xsl:template match="var/i">
         <xsl:analyze-string select="." regex="`(.*?)'">
             <xsl:matching-substring>
@@ -171,8 +171,8 @@
                         <xsl:matching-substring>
                             <xsl:if test="contains(., 'terme d')">
                                 <xsl:value-of
-                                    select="concat('terme', substring-after(concat(regex-group(1), regex-group(2)), 'terme'))"
-                                />) </xsl:if>
+                                    select="concat('(terme', substring-after(concat(regex-group(1), regex-group(2)), 'terme'), ')')"
+                                /></xsl:if>
                         </xsl:matching-substring>
                     </xsl:analyze-string>
                 </gloss>

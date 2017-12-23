@@ -45,7 +45,7 @@
             </xsl:if>
             <xsl:attribute name="property">rdfs:label</xsl:attribute>
             <xsl:value-of select="w"/>
-            <span class="gloss"><xsl:apply-templates select="gloss"/></span><span class="hide"><xsl:apply-templates select="note"></xsl:apply-templates></span>
+            <span class="gloss"><xsl:apply-templates select="gloss"/></span>
         </xsl:element>
         <xsl:if test="w/@resource">
             <span class="hide" property="rdfs:seeAlso" resource="{w/replace(@resource, 'deaf:', 'http://deaf-server.adw.uni-heidelberg.de/lemme/')}"/>
@@ -66,5 +66,8 @@
             <xsl:value-of select="@n"/>
             <xsl:text>]</xsl:text>
         </span>
+    </xsl:template>
+<xsl:template match="span[@type eq 'collocation']">
+        <strong><xsl:value-of select="concat(current(), ': ')"/></strong>
     </xsl:template>
 </xsl:stylesheet>

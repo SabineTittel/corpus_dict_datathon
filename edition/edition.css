@@ -52,7 +52,7 @@ a{
     display:inline;
 }
 
-a span{
+a span.gloss{
 	display:none;
 	color:#fff;
 	background: #428bca;
@@ -63,9 +63,10 @@ a span{
 	width:175px;
 	position: absolute;
 	z-index:10;
+	text-align:left;
 }
 
-a:hover span{
+a:hover span.gloss{
   display:block;
 }
 
@@ -79,3 +80,4 @@ display:none}
 p {
     text-align:justify;
 }
+
