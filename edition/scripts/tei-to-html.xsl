@@ -9,7 +9,8 @@
             <html>
                 <head>
                     <title>Anathomie</title>
-                    <meta lang="fr"/>
+                    <meta name="keywords" content="medieval french,Gui de Chauliac,Grande Chirurgie"/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                     <link href="edition.css" rel="stylesheet" type="text/css"/>
                 </head>
                 <body>
