@@ -1,28 +1,15 @@
 Todos in conversion
 
+1) Check if the third argument of \wdx{} can be further decomposed to retrieved structured information
+2) Check HTML edition in order to detect spurious white spaces
 
-1) erase closing single quotation mark from tex-file
-or - better - leave opening quotation marks
-
-nom\wdx{nom}{m. `mot servant à désigner
-les êtres, les choses qui appartiennent à une même catégorie
-logique'}...
-=> XML
-<wdx><orth>nom</orth><lemma>nom</lemma><gloss>m. `mot servant à désigner les êtres, les choses
-qui appartiennent à une même catégorie logique'</gloss>...
-=> XML/TEI
-...<gloss>mot servant à désigner les êtres, les choses
-qui appartiennent à une même catégorie logique'</gloss>...
-
-2) keep <i/> and <emph/> within <note/>
-
-3) fix blancs in front of comma (ex: "le premier ,") and point (ex: "compost .") => partly fixed but needs to be checked again
-
-4) add linking the the dictionary for added <app-item/> please
 
 
 Done:
-- added <edmac-item/> => <app-item/>
+- third argument of \wdx was reviewed. POS information has been transformed into w/@subtype 
+- added linking the the dictionary for additional <app/> elements
+- fiexed quotation marks
+- added <edmac-item/> => <app/>
 - added folio information from tex-file
 - fixed blancs in words (ex.: "les mem bres du corps")
 - adapted css 
