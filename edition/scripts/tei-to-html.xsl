@@ -44,7 +44,7 @@
                 <xsl:attribute name="target">_blank</xsl:attribute>
             </xsl:if>
             <xsl:attribute name="property">rdfs:label</xsl:attribute>
-            <xsl:value-of select="w"/>
+            <xsl:apply-templates select="w"/>
             <span class="gloss"><xsl:apply-templates select="gloss"/></span>
         </xsl:element>
         <xsl:if test="w/@resource">
@@ -52,9 +52,10 @@
         </xsl:if></span>
     </xsl:template>
     <xsl:template match="app">
-        <xsl:value-of select="lem"/>
+        <xsl:apply-templates select="lem"/>
         <a class="apparatus"> &#9632; <span class="apparatus">
-                <xsl:value-of select="note"/>
+            <xsl:if test="rdg"><strong><xsl:apply-templates select="rdg"/></strong><br/></xsl:if>
+                <xsl:if test="note"><xsl:apply-templates select="note"/></xsl:if>
             </span></a>
     </xsl:template>
     <xsl:template match="persName">
@@ -69,5 +70,8 @@
     </xsl:template>
 <xsl:template match="span[@type eq 'collocation']">
         <strong><xsl:value-of select="concat(current(), ': ')"/></strong>
+    </xsl:template>
+    <xsl:template match="hi">
+        <em><xsl:apply-templates/></em>
     </xsl:template>
 </xsl:stylesheet>

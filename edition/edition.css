@@ -66,7 +66,24 @@ a span.gloss{
 	text-align:left;
 }
 
+a span.apparatus{
+	display:none;
+	color:#fff;
+	padding:7px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	width:175px;
+	position: absolute;
+	z-index:10;
+	text-align:left;
+}
+
 a:hover span.gloss{
+  display:block;
+}
+
+a:hover span.apparatus{
   display:block;
 }
 

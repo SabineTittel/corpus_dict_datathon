@@ -83,31 +83,39 @@
             <xsl:if test="current()/@type">
                 <xsl:attribute name="rendition">ueber</xsl:attribute>
             </xsl:if>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="child::node() except (edmacfn | edmacentry)"/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="edmac-item">
         <app>
+            <lem><xsl:apply-templates select="wdx|adx[person]"/></lem>
+            <xsl:if test="edmacentry">
+                <rdg><xsl:apply-templates select="edmacentry"/></rdg>
+            </xsl:if>
+            <note><xsl:apply-templates select="edmacfn"/></note>
+        </app>
+    </xsl:template>
+    <xsl:template match="edmactext[not(parent::edmac-item)]">
+        <app>
             <lem>
-                <xsl:value-of select="edmactext"/>
+               <xsl:apply-templates select="." mode="node"/>
             </lem>
-            <xsl:if test="edmacfn/node()">
-                <note><xsl:apply-templates select="edmacfn"/></note>
+            <xsl:if test="following-sibling::*[1][name() eq 'edmacfn']">
+                <note><xsl:apply-templates select="current()/following-sibling::*[1]"/></note>
+            </xsl:if>
+            <xsl:if test="following-sibling::*[1][name() eq 'edmacentry']/following-sibling::*[1][name() eq 'edmacfn']">
+                <rdg><xsl:apply-templates select="current()/following-sibling::*[1]"/></rdg>
+                <note><xsl:apply-templates select="current()/following-sibling::*[2]"/></note>
             </xsl:if>
         </app>
     </xsl:template>
-    <xsl:template match="edmactext">
-        <app>
-            <lem>
-                <xsl:value-of select="."/>
-            </lem>
-            <note>
-                <xsl:apply-templates select="following-sibling::edmacfn[1]"/>
-            </note>
-        </app>
+    <xsl:template match="edmactext" mode="node">
+        <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="edmacentry"/>
+    <xsl:template match="i">
+        <hi><xsl:apply-templates/></hi>
+    </xsl:template>
     <xsl:template match="pb">
         <pb n="{@n}"/>
     </xsl:template>
@@ -121,11 +129,14 @@
                 <xsl:attribute name="resource"><xsl:value-of select="concat('deaf:', $lemma)"/></xsl:attribute>
                 </xsl:if>
             <xsl:attribute name="lemma"><xsl:value-of select="lemma"/></xsl:attribute>
-                <xsl:analyze-string select="gloss" regex="^(.*)\s+`">
+                <xsl:analyze-string select="string-join(gloss/text(), ' ')" regex="^(.*\.)(\d°)?(.+)?\s+`">
                     <xsl:matching-substring>
                         <xsl:if test="not(contains(regex-group(1), 'terme'))">
                         <xsl:attribute name="type"><xsl:value-of select="replace(regex-group(1), '\s', '')"/></xsl:attribute>
                             </xsl:if>
+                        <xsl:if test="regex-group(2)">
+                             <xsl:attribute name="type"><xsl:value-of select="concat(replace(regex-group(1), '\s', ''), '_', regex-group(2))"/></xsl:attribute>
+                        </xsl:if>
                     </xsl:matching-substring>
                 </xsl:analyze-string>
                 <xsl:if test="var[count(i) eq 1]">
