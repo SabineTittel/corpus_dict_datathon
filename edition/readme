@@ -6,6 +6,8 @@ Todos in conversion
 
 
 Done:
+- added italics
+- added <edmacentry/> to apparatus ( => <rdg/> )
 - third argument of \wdx was reviewed. POS information has been transformed into w/@subtype 
 - added linking the the dictionary for additional <app/> elements
 - fiexed quotation marks
