@@ -44,6 +44,7 @@
                 <xsl:attribute name="target">_blank</xsl:attribute>
             </xsl:if>
             <xsl:attribute name="property">rdfs:label</xsl:attribute>
+            <xsl:attribute name="content"><xsl:value-of select="w"/></xsl:attribute>
             <xsl:apply-templates select="w"/>
             <span class="gloss"><xsl:apply-templates select="gloss"/></span>
         </xsl:element>
@@ -59,7 +60,7 @@
             </span></a>
     </xsl:template>
     <xsl:template match="persName">
-        <span typeof="{@typeof}" property="{name[@property]/@property}"><xsl:apply-templates select="name[@property]"/></span><span class="hide" property="rdfs:seeAlso"><xsl:apply-templates select="name[@type]"></xsl:apply-templates></span>
+        <span typeof="{@typeof}"><span property="{name[@property]/@property}"><xsl:apply-templates select="name[@property]"/></span><span class="hide" property="rdfs:seeAlso"><xsl:apply-templates select="name[@type]"></xsl:apply-templates></span></span>
     </xsl:template>
     <xsl:template match="pb">
         <span class="page">
