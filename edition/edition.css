@@ -40,17 +40,14 @@ div{
     margin: 2%;
 }
 
-span.apparatus{
-    display:none;
-    background: #646060;
-}
-
 
 a{
     color:#33311B;
     text-decoration:none;
     display:inline;
+    position:relative;
 }
+
 
 a span.gloss{
 	display:none;
@@ -61,22 +58,31 @@ a span.gloss{
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
 	width:175px;
-	position: absolute;
-	z-index:10;
 	text-align:left;
+	 /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -90px;
 }
 
 a span.apparatus{
 	display:none;
 	color:#fff;
+	background: #646060;
 	padding:7px;
 	border-radius:4px;
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
-	width:175px;
-	position: absolute;
-	z-index:10;
+	width:180px;
 	text-align:left;
+	 /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -90px;
 }
 
 a:hover span.gloss{
