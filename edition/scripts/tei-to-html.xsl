@@ -46,7 +46,7 @@
             <xsl:attribute name="property">rdfs:label</xsl:attribute>
             <xsl:attribute name="content"><xsl:value-of select="w"/></xsl:attribute>
             <xsl:apply-templates select="w"/>
-            <span class="gloss"><xsl:apply-templates select="gloss"/></span>
+            <xsl:if test="gloss"><span class="gloss"><xsl:apply-templates select="gloss"/></span></xsl:if>
         </xsl:element>
         <xsl:if test="w/@resource">
             <span class="hide" property="rdfs:seeAlso" resource="{w/replace(@resource, 'deaf:', 'http://deaf-server.adw.uni-heidelberg.de/lemme/')}"/>

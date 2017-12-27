@@ -595,15 +595,13 @@
 <app>
                <lem>
                   <seg about="guichaul:82">
-                     <w property="rdfs:label" lemma="car">car selon la  <seg about="guichaul:83">
+                     <w property="rdfs:label" lemma="car">car</w></seg> selon la  <seg about="guichaul:83">
                <w property="rdfs:label"
                   resource="deaf:diference"
                   lemma="*diference"
                   type="f.">difference</w>
                <gloss>caractère ou ensemble de caractères qui distingue une chose d’une autre, un être d’un autre</gloss>
-            </seg> d’icelles</w>
-                     
-                  </seg></lem>
+            </seg> d’icelles</lem>
                <rdg>car… d’icelles</rdg>
                <note>Unvollständig übersetzt (cp. GuiChaul<hi rend="sc">jl</hi> 19,21s. <hi rend="italic">quia curam oportet diversificare secundum differentias ipsarum</hi>).</note>
             </app>. 
@@ -1657,7 +1655,6 @@
             </seg>, c’est 
 <seg about="guichaul:256">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
                <note>
                   <span type="collocation">c’est assavoir</span> 
                   <gloss>c’est-à-dire</gloss></note>
