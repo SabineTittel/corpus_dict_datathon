@@ -5016,8 +5016,7 @@
                <w property="rdfs:label"
                   resource="deaf:defendre"
                   lemma="*defendre"
-                  type="v.tr.">deffe<hi rend="italic">n</hi>
-                  <pb n="17v°b"/>dre</w>
+                  type="v.tr.">deffe<hi rend="italic">n</hi><pb n="17v°b"/>dre</w>
                <gloss>protéger (qn, qch.) contre (qn, qch.)</gloss>
                <note>deffendre</note>
             </seg> et 
