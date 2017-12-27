@@ -878,8 +878,7 @@
                <gloss>traduction d’une langue dans une autre; traduction</gloss>
             </seg> 
             <seg about="guichaul:128">
-               <w property="rdfs:label" lemma="arabique" type="adj.">arabiq<hi rend="italic">ue</hi>
-               </w>
+               <w property="rdfs:label" lemma="arabique" type="adj.">arabiq<hi rend="italic">ue</hi></w>
                <gloss>qui appartient, est relatif à l’Arabie et ses habitants</gloss>
             </seg>, ‘De inge<hi rend="italic">n</hi>io sanitatis’. Et les 
 <seg about="guichaul:129">
@@ -1620,8 +1619,7 @@
                <w property="rdfs:label"
                   resource="deaf:sermon"
                   lemma="sermon"
-                  type="m.">mo<hi rend="italic">n</hi>
-               </w>
+                  type="m.">mo<hi rend="italic">n</hi></w>
                <gloss>relation orale ou écrite; récit</gloss>
             </seg>, 
 <seg about="guichaul:251">
@@ -1931,8 +1929,7 @@
                         resource="deaf:ainsi"
                         lemma="ainsi"
                         type="adv."
-                        subtype="loc.conj.">einsi q<hi rend="italic">ue</hi>
-                     </w>
+                        subtype="loc.conj.">einsi q<hi rend="italic">ue</hi></w>
                      <gloss>de cette façon</gloss>
                      <note>
                         <span type="collocation">ainsi que</span> 
@@ -2050,8 +2047,8 @@
                <gloss>chacune des parties qui se suivent dans un livre et en articulent la lecture; chapitre</gloss>
             </seg>. Et c’est ce que disoit 
 <persName typeof="foaf:Person" about="viaf:19688718">
-<name property="foaf:name">Averrois</name></persName> ou premier de son ‘Colliget’: <hi rend="italic">et nos non abreviamus <hi rend="italic">et</hi> c<hi rend="italic">etera</hi>
-            </hi>. Mais 
+<name property="foaf:name">Averrois</name></persName> ou premier de son ‘Colliget’: 
+            <hi rend="italic">et nos non abreviamus <hi rend="italic">et</hi> c<hi rend="italic">etera</hi></hi>. Mais 
 <seg about="guichaul:322">
                <w property="rdfs:label" lemma="*autrement" type="adv.">autremant</w>
                <gloss>d’une manière différente; autrement</gloss>
@@ -2725,8 +2722,7 @@
                   resource="deaf:ainsi"
                   lemma="ainsi"
                   type="adv."
-                  subtype="loc.conj.">q<hi rend="italic">ue</hi>
-               </w>
+                  subtype="loc.conj.">q<hi rend="italic">ue</hi></w>
                <gloss>de cette façon</gloss>
                <note>
                   <span type="collocation">ainsi que</span> 
@@ -3219,8 +3215,7 @@
                   resource="deaf:ainsi"
                   lemma="ainsi"
                   type="adv."
-                  subtype="loc.conj.">q<hi rend="italic">ue</hi>
-               </w>
+                  subtype="loc.conj.">q<hi rend="italic">ue</hi></w>
                <gloss>de cette façon</gloss>
                <note>
                   <span type="collocation">ainsi que</span> 
@@ -3767,12 +3762,11 @@
                <w property="rdfs:label" lemma="compost">compos</w>
                <gloss>qui est formé de plusieurs membres simples (dit d’un membre du corps)</gloss>
                <note>compos (terme d’anat.)</note>
-            </seg>, ce sont ceulx qui sont co<hi rend="italic">m</hi>
-            <seg about="guichaul:595">
+            </seg>, ce sont ceulx qui sont <seg about="guichaul:595">
                <w property="rdfs:label"
                   resource="deaf:composer"
                   lemma="composer"
-                  type="v.tr.">posés</w>
+                  type="v.tr.">co<hi rend="italic">m</hi>posés</w>
                <gloss>former par l’assemblage, par la combinaison de parties</gloss>
                <note>composé</note>
             </seg> des dis me<hi rend="italic">m</hi>bres 
@@ -4648,7 +4642,7 @@
                <w property="rdfs:label" lemma="humeur">humeur</w>
                <gloss>substance liquide qui se trouve dans un organisme humain ou animal</gloss>
             </seg>. Et le <seg about="guichaul:740">
-               <w property="rdfs:label" resource="deaf:cervel" lemma="cervel">cervel </w>
+               <w property="rdfs:label" resource="deaf:cervel" lemma="cervel">cervel</w>
                <gloss>partie antérieure et supérieure de l’encéphale, considérée comme le siège de la pensée; cerveau</gloss>
             </seg> est <seg about="guichaul:741">
                <w property="rdfs:label" lemma="causer" type="v.tr.">causé</w>
@@ -5018,12 +5012,11 @@
 <seg about="guichaul:801">
                <w property="rdfs:label" resource="deaf:artere" lemma="artere">arteres</w>
                <gloss>vaisseau sanguin qui part du cœur et qui distribue le sang, qui contient les esprits vitaux, à tout le corps</gloss>
-            </seg> pour deffe<hi rend="italic">n</hi>
-            <seg about="guichaul:802">
+            </seg> pour <seg about="guichaul:802">
                <w property="rdfs:label"
                   resource="deaf:defendre"
                   lemma="*defendre"
-                  type="v.tr.">
+                  type="v.tr.">deffe<hi rend="italic">n</hi>
                   <pb n="17v°b"/>dre</w>
                <gloss>protéger (qn, qch.) contre (qn, qch.)</gloss>
                <note>deffendre</note>
@@ -6576,8 +6569,7 @@
                <w property="rdfs:label"
                   resource="deaf:sermon"
                   lemma="sermon"
-                  type="m.">mo<hi rend="italic">n</hi>
-               </w>
+                  type="m.">mo<hi rend="italic">n</hi></w>
                <gloss>relation orale ou écrite; récit</gloss>
             </seg> du livre ‘De regali disposicione’. Et pour ce dit 
 <persName typeof="foaf:Person" about="viaf:44299175">
@@ -6966,8 +6958,7 @@
                   resource="deaf:ainsi"
                   lemma="ainsi"
                   type="adv."
-                  subtype="loc.conj.">q<hi rend="italic">ue</hi>
-               </w>
+                  subtype="loc.conj.">q<hi rend="italic">ue</hi></w>
                <gloss>de cette façon</gloss>
                <note>
                   <span type="collocation">ainsi que</span> 
@@ -7346,8 +7337,7 @@
 <app>
                <lem>p<hi rend="italic">re</hi>mier</lem>
                <note>Ms. <hi rend="italic">p</hi>re<hi rend="italic">mie</hi>.</note>
-            </app> chappitre, ou il dit: <hi rend="italic">ossiu<hi rend="italic">m</hi> articulacio <hi rend="italic">et</hi> c<hi rend="italic">etera</hi>
-            </hi>. C’est a 
+            </app> chappitre, ou il dit: <hi rend="italic">ossiu<hi rend="italic">m</hi> articulacio <hi rend="italic">et</hi> c<hi rend="italic">etera</hi></hi>. C’est a 
 <seg about="guichaul:1176">
                <w property="rdfs:label"
                   resource="deaf:dire"
@@ -8425,8 +8415,7 @@
                <gloss>l’un des deux organes constituant l’appareil auditif, aussi sa partie visible; oreille</gloss>
             </seg>, <pb n="20r°b"/> afin 
 <seg about="guichaul:1344">
-               <w property="rdfs:label" lemma="afin que" type="loc.conj.">q<hi rend="italic">ue</hi>
-               </w>
+               <w property="rdfs:label" lemma="afin que" type="loc.conj.">q<hi rend="italic">ue</hi></w>
                <gloss>pour que</gloss>
             </seg> la co<hi rend="italic">n</hi>
             <seg about="guichaul:1345">
@@ -9240,8 +9229,7 @@
 <seg about="guichaul:1474">
                <w property="rdfs:label" lemma="*derrenier" type="adj.">darnier</w>
                <gloss>qui vient après tous les autres, après lequel il n’y a pas d’autre (temporel ou spatial)</gloss>
-            </seg> chapp<hi rend="italic">itre</hi>, ou il dit ainsi: <hi rend="italic">o<hi rend="italic">m</hi>nium figurarum vix passibilis <hi rend="italic">et</hi> c<hi rend="italic">etera</hi>
-            </hi>. C’est a 
+            </seg> chapp<hi rend="italic">itre</hi>, ou il dit ainsi: <hi rend="italic">o<hi rend="italic">m</hi>nium figurarum vix passibilis <hi rend="italic">et</hi> c<hi rend="italic">etera</hi></hi>. C’est a 
 <seg about="guichaul:1475">
                <w property="rdfs:label"
                   resource="deaf:dire"
@@ -10166,8 +10154,7 @@
                <note>emunctoire (terme d’anat.)</note>
             </seg>, et vont selon la lo<hi rend="italic">n</hi>
             <seg about="guichaul:1621">
-               <w property="rdfs:label" lemma="*longor" type="f.">gue<hi rend="italic">ur</hi>
-               </w>
+               <w property="rdfs:label" lemma="*longor" type="f.">gue<hi rend="italic">ur</hi></w>
                <gloss>dimension d’une chose dans le sens de sa plus grande étendue; longueur</gloss>
                <note>longueur</note>
             </seg> des ditz p<hi rend="italic">e</hi>
@@ -10391,8 +10378,7 @@
                <gloss>région latérale de la tête, entre le coin de l’œil et le haut de l’oreille</gloss>
             </seg>. Et c’est ce que dit 
 <persName typeof="foaf:Person" about="viaf:44299175">
-               <name property="foaf:name">Galien</name></persName> ou dit livre, ou il dit: <hi rend="italic">ultra duo <hi rend="italic">et</hi> c<hi rend="italic">etera</hi>
-            </hi>. Et pour ce il appart que 
+               <name property="foaf:name">Galien</name></persName> ou dit livre, ou il dit: <hi rend="italic">ultra duo <hi rend="italic">et</hi> c<hi rend="italic">etera</hi></hi>. Et pour ce il appart que 
             <persName typeof="foaf:Person" about="viaf:9945712">
                <name property="foaf:name">Guilliaume</name>
                <name type="standard">Guillem de Saliceto</name></persName> et
@@ -13774,8 +13760,7 @@
                   lemma="*penultieme"
                   type="adj.">penultime</w>
                <gloss>avant-dernier</gloss>
-            </seg> chappitre: <hi rend="italic">inferioris vero gene <hi rend="italic">et</hi> c<hi rend="italic">etera</hi>
-            </hi>. C’est a 
+            </seg> chappitre: <hi rend="italic">inferioris vero gene <hi rend="italic">et</hi> c<hi rend="italic">etera</hi></hi>. C’est a 
 <seg about="guichaul:2190">
                <w property="rdfs:label"
                   resource="deaf:dire"
@@ -13842,8 +13827,7 @@
                <note>Über der Zeile nachgetragen.</note>
             </app> de 
 <seg about="guichaul:2199">
-               <w property="rdfs:label" lemma="drinatorum" type="lt.">drinato<hi rend="italic">rum</hi>
-               </w>
+               <w property="rdfs:label" lemma="drinatorum" type="lt.">drinato<hi rend="italic">rum</hi></w>
                <gloss>?</gloss>
             </seg>. Et es 
 <seg about="guichaul:2200">
@@ -15359,8 +15343,7 @@
                <gloss>chacun des os qui forment la colonne vertébrale; vertèbre</gloss>
             </seg>. Et selon l’os 
 <seg about="guichaul:2444">
-               <w property="rdfs:label" lemma="os sacrum">sacru<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="os sacrum">sacru<hi rend="italic">m</hi></w>
                <gloss>os formé par la réunion des cinq vertèbres sacrées, a la partie inférieure de la colonne vertébrale; sacrum</gloss>
             </seg> il en y a quatre, et trois selon l’os de la 
 <seg about="guichaul:2445">
@@ -19089,8 +19072,7 @@
                <note>Am Zeilenrand nachgetragen.</note>
             </app> p<hi rend="italic">er</hi>
             <seg about="guichaul:3053">
-               <w property="rdfs:label" lemma="pericardium">icardiu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="pericardium">icardiu<hi rend="italic">m</hi></w>
                <gloss>membrane qui enveloppe le cœur; péricarde</gloss>
             </seg>, a laquelle descendent nerfz ainsi que aux aultres 
 <seg about="guichaul:3054">
@@ -19119,8 +19101,7 @@
                <gloss>tenir (qch.) par-dessous en servant de support ou d’appui; soutenir</gloss>
             </seg> et fermez par 
 <seg about="guichaul:3058">
-               <w property="rdfs:label" lemma="mediastinum">mediastinu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="mediastinum">mediastinu<hi rend="italic">m</hi></w>
                <gloss>région du thorax qui sépare la face interne des poumons; médiastin</gloss>
             </seg>. Et pour ce appart il que il ha 
 <seg about="guichaul:3059">
@@ -19398,8 +19379,7 @@
                <gloss>membrane séreuse située à l’intérieur de la cavité thoracique et qui tapisse les parois internes de la cavité thoracique et couvre la surface des poumons; plèvre</gloss>
             </seg>. Le second est appellé 
 <seg about="guichaul:3107">
-               <w property="rdfs:label" lemma="mediastinum">mediastinu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="mediastinum">mediastinu<hi rend="italic">m</hi></w>
                <gloss>région du thorax qui sépare la face interne des poumons; médiastin</gloss>
             </seg>, qui divise tout le 
 <seg about="guichaul:3108">
@@ -20316,8 +20296,7 @@
 <persName typeof="foaf:Person" about="viaf:44299175">
                <name property="foaf:name">Galien</name></persName> appelle p<hi rend="italic">er</hi>
             <seg about="guichaul:3249">
-               <w property="rdfs:label" lemma="peritoneum">itoneu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="peritoneum">itoneu<hi rend="italic">m</hi></w>
                <gloss>membrane séreuse qui tapisse les parois intérieures de la cavité abdominale et pelvienne et qui recouvre les organes contenus dans la cavité abdominale et pelvienne, à l’exception de l’ovaire’; péritoine</gloss>
             </seg>, qui est dit de ‘peri’ en 
 <seg about="guichaul:3250">
@@ -20579,20 +20558,17 @@
             </seg>. </p> 
          <p> Aprés il nous co<hi rend="italic">n</hi>vient veoir des parties qui sont contenues dedans le ventre. Et premier appert 
 <seg about="guichaul:3291">
-               <w property="rdfs:label" lemma="zirbus">zirb<hi rend="italic">us</hi>
-               </w>
+               <w property="rdfs:label" lemma="zirbus">zirb<hi rend="italic">us</hi></w>
                <gloss>repli du péritoine qui relie entre eux les organes abdominaux; épiploon</gloss>
             </seg> que 
 <persName typeof="foaf:Person" about="viaf:44299175">
                <name property="foaf:name">Galien</name></persName> appelle 
 <seg about="guichaul:3292">
-               <w property="rdfs:label" resource="deaf:omentum" lemma="omentum">omentu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" resource="deaf:omentum" lemma="omentum">omentu<hi rend="italic">m</hi></w>
                <gloss>repli du péritoine qui relie entre eux les organes abdominaux; épiploon</gloss>
             </seg> ou 
 <seg about="guichaul:3293">
-               <w property="rdfs:label" resource="deaf:epiploon" lemma="*epiploon">epiplou<hi rend="italic">n</hi>
-               </w>
+               <w property="rdfs:label" resource="deaf:epiploon" lemma="*epiploon">epiplou<hi rend="italic">n</hi></w>
                <gloss>repli du péritoine qui relie entre eux les organes abdominaux; épiploon</gloss>
             </seg>, et est dit de ‘epi’ en 
 <seg about="guichaul:3294">
@@ -20702,8 +20678,7 @@
                <gloss>endroit où commence qch. (en parlant des membres, organes ou structures organiques du corps)</gloss>
             </seg> est du dos, si co<hi rend="italic">m</hi>me le dit 
 <seg about="guichaul:3311">
-               <w property="rdfs:label" lemma="peritoneum">peritoneu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="peritoneum">peritoneu<hi rend="italic">m</hi></w>
                <gloss>membrane séreuse qui tapisse les parois intérieures de la cavité abdominale et pelvienne et qui recouvre les organes contenus dans la cavité abdominale et pelvienne, à l’exception de l’ovaire’; péritoine</gloss>
             </seg>. Pour quoy il 
 <app>
@@ -20950,8 +20925,7 @@
                <gloss>partie initiale de l’intestin grêle accolée à la paroi abdominale postérieure et qui s’étend au jéjunum; duodénum</gloss>
             </seg>. Le second est appellé 
 <seg about="guichaul:3352">
-               <w property="rdfs:label" lemma="jejunum">jejunu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="jejunum">jejunu<hi rend="italic">m</hi></w>
                <gloss>partie du tube digestif qui fait suite au duodénum; jéjunum</gloss>
             </seg>. Le tiers est appellé 
 <seg about="guichaul:3353">
@@ -20967,8 +20941,7 @@
                <gloss>portion moyenne du gros intestin comprise entre le cæcum et le rectum; côlon</gloss>
             </seg>, le .vj.ᵉ 
 <seg about="guichaul:3356">
-               <w property="rdfs:label" resource="deaf:rectum" lemma="rectum">rectu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" resource="deaf:rectum" lemma="rectum">rectu<hi rend="italic">m</hi></w>
                <gloss>portion terminale du gros intestin, faisant partie au côlon et s’étendant jusqu’à l’anus; rectum</gloss>
             </seg> ouquel, vers la fin, sont muscules qui 
 <seg about="guichaul:3357">
@@ -21010,8 +20983,7 @@
                <gloss>conduit digestif qui s’étend depuis l’estomac à l’anus, comprenant le duodénum, le jéjunum, l’iléon, le cæcum, le côlon et le rectum, aussi chacune de ses parties; intestin</gloss>
             </seg> que on appelle 
 <seg about="guichaul:3363">
-               <w property="rdfs:label" resource="deaf:rectum" lemma="rectum">rectu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" resource="deaf:rectum" lemma="rectum">rectu<hi rend="italic">m</hi></w>
                <gloss>portion terminale du gros intestin, faisant partie au côlon et s’étendant jusqu’à l’anus; rectum</gloss>
             </seg> ou 
 <seg about="guichaul:3364">
@@ -21709,8 +21681,7 @@
                <note>Im Ms. <hi rend="italic">vues</hi> in <hi rend="italic">voes</hi> korrigiert.</note>
             </app>, si regarde premier 
 <seg about="guichaul:3479">
-               <w property="rdfs:label" lemma="*mesenterium">messenteriu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="*mesenterium">messenteriu<hi rend="italic">m</hi></w>
                <gloss>repli du péritoine qui relie le jéjunum et l’iléon à la paroi abdominale postérieure; mésentère</gloss>
             </seg> - c’est a dire la 
 <seg about="guichaul:3480">
@@ -24458,8 +24429,7 @@
                <gloss>membrane séreuse qui tapisse les parois intérieures de la cavité abdominale et pelvienne; péritoine pariétal</gloss>
             </seg> et de ciphac et du 
 <seg about="guichaul:3928">
-               <w property="rdfs:label" lemma="zirbus">zirbu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="zirbus">zirbu<hi rend="italic">m</hi></w>
                <gloss>repli du péritoine qui relie entre eux les organes abdominaux; épiploon</gloss>
             </seg>, dit est cy devant ou chapp<hi rend="italic">itre</hi> du ventre. </p> 
          <p> Quant est des os, tu dois savoir q<hi rend="italic">ue</hi> es 
@@ -24908,8 +24878,7 @@
                <gloss>action de se replier sur soi-même</gloss>
             </seg>, et passe parmy le 
 <seg about="guichaul:4003">
-               <w property="rdfs:label" lemma="peritoneum">peritoneu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="peritoneum">peritoneu<hi rend="italic">m</hi></w>
                <gloss>membrane séreuse qui tapisse les parois intérieures de la cavité abdominale et pelvienne et qui recouvre les organes contenus dans la cavité abdominale et pelvienne, à l’exception de l’ovaire’; péritoine</gloss>
             </seg>. Et es 
 <seg about="guichaul:4004">
@@ -25104,8 +25073,7 @@
                <gloss>semence, cellule ou groupe de cellules dont se forme un être vivant (de l’espèce humaine et des animaux)</gloss>
             </seg> et le 
 <seg about="guichaul:4038">
-               <w property="rdfs:label" lemma="germon" type="m.">germo<hi rend="italic">n</hi>
-               </w>
+               <w property="rdfs:label" lemma="germon" type="m.">germo<hi rend="italic">n</hi></w>
                <gloss>semence, cellule ou groupe de cellules dont se forme un être vivant</gloss>
             </seg> de nature 
 <seg about="guichaul:4039">
@@ -26353,8 +26321,7 @@
                <gloss>organe de la copulation chez l’homme; pénis</gloss>
             </seg>, on le appelle 
 <seg about="guichaul:4237">
-               <w property="rdfs:label" lemma="*balanum" type="lt.">ballanu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="*balanum" type="lt.">ballanu<hi rend="italic">m</hi></w>
                <gloss>extrémité antérieure de la verge; gland</gloss>
             </seg>, le trou, <pb n="35v°a"/> on le appelle 
 <seg about="guichaul:4238">
@@ -26411,13 +26378,11 @@
             </seg>. </p> 
          <p> P
 <seg about="guichaul:4246">
-               <w property="rdfs:label" lemma="perineum">erineu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="perineum">erineu<hi rend="italic">m</hi></w>
                <gloss>partie inférieure, plancher du petit bassin qui s’étend entre l’anus et les parties génitales; périnée</gloss>
             </seg> - ou 
 <seg about="guichaul:4247">
-               <w property="rdfs:label" lemma="peritoneum">peritoneu<hi rend="italic">m</hi>
-               </w>
+               <w property="rdfs:label" lemma="peritoneum">peritoneu<hi rend="italic">m</hi></w>
                <gloss>membrane séreuse qui tapisse les parois intérieures de la cavité abdominale et pelvienne et qui recouvre les organes contenus dans la cavité abdominale et pelvienne, à l’exception de l’ovaire’; péritoine</gloss>
             </seg> en 
 <seg about="guichaul:4248">
@@ -26913,7 +26878,7 @@
                   type="m.2°auplur.">reins</w>
                <gloss>la partie inférieure du dos au niveau des vertèbres lombaires</gloss>
             </seg> et de  <seg about="guichaul:4333">
-               <w property="rdfs:label" lemma="os sacré">l’os sacré </w>
+               <w property="rdfs:label" lemma="os sacré">l’os sacré</w>
                <gloss>os formé par la réunion des cinq vertèbres sacrées, a la partie inférieure de la colonne vertébrale; sacrum</gloss>
             </seg></lem>
                <rdg>des darnieres… l’os sacré</rdg>
@@ -27226,8 +27191,7 @@
                <w property="rdfs:label"
                   resource="deaf:domestique"
                   lemma="domestique"
-                  type="adj.">domestiq<hi rend="italic">ue</hi>
-               </w>
+                  type="adj.">domestiq<hi rend="italic">ue</hi></w>
                <gloss>qui est situé en dedans</gloss>
             </seg>, qui fait la 
 <seg about="guichaul:4386">

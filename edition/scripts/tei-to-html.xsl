@@ -54,13 +54,13 @@
     </xsl:template>
     <xsl:template match="app">
         <xsl:apply-templates select="lem"/>
-        <a class="apparatus"> &#9632; <span class="apparatus">
+        <a class="apparatus">&#9632;<span class="apparatus">
             <xsl:if test="rdg"><strong><xsl:apply-templates select="rdg"/></strong><br/></xsl:if>
                 <xsl:if test="note"><xsl:apply-templates select="note"/></xsl:if>
             </span></a>
     </xsl:template>
     <xsl:template match="persName">
-        <span typeof="{@typeof}"><span property="{name[@property]/@property}"><xsl:apply-templates select="name[@property]"/></span><span class="hide" property="rdfs:seeAlso"><xsl:apply-templates select="name[@type]"></xsl:apply-templates></span></span>
+        <span typeof="{@typeof}" about="{@about}"  property="{name[@property]/@property}"><xsl:apply-templates select="name[@property]"/></span>
     </xsl:template>
     <xsl:template match="pb">
         <span class="page">
@@ -72,7 +72,10 @@
 <xsl:template match="span[@type eq 'collocation']">
         <strong><xsl:value-of select="concat(current(), ': ')"/></strong>
     </xsl:template>
-    <xsl:template match="hi">
+    <xsl:template match="hi[@rend eq 'italic']">
         <em><xsl:apply-templates/></em>
+    </xsl:template>
+    <xsl:template match="hi[@rend eq 'sc']">
+        <span class="sc"><xsl:apply-templates/></span>
     </xsl:template>
 </xsl:stylesheet>

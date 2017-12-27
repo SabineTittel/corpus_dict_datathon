@@ -98,3 +98,10 @@ p {
     text-align:justify;
 }
 
+.sc {
+     font-variant: small-caps;
+}
+
+em > em{
+    font-style:normal;
+}
