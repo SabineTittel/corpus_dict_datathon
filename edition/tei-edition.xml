@@ -41,7 +41,7 @@
                        replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
             <prefixDef ident="guichaul"
                        matchPattern="(\d+)"
-                       replacementPattern="https://www.deaf-page.de/guichaul.html/#$1"/>
+                       replacementPattern="http://www.deaf-page.de/guichaul.html/#$1"/>
             <prefixDef ident="deaf"
                        matchPattern="(.+)"
                        replacementPattern="https://deaf-server.adw.uni-heidelberg.de/lemme/$1"/>
