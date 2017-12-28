@@ -1,110 +1,6 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aquosit%C3%A9> rdfs:label "aquosité",
-        "aquousité" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/arg%C3%BCer> rdfs:label "argue",
-        "arguer" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/c%C3%B6e> rdfs:label "queue" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/calit%C3%A9> rdfs:label "qualité" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cantit%C3%A9> rdfs:label "quantité",
-        "tité" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/capacit%C3%A9> rdfs:label "capacité" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/carr%C3%A9> rdfs:label "quarrés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ch%C3%ABoir> rdfs:label "chee" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/comist%C3%AFon> rdfs:label "commixtion" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/compless%C3%AFon> rdfs:label "complexion",
-        "complexions",
-        "plexions’" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/comunicac%C3%AFon> rdfs:label "communicacion" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cr%C3%AFator> rdfs:label "createur" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dignit%C3%A9> rdfs:label "digneté" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dimin%C3%BCer> rdfs:label "diminuant" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/entenc%C3%AFon> rdfs:label "entencion",
-        "entencions",
-        "l’entencion" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/esp%C3%A9s> rdfs:label "espesses",
-        "espés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/esper%C3%AFence> rdfs:label "experiance",
-        "experience" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/evaporac%C3%AFon> rdfs:label "evaporacion" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/jo%C3%AB> rdfs:label "joue",
-        "joues" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/l%C3%A9> rdfs:label "leet" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/le%C3%A7on> rdfs:label "lesson",
-        "lessons" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/les%C3%AFon> rdfs:label "lezion" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/long%C3%A4on> rdfs:label "longaon" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/m%C3%BCer> rdfs:label "mue" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/moiti%C3%A9> rdfs:label "moitié" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/n%C3%A9s> rdfs:label "nés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/necessit%C3%A9> rdfs:label "necessité" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/o%C3%AFr> rdfs:label "oïr" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ofic%C3%AFal> rdfs:label "officiaulx" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/operac%C3%AFon> rdfs:label "operacion",
-        "operacions" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/opin%C3%AFon> rdfs:label "opinion" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pac%C3%AFent> rdfs:label "paciens" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pass%C3%AFon> rdfs:label "passion",
-        "passions" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pi%C3%A9> rdfs:label "pié",
-        "piés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/plasmac%C3%AFon> rdfs:label "plasmacion",
-        "plasmacions" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sant%C3%A9> rdfs:label "santé" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/succosit%C3%A9> rdfs:label "succosité" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/utilit%C3%A9> rdfs:label "utilité",
-        "utilités" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/v%C3%ABoir> rdfs:label "veons",
-        "virent",
-        "voie",
-        "voies",
-        "voions",
-        "voir",
-        "voit" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vacu%C3%AFt%C3%A9> rdfs:label "vacuités" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/verit%C3%A9> rdfs:label "verité" .
-
 <http://www.deaf-page.de/guichaul.html/#1> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/nom> .
 
 <http://www.deaf-page.de/guichaul.html/#10> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/contenir> .
@@ -729,8 +625,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#1279> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/garder> .
 
-<http://www.deaf-page.de/guichaul.html/#128> rdfs:label """arabique
-               """ .
+<http://www.deaf-page.de/guichaul.html/#128> rdfs:label "arabique" .
 
 <http://www.deaf-page.de/guichaul.html/#1280> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/defendre> .
 
@@ -758,7 +653,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#1291> rdfs:label "cors" .
 
-<http://www.deaf-page.de/guichaul.html/#1292> rdfs:label " " .
+<http://www.deaf-page.de/guichaul.html/#1292> rdfs:label "divercité" .
 
 <http://www.deaf-page.de/guichaul.html/#1293> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/nombre> .
 
@@ -874,8 +769,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#1343> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/oreille> .
 
-<http://www.deaf-page.de/guichaul.html/#1344> rdfs:label """que
-               """ .
+<http://www.deaf-page.de/guichaul.html/#1344> rdfs:label "que" .
 
 <http://www.deaf-page.de/guichaul.html/#1345> rdfs:label "junction" .
 
@@ -1239,9 +1133,9 @@
 
 <http://www.deaf-page.de/guichaul.html/#1507> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/venir> .
 
-<http://www.deaf-page.de/guichaul.html/#1508> rdfs:label "roith ou rethine" .
+<http://www.deaf-page.de/guichaul.html/#1508> rdfs:label "roith" .
 
-<http://www.deaf-page.de/guichaul.html/#1509> rdfs:label " " .
+<http://www.deaf-page.de/guichaul.html/#1509> rdfs:label "rethine" .
 
 <http://www.deaf-page.de/guichaul.html/#151> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/conoistre> .
 
@@ -1491,8 +1385,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#1620> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/emomptoire> .
 
-<http://www.deaf-page.de/guichaul.html/#1621> rdfs:label """gueur
-               """ .
+<http://www.deaf-page.de/guichaul.html/#1621> rdfs:label "gueur" .
 
 <http://www.deaf-page.de/guichaul.html/#1622> rdfs:label """
                   rietalz""" .
@@ -2775,8 +2668,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#2198> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/cause> .
 
-<http://www.deaf-page.de/guichaul.html/#2199> rdfs:label """drinatorum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#2199> rdfs:label "drinatorum" .
 
 <http://www.deaf-page.de/guichaul.html/#22> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/propre> .
 
@@ -2866,7 +2758,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#2238> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/rude> .
 
-<http://www.deaf-page.de/guichaul.html/#2239> rdfs:label "" .
+<http://www.deaf-page.de/guichaul.html/#2239> rdfs:label "spongieuse" .
 
 <http://www.deaf-page.de/guichaul.html/#224> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/article> .
 
@@ -3322,8 +3214,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#2443> rdfs:label "spondilles" .
 
-<http://www.deaf-page.de/guichaul.html/#2444> rdfs:label """sacrum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#2444> rdfs:label "sacrum" .
 
 <http://www.deaf-page.de/guichaul.html/#2445> rdfs:label "queue" .
 
@@ -4677,8 +4568,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3052> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/fort> .
 
-<http://www.deaf-page.de/guichaul.html/#3053> rdfs:label """icardium
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3053> rdfs:label "icardium" .
 
 <http://www.deaf-page.de/guichaul.html/#3054> rdfs:label "antrailles" .
 
@@ -4688,8 +4578,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3057> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/sostenir> .
 
-<http://www.deaf-page.de/guichaul.html/#3058> rdfs:label """mediastinum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3058> rdfs:label "mediastinum" .
 
 <http://www.deaf-page.de/guichaul.html/#3059> rdfs:label "colligance" .
 
@@ -4799,8 +4688,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3106> rdfs:label "pleura" .
 
-<http://www.deaf-page.de/guichaul.html/#3107> rdfs:label """mediastinum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3107> rdfs:label "mediastinum" .
 
 <http://www.deaf-page.de/guichaul.html/#3108> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/for> .
 
@@ -4862,7 +4750,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3134> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/apeler> .
 
-<http://www.deaf-page.de/guichaul.html/#3135> rdfs:label "’" .
+<http://www.deaf-page.de/guichaul.html/#3135> rdfs:label "‘stomacus’" .
 
 <http://www.deaf-page.de/guichaul.html/#3136> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/estomac> .
 
@@ -5078,7 +4966,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3231> rdfs:label "entrechangent" .
 
-<http://www.deaf-page.de/guichaul.html/#3232> rdfs:label " " .
+<http://www.deaf-page.de/guichaul.html/#3232> rdfs:label "drois" .
 
 <http://www.deaf-page.de/guichaul.html/#3233> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/dos> .
 
@@ -5114,8 +5002,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3248> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/sifac> .
 
-<http://www.deaf-page.de/guichaul.html/#3249> rdfs:label """itoneum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3249> rdfs:label "itoneum" .
 
 <http://www.deaf-page.de/guichaul.html/#325> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/enquerre> .
 
@@ -5209,8 +5096,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3290> rdfs:label "scarnacion" .
 
-<http://www.deaf-page.de/guichaul.html/#3291> rdfs:label """zirbus
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3291> rdfs:label "zirbus" .
 
 <http://www.deaf-page.de/guichaul.html/#3292> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/omentum> .
 
@@ -5256,8 +5142,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3310> rdfs:label "naissance" .
 
-<http://www.deaf-page.de/guichaul.html/#3311> rdfs:label """peritoneum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3311> rdfs:label "peritoneum" .
 
 <http://www.deaf-page.de/guichaul.html/#3312> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/petit> .
 
@@ -5347,8 +5232,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3351> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/duodenum> .
 
-<http://www.deaf-page.de/guichaul.html/#3352> rdfs:label """jejunum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3352> rdfs:label "jejunum" .
 
 <http://www.deaf-page.de/guichaul.html/#3353> rdfs:label "subtil" .
 
@@ -5628,8 +5512,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3478> rdfs:label "intestins" .
 
-<http://www.deaf-page.de/guichaul.html/#3479> rdfs:label """messenterium
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3479> rdfs:label "messenterium" .
 
 <http://www.deaf-page.de/guichaul.html/#348> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/maistre> .
 
@@ -6031,7 +5914,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3659> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/fleume> .
 
-<http://www.deaf-page.de/guichaul.html/#366> rdfs:label " " .
+<http://www.deaf-page.de/guichaul.html/#366> rdfs:label "ame" .
 
 <http://www.deaf-page.de/guichaul.html/#3660> rdfs:label "aigouse" .
 
@@ -6443,7 +6326,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3844> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/senestre> .
 
-<http://www.deaf-page.de/guichaul.html/#3845> rdfs:label "’" .
+<http://www.deaf-page.de/guichaul.html/#3845> rdfs:label "‘Terapeutique’" .
 
 <http://www.deaf-page.de/guichaul.html/#3846> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/rein> .
 
@@ -6627,8 +6510,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#3927> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/mirac> .
 
-<http://www.deaf-page.de/guichaul.html/#3928> rdfs:label """zirbum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#3928> rdfs:label "zirbum" .
 
 <http://www.deaf-page.de/guichaul.html/#3929> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/hanche> .
 
@@ -6778,9 +6660,9 @@
 
 <http://www.deaf-page.de/guichaul.html/#3995> rdfs:label "l’orine" .
 
-<http://www.deaf-page.de/guichaul.html/#3996> rdfs:label "l’urine" .
+<http://www.deaf-page.de/guichaul.html/#3996> rdfs:label "col" .
 
-<http://www.deaf-page.de/guichaul.html/#3997> rdfs:label "" .
+<http://www.deaf-page.de/guichaul.html/#3997> rdfs:label "l’urine" .
 
 <http://www.deaf-page.de/guichaul.html/#3998> rdfs:label "cloians" .
 
@@ -6798,8 +6680,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#4002> rdfs:label "refleccion" .
 
-<http://www.deaf-page.de/guichaul.html/#4003> rdfs:label """peritoneum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#4003> rdfs:label "peritoneum" .
 
 <http://www.deaf-page.de/guichaul.html/#4004> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/ome> .
 
@@ -6811,7 +6692,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#4008> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/doi> .
 
-<http://www.deaf-page.de/guichaul.html/#4009> rdfs:label " " .
+<http://www.deaf-page.de/guichaul.html/#4009> rdfs:label "enmy" .
 
 <http://www.deaf-page.de/guichaul.html/#401> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/fondre> .
 
@@ -6875,8 +6756,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#4037> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/semence> .
 
-<http://www.deaf-page.de/guichaul.html/#4038> rdfs:label """germon
-               """ .
+<http://www.deaf-page.de/guichaul.html/#4038> rdfs:label "germon" .
 
 <http://www.deaf-page.de/guichaul.html/#4039> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/nature> .
 
@@ -7318,8 +7198,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#4236> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/verge> .
 
-<http://www.deaf-page.de/guichaul.html/#4237> rdfs:label """ballanum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#4237> rdfs:label "ballanum" .
 
 <http://www.deaf-page.de/guichaul.html/#4238> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/mitre> .
 
@@ -7339,11 +7218,9 @@
 
 <http://www.deaf-page.de/guichaul.html/#4245> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/matrice> .
 
-<http://www.deaf-page.de/guichaul.html/#4246> rdfs:label """erineum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#4246> rdfs:label "erineum" .
 
-<http://www.deaf-page.de/guichaul.html/#4247> rdfs:label """peritoneum
-               """ .
+<http://www.deaf-page.de/guichaul.html/#4247> rdfs:label "peritoneum" .
 
 <http://www.deaf-page.de/guichaul.html/#4248> rdfs:label "arabic" .
 
@@ -7531,11 +7408,11 @@
 
 <http://www.deaf-page.de/guichaul.html/#4330> rdfs:label "diverciffient" .
 
-<http://www.deaf-page.de/guichaul.html/#4331> rdfs:label "des darnieres spondilles des reins et de l’os sacré" .
+<http://www.deaf-page.de/guichaul.html/#4331> rdfs:label "darnieres" .
 
 <http://www.deaf-page.de/guichaul.html/#4332> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/rein> .
 
-<http://www.deaf-page.de/guichaul.html/#4333> rdfs:label "" .
+<http://www.deaf-page.de/guichaul.html/#4333> rdfs:label "l’os sacré" .
 
 <http://www.deaf-page.de/guichaul.html/#4334> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/grant> .
 
@@ -7997,7 +7874,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#496> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/ainz> .
 
-<http://www.deaf-page.de/guichaul.html/#497> rdfs:label "" .
+<http://www.deaf-page.de/guichaul.html/#497> rdfs:label "superfluités" .
 
 <http://www.deaf-page.de/guichaul.html/#498> rdfs:label "toutevoies" .
 
@@ -8534,15 +8411,15 @@
 
 <http://www.deaf-page.de/guichaul.html/#737> rdfs:label "medule" .
 
-<http://www.deaf-page.de/guichaul.html/#738> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/esperme> .
+<http://www.deaf-page.de/guichaul.html/#738> rdfs:label "humeur" .
 
-<http://www.deaf-page.de/guichaul.html/#739> rdfs:label "" .
+<http://www.deaf-page.de/guichaul.html/#739> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/esperme> .
 
 <http://www.deaf-page.de/guichaul.html/#74> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/clerc> .
 
 <http://www.deaf-page.de/guichaul.html/#740> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/cervel> .
 
-<http://www.deaf-page.de/guichaul.html/#741> rdfs:label "" .
+<http://www.deaf-page.de/guichaul.html/#741> rdfs:label "causé" .
 
 <http://www.deaf-page.de/guichaul.html/#742> rdfs:label "chault" .
 
@@ -8716,7 +8593,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#819> rdfs:label "propremant" .
 
-<http://www.deaf-page.de/guichaul.html/#82> rdfs:label "car selon la difference d’icelles" .
+<http://www.deaf-page.de/guichaul.html/#82> rdfs:label "car" .
 
 <http://www.deaf-page.de/guichaul.html/#820> rdfs:label "panicle" .
 
@@ -9066,7 +8943,7 @@
 
 <http://www.deaf-page.de/guichaul.html/#977> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/espaule> .
 
-<http://www.deaf-page.de/guichaul.html/#978> rdfs:label "fourme" .
+<http://www.deaf-page.de/guichaul.html/#978> rdfs:label "met" .
 
 <http://www.deaf-page.de/guichaul.html/#979> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/forme> .
 
@@ -9114,1039 +8991,140 @@
 
 <http://www.deaf-page.de/guichaul.html/#999> rdfs:seeAlso <http://deaf-server.adw.uni-heidelberg.de/lemme/chief> .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/abregier> rdfs:label "abregier" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/abregier> rdfs:label "abregier" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/acorder> rdfs:label "s’acorde" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/acie> rdfs:label "accies",
+        "acie",
+        "acies",
+        "assie",
+        "assies" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/agu> rdfs:label "agu" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/acorder> rdfs:label "s’acorde" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/air> rdfs:label "air" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/addicion> rdfs:label "addiccion",
+        "addicion",
+        "addicions" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/alterer> rdfs:label "altere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ancre> rdfs:label "encre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/anel> rdfs:label "anneaulx" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/animal> rdfs:label "animal" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aparent> rdfs:label "apparens" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/apartenir> rdfs:label "appertient" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/apert> rdfs:label "appers" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aquatique> rdfs:label "aquatiques" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aquerre> rdfs:label "aquises" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/art> rdfs:label "ars" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/auditif> rdfs:label " " .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aval> rdfs:label "aval" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/axonge> rdfs:label "axunge" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/barbe> rdfs:label "barbe" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/brisier> rdfs:label "briser" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/catalogue> rdfs:label "cathologue" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/celier> rdfs:label "celier" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/centre> rdfs:label "centre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cesser> rdfs:label "cesse" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/champ> rdfs:label "champ" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/chaufer> rdfs:label "chauffe" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/chemin> rdfs:label "chemin" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cirurgie> rdfs:label "‘Cirurgie’" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/clerc> rdfs:label "clers" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/clipee> rdfs:label "clipee" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/clistere> rdfs:label "clisteres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/clo> rdfs:label "clos" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/coing> rdfs:label "coing" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/colerique> rdfs:label "colerique" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/coment> rdfs:label """
-                  comment""" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/complet> rdfs:label "complet" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/compresser> rdfs:label "compressé" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/conclure> rdfs:label "conclus" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/conforter> rdfs:label "conforter" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/consolider> rdfs:label "consolider" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/conter> rdfs:label "contés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/contigu> rdfs:label "contigues" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/continent> rdfs:label "continent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/corir> rdfs:label "courant" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/corne> rdfs:label "cornes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cornee> rdfs:label "cornee" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/correspondre> rdfs:label "corespondent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/corrompre> rdfs:label "corrompent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cosdre> rdfs:label "keut" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/creste> rdfs:label "creste" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/crever> rdfs:label "crevés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cristal> rdfs:label "cristail" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cuire> rdfs:label "cuiz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cure> rdfs:label "cure" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/decision> rdfs:label "decizion" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/decoler> rdfs:label "decole" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/determiner> rdfs:label "determinés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dobler> rdfs:label "doublent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/doctor> rdfs:label "docteurs" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/domestique> rdfs:label """domestique
-               """ .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dominer> rdfs:label "domine" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ele> rdfs:label "ales" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/emplir> rdfs:label "emplis" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/enclin> rdfs:label "enclins" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/encontre> rdfs:label "l’encontre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/entier> rdfs:label "entieres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/epiploon> rdfs:label """epiploun
-               """ .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/error> rdfs:label "erreur" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/esmovoir> rdfs:label "esmeut" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/espace> rdfs:label "espaces" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/especefiier> rdfs:label "speciffiees" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/espere> rdfs:label "espere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/espurgier> rdfs:label "expurger" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/essence> rdfs:label "essence" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/estreindre> rdfs:label "l’estreingnent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/exerciter> rdfs:label "excercités" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fievre> rdfs:label "fievres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/flebotomie> rdfs:label "flebothomie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fracture> rdfs:label "fractures" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/frere> rdfs:label "frere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/geline> rdfs:label "gelline" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/goster> rdfs:label "gouster" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/gresil> rdfs:label "de grezil" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/hardi> rdfs:label "hardi" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/haterel> rdfs:label "hasterel" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/idropique> rdfs:label "ydropices" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/idropisie> rdfs:label "ydropizie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/iliaque> rdfs:label "yliaque" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/inspirer> rdfs:label "inspire" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/intersequer> rdfs:label "intercequent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/introduire> rdfs:label "introduit" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/invencion> rdfs:label "invencion" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/iris> rdfs:label "yride" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/laisarde> rdfs:label "lizarde" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/laschier> rdfs:label "lache" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/letre> rdfs:label "lectre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/lie> rdfs:label "lie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/liien> rdfs:label "loien" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/lumiere> rdfs:label "lumiere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/lune> rdfs:label "lune" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/medecine> rdfs:label "medicines" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mediastin> rdfs:label "mediastin" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/meillor> rdfs:label "miudre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/memoratif> rdfs:label "memorative" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mener> rdfs:label "mener" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mer> rdfs:label "mer" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mesentere> rdfs:label "mesentere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mesler> rdfs:label "meslent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/misericort> rdfs:label "misericord" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mordre> rdfs:label "mordre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/morir> rdfs:label "mort" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/most> rdfs:label "moust" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/moutepliier> rdfs:label "multiplient" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mus> rdfs:label "mus" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nagier> rdfs:label "nagier" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/narille> rdfs:label "narilles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/naviier> rdfs:label "navier" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/no> rdfs:label "neux" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/noble> rdfs:label "nobles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/noir> rdfs:label "noire" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/notable> rdfs:label "notables" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/oblique> rdfs:label "obliques" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/oblong> rdfs:label "oblongue" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/obvier> rdfs:label "obvie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ocult> rdfs:label "occultes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/oisos> rdfs:label "vuizeux" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/omentum> rdfs:label """omentum
-               """ .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/opiler> rdfs:label "opilee" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ovrer> rdfs:label "ouvrant" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/partir> rdfs:label "partis" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/passible> rdfs:label "passible" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pechier> rdfs:label "pechent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pele> rdfs:label "pale" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pericarde> rdfs:label "pericarde" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pessaire> rdfs:label "pessaires" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pointure> rdfs:label "poincture" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/polie> rdfs:label "poulie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/porcel> rdfs:label "pourceaux" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pore> rdfs:label "porres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/portier> rdfs:label "portier" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/poser> rdfs:label "poser" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/prover> rdfs:label "prouve" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/puiz> rdfs:label "puis" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pur> rdfs:label "pure" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pustule> rdfs:label "pustules" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/rachete> rdfs:label "rachete" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/raincel> rdfs:label "rainseaulx" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/reciter> rdfs:label "recite" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/regal> rdfs:label "regal’" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/reputer> rdfs:label "repute" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/residu> rdfs:label "residu" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/respirer> rdfs:label "respire" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/revenir> rdfs:label "revient" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/reverser> rdfs:label "reverssent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/roge> rdfs:label "rouge" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/roie> rdfs:label "roies" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/roigne> rdfs:label "roigne" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/rude> rdfs:label "rude et spongieuse" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/rupture> rdfs:label "roupture" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/salive> rdfs:label "salive" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/saphene> rdfs:label "sophene" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sechier> rdfs:label "sechiés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sein> rdfs:label "sains" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sensible> rdfs:label "sencible" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/serre> rdfs:label "cerre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/signe> rdfs:label "signes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/similitude> rdfs:label "similitude" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/singe> rdfs:label "singes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sole> rdfs:label "sole" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/soriz> rdfs:label "suriz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sortir> rdfs:label "sortissent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/spasme> rdfs:label "spasme" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/spatule> rdfs:label "spatules" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/squame> rdfs:label "d’escames" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sus> rdfs:label "sus" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/suspensoire> rdfs:label "suspensoire" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/table> rdfs:label "table" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/temporal> rdfs:label "timporales" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tentigine> rdfs:label "tentigine" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/terme> rdfs:label "terme" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tirer> rdfs:label "tire" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/toise> rdfs:label "toizes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/translater> rdfs:label "translatés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tronc> rdfs:label "tron" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/uef> rdfs:label "euf" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/uile> rdfs:label "huille" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vertebre> rdfs:label "vertebre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vigor> rdfs:label "vigueur" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/virer> rdfs:label "virent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/voirre> rdfs:label "voirre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aguille> rdfs:label "aguille",
-        "aguilles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ajoster> rdfs:label "adjouste",
-        "adjoustez" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/angle> rdfs:label "angle",
-        "angles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/apertement> rdfs:label "appertemant" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/apetit> rdfs:label "apetit",
-        "appetit" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/article> rdfs:label "articles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/assignier> rdfs:label "assigne",
-        "assigné" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/avugle> rdfs:label "aveugle",
-        "l’aveugle" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/bec> rdfs:label "bec" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/bolir> rdfs:label "boillant",
-        "boullié" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/casser> rdfs:label "cassent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/chevel> rdfs:label "cheveux",
-        "les cheveux et" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/clavel> rdfs:label "clavelz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/clef> rdfs:label "clef",
-        "lieux de clefs" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cler> rdfs:label "clere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/compagnon> rdfs:label "compaignon" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/comprimer> rdfs:label "compriment",
-        "primé" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/costure> rdfs:label "cousture" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/coute> rdfs:label "coustes",
-        "coutes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/diferer> rdfs:label "different" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/distinguer> rdfs:label "distingués" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dolor> rdfs:label "douleur" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/duodenum> rdfs:label "duodene" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/escume> rdfs:label "escume",
-        "l’escume" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/espandre> rdfs:label "espandent",
-        "espant" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/estroit> rdfs:label "estroicte",
-        "estrois" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/expeller> rdfs:label "expellees" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/faus> rdfs:label "faulces" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fichier> rdfs:label "fiche",
-        "fichees" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/flus> rdfs:label "flux" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fondement> rdfs:label "fondemant" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fondre> rdfs:label "fondus",
-        "font" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/former> rdfs:label "fourmé",
-        "fourmés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/garnir> rdfs:label " ",
-        "garnie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/general> rdfs:label "general" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/gesir> rdfs:label "gisant",
-        "gisent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/governer> rdfs:label "gouvernent",
-        "governer" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/graisle> rdfs:label "grailles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ignorer> rdfs:label "ignorans",
-        "ignore" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/image> rdfs:label "ymage",
-        "ymages" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/latin> rdfs:label "latin" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/maschier> rdfs:label "mache",
-        "machier" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/megier> rdfs:label "mieger",
-        "miegier" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mitre> rdfs:label "mitre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mostrer> rdfs:label "monstrent",
-        "monstré" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/multitude> rdfs:label "multitude" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nache> rdfs:label "nages" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/necessaire> rdfs:label "necessaire" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nomer> rdfs:label "mé",
-        "nommees" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nonobstant> rdfs:label "nonobstant",
-        "que" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ofice> rdfs:label "office",
-        "offices" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ordre> rdfs:label "ordre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/oster> rdfs:label "oster",
-        "ostes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/paralisie> rdfs:label "paralizie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/parfont> rdfs:label "parfond",
-        "parfont" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/paume> rdfs:label "paulme" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/paupiere> rdfs:label " ",
-        "popieres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/peigne> rdfs:label "pigne",
-        "pine" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/penultieme> rdfs:label "penultime" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/peril> rdfs:label "peril" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pichier> rdfs:label "pichiers",
-        "pichié" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/plain> rdfs:label "plain",
-        "plains" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/plicature> rdfs:label "plicadure",
-        "plicature" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/prepuce> rdfs:label "prepuce" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/principe> rdfs:label "principes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/prochain> rdfs:label "prochain",
-        "procheins" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/rectum> rdfs:label """rectum
-               """ .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/rer> rdfs:label "rare" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/rompre> rdfs:label "rompent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sac> rdfs:label "sac" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sauvage> rdfs:label "salvage",
-        "sauvage" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/scie> rdfs:label "scie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/secte> rdfs:label "sectes’" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/semence> rdfs:label "semence" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sermon> rdfs:label """mon
-               """ .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/servir> rdfs:label "sert",
-        "servir" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tenve> rdfs:label "tenve",
-        "tenves" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/terminer> rdfs:label "termine",
-        "terminent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tost> rdfs:label "tost" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/uevre> rdfs:label "eovre",
-        "oevre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/unir> rdfs:label "se doivent aprés unir",
-        "unyz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vapor> rdfs:label "vapeurs",
-        "vapours" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vicaire> rdfs:label "vicaire",
-        "vicaires" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vie> rdfs:label "vie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aigue> rdfs:label " ",
-        "aigue",
-        "l’aigue" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aissele> rdfs:label "aisselle",
-        "aisselles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/anse> rdfs:label "ance",
-        "l’ance" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/arche> rdfs:label "arche",
-        "l’arche" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/branche> rdfs:label "branche",
-        "branches" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cele> rdfs:label "celle",
-        "celles",
-        "celles ou" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cervel> rdfs:label " ",
-        "cervel" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/chalor> rdfs:label "chaleur",
-        "challeur",
-        "challeurs" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/color> rdfs:label "couleur",
-        "couleurs" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/concave> rdfs:label """
-                  concave""",
-        """
-                  concaves""",
-        "concave" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/digerer> rdfs:label "digerant",
-        "digere",
-        "digerer" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/durer> rdfs:label "dure" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/element> rdfs:label "ellemans’",
-        "ellemens" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/epiglote> rdfs:label "epiglote",
-        "l’espiglote" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fleume> rdfs:label "fleume" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fonder> rdfs:label "fondee",
-        "fondé" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/for> rdfs:label "four",
-        "four chault" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/large> rdfs:label "large",
-        "larges" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/legier> rdfs:label "legier",
-        "legiere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/levre> rdfs:label "leffre",
-        "levres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/liquide> rdfs:label "liquide",
-        "liquides" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/melancolie> rdfs:label "melancolie",
-        "merancolie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/menor> rdfs:label "moindre",
-        "moindres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mondefiier> rdfs:label "mondiffier",
-        "mundiffier",
-        "mundifier" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nombrer> rdfs:label "nombre",
-        "nombrer" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/noter> rdfs:label "note",
-        "notees",
-        "noter" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nutritif> rdfs:label "nutritif",
-        "nutritifz",
-        "nutritis" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ongle> rdfs:label "ongles",
-        "ungles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/orbite> rdfs:label "orbite",
-        "orbites" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/organique> rdfs:label "organique",
-        "organiques" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/particuler> rdfs:label "particulier",
-        "particulieres",
-        "particuliers" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/peinture> rdfs:label "picures",
-        "poincture",
-        "poinctures" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/penetrer> rdfs:label "",
-        "penetrant",
-        "penetrent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/remede> rdfs:label "remedes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/saner> rdfs:label "saigner",
-        "saner",
-        "sanés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sanguin> rdfs:label "sanguine",
-        "sanguins" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/talon> rdfs:label "talon" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tochier> rdfs:label "touchent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tortu> rdfs:label "tortues",
-        "tortus" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/triple> rdfs:label "triples" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/universel> rdfs:label "universel",
-        "universelle",
-        "universelz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/variier> rdfs:label "varie",
-        "varient" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/viande> rdfs:label "viande",
-        "viandes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/voisin> rdfs:label "voisines" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/voiz> rdfs:label "vois",
-        "voix" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vuit> rdfs:label "vuys",
-        "vuyt",
-        "vuyz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aidier> rdfs:label "aide",
-        "aident",
-        "aider",
-        "aidiez" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aleguer> rdfs:label "allegué" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/amont> rdfs:label "amont" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/assez> rdfs:label "assez",
-        "assis" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/avenir> rdfs:label "advenir",
-        "avenir" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/beste> rdfs:label "beste",
-        "bestes",
-        "bestes’" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/blecier> rdfs:label "blecez",
-        "blessé" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/clore> rdfs:label "cloiantz",
-        "cloient" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/defendre> rdfs:label """
-                  dre""",
-        "deffendre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/diference> rdfs:label "difference",
-        "differences" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dilater> rdfs:label "dilate",
-        "dilatent",
-        "dillacter",
-        "se dilate aultre nature" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/encliner> rdfs:label "encline",
-        "encliner",
-        "s’encline" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ensemble> rdfs:label "ensamble",
-        "ensemble" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/entendre> rdfs:label "entendoit",
-        "entendre",
-        "entent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/eschaufer> rdfs:label "eschauffant",
-        "eschauffe",
-        "eschauffer" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/estendre> rdfs:label "estendent",
-        "estendre",
-        "estent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/filosofe> rdfs:label "philosophe",
-        "philosophes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/front> rdfs:label "front" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/manifester> rdfs:label "manifeste",
-        "manifestent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mol> rdfs:label "molle",
-        "molz",
-        "plus moulz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/motif> rdfs:label "motifz",
-        "motis",
-        "motives" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ovrir> rdfs:label "oevrant",
-        "ouvert",
-        "ouvrans" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pareil> rdfs:label "pareil",
-        "pareilz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/parfaire> rdfs:label "parfaire",
-        "parfait",
-        "perfais",
-        "perfait" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pene> rdfs:label "panne",
-        "penne",
-        "pennes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/piere> rdfs:label "piere",
-        "pierre",
-        "pierres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/poitrine> rdfs:label "poitrine",
-        "poitryne" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/present> rdfs:label "present" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/proceder> rdfs:label "procede",
-        "procedent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/purgier> rdfs:label "purge",
-        "purgees",
-        "purger",
-        "purgier" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sofrir> rdfs:label "souffrir" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sorcil> rdfs:label "surcilz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tens> rdfs:label "temps" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tistre> rdfs:label "tissu",
-        "tissue" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/toile> rdfs:label "toille",
-        "toilles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/trachee> rdfs:label "trachee",
-        "traché" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/voie> rdfs:label "voie",
-        "voies" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ainz> rdfs:label "ains",
-        "ains ce sont superfluités",
-        "que" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/curer> rdfs:label "curant",
-        "curer" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/didime> rdfs:label "dindime" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/divers> rdfs:label "divers",
-        "diverses",
-        "diversse",
-        "diversses" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/doner> rdfs:label "donne",
-        "donner" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/emomptoire> rdfs:label "emuctoire",
-        "emunctoires" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/esperit> rdfs:label "esperiz",
-        "experiz",
-        "l’esperit" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/garder> rdfs:label "garde",
-        "garder" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/grace> rdfs:label "de",
-        "grace" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/lacerte> rdfs:label "lacerte",
-        "lacertes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/lez> rdfs:label "las",
-        "lees",
-        "lés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mamele> rdfs:label "mamelles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/matiere> rdfs:label "matere",
-        "matiere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/norrir> rdfs:label " ",
-        "norrir",
-        "norryr",
-        "nouriz",
-        "nourrir" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/orgene> rdfs:label "l’organe",
-        "organe",
-        "organes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/plein> rdfs:label "plain",
-        "plaine",
-        "plaines",
-        "plains" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/porte> rdfs:label "foie",
-        "porte" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/prendre> rdfs:label "fourme",
-        "prendre",
-        "prent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/siege> rdfs:label "siege",
-        "sieges" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tantost> rdfs:label "tantost" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/traitier> rdfs:label "tractié",
-        "tractoit",
-        "traicte",
-        "traitté",
-        "tratoit" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vaissel> rdfs:label "vaiceaulx",
-        "vaisseaulx",
-        "vaisseaux",
-        "vaissel" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/additement> rdfs:label "addictemans",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/additement> rdfs:label "addictemans",
         "additamens",
         "additament",
         "additemans",
         "additemant",
         "addittament" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/blanc> rdfs:label "blanche",
-        "blanches" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/agu> rdfs:label "agu" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/diafragme> rdfs:label "diafragme",
-        "diaframe" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aguille> rdfs:label "aguille",
+        "aguilles" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/enquerre> rdfs:label "enquerre",
-        "enquiert",
-        "enquise",
-        "enquises" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aidier> rdfs:label "aide",
+        "aident",
+        "aider",
+        "aidiez" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ensivre> rdfs:label "l’ensuit",
-        "s’ensuit",
-        "s’ensuivent" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aigue> rdfs:label "aigue",
+        "l’aigue" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/eslargir> rdfs:label "eslargissent",
-        "eslargist" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ainsi> rdfs:label "ainsi",
+        "ansi",
+        "einsi",
+        "einsi que",
+        "ensi",
+        "que" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/espece> rdfs:label "especes" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ainz> rdfs:label "ains",
+        "que" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/forcele> rdfs:label "forcelle",
-        "fourcelle",
-        "fourcelles" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/air> rdfs:label "air" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fort> rdfs:label "fores",
-        "fors",
-        "fort",
-        "forte",
-        "fortes" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aissele> rdfs:label "aisselle",
+        "aisselles" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/grec> rdfs:label "grec",
-        "greke" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ajoster> rdfs:label "adjouste",
+        "adjoustez" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mandibule> rdfs:label "mandible",
-        "mandibule",
-        "mandibules" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aleguer> rdfs:label "allegué" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/moins> rdfs:label "mains",
-        "moins" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/alterer> rdfs:label "altere" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nom> rdfs:label "nom",
-        "noms" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/amont> rdfs:label "amont" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ome> rdfs:label "homme",
-        "hommes",
-        "omme" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/anatomie> rdfs:label "anathomie",
+        "anathomye",
+        "l’anathomie" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/parole> rdfs:label "paraule",
-        "parole",
-        "parolle",
-        "parolles" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ancre> rdfs:label "encre" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/penil> rdfs:label "penil",
-        "pennil" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/anel> rdfs:label "anneaulx" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pouz> rdfs:label "polz",
-        "poulce",
-        "poulz" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/angle> rdfs:label "angle",
+        "angles" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/raison> rdfs:label "raison",
-        "rayson" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/animal> rdfs:label "animal" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sec> rdfs:label "sec",
-        "secs" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/anse> rdfs:label "ance",
+        "l’ance" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sembler> rdfs:label "que",
-        "semble" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aparent> rdfs:label "apparens" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sostenir> rdfs:label "soustenus",
-        "soustient" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aparoir> rdfs:label "aparra",
+        "apparent",
+        "appert" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tendant> rdfs:label "tenans",
-        "tenant",
-        "thenans",
-        "thenon",
-        "thenons" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/apartenir> rdfs:label "appertient" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vit> rdfs:label "vit" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/apeler> rdfs:label "apele",
+        "appelle",
+        "appellee",
+        "l’apelle",
+        "on appelle" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/atraire> rdfs:label "actraicte",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/apert> rdfs:label "appers" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/apertement> rdfs:label "appertemant" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/apetit> rdfs:label "apetit",
+        "appetit" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/apliquier> rdfs:label "appliquees",
+        "appliquent",
+        "appliquer",
+        "appliqués" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aquatique> rdfs:label "aquatiques" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aquerre> rdfs:label "aquises" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aquosit%C3%A9> rdfs:label "aquosité",
+        "aquousité" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/arche> rdfs:label "arche",
+        "l’arche" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/arg%C3%BCer> rdfs:label "argue",
+        "arguer" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/art> rdfs:label "ars" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/artere> rdfs:label "arteires",
+        "arteres",
+        "l’artere" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/article> rdfs:label "articles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/asseoir> rdfs:label "asseoit",
+        "assis",
+        "assise",
+        "assises",
+        "assize" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/assez> rdfs:label "assez",
+        "assis" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/assignier> rdfs:label "assigne",
+        "assigné" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/atraire> rdfs:label "actraicte",
         "actraient",
         "actrait",
         "actraite",
@@ -10154,220 +9132,189 @@
         "attrait",
         "et attraient la" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/boche> rdfs:label "bouche" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/auditif> rdfs:label "auditive" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/borse> rdfs:label "bource",
-        "bourse" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cheville> rdfs:label "cheville",
-        "chevilles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/considerer> rdfs:label "considerer",
-        "considereras" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cul> rdfs:label "cul",
-        "pres du cul" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dificile> rdfs:label "difficile",
-        "difficille",
-        "difficilles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/doctrine> rdfs:label "doctrine",
-        "doctrines" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/feme> rdfs:label "fame",
-        "fames",
-        "femmes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/foiz> rdfs:label "fois" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/maistre> rdfs:label "Mestre",
-        "mestre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nombre> rdfs:label "nombre" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/poil> rdfs:label "poil",
-        "poilz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/remetre> rdfs:label "remectre",
-        "remet",
-        "remetre",
-        "remis" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sofire> rdfs:label "souffice",
-        "souffise",
-        "souffit" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/umain> rdfs:label "humain",
-        "humaine" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/verai> rdfs:label "vraie",
-        "vraies",
-        "vray" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/addicion> rdfs:label "addiccion",
-        "addicion",
-        "addicions" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/apliquier> rdfs:label "appliquees",
-        "appliquent",
-        "appliquer",
-        "appliqués" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/depuis> rdfs:label "depuis",
-        "que" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/droit> rdfs:label "droit",
-        "droite",
-        "‘droite",
-        "‘droit’" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fosse> rdfs:label "foce",
-        "fosse",
-        "fosses" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/gole> rdfs:label "goule" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/joindre> rdfs:label "joingnent",
-        "joings",
-        "joingt",
-        "joins" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/langue> rdfs:label "langue",
-        "lengue" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/maint> rdfs:label "maintes",
-        "mentes" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/maismement> rdfs:label "maiemant" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/moiste> rdfs:label "moiste",
-        "moistes",
-        "moites",
-        "moyte" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/recevoir> rdfs:label "recevoir",
-        "resseux",
-        "ressoyvent",
-        "reçoit",
-        "reçoivent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/separer> rdfs:label "separe",
-        "separee",
-        "separer",
-        "separé",
-        "separés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/traire> rdfs:label "traient",
-        "traire",
-        "trait",
-        "tray" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/travers> rdfs:label "travers" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/comencier> rdfs:label "commence",
-        "commencer",
-        "commencerons" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/conjoindre> rdfs:label """
-                  conjoingt""",
-        "conjoing",
-        "conjoingnent",
-        "conjoings",
-        "conjoins" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/doble> rdfs:label "double",
-        "doubles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/face> rdfs:label "face" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/figure> rdfs:label "figure",
-        "figures" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/manifest> rdfs:label "manifest",
-        "manifeste",
-        "manifestes",
-        "manifés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/mirac> rdfs:label "Mirac",
-        "mirac",
-        "mirach",
-        "myrac" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/parler> rdfs:label "de",
-        "des",
-        "parle",
-        "parler",
-        "parlle" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/racine> rdfs:label "racine",
-        "racines" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/trover> rdfs:label "treuve",
-        "trouvee",
-        "trouveras" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/verge> rdfs:label "verge" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/acie> rdfs:label "accies",
-        "acie",
-        "acies",
-        "assie",
-        "assies" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/apeler> rdfs:label "apele",
-        "appelle",
-        "appellee",
-        "l’apelle",
-        "on appelle" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/artere> rdfs:label "arteires",
-        "arteres",
-        "l’artere" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/autre> rdfs:label "aultre",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/autre> rdfs:label "aultre",
         "aultres",
         "autres",
         "d’aultres" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cartilage> rdfs:label "cartillage",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/aval> rdfs:label "aval" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/avenir> rdfs:label "advenir",
+        "avenir" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/avugle> rdfs:label "aveugle",
+        "l’aveugle" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/axonge> rdfs:label "axunge" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/barbe> rdfs:label "barbe" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/bas> rdfs:label "baisse",
+        "bas",
+        "basse",
+        "basses" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/bec> rdfs:label "bec" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/beste> rdfs:label "beste",
+        "bestes",
+        "bestes’" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/blanc> rdfs:label "blanche",
+        "blanches" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/blecier> rdfs:label "blecez",
+        "blessé" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/boche> rdfs:label "bouche" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/bolir> rdfs:label "boillant",
+        "boullié" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/borse> rdfs:label "bource",
+        "bourse" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/branche> rdfs:label "branche",
+        "branches" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/brisier> rdfs:label "briser" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/c%C3%B6e> rdfs:label "queue" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/calit%C3%A9> rdfs:label "qualité" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cantit%C3%A9> rdfs:label "quantité",
+        "tité" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/capacit%C3%A9> rdfs:label "capacité" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/carr%C3%A9> rdfs:label "quarrés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cartilage> rdfs:label "cartillage",
         "cartillages",
         "cartillaiges" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cause> rdfs:label "cause",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/casser> rdfs:label "cassent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/catalogue> rdfs:label "cathologue" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cause> rdfs:label "cause",
         "pour cause" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/chapitre> rdfs:label "chapitre",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cele> rdfs:label "celle",
+        "celles",
+        "celles ou" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/celier> rdfs:label "celier" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/centre> rdfs:label "centre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cervel> rdfs:label "cervel" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cesser> rdfs:label "cesse" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ch%C3%ABoir> rdfs:label "chee" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/chalor> rdfs:label "chaleur",
+        "challeur",
+        "challeurs" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/champ> rdfs:label "champ" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/chapitre> rdfs:label "chapitre",
         "chappitre",
         "chappitres" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/charnel> rdfs:label "charneuse",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/charnel> rdfs:label "charneuse",
         "charneuses",
         "charneux",
         "charnoux" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/chose> rdfs:label "chose",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/chaufer> rdfs:label "chauffe" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/chemin> rdfs:label "chemin" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/chevel> rdfs:label "cheveux",
+        "les cheveux et" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cheville> rdfs:label "cheville",
+        "chevilles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/chief> rdfs:label "chief",
+        "chiefz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/chose> rdfs:label "chose",
         "choses",
         "chouse" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/comissure> rdfs:label "commissure",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cirurgie> rdfs:label "‘Cirurgie’" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/clavel> rdfs:label "clavelz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/clef> rdfs:label "clef",
+        "lieux de clefs" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cler> rdfs:label "clere" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/clerc> rdfs:label "clers" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/clipee> rdfs:label "clipee" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/clistere> rdfs:label "clisteres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/clo> rdfs:label "clos" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/clore> rdfs:label "cloiantz",
+        "cloient" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/coing> rdfs:label "coing" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/colerique> rdfs:label "colerique" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/color> rdfs:label "couleur",
+        "couleurs" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/comencier> rdfs:label "commence",
+        "commencer",
+        "commencerons" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/coment> rdfs:label """
+                  comment""" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/comissure> rdfs:label "commissure",
         "commissures" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/composer> rdfs:label "compos",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/comist%C3%AFon> rdfs:label "commixtion" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/compagnon> rdfs:label "compaignon" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/compless%C3%AFon> rdfs:label "complexion",
+        "complexions",
+        "plexions’" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/complet> rdfs:label "complet" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/composer> rdfs:label "compos",
         "composee",
         "composees",
         "composé",
-        "composés",
-        "posés" .
+        "composés" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/comprendre> rdfs:label "compreignent",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/comprendre> rdfs:label "compreignent",
         "comprenant",
         "comprent",
         "comprins",
         "comprinse",
         "conprent" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/comun> rdfs:label """
+<https://deaf-server.adw.uni-heidelberg.de/lemme/compresser> rdfs:label "compressé" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/comprimer> rdfs:label "compriment",
+        "primé" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/comun> rdfs:label """
                   commune""",
         """
                   communs""",
@@ -10376,303 +9323,564 @@
         "communs",
         "muns" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/conduit> rdfs:label "conduis",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/comunicac%C3%AFon> rdfs:label "communicacion" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/concave> rdfs:label """
+                  concave""",
+        """
+                  concaves""",
+        "concave" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/conclure> rdfs:label "conclus" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/conduit> rdfs:label "conduis",
         "conduit" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/conoistre> rdfs:label "cogneue",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/conforter> rdfs:label "conforter" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/conjoindre> rdfs:label """
+                  conjoingt""",
+        "conjoing",
+        "conjoingnent",
+        "conjoings",
+        "conjoins" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/conoistre> rdfs:label "cogneue",
         "cogneues",
         "cogneuez",
         "cognoissant",
         "cognoistre" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/corde> rdfs:label "corde",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/considerer> rdfs:label "considerer",
+        "considereras" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/consolider> rdfs:label "consolider" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/contenir> rdfs:label "contenues",
+        "contenus",
+        "contiegnent",
+        "contiennent",
+        "contient" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/conter> rdfs:label "contés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/contigu> rdfs:label "contigues" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/continent> rdfs:label "continent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/corde> rdfs:label "corde",
         "cordes" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/covenir> rdfs:label "convient",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/corir> rdfs:label "courant" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/corne> rdfs:label "cornes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cornee> rdfs:label "cornee" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/correspondre> rdfs:label "corespondent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/corrompre> rdfs:label "corrompent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cosdre> rdfs:label "keut" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/costure> rdfs:label "cousture" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/coute> rdfs:label "coustes",
+        "coutes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/covenir> rdfs:label "convient",
         "vient" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/covrir> rdfs:label "coevre",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/covrir> rdfs:label "coevre",
         "couvert",
         "couverte" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/craisse> rdfs:label "graisse" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cr%C3%AFator> rdfs:label "createur" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/crane> rdfs:label "crane",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/craisse> rdfs:label "graisse" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/crane> rdfs:label "crane",
         "cranne" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cuir> rdfs:label "cuir" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/creste> rdfs:label "creste" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/cuisse> rdfs:label "cuisse",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/crever> rdfs:label "crevés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cristal> rdfs:label "cristail" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cuir> rdfs:label "cuir" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cuire> rdfs:label "cuiz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cuisse> rdfs:label "cuisse",
         "cuisses" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/descendre> rdfs:label "descend",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cul> rdfs:label "cul",
+        "pres du cul" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/cure> rdfs:label "cure" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/curer> rdfs:label "curant",
+        "curer" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/decision> rdfs:label "decizion" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/decoler> rdfs:label "decole" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/defendre> rdfs:label "deffendre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/depuis> rdfs:label "depuis",
+        "que" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/derrier> rdfs:label "dariere",
+        "darrier",
+        "derrier",
+        "derrir" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/descendre> rdfs:label "descend",
         "descendant",
         "descendent" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/devoir> rdfs:label "doit",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/destre> rdfs:label "dextre",
+        "dextres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/determiner> rdfs:label "determinés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/deviser> rdfs:label "devise",
+        "devisees",
+        "divise",
+        "divisee",
+        "divisees",
+        "divisent",
+        "diviser",
+        "divisez" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/devoir> rdfs:label "doit",
         "doivent" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dos> rdfs:label "dos" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/diafragme> rdfs:label "diafragme",
+        "diaframe" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dur> rdfs:label "dur",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/didime> rdfs:label "dindime" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/diference> rdfs:label "difference",
+        "differences" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/diferer> rdfs:label "different" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dificile> rdfs:label "difficile",
+        "difficille",
+        "difficilles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/digerer> rdfs:label "digerant",
+        "digere",
+        "digerer" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dignit%C3%A9> rdfs:label "digneté" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dilater> rdfs:label "dilate",
+        "dilatent",
+        "dillacter",
+        "se dilate aultre nature" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dimin%C3%BCer> rdfs:label "diminuant" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dire> rdfs:label "dire",
+        "vray" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/distinguer> rdfs:label "distingués" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/divers> rdfs:label "divers",
+        "diverses",
+        "diversse",
+        "diversses" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/doble> rdfs:label "double",
+        "doubles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dobler> rdfs:label "doublent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/doctor> rdfs:label "docteurs" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/doctrine> rdfs:label "doctrine",
+        "doctrines" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/doi> rdfs:label "dois",
+        "doy" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dolor> rdfs:label "douleur" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/domestique> rdfs:label "domestique" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dominer> rdfs:label "domine" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/doner> rdfs:label "donne",
+        "donner" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dos> rdfs:label "dos" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/droit> rdfs:label "droit",
+        "droite",
+        "‘droite",
+        "‘droit’" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/duodenum> rdfs:label "duodene" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/dur> rdfs:label "dur",
         "dure",
         "durs" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/envoiier> rdfs:label "envoie",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/durer> rdfs:label "dure" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ele> rdfs:label "ales" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/element> rdfs:label "ellemans’",
+        "ellemens" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/emomptoire> rdfs:label "emuctoire",
+        "emunctoires" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/emplir> rdfs:label "emplis" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/enclin> rdfs:label "enclins" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/encliner> rdfs:label "encline",
+        "encliner",
+        "s’encline" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/encontre> rdfs:label "l’encontre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/engendrer> rdfs:label "dré",
+        "engendre",
+        "engendrees",
+        "engendrent",
+        "engendrer",
+        "engendré",
+        "engendrés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/enquerre> rdfs:label "enquerre",
+        "enquiert",
+        "enquise",
+        "enquises" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ensemble> rdfs:label "ensamble",
+        "ensemble" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ensivre> rdfs:label "l’ensuit",
+        "s’ensuit",
+        "s’ensuivent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/entenc%C3%AFon> rdfs:label "entencion",
+        "entencions",
+        "l’entencion" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/entendre> rdfs:label "entendoit",
+        "entendre",
+        "entent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/entier> rdfs:label "entieres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/entrer> rdfs:label "entre",
+        "entrent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/envoiier> rdfs:label "envoie",
         "envoiees",
         "envoié",
         "envoiés",
         "envoyees",
         "l’envoie" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/espaule> rdfs:label "espaules",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/epiglote> rdfs:label "epiglote",
+        "l’espiglote" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/epiploon> rdfs:label "epiploun" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/error> rdfs:label "erreur" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/eschaufer> rdfs:label "eschauffant",
+        "eschauffe",
+        "eschauffer" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/escume> rdfs:label "escume",
+        "l’escume" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/eslargir> rdfs:label "eslargissent",
+        "eslargist" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/esmovoir> rdfs:label "esmeut" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/esp%C3%A9s> rdfs:label "espesses",
+        "espés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/espace> rdfs:label "espaces" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/espandre> rdfs:label "espandent",
+        "espant" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/espaule> rdfs:label "espaules",
         "l’espaule",
         "l’espaulle" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/esperme> rdfs:label "causé de humeur. Et le cervel est causé du sparme",
-        "esperme",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/espece> rdfs:label "especes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/especefiier> rdfs:label "speciffiees" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/esper%C3%AFence> rdfs:label "experiance",
+        "experience" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/espere> rdfs:label "espere" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/esperit> rdfs:label "esperiz",
+        "experiz",
+        "l’esperit" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/esperme> rdfs:label "esperme",
         "l’esparme",
+        "sparme",
         "sperme" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/esplein> rdfs:label "L’esplein",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/esplein> rdfs:label "L’esplein",
         "l’esplein" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/estomac> rdfs:label "estomac",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/espurgier> rdfs:label "expurger" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/essence> rdfs:label "essence" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/estendre> rdfs:label "estendent",
+        "estendre",
+        "estent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/estomac> rdfs:label "estomac",
         "l’estomac" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/et> rdfs:label "Et",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/estreindre> rdfs:label "l’estreingnent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/estroit> rdfs:label "estroicte",
+        "estrois" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/et> rdfs:label "Et",
         "et",
         "y" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/faire> rdfs:label "fait",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/evaporac%C3%AFon> rdfs:label "evaporacion" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/exerciter> rdfs:label "excercités" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/expeller> rdfs:label "expellees" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/face> rdfs:label "face" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/faire> rdfs:label "fait",
         "faite",
         "fasant",
         "fere",
         "font" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/fermer> rdfs:label "ferme",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/faus> rdfs:label "faulces" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/feme> rdfs:label "fame",
+        "fames",
+        "femmes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fermer> rdfs:label "ferme",
         "ferment",
         "fermer",
         "fermés" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/foie> rdfs:label "foie",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fichier> rdfs:label "fiche",
+        "fichees" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fievre> rdfs:label "fievres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/figure> rdfs:label "figure",
+        "figures" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/filosofe> rdfs:label "philosophe",
+        "philosophes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/flebotomie> rdfs:label "flebothomie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fleume> rdfs:label "fleume" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/flus> rdfs:label "flux" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/foie> rdfs:label "foie",
         "foy",
         "foye" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/forme> rdfs:label "",
-        "fourme" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/foiz> rdfs:label "fois" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/genoil> rdfs:label "genoil",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fondement> rdfs:label "fondemant" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fonder> rdfs:label "fondee",
+        "fondé" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fondre> rdfs:label "fondus",
+        "font" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/for> rdfs:label "four",
+        "four chault" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/forcele> rdfs:label "forcelle",
+        "fourcelle",
+        "fourcelles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/forme> rdfs:label "fourme" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/former> rdfs:label "fourmé",
+        "fourmés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fort> rdfs:label "fores",
+        "fors",
+        "fort",
+        "forte",
+        "fortes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fosse> rdfs:label "foce",
+        "fosse",
+        "fosses" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/fracture> rdfs:label "fractures" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/frere> rdfs:label "frere" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/front> rdfs:label "front" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/garder> rdfs:label "garde",
+        "garder" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/garnir> rdfs:label "garnie",
+        "garny" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/geline> rdfs:label "gelline" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/general> rdfs:label "general" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/genoil> rdfs:label "genoil",
         "genoul" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/hanche> rdfs:label "hanche",
-        "hanches" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/gesir> rdfs:label "gisant",
+        "gisent" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/il> rdfs:label "il",
-        "li",
-        "qu’il" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/gole> rdfs:label "goule" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/intituler> rdfs:label "intitule" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/goster> rdfs:label "gouster" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/issir> rdfs:label "issent",
-        "issir",
-        "ist" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/governer> rdfs:label "gouvernent",
+        "governer" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/jambe> rdfs:label "JAMBE",
-        "jambe",
-        "jambes" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/grace> rdfs:label "de",
+        "grace" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/lieu> rdfs:label "lieu",
-        "lieux" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/graisle> rdfs:label "grailles" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/matrice> rdfs:label "matrice" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/grant> rdfs:label "grande",
+        "grandes",
+        "grans",
+        "grant" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/medecin> rdfs:label "medicin",
-        "medicins",
-        "miedicin" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/grec> rdfs:label "grec",
+        "greke" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/monter> rdfs:label "montant",
-        "monte",
-        "montent" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/gresil> rdfs:label "de grezil" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/naistre> rdfs:label "naissent",
-        "naist",
-        "nait" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nerf> rdfs:label "nerf",
-        "nerfz",
-        "ners" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nuche> rdfs:label "nuche",
-        "nuque" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ole> rdfs:label "L’oule",
-        "l’oule" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/orifice> rdfs:label "l’oriffice",
-        "l’orifice",
-        "oriffice",
-        "oriffices" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/paire> rdfs:label "naisse",
-        "paire",
-        "pere",
-        "perez" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/plusor> rdfs:label "pluseurs" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/poumon> rdfs:label "polmon",
-        "poulmon" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/principal> rdfs:label "principal",
-        "principalx",
-        "principaulx",
-        "principaux" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/reignon> rdfs:label "rognons",
-        "roignons",
-        "rongnons" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sanc> rdfs:label "sang" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/savoir> rdfs:label "savoir",
-        "scest",
-        "seut" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sens> rdfs:label "commun",
-        "sens" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sifac> rdfs:label "Ciphac",
-        "ciphac",
-        "sifac",
-        "siphac" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/simple> rdfs:label "simmples",
-        "simple",
-        "simples" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/sustance> rdfs:label "substance",
-        "sustance" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/tel> rdfs:label "tel",
-        "telle",
-        "telz",
-        "tieulz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ueil> rdfs:label "l’ueil",
-        "oeil",
-        "yelx",
-        "yeulx" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/veine> rdfs:label "vaine",
-        "vaines",
-        "voines" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vertu> rdfs:label "vertu",
-        "vertus" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/vessie> rdfs:label "vacie",
-        "vecie",
-        "vescie",
-        "vessie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/membre> rdfs:label "membre",
-        "membres",
-        "memmbres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/movoir> rdfs:label "meut",
-        "mouvent",
-        "mouvoir" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/naturel> rdfs:label "naturel",
-        "naturelle",
-        "naturelles",
-        "naturelz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/oreille> rdfs:label "oreilles" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/porter> rdfs:label "portant",
-        "porte",
-        "portent",
-        "portés",
-        "pourtent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/anatomie> rdfs:label "anathomie",
-        "anathomye",
-        "l’anathomie" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/aparoir> rdfs:label "",
-        "aparra",
-        "apparent",
-        "appert" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/contenir> rdfs:label "contenues",
-        "contenus",
-        "contiegnent",
-        "contiennent",
-        "contient" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ordener> rdfs:label "nés",
-        "ordonnant",
-        "ordonnee",
-        "ordonnees",
-        "ordonné",
-        "ordonnés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/point> rdfs:label "point" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/pooir> rdfs:label "peuent",
-        "peullent",
-        "peult",
-        "peut",
-        "peuvent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/propre> rdfs:label "propre",
-        "propres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/bas> rdfs:label "baisse",
-        "bas",
-        "basse",
-        "basses" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/chief> rdfs:label "chief",
-        "chiefz" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/lonc> rdfs:label "lonc",
-        "loncs",
-        "long",
-        "longes",
-        "longues" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/piz> rdfs:label "PIS",
-        "pis" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/planter> rdfs:label "plante",
-        "plantee",
-        "plantees",
-        "plantent",
-        "planté",
-        "plantés" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/asseoir> rdfs:label "asseoit",
-        "assis",
-        "assise",
-        "assises",
-        "assize" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/entrer> rdfs:label "entre",
-        "entrent" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/senestre> rdfs:label " ",
-        "senestre",
-        "senextre",
-        "senextres" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/gros> rdfs:label "gros",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/gros> rdfs:label "gros",
         "grosse",
         "grosses" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/liier> rdfs:label "leés",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/hanche> rdfs:label "hanche",
+        "hanches" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/hardi> rdfs:label "hardi" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/haterel> rdfs:label "hasterel" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/idropique> rdfs:label "ydropices" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/idropisie> rdfs:label "ydropizie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ignorer> rdfs:label "ignorans",
+        "ignore" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/il> rdfs:label "il",
+        "li",
+        "qu’il" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/iliaque> rdfs:label "yliaque" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/image> rdfs:label "ymage",
+        "ymages" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/inspirer> rdfs:label "inspire" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/intersequer> rdfs:label "intercequent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/intituler> rdfs:label "intitule" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/introduire> rdfs:label "introduit" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/invencion> rdfs:label "invencion" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/iris> rdfs:label "yride" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/issir> rdfs:label "issent",
+        "issir",
+        "ist" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/jambe> rdfs:label "JAMBE",
+        "jambe",
+        "jambes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/jo%C3%AB> rdfs:label "joue",
+        "joues" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/joindre> rdfs:label "joingnent",
+        "joings",
+        "joingt",
+        "joins" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/l%C3%A9> rdfs:label "leet" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/lacerte> rdfs:label "lacerte",
+        "lacertes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/laisarde> rdfs:label "lizarde" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/langue> rdfs:label "langue",
+        "lengue" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/large> rdfs:label "large",
+        "larges" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/laschier> rdfs:label "lache" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/latin> rdfs:label "latin" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/le%C3%A7on> rdfs:label "lesson",
+        "lessons" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/legier> rdfs:label "legier",
+        "legiere" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/les%C3%AFon> rdfs:label "lezion" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/letre> rdfs:label "lectre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/levre> rdfs:label "leffre",
+        "levres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/lez> rdfs:label "las",
+        "lees",
+        "lés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/lie> rdfs:label "lie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/lieu> rdfs:label "lieu",
+        "lieux" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/liien> rdfs:label "loien" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/liier> rdfs:label "leés",
         "liast",
         "lient",
         "lier",
@@ -10682,471 +9890,886 @@
         "loier",
         "loiés" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/petit> rdfs:label "petis",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/liquide> rdfs:label "liquide",
+        "liquides" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/lonc> rdfs:label "lonc",
+        "loncs",
+        "long",
+        "longes",
+        "longues" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/long%C3%A4on> rdfs:label "longaon" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/lumiere> rdfs:label "lumiere" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/lune> rdfs:label "lune" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/m%C3%BCer> rdfs:label "mue" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/maint> rdfs:label "maintes",
+        "mentes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/maismement> rdfs:label "maiemant" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/maistre> rdfs:label "Mestre",
+        "mestre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mamele> rdfs:label "mamelles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mandibule> rdfs:label "mandible",
+        "mandibule",
+        "mandibules" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/manifest> rdfs:label "manifest",
+        "manifeste",
+        "manifestes",
+        "manifés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/manifester> rdfs:label "manifeste",
+        "manifestent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/maschier> rdfs:label "mache",
+        "machier" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/matiere> rdfs:label "matere",
+        "matiere" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/matrice> rdfs:label "matrice" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/medecin> rdfs:label "medicin",
+        "medicins",
+        "miedicin" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/medecine> rdfs:label "medicines" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mediastin> rdfs:label "mediastin" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/megier> rdfs:label "mieger",
+        "miegier" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/meillor> rdfs:label "miudre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/melancolie> rdfs:label "melancolie",
+        "merancolie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/membre> rdfs:label "membre",
+        "membres",
+        "memmbres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/memoratif> rdfs:label "memorative" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mener> rdfs:label "mener" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/menor> rdfs:label "moindre",
+        "moindres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mer> rdfs:label "mer" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mesentere> rdfs:label "mesentere" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mesler> rdfs:label "meslent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mirac> rdfs:label "Mirac",
+        "mirac",
+        "mirach",
+        "myrac" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/misericort> rdfs:label "misericord" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mitre> rdfs:label "mitre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/moins> rdfs:label "mains",
+        "moins" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/moiste> rdfs:label "moiste",
+        "moistes",
+        "moites",
+        "moyte" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/moiti%C3%A9> rdfs:label "moitié" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mol> rdfs:label "molle",
+        "molz",
+        "plus moulz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mondefiier> rdfs:label "mondiffier",
+        "mundiffier",
+        "mundifier" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/monter> rdfs:label "montant",
+        "monte",
+        "montent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mordre> rdfs:label "mordre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/morir> rdfs:label "mort" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/most> rdfs:label "moust" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mostrer> rdfs:label "monstrent",
+        "monstré" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/motif> rdfs:label "motifz",
+        "motis",
+        "motives" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/moutepliier> rdfs:label "multiplient" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/movoir> rdfs:label "meut",
+        "mouvent",
+        "mouvoir" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/multitude> rdfs:label "multitude" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/mus> rdfs:label "mus" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/n%C3%A9s> rdfs:label "nés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nache> rdfs:label "nages" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nagier> rdfs:label "nagier" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/naistre> rdfs:label "naissent",
+        "naist",
+        "nait" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/narille> rdfs:label "narilles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nature> rdfs:label "humaine",
+        "nature" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/naturel> rdfs:label "naturel",
+        "naturelle",
+        "naturelles",
+        "naturelz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/naviier> rdfs:label "navier" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/necessaire> rdfs:label "necessaire" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/necessit%C3%A9> rdfs:label "necessité" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nerf> rdfs:label "nerf",
+        "nerfz",
+        "ners" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/no> rdfs:label "neux" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/noble> rdfs:label "nobles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/noir> rdfs:label "noire" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nom> rdfs:label "nom",
+        "noms" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nombre> rdfs:label "nombre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nombrer> rdfs:label "nombre",
+        "nombrer" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nomer> rdfs:label "mé",
+        "nommees" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nonobstant> rdfs:label "nonobstant",
+        "que" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/norrir> rdfs:label "norrir",
+        "norryr",
+        "nouriz",
+        "nourrir" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/notable> rdfs:label "notables" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/noter> rdfs:label "note",
+        "notees",
+        "noter" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nuche> rdfs:label "nuche",
+        "nuque" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/nutritif> rdfs:label "nutritif",
+        "nutritifz",
+        "nutritis" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/o%C3%AFr> rdfs:label "oïr" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/oblique> rdfs:label "obliques" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/oblong> rdfs:label "oblongue" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/obvier> rdfs:label "obvie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ocult> rdfs:label "occultes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ofic%C3%AFal> rdfs:label "officiaulx" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ofice> rdfs:label "office",
+        "offices" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/oisos> rdfs:label "vuizeux" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ole> rdfs:label "L’oule",
+        "l’oule" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ome> rdfs:label "homme",
+        "hommes",
+        "omme" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/omentum> rdfs:label "omentum" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ongle> rdfs:label "ongles",
+        "ungles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/operac%C3%AFon> rdfs:label "operacion",
+        "operacions" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/opiler> rdfs:label "opilee" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/opin%C3%AFon> rdfs:label "opinion" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/orbite> rdfs:label "orbite",
+        "orbites" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ordener> rdfs:label "nés",
+        "ordonnant",
+        "ordonnee",
+        "ordonnees",
+        "ordonné",
+        "ordonnés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ordre> rdfs:label "ordre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/oreille> rdfs:label "oreilles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/organique> rdfs:label "organique",
+        "organiques" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/orgene> rdfs:label "l’organe",
+        "organe",
+        "organes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/orifice> rdfs:label "l’oriffice",
+        "l’orifice",
+        "oriffice",
+        "oriffices" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/oster> rdfs:label "oster",
+        "ostes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ovrer> rdfs:label "ouvrant" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ovrir> rdfs:label "oevrant",
+        "ouvert",
+        "ouvrans" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pac%C3%AFent> rdfs:label "paciens" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/paire> rdfs:label "naisse",
+        "paire",
+        "pere",
+        "perez" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/paralisie> rdfs:label "paralizie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pareil> rdfs:label "pareil",
+        "pareilz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/parfaire> rdfs:label "parfaire",
+        "parfait",
+        "perfais",
+        "perfait" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/parfont> rdfs:label "parfond",
+        "parfont" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/parler> rdfs:label "de",
+        "des",
+        "parle",
+        "parler",
+        "parlle" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/parole> rdfs:label "paraule",
+        "parole",
+        "parolle",
+        "parolles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/particuler> rdfs:label "particulier",
+        "particulieres",
+        "particuliers" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/partir> rdfs:label "partis" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pass%C3%AFon> rdfs:label "passion",
+        "passions" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/passible> rdfs:label "passible" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/paume> rdfs:label "paulme" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/paupiere> rdfs:label "paupieres",
+        "popieres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pechier> rdfs:label "pechent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/peigne> rdfs:label "pigne",
+        "pine" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/peinture> rdfs:label "picures",
+        "poincture",
+        "poinctures" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pele> rdfs:label "pale" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pene> rdfs:label "panne",
+        "penne",
+        "pennes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/penetrer> rdfs:label "penetrans",
+        "penetrant",
+        "penetrent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/penil> rdfs:label "penil",
+        "pennil" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/penultieme> rdfs:label "penultime" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pericarde> rdfs:label "pericarde" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/peril> rdfs:label "peril" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pessaire> rdfs:label "pessaires" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/petit> rdfs:label "petis",
         "petit",
         "petite",
         "petites" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/deviser> rdfs:label "devise",
-        "devisees",
-        "divise",
-        "divisee",
-        "divisees",
-        "divisent",
-        "diviser",
-        "divisez" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pi%C3%A9> rdfs:label "pié",
+        "piés" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/engendrer> rdfs:label "dré",
-        "engendre",
-        "engendrees",
-        "engendrent",
-        "engendrer",
-        "engendré",
-        "engendrés" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pichier> rdfs:label "pichiers",
+        "pichié" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/nature> rdfs:label "humaine",
-        "nature" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/piere> rdfs:label "piere",
+        "pierre",
+        "pierres" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/destre> rdfs:label "dextre",
-        "dextres" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/piz> rdfs:label "PIS",
+        "pis" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/rein> rdfs:label "",
-        "reins" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/plain> rdfs:label "plain",
+        "plains" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ventre> rdfs:label "VENTRE",
-        "commun",
-        "ventre",
-        "ventres" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/planter> rdfs:label "plante",
+        "plantee",
+        "plantees",
+        "plantent",
+        "planté",
+        "plantés" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/premier> rdfs:label "PREMIERS",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/plasmac%C3%AFon> rdfs:label "plasmacion",
+        "plasmacions" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/plein> rdfs:label "plain",
+        "plaine",
+        "plaines",
+        "plains" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/plicature> rdfs:label "plicadure",
+        "plicature" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/plusor> rdfs:label "pluseurs" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/poil> rdfs:label "poil",
+        "poilz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/point> rdfs:label "point" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pointure> rdfs:label "poincture" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/poitrine> rdfs:label "poitrine",
+        "poitryne" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/polie> rdfs:label "poulie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pooir> rdfs:label "peuent",
+        "peullent",
+        "peult",
+        "peut",
+        "peuvent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/porcel> rdfs:label "pourceaux" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pore> rdfs:label "porres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/porte> rdfs:label "foie",
+        "porte" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/porter> rdfs:label "portant",
+        "porte",
+        "portent",
+        "portés",
+        "pourtent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/portier> rdfs:label "portier" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/poser> rdfs:label "poser" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/poumon> rdfs:label "polmon",
+        "poulmon" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pouz> rdfs:label "polz",
+        "poulce",
+        "poulz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/premier> rdfs:label "PREMIERS",
         "Premier",
         "Premiers",
         "premier",
         "premiere",
         "premiers" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/venir> rdfs:label "nent",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/prendre> rdfs:label "fourme",
+        "prendre",
+        "prent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/prepuce> rdfs:label "prepuce" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/present> rdfs:label "present" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/principal> rdfs:label "principal",
+        "principalx",
+        "principaulx",
+        "principaux" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/principe> rdfs:label "principes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/proceder> rdfs:label "procede",
+        "procedent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/prochain> rdfs:label "prochain",
+        "procheins" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/propre> rdfs:label "propre",
+        "propres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/prover> rdfs:label "prouve" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/puiz> rdfs:label "puis" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pur> rdfs:label "pure" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/purgier> rdfs:label "purge",
+        "purgees",
+        "purger",
+        "purgier" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/pustule> rdfs:label "pustules" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/rachete> rdfs:label "rachete" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/racine> rdfs:label "racine",
+        "racines" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/raincel> rdfs:label "rainseaulx" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/raison> rdfs:label "raison",
+        "rayson" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/recevoir> rdfs:label "recevoir",
+        "resseux",
+        "ressoyvent",
+        "reçoit",
+        "reçoivent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/reciter> rdfs:label "recite" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/rectum> rdfs:label "rectum" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/regal> rdfs:label "regal’" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/reignon> rdfs:label "rognons",
+        "roignons",
+        "rongnons" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/rein> rdfs:label "reins" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/remede> rdfs:label "remedes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/remetre> rdfs:label "remectre",
+        "remet",
+        "remetre",
+        "remis" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/reputer> rdfs:label "repute" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/rer> rdfs:label "rare" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/residu> rdfs:label "residu" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/respirer> rdfs:label "respire" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/revenir> rdfs:label "revient" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/reverser> rdfs:label "reverssent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/roge> rdfs:label "rouge" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/roie> rdfs:label "roies" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/roigne> rdfs:label "roigne" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/rompre> rdfs:label "rompent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/rude> rdfs:label "rude" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/rupture> rdfs:label "roupture" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sac> rdfs:label "sac" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/salive> rdfs:label "salive" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sanc> rdfs:label "sang" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/saner> rdfs:label "saigner",
+        "saner",
+        "sanés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sanguin> rdfs:label "sanguine",
+        "sanguins" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sant%C3%A9> rdfs:label "santé" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/saphene> rdfs:label "sophene" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sauvage> rdfs:label "salvage",
+        "sauvage" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/savoir> rdfs:label "savoir",
+        "scest",
+        "seut" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/scie> rdfs:label "scie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sec> rdfs:label "sec",
+        "secs" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sechier> rdfs:label "sechiés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/secte> rdfs:label "sectes’" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sein> rdfs:label "sains" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sembler> rdfs:label "que",
+        "semble" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/semence> rdfs:label "semence" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/senestre> rdfs:label "senestre",
+        "senextre",
+        "senextres" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sens> rdfs:label "commun",
+        "sens" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sensible> rdfs:label "sencible" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/separer> rdfs:label "separe",
+        "separee",
+        "separer",
+        "separé",
+        "separés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sermon> rdfs:label "mon" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/serre> rdfs:label "cerre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/servir> rdfs:label "sert",
+        "servir" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/siege> rdfs:label "siege",
+        "sieges" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sifac> rdfs:label "Ciphac",
+        "ciphac",
+        "sifac",
+        "siphac" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/signe> rdfs:label "signes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/similitude> rdfs:label "similitude" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/simple> rdfs:label "simmples",
+        "simple",
+        "simples" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/singe> rdfs:label "singes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sofire> rdfs:label "souffice",
+        "souffise",
+        "souffit" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sofrir> rdfs:label "souffrir" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sole> rdfs:label "sole" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sorcil> rdfs:label "surcilz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/soriz> rdfs:label "suriz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sortir> rdfs:label "sortissent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sostenir> rdfs:label "soustenus",
+        "soustient" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/spasme> rdfs:label "spasme" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/spatule> rdfs:label "spatules" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/squame> rdfs:label "d’escames" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/succosit%C3%A9> rdfs:label "succosité" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sus> rdfs:label "sus" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/suspensoire> rdfs:label "suspensoire" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/sustance> rdfs:label "substance",
+        "sustance" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/table> rdfs:label "table" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/talon> rdfs:label "talon" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tantost> rdfs:label "tantost" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tel> rdfs:label "tel",
+        "telle",
+        "telz",
+        "tieulz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/temporal> rdfs:label "timporales" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tendant> rdfs:label "tenans",
+        "tenant",
+        "thenans",
+        "thenon",
+        "thenons" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tens> rdfs:label "temps" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tentigine> rdfs:label "tentigine" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tenve> rdfs:label "tenve",
+        "tenves" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/terme> rdfs:label "terme" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/terminer> rdfs:label "termine",
+        "terminent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tirer> rdfs:label "tire" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tistre> rdfs:label "tissu",
+        "tissue" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tochier> rdfs:label "touchent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/toile> rdfs:label "toille",
+        "toilles" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/toise> rdfs:label "toizes" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tortu> rdfs:label "tortues",
+        "tortus" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tost> rdfs:label "tost" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/trachee> rdfs:label "trachee",
+        "traché" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/traire> rdfs:label "traient",
+        "traire",
+        "trait",
+        "tray" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/traitier> rdfs:label "tractié",
+        "tractoit",
+        "traicte",
+        "traitté",
+        "tratoit" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/translater> rdfs:label "translatés" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/travers> rdfs:label "travers" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/triple> rdfs:label "triples" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/tronc> rdfs:label "tron" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/trover> rdfs:label "treuve",
+        "trouvee",
+        "trouveras" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/uef> rdfs:label "euf" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ueil> rdfs:label "l’ueil",
+        "oeil",
+        "yelx",
+        "yeulx" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/uevre> rdfs:label "eovre",
+        "oevre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/uile> rdfs:label "huille" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/umain> rdfs:label "humain",
+        "humaine" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/unir> rdfs:label "se doivent aprés unir",
+        "unyz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/universel> rdfs:label "universel",
+        "universelle",
+        "universelz" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/utilit%C3%A9> rdfs:label "utilité",
+        "utilités" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/v%C3%ABoir> rdfs:label "veons",
+        "virent",
+        "voie",
+        "voies",
+        "voions",
+        "voir",
+        "voit" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vacu%C3%AFt%C3%A9> rdfs:label "vacuités" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vaissel> rdfs:label "vaiceaulx",
+        "vaisseaulx",
+        "vaisseaux",
+        "vaissel" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vapor> rdfs:label "vapeurs",
+        "vapours" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/variier> rdfs:label "varie",
+        "varient" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/veine> rdfs:label "vaine",
+        "vaines",
+        "voines" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/venir> rdfs:label "nent",
         "venir",
         "viennent",
         "vient" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/derrier> rdfs:label "dariere",
-        "darrier",
-        "derrier",
-        "derrir" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/ventre> rdfs:label "VENTRE",
+        "commun",
+        "ventre",
+        "ventres" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/ainsi> rdfs:label "ainsi",
-        "ansi",
-        "einsi",
-        """einsi que
-                     """,
-        "ensi",
-        "que",
-        """que
-               """ .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/grant> rdfs:label "grande",
-        "grandes",
-        "grans",
-        "grant" .
-
-<http://deaf-server.adw.uni-heidelberg.de/lemme/dire> rdfs:label " ",
-        "dire",
+<https://deaf-server.adw.uni-heidelberg.de/lemme/verai> rdfs:label "vraie",
+        "vraies",
         "vray" .
 
-<http://deaf-server.adw.uni-heidelberg.de/lemme/doi> rdfs:label "dois",
-        "doy" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/verge> rdfs:label "verge" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/verit%C3%A9> rdfs:label "verité" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Mestre Mundin";
-    foaf:name "Bolongne" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vertebre> rdfs:label "vertebre" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vertu> rdfs:label "vertu",
+        "vertus" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vessie> rdfs:label "vacie",
+        "vecie",
+        "vescie",
+        "vessie" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
+<https://deaf-server.adw.uni-heidelberg.de/lemme/viande> rdfs:label "viande",
+        "viandes" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Averrois";
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vicaire> rdfs:label "vicaire",
+        "vicaires" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vie> rdfs:label "vie" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vigor> rdfs:label "vigueur" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/virer> rdfs:label "virent" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vit> rdfs:label "vit" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/voie> rdfs:label "voie",
+        "voies" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/voirre> rdfs:label "voirre" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/voisin> rdfs:label "voisines" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/voiz> rdfs:label "vois",
+        "voix" .
+
+<https://deaf-server.adw.uni-heidelberg.de/lemme/vuit> rdfs:label "vuys",
+        "vuyt",
+        "vuyz" .
+
+<viaf:100174303> a foaf:Person;
+    foaf:name "Mestre Bertuces" .
+
+<viaf:100198249> a foaf:Person;
+    foaf:name "Hali" .
+
+<viaf:10203574> a foaf:Person;
+    foaf:name "Mestre Dimus de Bolongne",
+        "Mestre Mondin",
+        "Mestre Mundin",
+        "Mundin" .
+
+<viaf:19688718> a foaf:Person;
     foaf:name "Averrois" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
+<viaf:24602645> a foaf:Person;
+    foaf:name "Henri",
+        "Henry",
+        "Henry de Mondeville" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galen" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Guillem de Saliceto";
-    foaf:name "Saliceto" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Lanfrant";
-    foaf:name "anfrant" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "alien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Henri de Mondeville";
-    foaf:name "Henry" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Mestre Mundin";
-    foaf:name "Mondin" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Averrois";
-    foaf:name "Averrois" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Lanfrant";
-    foaf:name "Lanfrant" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Haliabas";
-    foaf:name "Haliabas" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Haliabas";
-    foaf:name "Haly" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Lanfrant";
-    foaf:name "Lanfrant" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "alien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Haliabas";
-    foaf:name "Haliabas" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "alien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Henri de Mondeville";
-    foaf:name "Henri" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Alexandrin le commenteur";
+<viaf:261242238> a foaf:Person;
     foaf:name "Alexandrin" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Haly Rodoan";
-    foaf:name "Hali" .
+<viaf:265893501> a foaf:Person;
+    foaf:name "Laffrant",
+        "Lanfrant" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Haliabas";
-    foaf:name "Haliabas" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Alexandrin le commenteur";
-    foaf:name "" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Mestre Bertuces";
-    foaf:name "Bertuces" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Guillem de Saliceto";
-    foaf:name "Guilliaume" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Henri de Mondeville";
-    foaf:name "Mondeville" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Lanfrant";
-    foaf:name "Laffrant" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Haliabas";
-    foaf:name "Haly" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Aristote";
-    foaf:name "Aristote" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Alcoatin";
-    foaf:name "Alcoatin" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Mestre Mundin";
-    foaf:name "undin" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Haliabas";
-    foaf:name "Hali" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "alien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Ypocras";
+<viaf:287984736> a foaf:Person;
     foaf:name "Ypocras" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
+<viaf:292903242> a foaf:Person;
+    foaf:name "Alcoatin" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Mestre Mundin";
-    foaf:name "undin" .
+<viaf:44299175> a foaf:Person;
+    foaf:name "Galen",
+        "Galien",
+        "alien" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
+<viaf:7524651> a foaf:Person;
+    foaf:name "Aristote" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
+<viaf:89770781> a foaf:Person;
     foaf:name "Avicene" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
+<viaf:9945712> a foaf:Person;
+    foaf:name """Guillem de 
+Saliceto""",
+        "Guilliaume" .
 
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Avicene";
-    foaf:name "Avicene" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Galien";
-    foaf:name "Galien" .
-
-[] a foaf:Person;
-    rdfs:seeAlso "Henri de Mondeville";
-    foaf:name "Henri" .
+<viaf:9955882> a foaf:Person;
+    foaf:name "Hali",
+        "Haliabas",
+        "Haly" .
 
 
