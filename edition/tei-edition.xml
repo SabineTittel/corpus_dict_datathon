@@ -41,10 +41,10 @@
                        replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
             <prefixDef ident="guichaul"
                        matchPattern="(\d+)"
-                       replacementPattern="http://www.deaf-page.de/guichaul.html/#$1"/>
+                       replacementPattern="https://www.deaf-page.de/guichaul.html/#$1"/>
             <prefixDef ident="deaf"
                        matchPattern="(.+)"
-                       replacementPattern="http://deaf-server.adw.uni-heidelberg.de/lemme/$1"/>
+                       replacementPattern="https://deaf-server.adw.uni-heidelberg.de/lemme/$1"/>
             <prefixDef matchPattern="(\d+)" replacementPattern="https://viaf.org/viaf/$" ident="viaf"></prefixDef>
          </listPrefixDef>
       </encodingDesc>

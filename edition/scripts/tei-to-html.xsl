@@ -39,7 +39,7 @@
         <span about="{replace(@about, 'guichaul:', 'http://www.deaf-page.de/guichaul.html/#')}"><xsl:element name="a">
             <xsl:if test="w/@resource">
                 <xsl:attribute name="href">
-                    <xsl:value-of select="w/replace(@resource, 'deaf:', 'http://deaf-server.adw.uni-heidelberg.de/lemme/')"/>
+                    <xsl:value-of select="w/replace(@resource, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/>
                 </xsl:attribute>
                 <xsl:attribute name="target">_blank</xsl:attribute>
             </xsl:if>
