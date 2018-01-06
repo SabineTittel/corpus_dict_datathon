@@ -23,7 +23,8 @@
                             Médecine n<sup>o</sup>184 [2<sup>nd</sup> third 15<sup>th</sup> c.], by
                             Sabine Tittel </h3>
                     </header>
-                    <div prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# foaf: http://xmlns.com/foaf/0.1/">
+                    <div prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# foaf: http://xmlns.com/foaf/0.1/
+                        skos: http://www.w3.org/2004/02/skos/core#">
                         <xsl:apply-templates select="//body/p"/>
                     </div>
                 </body>
@@ -36,21 +37,24 @@
         </p>
     </xsl:template>
     <xsl:template match="seg[@about]">
-        <span about="{replace(@about, 'guichaul:', 'http://www.deaf-page.de/guichaul.html/#')}"><xsl:element name="a">
-            <xsl:if test="w/@resource">
+        <xsl:element name="span">
+            <xsl:attribute name="about"><xsl:value-of select="replace(@about, 'guichaul:', 'http://www.deaf-page.de/guichaul.html/#')"/></xsl:attribute>
+            <xsl:if test="@href">
+                <xsl:attribute name="property"><xsl:value-of select="@property"/></xsl:attribute>
+                <xsl:attribute name="resource"><xsl:value-of select="replace(@href, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/></xsl:attribute>
+            </xsl:if>
+        <xsl:element name="a">
+            <xsl:if test="@href">
                 <xsl:attribute name="href">
-                    <xsl:value-of select="w/replace(@resource, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/>
+                    <xsl:value-of select="replace(@href, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/>
                 </xsl:attribute>
                 <xsl:attribute name="target">_blank</xsl:attribute>
             </xsl:if>
             <xsl:attribute name="property">rdfs:label</xsl:attribute>
             <xsl:attribute name="content"><xsl:value-of select="w"/></xsl:attribute>
-            <xsl:apply-templates select="w"/>
-            <xsl:if test="gloss"><span class="gloss"><xsl:apply-templates select="gloss"/></span></xsl:if>
+            <xsl:apply-templates select="w"/></xsl:element>
+            <xsl:if test="gloss"><span property="{gloss/@property}"><xsl:apply-templates select="gloss"/></span></xsl:if>   
         </xsl:element>
-        <xsl:if test="w/@resource">
-            <span class="hide" property="rdfs:seeAlso" resource="{w/replace(@resource, 'deaf:', 'http://deaf-server.adw.uni-heidelberg.de/lemme/')}"/>
-        </xsl:if></span>
     </xsl:template>
     <xsl:template match="app">
         <xsl:apply-templates select="lem"/>

@@ -40,16 +40,22 @@ div{
     margin: 2%;
 }
 
+span[about]{
+    position:relative;
+}
+
+a.apparatus{
+    position:relative;
+}
 
 a{
     color:#33311B;
     text-decoration:none;
     display:inline;
-    position:relative;
 }
 
 
-a span.gloss{
+span[property="skos:definition"]{
 	display:none;
 	color:#fff;
 	background: #428bca;
@@ -85,7 +91,7 @@ a span.apparatus{
     margin-left: -90px;
 }
 
-a:hover span.gloss{
+span[about]:hover span[property="skos:definition"]{
   display:block;
 }
 
