@@ -39,19 +39,18 @@
     <xsl:template match="seg[@about]">
         <xsl:element name="span">
             <xsl:attribute name="about"><xsl:value-of select="replace(@about, 'guichaul:', 'http://www.deaf-page.de/guichaul.html/#')"/></xsl:attribute>
-            <xsl:if test="@href">
+            <xsl:if test="@resource">
                 <xsl:attribute name="property"><xsl:value-of select="@property"/></xsl:attribute>
                 <xsl:attribute name="resource"><xsl:value-of select="replace(@href, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/></xsl:attribute>
             </xsl:if>
         <xsl:element name="a">
-            <xsl:if test="@href">
+            <xsl:if test="@resource">
                 <xsl:attribute name="href">
-                    <xsl:value-of select="replace(@href, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/>
+                    <xsl:value-of select="replace(@resource, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/>
                 </xsl:attribute>
                 <xsl:attribute name="target">_blank</xsl:attribute>
             </xsl:if>
             <xsl:attribute name="property">rdfs:label</xsl:attribute>
-           <!-- <xsl:attribute name="content"><xsl:value-of select="w"/></xsl:attribute>-->
             <xsl:apply-templates select="w"/></xsl:element>
             <xsl:if test="gloss"><span property="{gloss/@property}"><xsl:apply-templates select="gloss"/></span></xsl:if>   
         </xsl:element>
