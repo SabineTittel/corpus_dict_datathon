@@ -51,7 +51,7 @@
                 <xsl:attribute name="target">_blank</xsl:attribute>
             </xsl:if>
             <xsl:attribute name="property">rdfs:label</xsl:attribute>
-            <xsl:attribute name="content"><xsl:value-of select="w"/></xsl:attribute>
+           <!-- <xsl:attribute name="content"><xsl:value-of select="w"/></xsl:attribute>-->
             <xsl:apply-templates select="w"/></xsl:element>
             <xsl:if test="gloss"><span property="{gloss/@property}"><xsl:apply-templates select="gloss"/></span></xsl:if>   
         </xsl:element>

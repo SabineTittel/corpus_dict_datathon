@@ -91,10 +91,9 @@
 <w property="rdfs:label" lemma="parler" type="v.tr.indir.">parle</w>
                <gloss property="skos:definition">s’entretenir de; parler de</gloss>
             </seg>
-            de <seg about="guichaul:8" property="rdfs:seeAlso" href="deaf:anatomie">
-<w property="rdfs:label" lemma="*anatomie" type="f.">l’anathomie</w>
+            de l’<seg about="guichaul:8" property="rdfs:seeAlso" href="deaf:anatomie">
+<w property="rdfs:label" lemma="*anatomie" type="f.">anathomie</w>
                <gloss property="skos:definition">structure et composition du corps humain et animal, et, en parlant dans un sens abstrait, science de cette structure</gloss>
-               <note>anathomie</note>
             </seg>
             <seg about="guichaul:9" property="rdfs:seeAlso" href="deaf:et">
 <w property="rdfs:label" lemma="et" type="conj.">et</w>
@@ -103,7 +102,6 @@
             <seg about="guichaul:10" property="rdfs:seeAlso" href="deaf:contenir">
 <w property="rdfs:label" lemma="contenir" type="v.tr." subtype="3.sg.">contient</w>
                <gloss property="skos:definition">comprendre en soi, dans sa capacité, son étendue, sa substance; contenir</gloss>
-               <note>contient</note>
             </seg>
             deux
             <seg about="guichaul:11" property="rdfs:seeAlso" href="deaf:doctrine">
@@ -126,7 +124,6 @@
             <seg about="guichaul:15" property="rdfs:seeAlso" href="deaf:anatomie">
 <w property="rdfs:label" lemma="*anatomie" type="f.">l’anathomie</w>
                <gloss property="skos:definition">structure et composition du corps humain et animal, et, en parlant dans un sens abstrait, science de cette structure</gloss>
-               <note>anathomie</note>
             </seg>
             des <seg about="guichaul:16" property="rdfs:seeAlso" href="deaf:membre">
 <w property="rdfs:label" lemma="membre">membres</w>
