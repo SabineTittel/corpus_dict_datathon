@@ -65,8 +65,11 @@
                             <prefixDef ident="guichaul" matchPattern="(\d+)"
                                 replacementPattern="http://www.deaf-page.de/guichaul.html/#$1"/>
                             <prefixDef ident="deaf" matchPattern="(.+)"
-                                replacementPattern="http://deaf-server.adw.uni-heidelberg.de/lemme/$1"
-                            />
+                                replacementPattern="https://deaf-server.adw.uni-heidelberg.de/lemme/$1"/>
+                            <prefixDef matchPattern="(\d+)" replacementPattern="https://viaf.org/viaf/$1"
+                                ident="viaf"/>
+                            <prefixDef matchPattern="([A-Za-z]+)"
+                                replacementPattern="http://www.w3.org/2004/02/skos/core#$1" ident="skos"/>
                         </listPrefixDef>
                     </encodingDesc>
                 </teiHeader>
