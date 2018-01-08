@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="#all" version="2.0">
-    <xsl:output method="html" indent="no" version="5.0"
-        omit-xml-declaration="yes"/>
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="#all"
+    version="2.0">
+    <xsl:output method="html" indent="no" version="5.0" omit-xml-declaration="yes"/>
     <xsl:template match="/">
         <xsl:result-document href="../edition.html">
             <html>
@@ -23,7 +23,8 @@
                             Médecine n<sup>o</sup>184 [2<sup>nd</sup> third 15<sup>th</sup> c.], by
                             Sabine Tittel </h3>
                     </header>
-                    <div prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# foaf: http://xmlns.com/foaf/0.1/
+                    <div
+                        prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# foaf: http://xmlns.com/foaf/0.1/
                         skos: http://www.w3.org/2004/02/skos/core#">
                         <xsl:apply-templates select="//body/p"/>
                     </div>
@@ -38,32 +39,58 @@
     </xsl:template>
     <xsl:template match="seg[@about]">
         <xsl:element name="span">
-            <xsl:attribute name="about"><xsl:value-of select="replace(@about, 'guichaul:', 'http://www.deaf-page.de/guichaul.html/#')"/></xsl:attribute>
+            <xsl:attribute name="about">
+                <xsl:value-of
+                    select="replace(@about, 'guichaul:', 'http://www.deaf-page.de/guichaul.html/#')"
+                />
+            </xsl:attribute>
             <xsl:if test="@resource">
-                <xsl:attribute name="property"><xsl:value-of select="@property"/></xsl:attribute>
-                <xsl:attribute name="resource"><xsl:value-of select="replace(@href, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/></xsl:attribute>
-            </xsl:if>
-        <xsl:element name="a">
-            <xsl:if test="@resource">
-                <xsl:attribute name="href">
-                    <xsl:value-of select="replace(@resource, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"/>
+                <xsl:attribute name="property">
+                    <xsl:value-of select="@property"/>
                 </xsl:attribute>
-                <xsl:attribute name="target">_blank</xsl:attribute>
+                <xsl:attribute name="resource">
+                    <xsl:value-of
+                        select="replace(@resource, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"
+                    />
+                </xsl:attribute>
             </xsl:if>
-            <xsl:attribute name="property">rdfs:label</xsl:attribute>
-            <xsl:apply-templates select="w"/></xsl:element>
-            <xsl:if test="gloss"><span property="{gloss/@property}"><xsl:apply-templates select="gloss"/></span></xsl:if>   
+            <xsl:choose>
+                <xsl:when test="@resource">
+                    <span property="rdfs:label">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of
+                                    select="replace(@resource, 'deaf:', 'https://deaf-server.adw.uni-heidelberg.de/lemme/')"
+                                />
+                            </xsl:attribute>
+                            <xsl:attribute name="target">_blank</xsl:attribute>
+                            <xsl:apply-templates select="w"/>
+                        </xsl:element>
+                    </span>
+                </xsl:when>
+                <xsl:otherwise>
+                    <span property="rdfs:label"> <xsl:apply-templates select="w"/></span>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:if test="gloss">
+                <span property="{gloss/@property}">
+                    <xsl:apply-templates select="gloss"/>
+                </span>
+            </xsl:if>
         </xsl:element>
     </xsl:template>
     <xsl:template match="app">
         <xsl:apply-templates select="lem"/>
         <a class="apparatus">&#9632;<span class="apparatus">
-            <xsl:if test="rdg"><strong><xsl:apply-templates select="rdg"/></strong><br/></xsl:if>
+                <xsl:if test="rdg"><strong><xsl:apply-templates select="rdg"
+                    /></strong><br/></xsl:if>
                 <xsl:if test="note"><xsl:apply-templates select="note"/></xsl:if>
             </span></a>
     </xsl:template>
     <xsl:template match="persName">
-        <span typeof="{@typeof}" about="{@about}"  property="{name[@property]/@property}"><xsl:apply-templates select="name[@property]"/></span>
+        <span typeof="{@typeof}" about="{@about}" property="{name[@property]/@property}">
+            <xsl:apply-templates select="name[@property]"/>
+        </span>
     </xsl:template>
     <xsl:template match="pb">
         <span class="page">
@@ -72,13 +99,19 @@
             <xsl:text>]</xsl:text>
         </span>
     </xsl:template>
-<xsl:template match="span[@type eq 'collocation']">
-        <strong><xsl:value-of select="concat(current(), ': ')"/></strong>
+    <xsl:template match="span[@type eq 'collocation']">
+        <strong>
+            <xsl:value-of select="concat(current(), ': ')"/>
+        </strong>
     </xsl:template>
     <xsl:template match="hi[@rend eq 'italic']">
-        <em><xsl:apply-templates/></em>
+        <em>
+            <xsl:apply-templates/>
+        </em>
     </xsl:template>
     <xsl:template match="hi[@rend eq 'sc']">
-        <span class="sc"><xsl:apply-templates/></span>
+        <span class="sc">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
 </xsl:stylesheet>

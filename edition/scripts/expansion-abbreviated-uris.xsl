@@ -29,7 +29,7 @@
     <xsl:template match="@about">
         <xsl:attribute name="about"><xsl:value-of select="heb:expan-uris(.)"/></xsl:attribute>
     </xsl:template>
-    <xsl:template match="@href">
-        <xsl:attribute name="href"><xsl:value-of select="heb:expan-uris(.)"/></xsl:attribute>
+    <xsl:template match="@resource">
+        <xsl:attribute name="resource"><xsl:value-of select="heb:expan-uris(.)"/></xsl:attribute>
     </xsl:template>
 </xsl:stylesheet>
