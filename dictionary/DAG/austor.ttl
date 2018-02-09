@@ -40,11 +40,11 @@ hw:conceptName rdf:type rdf:Property .
   lexinfo:Noun ;
   lexinfo:Gender lexinfo:masculine ;
   ontolex:canonicalForm :austor_form_austor .
-:austor_form_austor	a ontolex:Form ;
+:austor_form_austor a ontolex:Form ;
 	ontolex:writtenRep "austor"@pro .
-  
+
 # --- graphical variants ----------------
-	
+
 # graphical variant
 :austor ontolex:otherForm :austor_form_asturio .
 :austor_form_asturio a ontolex:Form ;

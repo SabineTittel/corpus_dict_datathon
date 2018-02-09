@@ -40,11 +40,11 @@ hw:conceptName rdf:type rdf:Property .
   lexinfo:Noun ;
   lexinfo:Gender lexinfo:masculine ;
   ontolex:canonicalForm :accident_form_accident .
-:accident_form_accident	a ontolex:Form ;
+:accident_form_accident a ontolex:Form ;
 	ontolex:writtenRep "accident"@pro .
-  
+
 # --- graphical variants ----------------
-	
+
 # graphical variant
 :accident ontolex:otherForm :accident_form_acciden .
 :accident_form_acciden a ontolex:Form ;
