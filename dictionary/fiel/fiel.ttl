@@ -36,7 +36,7 @@ deaf:idem rdf:type rdf:Property .
   lexinfo:Noun ;
   lexinfo:Gender lexinfo:masculine ;
   ontolex:canonicalForm :fiel_form_fiel .
-:fiel_form_fiel	a ontolex:Form ;
+:fiel_form_fiel a ontolex:Form ;
 	ontolex:writtenRep "fiel"@fro .
 
 # --- graphical variants ----------------

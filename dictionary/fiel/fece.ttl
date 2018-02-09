@@ -36,7 +36,7 @@ deaf:idem rdf:type rdf:Property .
   lexinfo:Noun ;
   lexinfo:Gender lexinfo:feminine ;
   ontolex:canonicalForm :fece_form_fece .
-:fece_form_fece	a ontolex:Form ;
+:fece_form_fece a ontolex:Form ;
 	ontolex:writtenRep "fece"@fro .
 
 # --- senses ----------------
