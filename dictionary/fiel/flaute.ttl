@@ -1,0 +1,230 @@
+@prefix :          <http://deaf-server.adw.uni-heidelberg.de/lemme/> .
+@prefix deaf:     <http://deaf-server.adw.uni-heidelberg.de#> .
+@prefix ontolex:  <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix dbpedia:  <http://www.dbpedia.org/resource/> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2001/02/rdf-schema#> .
+@prefix lexinfo:  <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix olia:     <http://purl.org/olia/olia.owl#> .
+@prefix decomp:   <http://www.w3.org/ns/lemon/decomp#> .
+
+
+# language register
+deaf:TechReg a olia:TechnicalRegister .
+
+# semantic specification property
+deaf:idem rdf:type rdf:Property .
+
+# metadata annotation
+deaf:DEAF a ontolex:Lexicon ;
+  dct:creator
+  [
+	foaf:name "Sabine Tittel" ;
+	foaf:homepage "http://www.deaf-page.de/"
+	] ;
+  dct:publisher
+  [
+  foaf:name "Sabine Tittel" ;
+  foaf:homepage "http://www.deaf-page.de/"
+  ] ;
+	dct:license "https://creativecommons.org/licenses/by-nc/4.0/" ;
+  dct:date "2018-02-05"^^xsd:date .
+
+
+# lexical entry
+:flaüte a ontolex:LexicalEntry ,
+	ontolex:Word ;
+  lexinfo:PartOfSpeech "f." ,
+  lexinfo:Noun ;
+  lexinfo:Gender lexinfo:feminine ;
+  ontolex:canonicalForm :flaüte_form_flaüte .
+:flaüte_form_flaüte a ontolex:Form ;
+	ontolex:writtenRep "flaüte"@fro .
+
+# --- graphical variants ----------------
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_fleüte .
+:flaüte_form_fleüte a ontolex:Form ;
+	ontolex:writtenRep "fleüte"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_fleüthe .
+:flaüte_form_fleüthe a ontolex:Form ;
+	ontolex:writtenRep "fleüthe"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_flahute .
+:flaüte_form_flahute a ontolex:Form ;
+	ontolex:writtenRep "flahute"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_flehute .
+:flaüte_form_flehute a ontolex:Form ;
+	ontolex:writtenRep "flehute"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_fleuhute .
+:flaüte_form_fleuhute a ontolex:Form ;
+	ontolex:writtenRep "fleuhute"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_flaüste .
+:flaüte_form_flaüste a ontolex:Form ;
+	ontolex:writtenRep "flaüste"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_fleüste .
+:flaüte_form_fleüste a ontolex:Form ;
+	ontolex:writtenRep "fleüste"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_flaeuste .
+:flaüte_form_flaeuste a ontolex:Form ;
+	ontolex:writtenRep "flaeuste"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_flahuste .
+:flaüte_form_flahuste a ontolex:Form ;
+	ontolex:writtenRep "flahuste"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_feyute .
+:flaüte_form_feyute a ontolex:Form ;
+	ontolex:writtenRep "feyute"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_flute .
+:flaüte_form_flute a ontolex:Form ;
+	ontolex:writtenRep "flute"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_fluste .
+:flaüte_form_fluste a ontolex:Form ;
+	ontolex:writtenRep "fluste"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_floute .
+:flaüte_form_floute a ontolex:Form ;
+	ontolex:writtenRep "floute"@fro .
+
+# graphical variant
+:flaüte ontolex:otherForm :flaüte_form_floyte .
+:flaüte_form_floyte a ontolex:Form ;
+	ontolex:writtenRep "floyte"@fro .
+
+# --- senses ----------------
+
+# main sense number 1
+:flaüte ontolex:sense :flaüte_sense1 ;
+  ontolex:evokes :flaüte_sense1_lexConcept .
+
+:flaüte_sense1 a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :flaüte_sense1_lexConcept ;
+  ontolex:reference dbpedia:Flute ;
+  rdfs:comment "DEAF article /flaüte/ main sense number 1"@eng .
+
+
+:flaüte_sense1_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:Flute ;
+  ontolex:definition "instrument de musique à vent, fait d’une tige de roseau dont la moelle a été dégagée et qui a été troué (d’un nombre variable de trous), sorte de flûte"@fr ;
+  ontolex:lexicalizedSense :flaüte_sense1 .
+
+# sub sense number 1.a
+# collocation "flaüte de Behaigne"
+:flaüte_de_Behaigne a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :flaüte ;
+  vartrans:lexicalRel lexinfo:collocation ;
+  ontolex:canonicalForm :form_flaüte_de_Behaigne .
+:form_flaüte_de_Behaigne a ontolex:Form ;
+  ontolex:writtenRep "flaüte de Behaigne"@fro .
+
+:flaüte_de_Behaigne ontolex:sense :flaüte_sense1.a ;
+  ontolex:evokes :flaüte_sense1.a_lexConcept .
+
+
+:flaüte_sense1.a a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :flaüte_sense1.a_lexConcept ;
+  deaf:idem "“id.”"@fr ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /flaüte/ sub sense number 1.a"@eng .
+
+
+:flaüte_sense1.a_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "instrument de musique à vent, fait d’une tige de roseau dont la moelle a été dégagée et qui a été troué (d’un nombre variable de trous), sorte de flûte"@fr ;
+  ontolex:lexicalizedSense :flaüte_sense1.a .
+
+# sub sense number 1.b
+:flaüte ontolex:sense :flaüte_sense1.b ;
+  ontolex:evokes :flaüte_sense1.b_lexConcept .
+
+
+:flaüte_sense1.b a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :flaüte_sense1.b_lexConcept ;
+
+  ontolex:reference dbpedia:XXX ;
+  ontolex:usage dbpedia:Metonymy ,
+  "méton."@fr ;
+  rdfs:comment "DEAF article /flaüte/ sub sense number 1.b"@eng .
+
+
+:flaüte_sense1.b_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "son produit par la /flaüte/"@fr ;
+  ontolex:lexicalizedSense :flaüte_sense1.b .
+
+# sub sense number 1.c
+# collocation "flaüte traversaine"
+:flaüte_traversaine a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :flaüte ;
+  vartrans:lexicalRel lexinfo:collocation ;
+  ontolex:canonicalForm :form_flaüte_traversaine .
+:form_flaüte_traversaine a ontolex:Form ;
+  ontolex:writtenRep "flaüte traversaine"@fro .
+
+:flaüte_traversaine ontolex:sense :flaüte_sense1.c ;
+  ontolex:evokes :flaüte_sense1.c_lexConcept .
+
+
+:flaüte_sense1.c a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :flaüte_sense1.c_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /flaüte/ sub sense number 1.c"@eng .
+
+
+:flaüte_sense1.c_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "/flaüte/ à ouverture latérale qui est tenue parallèlement aux lèvres, flûte traversière"@fr ;
+  ontolex:lexicalizedSense :flaüte_sense1.c .
+
+# sub sense number 1.d
+# collocation "flaüte au verjus"
+:flaüte_au_verjus a ontolex:LexicalEntry ,
+  ontolex:MultiwordExpression ;
+  decomp:subterm :flaüte ;
+  vartrans:lexicalRel lexinfo:collocation ;
+  ontolex:canonicalForm :form_flaüte_au_verjus .
+:form_flaüte_au_verjus a ontolex:Form ;
+  ontolex:writtenRep "flaüte au verjus"@fro .
+
+:flaüte_au_verjus ontolex:sense :flaüte_sense1.d ;
+  ontolex:evokes :flaüte_sense1.d_lexConcept .
+
+
+:flaüte_sense1.d a ontolex:LexicalSense ;
+  ontolex:isLexicalizedSenseOf :flaüte_sense1.d_lexConcept ;
+  ontolex:reference dbpedia:XXX ;
+  rdfs:comment "DEAF article /flaüte/ sub sense number 1.d"@eng .
+
+
+:flaüte_sense1.d_lexConcept a ontolex:LexicalConcept ;
+  ontolex:isConceptOf dbpedia:XXX ;
+  ontolex:definition "paroles vaines"@fr ;
+  ontolex:lexicalizedSense :flaüte_sense1.d .
