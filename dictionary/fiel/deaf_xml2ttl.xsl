@@ -86,7 +86,7 @@ deaf:DEAF a ontolex:Lexicon ;
   </xsl:if>
   <xsl:choose><xsl:when test="lemma/@developed='false'"> ;
   ontolex:canonicalForm :<xsl:value-of select="lemma"/>_form_<xsl:value-of select="lemma"/> .
-:<xsl:value-of select="lemma"/>_form_<xsl:value-of select="lemma"/>	a ontolex:Form ;
+:<xsl:value-of select="lemma"/>_form_<xsl:value-of select="lemma"/> a ontolex:Form ;
 	ontolex:writtenRep "<xsl:value-of select="lemma"/>"@fro .
   </xsl:when>
   <xsl:otherwise> .</xsl:otherwise>
