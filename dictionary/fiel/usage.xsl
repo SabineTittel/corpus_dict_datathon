@@ -32,7 +32,7 @@
   ontolex:usage dbpedia:Euphemism ,
   "<xsl:value-of select="./description/m:usage"/><xsl:value-of select="./description/m:idem/m:usage"/>"@fr ;</xsl:when>
 <xsl:when test="./description/m:usage/@type='extension' or ./description/m:idem/m:usage/@type='extension'">
-  ontolex:usage dbpedia:Extension_(semantics) ,
+  ontolex:usage dbpedia:Generalization_of_meaning ,
   "<xsl:value-of select="./description/m:usage"/><xsl:value-of select="./description/m:idem/m:usage"/>"@fr ;</xsl:when>
 <xsl:when test="./description/m:usage/@type='malediction' or ./description/m:idem/m:usage/@type='malediction'">
   ontolex:usage dbpedia:Malediction ,
@@ -63,6 +63,12 @@
   "<xsl:value-of select="./description/m:usage"/><xsl:value-of select="./description/m:idem/m:usage"/>"@fr ;</xsl:when>
 <xsl:when test="./description/m:usage/@type='personification' or ./description/m:idem/m:usage/@type='personification'">
   ontolex:usage dbpedia:Antropomorphism ,
+"<xsl:value-of select="./description/m:usage"/><xsl:value-of select="./description/m:idem/m:usage"/>"@fr ;</xsl:when>
+<xsl:when test="./description/m:usage/@type='specification' or ./description/m:idem/m:usage/@type='specification'">
+  ontolex:usage dbpedia:Specialization_of_meaning ,
+"<xsl:value-of select="./description/m:usage"/><xsl:value-of select="./description/m:idem/m:usage"/>"@fr ;</xsl:when>
+<xsl:when test="./description/m:usage/@type='cohyponymy' or ./description/m:idem/m:usage/@type='cohyponymy'">
+  ontolex:usage dbpedia:Cohyponymic_transfer ,
 "<xsl:value-of select="./description/m:usage"/><xsl:value-of select="./description/m:idem/m:usage"/>"@fr ;</xsl:when>
 <xsl:otherwise>usage unspecified</xsl:otherwise></xsl:choose>
 </xsl:template>

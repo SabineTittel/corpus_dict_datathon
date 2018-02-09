@@ -165,6 +165,16 @@
   "<xsl:value-of select="./description/m:terminology/@type"/><xsl:value-of select="./description/m:idem/m:terminology/@type"/>"@eng ;
   olia:hasRegister deaf:TechReg ,
   "<xsl:value-of select="./description/m:terminology"/><xsl:value-of select="./description/m:idem/m:terminology"/>"@fr ;</xsl:when>
+<xsl:when test="./description/m:terminology/@type='administration' or ./description/m:idem/m:terminology/@type='administration'">
+  dct:subject dbpedia:Administration ,
+  "<xsl:value-of select="./description/m:terminology/@type"/><xsl:value-of select="./description/m:idem/m:terminology/@type"/>"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "<xsl:value-of select="./description/m:terminology"/><xsl:value-of select="./description/m:idem/m:terminology"/>"@fr ;</xsl:when>
+<xsl:when test="./description/m:terminology/@type='viticulture' or ./description/m:idem/m:terminology/@type='viticulture'">
+  dct:subject dbpedia:Viticulture ,
+  "<xsl:value-of select="./description/m:terminology/@type"/><xsl:value-of select="./description/m:idem/m:terminology/@type"/>"@eng ;
+  olia:hasRegister deaf:TechReg ,
+  "<xsl:value-of select="./description/m:terminology"/><xsl:value-of select="./description/m:idem/m:terminology"/>"@fr ;</xsl:when>
 <xsl:otherwise>terminology unspecified</xsl:otherwise></xsl:choose>
 </xsl:template>
 </xsl:stylesheet>
