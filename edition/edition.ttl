@@ -10432,7 +10432,7 @@
     skos:definition "bile jaune (l’une des quatre humeurs de l’humorisme’)" .
 
 <http://www.deaf-page.de/guichaul.html/#3656> rdfs:label "fiel";
-    skos:definition "vésicule bilaire" .
+    skos:definition "vésicule biliare" .
 
 <http://www.deaf-page.de/guichaul.html/#3657> rdfs:label "merancolie";
     rdfs:seeAlso <https://deaf-server.adw.uni-heidelberg.de/lemme/melancolie>;
@@ -10804,13 +10804,13 @@
     skos:definition "faire naître, faire exister; produire" .
 
 <http://www.deaf-page.de/guichaul.html/#3749> rdfs:label "fellis";
-    skos:definition "vésicule bilaire" .
+    skos:definition "vésicule biliare" .
 
 <http://www.deaf-page.de/guichaul.html/#375> rdfs:label "posicion";
     skos:definition "lieu où quelque chose est placée, située" .
 
 <http://www.deaf-page.de/guichaul.html/#3750> rdfs:label "fellis";
-    skos:definition "vésicule bilaire" .
+    skos:definition "vésicule biliare" .
 
 <http://www.deaf-page.de/guichaul.html/#3751> rdfs:label "bource";
     rdfs:seeAlso <https://deaf-server.adw.uni-heidelberg.de/lemme/borse>;
@@ -16024,5 +16024,3 @@
     foaf:name "Hali",
         "Haliabas",
         "Haly" .
-
-

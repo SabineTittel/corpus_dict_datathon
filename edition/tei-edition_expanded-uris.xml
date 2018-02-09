@@ -58,7 +58,7 @@
                <w property="rdfs:label" lemma="nom" type="m.">nom</w>
                <gloss property="skos:definition">mot servant à désigner les êtres, les choses qui appartiennent à une même catégorie logique</gloss>
                <note>
-                  <span type="collocation">au nom de</span> 
+                  <span type="collocation">au nom de</span>
                   <gloss property="skos:definition">en vertu de</gloss>
                </note>
             </seg>
@@ -523,7 +523,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">il</w>
-               
+
             </seg>
             dit
             <seg about="http://www.deaf-page.de/guichaul.html/#73"
@@ -748,7 +748,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">qu’il</w>
-               
+
             </seg>
             est escript ou
             <seg about="http://www.deaf-page.de/guichaul.html/#106"
@@ -1149,7 +1149,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">il</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#170"
                  property="rdfs:seeAlso"
@@ -1165,7 +1165,7 @@
                <gloss property="skos:definition">activité, travail</gloss>
             </seg>, <seg about="http://www.deaf-page.de/guichaul.html/#172">
                <w property="rdfs:label" lemma="car">car</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#173">
                <w property="rdfs:label" lemma="*autrement" type="adv.">autremant</w>
@@ -1182,7 +1182,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">il</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#176">
                <w property="rdfs:label" lemma="errer" type="v.intr.">erre</w>
@@ -1263,9 +1263,9 @@
             et, par
             <seg about="http://www.deaf-page.de/guichaul.html/#189">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">consequent</w>
-               
+
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>, <app>
@@ -1307,7 +1307,7 @@
             </seg>:
             <seg about="http://www.deaf-page.de/guichaul.html/#195">
                <w property="rdfs:label" lemma="car">car</w>
-               
+
             </seg>
             c’est <seg about="http://www.deaf-page.de/guichaul.html/#196">
                <w property="rdfs:label" lemma="*comparation" type="f.">comparacion</w>
@@ -1342,7 +1342,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -1398,7 +1398,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">il</w>
-               
+
             </seg>
             ne scet la
             <seg about="http://www.deaf-page.de/guichaul.html/#210"
@@ -1408,7 +1408,7 @@
                <gloss property="skos:definition">structure et composition du corps humain et animal, et, en parlant dans un sens abstrait, science de cette structure</gloss>
             </seg>. <seg about="http://www.deaf-page.de/guichaul.html/#211">
                <w property="rdfs:label" lemma="car">Car</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#212"
                  property="rdfs:seeAlso"
@@ -1422,7 +1422,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">il</w>
-               
+
             </seg>
             en coupe souvent ou plus ou moins qu’il n’ap<hi rend="italic">ar</hi>tient, <seg about="http://www.deaf-page.de/guichaul.html/#214"
                  property="rdfs:seeAlso"
@@ -1527,7 +1527,7 @@
                <w property="rdfs:label" lemma="*ensivre" type="v.pron.">s’ensuit</w>
                <gloss property="skos:definition">penser ou agir selon (les idées, la conduite de qn)</gloss>
                <note>
-                  <span type="collocation">il s’ensuit que</span> 
+                  <span type="collocation">il s’ensuit que</span>
                   <gloss property="skos:definition">il résulte (d’un fait) que</gloss>
                </note>
             </seg>
@@ -1630,7 +1630,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">il</w>
-               
+
             </seg>
             est <seg about="http://www.deaf-page.de/guichaul.html/#246"
                  property="rdfs:seeAlso"
@@ -1670,7 +1670,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">il</w>
-               
+
             </seg>
             me samble que les
             <seg about="http://www.deaf-page.de/guichaul.html/#252"
@@ -1705,7 +1705,7 @@
             c’est <seg about="http://www.deaf-page.de/guichaul.html/#256">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -1718,7 +1718,7 @@
             </seg>
             de ‘Utilitate particula<hi rend="italic">rum</hi>’, <seg about="http://www.deaf-page.de/guichaul.html/#258">
                <w property="rdfs:label" lemma="car">car</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#259"
                  property="rdfs:seeAlso"
@@ -1737,7 +1737,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il">il</w>
-               
+
             </seg>
             ha fait de
             <seg about="http://www.deaf-page.de/guichaul.html/#262">
@@ -1902,7 +1902,7 @@
                <gloss property="skos:definition">qui appartient ou qui est propre à l’homme; humain</gloss>
             </seg>, <seg about="http://www.deaf-page.de/guichaul.html/#289">
                <w property="rdfs:label" lemma="car">car</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#290"
                  property="rdfs:seeAlso"
@@ -1921,7 +1921,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/il">
                <w property="rdfs:label" lemma="il" subtype="m.sg.">li</w>
-               
+
                <note>li</note>
             </seg>.
             Et est dicte anathomie de ‘ana’ en
@@ -1999,7 +1999,7 @@
                      </w>
                      <gloss property="skos:definition">de cette façon</gloss>
                      <note>
-                        <span type="collocation">ainsi que</span> 
+                        <span type="collocation">ainsi que</span>
                         <gloss property="skos:definition">de la même façon que</gloss> einsi que</note>
                   </seg>
                </lem>
@@ -2130,7 +2130,7 @@
                <gloss property="skos:definition">d’une manière différente; autrement</gloss>
             </seg>, <seg about="http://www.deaf-page.de/guichaul.html/#323">
                <w property="rdfs:label" lemma="on">on</w>
-               
+
             </seg>
             <app>
                <lem>
@@ -2174,7 +2174,7 @@
             </seg>.
             <seg about="http://www.deaf-page.de/guichaul.html/#329">
                <w property="rdfs:label" lemma="car">Car</w>
-               
+
             </seg>
                no<hi rend="italic">us</hi>
             <seg about="http://www.deaf-page.de/guichaul.html/#330"
@@ -2197,7 +2197,7 @@
             ou q<hi rend="italic">ua</hi>nt
             <seg about="http://www.deaf-page.de/guichaul.html/#332">
                <w property="rdfs:label" lemma="on">on</w>
-               
+
             </seg>
             les
             <seg about="http://www.deaf-page.de/guichaul.html/#333">
@@ -2213,7 +2213,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/moins">
                <w property="rdfs:label" lemma="moins" subtype="loc.adv.">mains</w>
-               
+
                <note>
                   <span type="collocation">au moins</span>  au mains</note>
             </seg>
@@ -2233,7 +2233,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>,
@@ -2418,7 +2418,7 @@
             </seg>,
             <seg about="http://www.deaf-page.de/guichaul.html/#362">
                <w property="rdfs:label" lemma="car">car</w>
-               
+
             </seg>
             ilz sont le plus <seg about="http://www.deaf-page.de/guichaul.html/#363"
                  property="rdfs:seeAlso"
@@ -2503,9 +2503,9 @@
             c’est
             <seg about="http://www.deaf-page.de/guichaul.html/#374">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -2734,7 +2734,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/moins">
                <w property="rdfs:label" lemma="moins" subtype="loc.adv.">moins</w>
-               
+
                <note>
                   <span type="collocation">au moins</span>
                </note>
@@ -2862,7 +2862,7 @@
                </w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -2969,7 +2969,7 @@
                <w property="rdfs:label" lemma="raison" type="f.">raison</w>
                <gloss property="skos:definition">ce qui permet d’agir conformément à des principes</gloss>
                <note>
-                  <span type="collocation">par raison</span> 
+                  <span type="collocation">par raison</span>
                   <gloss property="skos:definition">en consultant la raison</gloss>
                </note>
             </seg>,
@@ -3243,9 +3243,9 @@
                me<hi rend="italic">m</hi>bres, c’est
             <seg about="http://www.deaf-page.de/guichaul.html/#479">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -3310,7 +3310,7 @@
             Et avec yceulx
             <seg about="http://www.deaf-page.de/guichaul.html/#489">
                <w property="rdfs:label" lemma="on">on</w>
-               
+
             </seg>
             y
             <seg about="http://www.deaf-page.de/guichaul.html/#490"
@@ -3401,7 +3401,7 @@
                </w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -3456,7 +3456,7 @@
             </seg>,
             <seg about="http://www.deaf-page.de/guichaul.html/#509">
                <w property="rdfs:label" lemma="car">car</w>
-               
+
             </seg>
             y sont
             <seg about="http://www.deaf-page.de/guichaul.html/#510"
@@ -3491,7 +3491,7 @@
             </seg>,
             <seg about="http://www.deaf-page.de/guichaul.html/#515">
                <w property="rdfs:label" lemma="car">car</w>
-               
+
             </seg>
             ilz ont leur
             <seg about="http://www.deaf-page.de/guichaul.html/#516">
@@ -3800,7 +3800,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/moins">
                <w property="rdfs:label" lemma="moins" subtype="loc.adv.">moins</w>
-               
+
                <note>
                   <span type="collocation">au moins</span>
                </note>
@@ -3973,7 +3973,7 @@
                <w property="rdfs:label" lemma="point" type="m." subtype="adv.">point</w>
                <gloss property="skos:definition">endroit fixé et déterminé (où qch. à lieu)</gloss>
                <note>
-                  <span type="collocation">ne… point</span> 
+                  <span type="collocation">ne… point</span>
                   <gloss property="skos:definition">ne… pas</gloss>
                </note>
             </seg>
@@ -4334,9 +4334,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/present">
                <w property="rdfs:label" lemma="present" subtype="loc.adv.">present</w>
-               
+
                <note>
-                  <span type="collocation">de present</span> 
+                  <span type="collocation">de present</span>
                   <gloss property="skos:definition">au moment où l’on parle</gloss>
                </note>
             </seg>
@@ -4344,9 +4344,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/grace">
                <w property="rdfs:label" lemma="grace" subtype="loc.prép.">de</w>
-               
+
                <note>
-                  <span type="collocation">par grace de</span> 
+                  <span type="collocation">par grace de</span>
                   <gloss property="skos:definition">pour cause de</gloss>
                </note>
             </seg>
@@ -4393,9 +4393,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/grace">
                <w property="rdfs:label" lemma="grace" subtype="loc.prép.">grace</w>
-               
+
                <note>
-                  <span type="collocation">par grace de</span> 
+                  <span type="collocation">par grace de</span>
                   <gloss property="skos:definition">pour cause de</gloss>
                </note>
             </seg>
@@ -4474,9 +4474,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/grace">
                <w property="rdfs:label" lemma="grace" subtype="loc.prép.">grace</w>
-               
+
                <note>
-                  <span type="collocation">par grace de</span> 
+                  <span type="collocation">par grace de</span>
                   <gloss property="skos:definition">pour cause de</gloss>
                </note>
             </seg>
@@ -4532,9 +4532,9 @@
             ‘De utilitate particula<hi rend="italic">rum</hi>’. Et, p<hi rend="italic">ar</hi>
             <seg about="http://www.deaf-page.de/guichaul.html/#669">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">consequent</w>
-               
+
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>,
@@ -4567,7 +4567,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">en telle maniere que</span> 
+                  <span type="collocation">en telle maniere que</span>
                   <gloss property="skos:definition">de sorte que</gloss>
                </note>
             </seg>
@@ -4763,7 +4763,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -5123,7 +5123,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -5207,7 +5207,7 @@
                <w property="rdfs:label" lemma="point" type="m." subtype="adv.">point</w>
                <gloss property="skos:definition">endroit fixé et déterminé (où qch. à lieu)</gloss>
                <note>
-                  <span type="collocation">ne… point</span> 
+                  <span type="collocation">ne… point</span>
                   <gloss property="skos:definition">ne… pas</gloss>
                </note>
             </seg>,
@@ -5260,9 +5260,9 @@
                particula<hi rend="italic">rum</hi>’. Et, par
             <seg about="http://www.deaf-page.de/guichaul.html/#775">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">consequent</w>
-               
+
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>,
@@ -5502,7 +5502,7 @@
                   subtype="loc.adj.">dehors</w>
                <gloss property="skos:definition">à l’extérieur</gloss>
                <note>
-                  <span type="collocation">de dehors</span> 
+                  <span type="collocation">de dehors</span>
                   <gloss property="skos:definition">qui est situé à l’extérieur</gloss>
                </note>
             </seg>,
@@ -5565,7 +5565,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>,
@@ -5698,7 +5698,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -5822,9 +5822,9 @@
             c’est
             <seg about="http://www.deaf-page.de/guichaul.html/#854">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -6214,7 +6214,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/moins">
                <w property="rdfs:label" lemma="moins" subtype="loc.adv.">moins</w>
-               
+
                <note>
                   <span type="collocation">au moins</span>
                </note>
@@ -6529,7 +6529,7 @@
             </seg>,
             jusques a tant <seg about="http://www.deaf-page.de/guichaul.html/#960">
                <w property="rdfs:label" lemma="jusques a tant que">qu’il</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#961"
                  property="rdfs:seeAlso"
@@ -7113,9 +7113,9 @@
             et, p<hi rend="italic">ar</hi>
             <seg about="http://www.deaf-page.de/guichaul.html/#1049">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">consequent</w>
-               
+
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>,
@@ -7159,9 +7159,9 @@
             en .v. choses, c’est
             <seg about="http://www.deaf-page.de/guichaul.html/#1055">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -7222,9 +7222,9 @@
             <pb n="18v°b"/> de muscles, c’est
             <seg about="http://www.deaf-page.de/guichaul.html/#1064">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -7358,9 +7358,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/grace">
                <w property="rdfs:label" lemma="grace" subtype="loc.prép.">de</w>
-               
+
                <note>
-                  <span type="collocation">grace de</span> 
+                  <span type="collocation">grace de</span>
                   <gloss property="skos:definition">pour cause de</gloss>
                </note>
             </seg>
@@ -7385,9 +7385,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/grace">
                <w property="rdfs:label" lemma="grace" subtype="loc.prép.">grace</w>
-               
+
                <note>
-                  <span type="collocation">grace de</span> 
+                  <span type="collocation">grace de</span>
                   <gloss property="skos:definition">pour cause de</gloss>
                </note>
             </seg>
@@ -7444,7 +7444,7 @@
                <w property="rdfs:label" lemma="point" type="m." subtype="adv.">point</w>
                <gloss property="skos:definition">endroit fixé et déterminé (où qch. à lieu)</gloss>
                <note>
-                  <span type="collocation">ne… point</span> 
+                  <span type="collocation">ne… point</span>
                   <gloss property="skos:definition">ne… pas</gloss>
                </note>
             </seg>
@@ -7485,7 +7485,7 @@
                   subtype="v.impers.">semble</w>
                <gloss property="skos:definition">avoir des traits communs avec; ressembler</gloss>
                <note>
-                  <span type="collocation">semble que</span> 
+                  <span type="collocation">semble que</span>
                   <gloss property="skos:definition">il paraît que</gloss>
                </note>
             </seg>
@@ -7609,7 +7609,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>
@@ -7635,7 +7635,7 @@
                </w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -7674,7 +7674,7 @@
                   subtype="loc.adj.">darrier</w>
                <gloss property="skos:definition">du côté opposé au visage, à la face</gloss>
                <note>
-                  <span type="collocation">de derrier</span> 
+                  <span type="collocation">de derrier</span>
                   <gloss property="skos:definition">qui est situé au côté opposé au visage, à la face</gloss> de darrier</note>
             </seg>,
             de la
@@ -7761,7 +7761,7 @@
                   subtype="v.impers.">que</w>
                <gloss property="skos:definition">avoir des traits communs avec; ressembler</gloss>
                <note>
-                  <span type="collocation">semble que</span> 
+                  <span type="collocation">semble que</span>
                   <gloss property="skos:definition">il paraît que</gloss>
                </note>
             </seg>
@@ -8112,7 +8112,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -8169,9 +8169,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/nonobstant">
                <w property="rdfs:label" lemma="nonobstant" subtype="loc.conj.">nonobstant</w>
-               
+
                <note>
-                  <span type="collocation">nonobstant que</span> 
+                  <span type="collocation">nonobstant que</span>
                   <gloss property="skos:definition">malgré que</gloss>
                </note>
             </seg>
@@ -8491,7 +8491,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -8624,7 +8624,7 @@
                   subtype="loc.adv.">hault</w>
                <gloss property="skos:definition">en un endroit qui est d’une certaine dimension dans le sens vertical; haut</gloss>
                <note>
-                  <span type="collocation">en hault</span> 
+                  <span type="collocation">en hault</span>
                   <gloss property="skos:definition">vers la partie haute</gloss>
                </note>
             </seg>
@@ -8638,7 +8638,7 @@
                   subtype="loc.adv.">bas</w>
                <gloss property="skos:definition">à faible hauteur; bas</gloss>
                <note>
-                  <span type="collocation">en bas</span> 
+                  <span type="collocation">en bas</span>
                   <gloss property="skos:definition">vers la terre; vers le bas</gloss>
                </note>
             </seg>,
@@ -8667,7 +8667,7 @@
             ainsi, jusques a ta<hi rend="italic">n</hi>t
             <seg about="http://www.deaf-page.de/guichaul.html/#1261">
                <w property="rdfs:label" lemma="jusques a tant que">que</w>
-               
+
             </seg>
             elles viennent aux
             <seg about="http://www.deaf-page.de/guichaul.html/#1262">
@@ -8809,7 +8809,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>,
@@ -8944,7 +8944,7 @@
                <w property="rdfs:label" lemma="point" type="m." subtype="adv.">point</w>
                <gloss property="skos:definition">endroit fixé et déterminé (où qch. à lieu)</gloss>
                <note>
-                  <span type="collocation">ne… point</span> 
+                  <span type="collocation">ne… point</span>
                   <gloss property="skos:definition">ne… pas</gloss>
                </note>
             </seg>.
@@ -9214,7 +9214,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss>
                </note>
             </seg>
@@ -9475,9 +9475,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/nonobstant">
                <w property="rdfs:label" lemma="nonobstant" subtype="loc.conj.">que</w>
-               
+
                <note>
-                  <span type="collocation">nonobstant que</span> 
+                  <span type="collocation">nonobstant que</span>
                   <gloss property="skos:definition">malgré que</gloss>
                </note>
             </seg>
@@ -9697,9 +9697,9 @@
             </app> aussi en chescum me<hi rend="italic">m</hi>bre, c’est
             <seg about="http://www.deaf-page.de/guichaul.html/#1403">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -9784,7 +9784,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/filosofe">
                <w property="rdfs:label" lemma="*filosofe">philosophe</w>
-               
+
             </seg>
             est appellé la partie
             <seg about="http://www.deaf-page.de/guichaul.html/#1417">
@@ -10016,7 +10016,7 @@
             et vie<hi rend="italic">n</hi>nent
             <seg about="http://www.deaf-page.de/guichaul.html/#1451">
                <w property="rdfs:label" lemma="jusques a">jusques</w>
-               
+
             </seg>
             a lla
             <seg about="http://www.deaf-page.de/guichaul.html/#1452"
@@ -10270,9 +10270,9 @@
             - sont .x. ou .xj., c’est
             <seg about="http://www.deaf-page.de/guichaul.html/#1488">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -10374,7 +10374,7 @@
                   subtype="loc.prép.">dessoubz</w>
                <gloss property="skos:definition">sous</gloss>
                <note>
-                  <span type="collocation">au dessoubz de</span> 
+                  <span type="collocation">au dessoubz de</span>
                   <gloss property="skos:definition">en bas de</gloss>
                </note>
             </seg>
@@ -10467,7 +10467,7 @@
                <w property="rdfs:label" lemma="ordre" type="m.">ordre</w>
                <gloss property="skos:definition">relation intelligible entre une pluralité de termes</gloss>
                <note>
-                  <span type="collocation">par ordre</span> 
+                  <span type="collocation">par ordre</span>
                   <gloss property="skos:definition">selon la relation intelligible entre une pluralité de termes</gloss>
                </note>
             </seg>
@@ -10728,7 +10728,7 @@
             ou du visage jusq<hi rend="italic">ue</hi>s
             <seg about="http://www.deaf-page.de/guichaul.html/#1553">
                <w property="rdfs:label" lemma="jusques a">a</w>
-               
+
             </seg>
             la
             <seg about="http://www.deaf-page.de/guichaul.html/#1554"
@@ -10742,9 +10742,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/travers">
                <w property="rdfs:label" lemma="travers" subtype="loc.prép.">travers</w>
-               
+
                <note>
-                  <span type="collocation">de travers</span> 
+                  <span type="collocation">de travers</span>
                   <gloss property="skos:definition">dans une direction transversale de</gloss>
                </note>
             </seg>
@@ -10806,7 +10806,7 @@
                   subtype="loc.prép.">de</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -10893,9 +10893,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/travers">
                <w property="rdfs:label" lemma="travers" subtype="loc.adv.">travers</w>
-               
+
                <note>
-                  <span type="collocation">de travers</span> 
+                  <span type="collocation">de travers</span>
                   <gloss property="skos:definition">dans une direction transversale</gloss>
                </note>
             </seg>
@@ -10940,7 +10940,7 @@
                   subtype="loc.adj.">derrier</w>
                <gloss property="skos:definition">du côté opposé au visage, à la face</gloss>
                <note>
-                  <span type="collocation">de derrier</span> 
+                  <span type="collocation">de derrier</span>
                   <gloss property="skos:definition">qui est situé au côté opposé au visage, à la face</gloss> de darrier</note>
             </seg>
             que on appelle
@@ -10986,9 +10986,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/travers">
                <w property="rdfs:label" lemma="travers" subtype="loc.adv.">travers</w>
-               
+
                <note>
-                  <span type="collocation">de travers</span> 
+                  <span type="collocation">de travers</span>
                   <gloss property="skos:definition">dans une direction transversale</gloss>
                </note>
             </seg>
@@ -11053,7 +11053,7 @@
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#1598">
                <w property="rdfs:label" lemma="jusques a">jusques</w>
-               
+
             </seg>
             a lla fin du
             <seg about="http://www.deaf-page.de/guichaul.html/#1599"
@@ -11106,7 +11106,7 @@
             devant dictes, et vont jusques
             <seg about="http://www.deaf-page.de/guichaul.html/#1606">
                <w property="rdfs:label" lemma="jusques a">aux</w>
-               
+
             </seg>
             os des
             <seg about="http://www.deaf-page.de/guichaul.html/#1607"
@@ -11239,7 +11239,7 @@
             </seg>
             jusques <seg about="http://www.deaf-page.de/guichaul.html/#1626">
                <w property="rdfs:label" lemma="jusques a">au</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#1627">
                <w property="rdfs:label" lemma="milieu" type="m.">milieu</w>
@@ -11540,7 +11540,7 @@
                <w property="rdfs:label" lemma="point" type="m." subtype="adv.">point</w>
                <gloss property="skos:definition">endroit fixé et déterminé (où qch. à lieu)</gloss>
                <note>
-                  <span type="collocation">ne… point</span> 
+                  <span type="collocation">ne… point</span>
                   <gloss property="skos:definition">ne… pas</gloss>
                </note>
             </seg>
@@ -11551,7 +11551,7 @@
                <w property="rdfs:label" lemma="point" type="m." subtype="adv.">point</w>
                <gloss property="skos:definition">endroit fixé et déterminé (où qch. à lieu)</gloss>
                <note>
-                  <span type="collocation">ne… point</span> 
+                  <span type="collocation">ne… point</span>
                   <gloss property="skos:definition">ne… pas</gloss>
                </note>
             </seg>
@@ -11577,7 +11577,7 @@
                <w property="rdfs:label" lemma="*ensivre" type="v.pron.">s’ensuit</w>
                <gloss property="skos:definition">penser ou agir selon (les idées, la conduite de qn)</gloss>
                <note>
-                  <span type="collocation">il s’ensuit que</span> 
+                  <span type="collocation">il s’ensuit que</span>
                   <gloss property="skos:definition">il résulte (d’un fait) que</gloss>
                </note>
             </seg>
@@ -11807,9 +11807,9 @@
             et, p<hi rend="italic">ar</hi>
             <seg about="http://www.deaf-page.de/guichaul.html/#1704">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">consequent</w>
-               
+
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>,
@@ -11883,7 +11883,7 @@
                         subtype="loc.adj.">dessus</w>
                      <gloss property="skos:definition">au côté supérieur</gloss>
                      <note>
-                        <span type="collocation">de dessus</span> 
+                        <span type="collocation">de dessus</span>
                         <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                      </note>
                   </seg>
@@ -12088,9 +12088,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/lonc">
                <w property="rdfs:label" lemma="lonc" subtype="loc.adv.">lonc</w>
-               
+
                <note>
-                  <span type="collocation">de lonc</span> 
+                  <span type="collocation">de lonc</span>
                   <gloss property="skos:definition">dans le sens de la longueur</gloss>
                </note>
             </seg>,
@@ -12214,7 +12214,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>
@@ -12233,7 +12233,7 @@
                <w property="rdfs:label" lemma="sens" type="m.">co<hi rend="italic">m</hi>mun</w>
                <gloss property="skos:definition">idée ou ensemble d’idées intelligible que représente un signe ou un ensemble de signes</gloss>
                <note>
-                  <span type="collocation">*sens comun</span> 
+                  <span type="collocation">*sens comun</span>
                   <gloss property="skos:definition">capacité de bien juger; bon sens</gloss> sens commun</note>
             </seg>,
             en la seconde partie la <seg about="http://www.deaf-page.de/guichaul.html/#1764"
@@ -12318,7 +12318,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>,
@@ -12384,7 +12384,7 @@
                   subtype="loc.adj.">darrier</w>
                <gloss property="skos:definition">du côté opposé au visage, à la face</gloss>
                <note>
-                  <span type="collocation">de derrier</span> 
+                  <span type="collocation">de derrier</span>
                   <gloss property="skos:definition">qui est situé au côté opposé au visage, à la face</gloss> de darrier</note>
             </seg>
             sont les addiccions, en maniere <seg about="http://www.deaf-page.de/guichaul.html/#1786">
@@ -12394,7 +12394,7 @@
                   subtype="loc.prép.">de</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -12631,7 +12631,7 @@
                   subtype="loc.adj.">darrier</w>
                <gloss property="skos:definition">du côté opposé au visage, à la face</gloss>
                <note>
-                  <span type="collocation">de derrier</span> 
+                  <span type="collocation">de derrier</span>
                   <gloss property="skos:definition">qui est situé au côté opposé au visage, à la face</gloss> de darrier</note>
             </seg>
             du cervel, et est
@@ -12655,7 +12655,7 @@
             jusques
             <seg about="http://www.deaf-page.de/guichaul.html/#1825">
                <w property="rdfs:label" lemma="jusques a">a</w>
-               
+
             </seg>
             la fin du
             <seg about="http://www.deaf-page.de/guichaul.html/#1826"
@@ -12700,7 +12700,7 @@
                   subtype="v.impers.">que</w>
                <gloss property="skos:definition">avoir des traits communs avec; ressembler</gloss>
                <note>
-                  <span type="collocation">semble que</span> 
+                  <span type="collocation">semble que</span>
                   <gloss property="skos:definition">il paraît que</gloss>
                </note>
             </seg>
@@ -13086,7 +13086,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>
@@ -13568,7 +13568,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>,
@@ -13585,7 +13585,7 @@
                   subtype="loc.adj.">dehors</w>
                <gloss property="skos:definition">à l’extérieur</gloss>
                <note>
-                  <span type="collocation">de dehors</span> 
+                  <span type="collocation">de dehors</span>
                   <gloss property="skos:definition">qui est situé à l’extérieur</gloss>
                </note>
             </seg>,
@@ -13625,7 +13625,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>,
@@ -13642,7 +13642,7 @@
                   subtype="loc.adj.">dehors</w>
                <gloss property="skos:definition">à l’extérieur</gloss>
                <note>
-                  <span type="collocation">de dehors</span> 
+                  <span type="collocation">de dehors</span>
                   <gloss property="skos:definition">qui est situé à l’extérieur</gloss>
                </note>
             </seg>,
@@ -13688,7 +13688,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>,
@@ -13709,7 +13709,7 @@
                   subtype="loc.adj.">dehors</w>
                <gloss property="skos:definition">à l’extérieur</gloss>
                <note>
-                  <span type="collocation">de dehors</span> 
+                  <span type="collocation">de dehors</span>
                   <gloss property="skos:definition">qui est situé à l’extérieur</gloss>
                </note>
             </seg>
@@ -13886,7 +13886,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>,
@@ -14101,7 +14101,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>
@@ -14135,9 +14135,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/travers">
                <w property="rdfs:label" lemma="travers" subtype="loc.adv.">travers</w>
-               
+
                <note>
-                  <span type="collocation">de travers</span> 
+                  <span type="collocation">de travers</span>
                   <gloss property="skos:definition">dans une direction transversale</gloss>
                </note>
             </seg>.
@@ -14390,7 +14390,7 @@
                jusq<hi rend="italic">ue</hi>s
             <seg about="http://www.deaf-page.de/guichaul.html/#2071">
                <w property="rdfs:label" lemma="jusques a">aux</w>
-               
+
             </seg>
             os du
             <seg about="http://www.deaf-page.de/guichaul.html/#2072">
@@ -14436,7 +14436,7 @@
             </app>
             <seg about="http://www.deaf-page.de/guichaul.html/#2078">
                <w property="rdfs:label" lemma="jusques a">au</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#2079">
                <w property="rdfs:label" lemma="*palé">palais</w>
@@ -14833,7 +14833,7 @@
                   subtype="loc.adj.">dessoubz</w>
                <gloss property="skos:definition">à la face inférieure</gloss>
                <note>
-                  <span type="collocation">de dessoubz</span> 
+                  <span type="collocation">de dessoubz</span>
                   <gloss property="skos:definition">qui est situé au côté inférieur</gloss>
                </note>
             </seg>.
@@ -15210,7 +15210,7 @@
                   subtype="loc.adj.">dessoubz</w>
                <gloss property="skos:definition">à la face inférieure</gloss>
                <note>
-                  <span type="collocation">de dessoubz</span> 
+                  <span type="collocation">de dessoubz</span>
                   <gloss property="skos:definition">qui est situé au côté inférieur</gloss>
                </note>
             </seg>,
@@ -15252,7 +15252,7 @@
                   subtype="loc.adj.">dessoubz</w>
                <gloss property="skos:definition">à la face inférieure</gloss>
                <note>
-                  <span type="collocation">de dessoubz</span> 
+                  <span type="collocation">de dessoubz</span>
                   <gloss property="skos:definition">qui est situé au côté inférieur</gloss>
                </note>
             </seg>,
@@ -15356,9 +15356,9 @@
                q<hi rend="italic">u</hi>e sont .v., c’est
             <seg about="http://www.deaf-page.de/guichaul.html/#2207">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -15471,9 +15471,9 @@
             </app> n’en aient que .xxviij. C’est
             <seg about="http://www.deaf-page.de/guichaul.html/#2224">
                <w property="rdfs:label" lemma="assavoir" subtype="loc.">assavoir</w>
-               
+
                <note>
-                  <span type="collocation">c’est assavoir</span> 
+                  <span type="collocation">c’est assavoir</span>
                   <gloss property="skos:definition">c’est-à-dire</gloss>
                </note>
             </seg>
@@ -16069,9 +16069,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/lonc">
                <w property="rdfs:label" lemma="lonc" subtype="loc.adv.">long</w>
-               
+
                <note>
-                  <span type="collocation">de lonc</span> 
+                  <span type="collocation">de lonc</span>
                   <gloss property="skos:definition">dans le sens de la longueur</gloss> de long</note>
             </seg>
             par
@@ -16304,7 +16304,7 @@
             </seg>,
             et vient jusques <seg about="http://www.deaf-page.de/guichaul.html/#2345">
                <w property="rdfs:label" lemma="jusques a">ou</w>
-               
+
                <note>jusques ou</note>
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#2346"
@@ -16315,7 +16315,7 @@
             </seg>
             ou jusq<hi rend="italic">ue</hi>s <seg about="http://www.deaf-page.de/guichaul.html/#2347">
                <w property="rdfs:label" lemma="jusques a">a</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#2348"
                  property="rdfs:seeAlso"
@@ -16442,9 +16442,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/present">
                <w property="rdfs:label" lemma="present" subtype="loc.adv.">prese<hi rend="italic">n</hi>t</w>
-               
+
                <note>
-                  <span type="collocation">de present</span> 
+                  <span type="collocation">de present</span>
                   <gloss property="skos:definition">au moment où l’on parle</gloss>
                </note>
             </seg>
@@ -16652,7 +16652,7 @@
                   subtype="loc.adv.">hault</w>
                <gloss property="skos:definition">en un endroit qui est d’une certaine dimension dans le sens vertical; haut</gloss>
                <note>
-                  <span type="collocation">en hault</span> 
+                  <span type="collocation">en hault</span>
                   <gloss property="skos:definition">vers la partie haute</gloss>
                </note>
             </seg>
@@ -16703,7 +16703,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>
@@ -16831,7 +16831,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/moins">
                <w property="rdfs:label" lemma="moins" subtype="loc.adv.">moins</w>
-               
+
                <note>
                   <span type="collocation">au moins</span>
                </note>
@@ -16866,7 +16866,7 @@
             au chief jusq<hi rend="italic">ue</hi>s <pb n="25v°a"/>
             <seg about="http://www.deaf-page.de/guichaul.html/#2426">
                <w property="rdfs:label" lemma="jusques a">au</w>
-               
+
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#2427"
                  property="rdfs:seeAlso"
@@ -17066,7 +17066,7 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/moins">
                <w property="rdfs:label" lemma="moins" subtype="loc.adv.">moins</w>
-               
+
                <note>
                   <span type="collocation">au moins</span>
                </note>
@@ -17094,7 +17094,7 @@
                   subtype="loc.prép.">maniere</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -17188,9 +17188,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/lonc">
                <w property="rdfs:label" lemma="lonc" subtype="loc.adv.">lonc</w>
-               
+
                <note>
-                  <span type="collocation">de lonc</span> 
+                  <span type="collocation">de lonc</span>
                   <gloss property="skos:definition">dans le sens de la longueur</gloss>
                </note>
             </seg>
@@ -17368,7 +17368,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>
@@ -17401,7 +17401,7 @@
                   subtype="loc.adj.">darrier</w>
                <gloss property="skos:definition">du côté opposé au visage, à la face</gloss>
                <note>
-                  <span type="collocation">de derrier</span> 
+                  <span type="collocation">de derrier</span>
                   <gloss property="skos:definition">qui est situé au côté opposé au visage, à la face</gloss> de darrier</note>
             </seg>
             sont aultres plus grans qui
@@ -17451,7 +17451,7 @@
                   subtype="loc.conj.">maniere</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">en telle maniere que</span> 
+                  <span type="collocation">en telle maniere que</span>
                   <gloss property="skos:definition">de sorte que</gloss>
                </note>
             </seg>
@@ -17495,7 +17495,7 @@
                <w property="rdfs:label" lemma="point" type="m." subtype="adv.">point</w>
                <gloss property="skos:definition">endroit fixé et déterminé (où qch. à lieu)</gloss>
                <note>
-                  <span type="collocation">ne… point</span> 
+                  <span type="collocation">ne… point</span>
                   <gloss property="skos:definition">ne… pas</gloss>
                </note>
             </seg>
@@ -17715,9 +17715,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/present">
                <w property="rdfs:label" lemma="present" subtype="loc.adv.">present</w>
-               
+
                <note>
-                  <span type="collocation">de present</span> 
+                  <span type="collocation">de present</span>
                   <gloss property="skos:definition">au moment où l’on parle</gloss>
                </note>
             </seg>.
@@ -17827,7 +17827,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">plutôt, de préférence</gloss>
                <note>
-                  <span type="collocation">ainz que</span> 
+                  <span type="collocation">ainz que</span>
                   <gloss property="skos:definition">de la même façon que</gloss> ains que</note>
             </seg>
             les organes et <app>
@@ -18042,7 +18042,7 @@
                <w property="rdfs:label" lemma="petit" type="adj." subtype="adv.">petit</w>
                <gloss property="skos:definition">qui est d’un degré inférieur à la moyenne en ce qui concerne la qualité, l’intensité, l’importance</gloss>
                <note>
-                  <span type="collocation">un petit</span> 
+                  <span type="collocation">un petit</span>
                   <gloss property="skos:definition">un peu</gloss>
                </note>
             </seg>
@@ -18066,7 +18066,7 @@
                   subtype="loc.prép.">maniere</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -18145,7 +18145,7 @@
                   subtype="loc.prép.">maniere</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -18176,7 +18176,7 @@
                   subtype="loc.prép.">maniere</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -18218,7 +18218,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>
@@ -18263,7 +18263,7 @@
                   subtype="loc.prép.">de</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -18524,7 +18524,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">à partir de (en parlant de l’espace)</gloss>
                <note>
-                  <span type="collocation">depuis que</span> 
+                  <span type="collocation">depuis que</span>
                   <gloss property="skos:definition">après que</gloss>
                </note>
             </seg>
@@ -18649,7 +18649,7 @@
                <lem>
                   <seg about="http://www.deaf-page.de/guichaul.html/#2672">
                      <w property="rdfs:label" lemma="on">l’appell’en</w>
-                     
+
                      <note>en</note>
                   </seg>
                </lem>
@@ -18674,7 +18674,7 @@
                <w property="rdfs:label" lemma="point" type="m." subtype="adv.">point</w>
                <gloss property="skos:definition">endroit fixé et déterminé (où qch. à lieu)</gloss>
                <note>
-                  <span type="collocation">ne… point</span> 
+                  <span type="collocation">ne… point</span>
                   <gloss property="skos:definition">ne… pas</gloss>
                </note>
             </seg>
@@ -18716,7 +18716,7 @@
             </seg>
             et <seg about="http://www.deaf-page.de/guichaul.html/#2683">
                <w property="rdfs:label" lemma="on">l’appell’en</w>
-               
+
                <note>en</note>
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#2684">
@@ -18752,7 +18752,7 @@
             Et la
             <seg about="http://www.deaf-page.de/guichaul.html/#2689">
                <w property="rdfs:label" lemma="on">appell’en</w>
-               
+
                <note>en</note>
             </seg>
             cephalica
@@ -18789,7 +18789,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>
@@ -18810,7 +18810,7 @@
             </seg>
             et <seg about="http://www.deaf-page.de/guichaul.html/#2698">
                <w property="rdfs:label" lemma="on">l’appell’en</w>
-               
+
                <note>en</note>
             </seg>
             <seg about="http://www.deaf-page.de/guichaul.html/#2699">
@@ -19192,7 +19192,7 @@
                         subtype="loc.adj.">dessubz</w>
                      <gloss property="skos:definition">au côté supérieur</gloss>
                      <note>
-                        <span type="collocation">de dessus</span> 
+                        <span type="collocation">de dessus</span>
                         <gloss property="skos:definition">qui est situé au côté supérieur</gloss> de dessubz</note>
                   </seg>
                </lem>
@@ -19255,7 +19255,7 @@
                   subtype="loc.adj.">dessoubz</w>
                <gloss property="skos:definition">à la face inférieure</gloss>
                <note>
-                  <span type="collocation">de dessoubz</span> 
+                  <span type="collocation">de dessoubz</span>
                   <gloss property="skos:definition">qui est situé au côté inférieur</gloss>
                </note>
             </seg>
@@ -19310,7 +19310,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>
@@ -19382,7 +19382,7 @@
                   subtype="loc.conj.">maniere</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">en telle maniere que</span> 
+                  <span type="collocation">en telle maniere que</span>
                   <gloss property="skos:definition">de sorte que</gloss>
                </note>
             </seg>
@@ -19530,7 +19530,7 @@
             jusques
             <seg about="http://www.deaf-page.de/guichaul.html/#2813">
                <w property="rdfs:label" lemma="jusques a">a</w>
-               
+
             </seg>
             la mein vers le
             <seg about="http://www.deaf-page.de/guichaul.html/#2814"
@@ -19949,9 +19949,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/lonc">
                <w property="rdfs:label" lemma="lonc" subtype="loc.adv.">long</w>
-               
+
                <note>
-                  <span type="collocation">du lonc</span> 
+                  <span type="collocation">du lonc</span>
                   <gloss property="skos:definition">dans le sens de la longueur</gloss> du long</note>
             </seg>,
             car ainsi vont les muscules. Et se poués veoir que la joincture du coude, c’est la plus
@@ -20240,7 +20240,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>
@@ -20338,7 +20338,7 @@
                   subtype="loc.adj.">dariere</w>
                <gloss property="skos:definition">du côté opposé au visage, à la face</gloss>
                <note>
-                  <span type="collocation">de derrier</span> 
+                  <span type="collocation">de derrier</span>
                   <gloss property="skos:definition">qui est situé au côté opposé au visage, à la face</gloss> de dariere</note>
             </seg>,
             vers le dos, sont .xij. spondilles par lesquelles passe la nuque, de laquelle naissent
@@ -20461,7 +20461,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>
@@ -20492,7 +20492,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>. <app>
@@ -20609,7 +20609,7 @@
                   subtype="loc.prép.">de</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -20663,7 +20663,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>.
@@ -20910,7 +20910,7 @@
                   subtype="loc.adv.">hault</w>
                <gloss property="skos:definition">en un endroit qui est d’une certaine dimension dans le sens vertical; haut</gloss>
                <note>
-                  <span type="collocation">en hault</span> 
+                  <span type="collocation">en hault</span>
                   <gloss property="skos:definition">vers la partie haute</gloss>
                </note>
             </seg>;
@@ -21204,7 +21204,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">de dedans</span> 
+                  <span type="collocation">de dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>.
@@ -21691,9 +21691,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/present">
                <w property="rdfs:label" lemma="present" subtype="loc.adv.">present</w>
-               
+
                <note>
-                  <span type="collocation">de present</span> 
+                  <span type="collocation">de present</span>
                   <gloss property="skos:definition">au moment où l’on parle</gloss>
                </note>
             </seg>,
@@ -21850,7 +21850,7 @@
                   subtype="loc.adv.">general</w>
                <gloss property="skos:definition">qui est valable pour toute une classe d’êtres ou de choses (par ce qui est valable à une sous-classe)</gloss>
                <note>
-                  <span type="collocation">en general</span> 
+                  <span type="collocation">en general</span>
                   <gloss property="skos:definition">d’un point de vue général</gloss>
                </note>
             </seg>
@@ -21864,7 +21864,7 @@
                   subtype="v.impers.">que</w>
                <gloss property="skos:definition">avoir des traits communs avec; ressembler</gloss>
                <note>
-                  <span type="collocation">il semble que</span> 
+                  <span type="collocation">il semble que</span>
                   <gloss property="skos:definition">il paraît que</gloss>
                </note>
             </seg>
@@ -21901,7 +21901,7 @@
                   subtype="v.impers.">semble</w>
                <gloss property="skos:definition">avoir des traits communs avec; ressembler</gloss>
                <note>
-                  <span type="collocation">semble que</span> 
+                  <span type="collocation">semble que</span>
                   <gloss property="skos:definition">il paraît que</gloss>
                </note>
             </seg>
@@ -21988,9 +21988,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/aval">
                <w property="rdfs:label" lemma="aval" subtype="loc.adv.">aval</w>
-               
+
                <note>
-                  <span type="collocation">en aval</span> 
+                  <span type="collocation">en aval</span>
                   <gloss property="skos:definition">vers le bas</gloss>
                </note>
             </seg>,
@@ -22050,9 +22050,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/lonc">
                <w property="rdfs:label" lemma="lonc" subtype="loc.adv.">long</w>
-               
+
                <note>
-                  <span type="collocation">de lonc</span> 
+                  <span type="collocation">de lonc</span>
                   <gloss property="skos:definition">dans le sens de la longueur</gloss> de long</note>
             </seg>
             ou de
@@ -22060,9 +22060,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/travers">
                <w property="rdfs:label" lemma="travers" subtype="loc.adv.">travers</w>
-               
+
                <note>
-                  <span type="collocation">de travers</span> 
+                  <span type="collocation">de travers</span>
                   <gloss property="skos:definition">dans une direction transversale</gloss>
                </note>
             </seg>,
@@ -22090,7 +22090,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>,
@@ -22119,7 +22119,7 @@
                         subtype="loc.adj.">darrier</w>
                      <gloss property="skos:definition">du côté opposé au visage, à la face</gloss>
                      <note>
-                        <span type="collocation">de derrier</span> 
+                        <span type="collocation">de derrier</span>
                         <gloss property="skos:definition">qui est situé au côté opposé au visage, à la face</gloss> de darrier</note>
                   </seg>
                </lem>
@@ -22184,7 +22184,7 @@
                   subtype="loc.adj.">dedans</w>
                <gloss property="skos:definition">à l’intérieur</gloss>
                <note>
-                  <span type="collocation">par dedans</span> 
+                  <span type="collocation">par dedans</span>
                   <gloss property="skos:definition">qui est situé à l’intérieur</gloss>
                </note>
             </seg>
@@ -22413,9 +22413,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/travers">
                <w property="rdfs:label" lemma="travers" subtype="loc.prép.">travers</w>
-               
+
                <note>
-                  <span type="collocation">de travers</span> 
+                  <span type="collocation">de travers</span>
                   <gloss property="skos:definition">dans une direction transversale de</gloss>
                </note>
             </seg>
@@ -22424,9 +22424,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/large">
                <w property="rdfs:label" lemma="large" subtype="loc.adv.">large</w>
-               
+
                <note>
-                  <span type="collocation">du large</span> 
+                  <span type="collocation">du large</span>
                   <gloss property="skos:definition">à travers</gloss>
                </note>
             </seg>
@@ -22529,7 +22529,7 @@
                   subtype="loc.adv.">dextre</w>
                <gloss property="skos:definition">le côté droit; droite</gloss>
                <note>
-                  <span type="collocation">a destre</span> 
+                  <span type="collocation">a destre</span>
                   <gloss property="skos:definition">sur le côté droit</gloss> a dextre</note>
             </seg>
             des os devant ditz, et se
@@ -23417,7 +23417,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>
@@ -23564,7 +23564,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>,
@@ -24034,7 +24034,7 @@
                   subtype="loc.adj.">devant</w>
                <gloss property="skos:definition">au côté du visage, à la face</gloss>
                <note>
-                  <span type="collocation">de devant</span> 
+                  <span type="collocation">de devant</span>
                   <gloss property="skos:definition">qui est situé au côté du visage, de la face</gloss>
                </note>
             </seg>
@@ -24347,7 +24347,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>
@@ -24457,7 +24457,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>
@@ -24475,7 +24475,7 @@
                <w property="rdfs:label" lemma="petit" type="adj." subtype="adv.">petit</w>
                <gloss property="skos:definition">qui est d’un degré inférieur à la moyenne en ce qui concerne la qualité, l’intensité, l’importance</gloss>
                <note>
-                  <span type="collocation">un petit</span> 
+                  <span type="collocation">un petit</span>
                   <gloss property="skos:definition">un peu</gloss>
                </note>
             </seg>
@@ -24522,7 +24522,7 @@
                   subtype="loc.adv.">dextre</w>
                <gloss property="skos:definition">le côté droit; droite</gloss>
                <note>
-                  <span type="collocation">a destre</span> 
+                  <span type="collocation">a destre</span>
                   <gloss property="skos:definition">sur le côté droit</gloss> a dextre</note>
             </seg>.
             La
@@ -24594,7 +24594,7 @@
                   subtype="loc.adv.">dextre</w>
                <gloss property="skos:definition">le côté droit; droite</gloss>
                <note>
-                  <span type="collocation">a destre</span> 
+                  <span type="collocation">a destre</span>
                   <gloss property="skos:definition">sur le côté droit</gloss> a dextre</note>
             </seg>
             de l’estomac est le foie qui le
@@ -24638,7 +24638,7 @@
                   subtype="loc.adv.">senextre</w>
                <gloss property="skos:definition">le côté gauche</gloss>
                <note>
-                  <span type="collocation">a senextre</span> 
+                  <span type="collocation">a senextre</span>
                   <gloss property="skos:definition">sur le côté gauche</gloss>
                </note>
             </seg>
@@ -24647,9 +24647,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/travers">
                <w property="rdfs:label" lemma="travers" subtype="loc.adv.">travers</w>
-               
+
                <note>
-                  <span type="collocation">de travers</span> 
+                  <span type="collocation">de travers</span>
                   <gloss property="skos:definition">dans une direction transversale</gloss>
                </note>
             </seg>,
@@ -24763,9 +24763,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/lonc">
                <w property="rdfs:label" lemma="lonc" subtype="loc.adv.">long</w>
-               
+
                <note>
-                  <span type="collocation">de lonc</span> 
+                  <span type="collocation">de lonc</span>
                   <gloss property="skos:definition">dans le sens de la longueur</gloss> de long</note>
             </seg>
             pour
@@ -24801,7 +24801,7 @@
                   subtype="loc.conj.">maniere</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">en telle maniere que</span> 
+                  <span type="collocation">en telle maniere que</span>
                   <gloss property="skos:definition">de sorte que</gloss>
                </note>
             </seg>
@@ -25054,9 +25054,9 @@
             et, par
             <seg about="http://www.deaf-page.de/guichaul.html/#3609">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">consequent</w>
-               
+
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>,
@@ -25068,7 +25068,7 @@
                   subtype="loc.adj.">dehors</w>
                <gloss property="skos:definition">à l’extérieur</gloss>
                <note>
-                  <span type="collocation">de dehors</span> 
+                  <span type="collocation">de dehors</span>
                   <gloss property="skos:definition">qui est situé à l’extérieur</gloss>
                </note>
             </seg>
@@ -25383,7 +25383,7 @@
             est envoyee ou cestim du
             <seg about="http://www.deaf-page.de/guichaul.html/#3656">
                <w property="rdfs:label" lemma="cestim du fiel">fiel</w>
-               <gloss property="skos:definition">vésicule bilaire</gloss>
+               <gloss property="skos:definition">vésicule biliare</gloss>
             </seg>,
             et la
             <seg about="http://www.deaf-page.de/guichaul.html/#3657"
@@ -26022,12 +26022,12 @@
             au foye, si co<hi rend="italic">m</hi>me dit est. Et premier du cistis
             <seg about="http://www.deaf-page.de/guichaul.html/#3749">
                <w property="rdfs:label" lemma="cistis fellis" type="lt.">fellis</w>
-               <gloss property="skos:definition">vésicule bilaire</gloss>
+               <gloss property="skos:definition">vésicule biliare</gloss>
             </seg>.
             Cistis
             <seg about="http://www.deaf-page.de/guichaul.html/#3750">
                <w property="rdfs:label" lemma="cistis fellis" type="lt.">fellis</w>
-               <gloss property="skos:definition">vésicule bilaire</gloss>
+               <gloss property="skos:definition">vésicule biliare</gloss>
             </seg>,
             c’est une
             <seg about="http://www.deaf-page.de/guichaul.html/#3751"
@@ -26383,9 +26383,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/travers">
                <w property="rdfs:label" lemma="travers" subtype="loc.prép.">travers</w>
-               
+
                <note>
-                  <span type="collocation">de travers</span> 
+                  <span type="collocation">de travers</span>
                   <gloss property="skos:definition">dans une direction transversale de</gloss>
                </note>
             </seg>
@@ -26734,7 +26734,7 @@
                   subtype="loc.adv.">dextre</w>
                <gloss property="skos:definition">le côté droit; droite</gloss>
                <note>
-                  <span type="collocation">a destre</span> 
+                  <span type="collocation">a destre</span>
                   <gloss property="skos:definition">sur le côté droit</gloss> a dextre</note>
             </seg>,
             l’autre a
@@ -26747,7 +26747,7 @@
                   subtype="loc.adv.">senextre</w>
                <gloss property="skos:definition">le côté gauche</gloss>
                <note>
-                  <span type="collocation">a senextre</span> 
+                  <span type="collocation">a senextre</span>
                   <gloss property="skos:definition">sur le côté gauche</gloss>
                </note>
             </seg>.
@@ -26823,9 +26823,9 @@
             et, par
             <seg about="http://www.deaf-page.de/guichaul.html/#3865">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">co<hi rend="italic">n</hi>sequent</w>
-               
+
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>,
@@ -26908,7 +26908,7 @@
                   subtype="loc.adj.">dessoubz</w>
                <gloss property="skos:definition">à la face inférieure</gloss>
                <note>
-                  <span type="collocation">de dessoubz</span> 
+                  <span type="collocation">de dessoubz</span>
                   <gloss property="skos:definition">qui est situé au côté inférieur</gloss>
                </note>
             </seg>.
@@ -26997,7 +26997,7 @@
                   subtype="loc.adj.">dessus</w>
                <gloss property="skos:definition">au côté supérieur</gloss>
                <note>
-                  <span type="collocation">de dessus</span> 
+                  <span type="collocation">de dessus</span>
                   <gloss property="skos:definition">qui est situé au côté supérieur</gloss>
                </note>
             </seg>
@@ -27025,7 +27025,7 @@
                   subtype="loc.adj.">dessoubz</w>
                <gloss property="skos:definition">à la face inférieure</gloss>
                <note>
-                  <span type="collocation">de dessoubz</span> 
+                  <span type="collocation">de dessoubz</span>
                   <gloss property="skos:definition">qui est situé au côté inférieur</gloss>
                </note>
             </seg>.
@@ -27513,7 +27513,7 @@
                   subtype="loc.adv.">bas</w>
                <gloss property="skos:definition">à faible hauteur; bas</gloss>
                <note>
-                  <span type="collocation">en bas</span> 
+                  <span type="collocation">en bas</span>
                   <gloss property="skos:definition">vers la terre; vers le bas</gloss>
                </note>
             </seg>,
@@ -28047,7 +28047,7 @@
                <w property="rdfs:label" lemma="nature" type="f.">humaine</w>
                <gloss property="skos:definition">ensemble des caractères, des propriétés qui définissent un être, une chose concrète ou abstraite</gloss>
                <note>
-                  <span type="collocation">nature humaine</span> 
+                  <span type="collocation">nature humaine</span>
                   <gloss property="skos:definition">ensemble des caractères, des propriétés qui définissent l’espèce humaine</gloss>
                </note>
             </seg>.
@@ -28130,9 +28130,9 @@
             ce et, par
             <seg about="http://www.deaf-page.de/guichaul.html/#4052">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">consequent</w>
-               
+
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>,
@@ -28412,7 +28412,7 @@
                   subtype="loc.conj.">que</w>
                <gloss property="skos:definition">de cette façon</gloss>
                <note>
-                  <span type="collocation">ainsi que</span> 
+                  <span type="collocation">ainsi que</span>
                   <gloss property="skos:definition">de la même façon que</gloss> einsi que</note>
             </seg>
             ha le
@@ -28491,9 +28491,9 @@
                  property="rdfs:seeAlso"
                  resource="https://deaf-server.adw.uni-heidelberg.de/lemme/lonc">
                <w property="rdfs:label" lemma="lonc" subtype="loc.adv.">long</w>
-               
+
                <note>
-                  <span type="collocation">de lonc</span> 
+                  <span type="collocation">de lonc</span>
                   <gloss property="skos:definition">dans le sens de la longueur</gloss> de long</note>
             </seg>.
             Et ja soit ce que la <app>
@@ -28747,7 +28747,7 @@
                   subtype="loc.adj.">dessoubz</w>
                <gloss property="skos:definition">à la face inférieure</gloss>
                <note>
-                  <span type="collocation">de dessoubz</span> 
+                  <span type="collocation">de dessoubz</span>
                   <gloss property="skos:definition">qui est situé au côté inférieur</gloss>
                </note>
             </seg>
@@ -28925,7 +28925,7 @@
                   subtype="loc.adj.">dehors</w>
                <gloss property="skos:definition">à l’extérieur</gloss>
                <note>
-                  <span type="collocation">de dehors</span> 
+                  <span type="collocation">de dehors</span>
                   <gloss property="skos:definition">qui est situé à l’extérieur</gloss>
                </note>
             </seg>
@@ -29348,7 +29348,7 @@
                <w property="rdfs:label" lemma="nature" type="f.">humaine</w>
                <gloss property="skos:definition">ensemble des caractères, des propriétés qui définissent un être, une chose concrète ou abstraite</gloss>
                <note>
-                  <span type="collocation">nature humaine</span> 
+                  <span type="collocation">nature humaine</span>
                   <gloss property="skos:definition">ensemble des caractères, des propriétés qui définissent l’espèce humaine</gloss>
                </note>
             </seg>,
@@ -30353,7 +30353,7 @@
                <w property="rdfs:label" lemma="petit" type="adj." subtype="adv.">petit</w>
                <gloss property="skos:definition">qui est d’un degré inférieur à la moyenne en ce qui concerne la qualité, l’intensité, l’importance</gloss>
                <note>
-                  <span type="collocation">un petit</span> 
+                  <span type="collocation">un petit</span>
                   <gloss property="skos:definition">un peu</gloss>
                </note>
             </seg>
@@ -30544,7 +30544,7 @@
                <w property="rdfs:label" lemma="dire" type="v.tr.">vray</w>
                <gloss property="skos:definition">lire à haute voix; réciter</gloss>
                <note>
-                  <span type="collocation">dire vrai</span> 
+                  <span type="collocation">dire vrai</span>
                   <gloss property="skos:definition">dire la vérité</gloss> dire vray</note>
             </seg>,
             et q<hi rend="italic">ue</hi> le veult veoir, si le vait regarder. La fourme de ceux
@@ -30669,7 +30669,7 @@
                   subtype="loc.prép.">maniere</w>
                <gloss property="skos:definition">forme particulière que revêt l’accomplissement d’une action, le déroulement d’un fait, l’être ou l’existence</gloss>
                <note>
-                  <span type="collocation">a / en maniere de</span> 
+                  <span type="collocation">a / en maniere de</span>
                   <gloss property="skos:definition">comme</gloss>
                </note>
             </seg>
@@ -31014,7 +31014,7 @@
             <seg about="http://www.deaf-page.de/guichaul.html/#4470">
                <w property="rdfs:label" lemma="consequent" subtype="loc.adv.">co<hi rend="italic">n</hi>sequent</w>
                <note>
-                  <span type="collocation">par consequent</span> 
+                  <span type="collocation">par consequent</span>
                   <gloss property="skos:definition">comme suite logique</gloss>
                </note>
             </seg>,
