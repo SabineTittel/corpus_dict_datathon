@@ -3,6 +3,7 @@ html{
     margin:2% 18% 2%;
     font-size:large;
     font-family:helvetica,verdana, arial, sans-serif;
+    font-weight: lighter;
 }
 
 body{
@@ -57,9 +58,12 @@ a{
 
 span[property="skos:definition"]{
 	display:none;
-	color:#fff;
-	background: #428bca;
-	padding:7px;
+	color:#646060;
+	background:#e9eff3;
+	padding:8px;
+  border-width: thin;
+  border-color: #646060;
+  border-style:solid;
 	border-radius:4px;
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
@@ -75,9 +79,12 @@ span[property="skos:definition"]{
 
 a span.apparatus{
 	display:none;
-	color:#fff;
-	background: #646060;
-	padding:7px;
+	color:#646060;
+	background: #efefef;
+	padding:8px;
+  border-width: thin;
+  border-color: #646060;
+  border-style:solid;
 	border-radius:4px;
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
